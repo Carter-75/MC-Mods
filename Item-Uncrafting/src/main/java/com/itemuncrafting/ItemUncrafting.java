@@ -40,6 +40,7 @@ public class ItemUncrafting implements ModInitializer {
         UNCRAFTED_CRATE_ID,
         new UncraftedCrateBlock(BlockBehaviour.Properties.of()
             .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.BLOCK, UNCRAFTED_CRATE_ID))
+            .sound(net.minecraft.world.level.block.SoundType.STONE)
             .strength(1.5f, 6.0f))
     );
 

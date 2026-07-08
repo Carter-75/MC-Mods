@@ -61,6 +61,8 @@ public class UncraftedCrateBlock extends BaseEntityBlock {
                     popResource(world, pos, stack.copy());
                 }
             }
+            // Play tool breaking sound when opened
+            world.playSound(null, pos, net.minecraft.sounds.SoundEvents.ITEM_BREAK.value(), net.minecraft.sounds.SoundSource.BLOCKS, 1.0f, 1.0f);
             world.destroyBlock(pos, false, player);
         }
         return InteractionResult.SUCCESS;
