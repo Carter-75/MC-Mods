@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_block_overlaid",
+	"textures": {
+		"all": "minecraft:block/oak_leaves",
+		"overlay": "regions_unexplored:block/apple_overlay_stage_0"
+	}
+}

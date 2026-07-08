@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "backported_updates:block/resin_block"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Now I have the complete, accurate picture. Let me write it up for Carter clearly.
+
+───
+
+Phoenix here 🐦‍🔥. Pulled the real state from git + the code (memory search was down, so I read the files directly). No changes made — just inspected, like you asked.
+
+Is the base mod on 26.2 yet?
+
+Toolchain: yes. Code: ~47% done, not compiling yet.
+
+• ✅ Toolchain fully converted & verified — JDK 25 installed, Gradle 9.6.1, Loom 1.17 no-remap, official mappings, gradle.properties/build.gradle/settings.gradle/fabric.mod.json/mixin configs all done. gradlew clean succeeded. (committed)
+• ⏳ Source port is partial — 27 of 58 Java files ported to official mappings; 31 still on old yarn imports. So it will not compile as-is.
+
+Done (27 files ported ✅)
+
+Core entrypoints, config (ModConfig), all data classes (MobWarData, PowerProfile, etc.), both goals (UniversalTargetGoal, StalemateBreakerGoal), 2 commands (MobWarCommand, RaidBossSpawnCommand), the hardest mixin (MobDataMixin — the NBT/ValueOutput serialization I did myself), GameRulesAccessor, all client renderers, net payloads, and 6 system/util classes.
+
+Left to do (31 files ❌ — still yarn imports)
+
+• 21 mixins/accessors — the riskiest part. All ability mixins (Creeper, Enderman, Witch, Dragon Fireball, Projectile, Potion), targeting/spawn/death/revenge/xp mixins, MobEntityAccessor, CreeperEntityAccessor.
+• KitCommand.java + MobWarlordEntity.java (boss entity)
+• 4 systems: TargetingSystem, ScalingSystem, WarlordSystem, WitchAbilityHelper
+• 1 client: UniversalMobWarConfigScreen.java
+• Then: full gradlew build, fix compile fallout, git push.
+
+Note: build_errors.txt in the folder is stale (pre-dates the last port commit) — don't trust it as current.
+
+Which of your requested feature-changes are done?
+
+None of the gameplay/feature changes yet. Everything so far has been the mechanical mapping port. Still pending from your list:
+
+• Default = FFA all-mobs + attack-player only, friends/allies excluded, everything else OFF
+• All extras live-toggleable in ModMenu/Cloth without restart
+• Premium UI/UX overhaul
+• AI / particles / perf / texture improvements
+
+I've paused per your instruction — no further changes. Want me to keep going on the remaining 31 files + feature work, or hold here?

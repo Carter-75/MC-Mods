@@ -1,0 +1,29 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#ball"
+	},
+	"elements": [
+		{
+			"from": [5, 10, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6], "texture": "#ball"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#ball"},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#ball"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#ball"},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#ball"},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#ball"}
+			}
+		},
+		{
+			"from": [0, 15.9, 0],
+			"to": [16, 15.91, 16],
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#ball"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#ball"}
+			}
+		}
+	]
+}

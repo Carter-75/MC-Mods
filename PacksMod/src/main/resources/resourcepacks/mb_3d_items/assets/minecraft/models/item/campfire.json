@@ -1,0 +1,4 @@
+{
+    "parent": "block/campfire",
+	"gui_light": "front"
+}

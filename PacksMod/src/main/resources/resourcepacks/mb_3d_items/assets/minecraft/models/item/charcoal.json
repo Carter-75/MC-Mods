@@ -1,0 +1,6 @@
+{
+    "parent": "item/coal",
+	"textures": {
+		"coal": "item/charcoal"
+	}
+}

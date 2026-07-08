@@ -1,0 +1,56 @@
+{
+	"textures": {
+		"cam": "vivecraft:block/camera",
+		"particle": "#cam"
+	},
+	"elements": [
+		{
+			"from": [4, 1, 8],
+			"to": [14, 8, 11],
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 6.5, 5], "texture": "#cam"},
+				"east": {"uv": [0, 1.5, 1.5, 5], "texture": "#cam"},
+				"south": {"uv": [8, 1.5, 13, 5], "texture": "#cam"},
+				"west": {"uv": [6.5, 1.5, 8, 5], "texture": "#cam"},
+				"up": {"uv": [6.5, 1.5, 1.5, 0], "texture": "#cam"},
+				"down": {"uv": [11.5, 0, 6.5, 1.5], "texture": "#cam"}
+			}
+		},
+		{
+			"from": [6, 2, 6],
+			"to": [10, 6, 8],
+			"faces": {
+				"north": {"uv": [1, 6, 3, 8], "texture": "#cam"},
+				"east": {"uv": [0, 6, 1, 8], "texture": "#cam"},
+				"south": {"uv": [4, 6, 6, 8], "texture": "#cam"},
+				"west": {"uv": [3, 6, 4, 8], "texture": "#cam"},
+				"up": {"uv": [3, 6, 1, 5], "texture": "#cam"},
+				"down": {"uv": [5, 5, 3, 6], "texture": "#cam"}
+			}
+		},
+		{
+			"from": [5, 8, 8],
+			"to": [10, 9, 11],
+			"faces": {
+				"north": {"uv": [7.5, 6.5, 10, 7], "texture": "#cam"},
+				"east": {"uv": [6, 6.5, 7.5, 7], "texture": "#cam"},
+				"south": {"uv": [11.5, 6.5, 14, 7], "texture": "#cam"},
+				"west": {"uv": [10, 6.5, 11.5, 7], "texture": "#cam"},
+				"up": {"uv": [10, 6.5, 7.5, 5], "texture": "#cam"},
+				"down": {"uv": [12.5, 5, 10, 6.5], "texture": "#cam"}
+			}
+		},
+		{
+			"from": [11, 8, 8.5],
+			"to": [13, 9, 10.5],
+			"faces": {
+				"north": {"uv": [12.5, 1, 13.5, 1.5], "texture": "#cam"},
+				"east": {"uv": [11.5, 1, 12.5, 1.5], "texture": "#cam"},
+				"south": {"uv": [14.5, 1, 15.5, 1.5], "texture": "#cam"},
+				"west": {"uv": [13.5, 1, 14.5, 1.5], "texture": "#cam"},
+				"up": {"uv": [13.5, 1, 12.5, 0], "texture": "#cam"},
+				"down": {"uv": [14.5, 0, 13.5, 1], "texture": "#cam"}
+			}
+		}
+	]
+}

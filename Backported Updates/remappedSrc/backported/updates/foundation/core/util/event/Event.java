@@ -1,0 +1,51 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package backported.updates.foundation.core.util.event;
+
+import backported.updates.foundation.core.util.event.CancellableResult;
+import backported.updates.foundation.core.util.event.SimpleEvent;
+import java.lang.invoke.MethodHandles;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Objects;
+import java.util.function.Function;
+
+public abstract class Event<T> {
+    protected volatile T invoker;
+
+    public T invoker() {
+        return this.invoker;
+    }
+
+    public abstract void register(T var1);
+
+    public static <T> Event<T> create(Class<? super T> clazz, Function<T[], T> factory) {
+        return new SimpleEvent<T>(clazz, factory);
+    }
+
+    public static <T> Event<T> create(Class<? super T> type) {
+        return Event.create(type, callbacks -> Proxy.newProxyInstance(Event.class.getClassLoader(), new Class[]{type}, (proxy, method, args) -> {
+            for (Object callback : callbacks) {
+                Event.invokeFast(callback, method, args);
+            }
+            return null;
+        }));
+    }
+
+    public static <T> Event<T> cancellable(Class<? super T> type) {
+        return Event.create(type, callbacks -> Proxy.newProxyInstance(Event.class.getClassLoader(), new Class[]{type}, (proxy, method, args) -> {
+            for (Object callback : callbacks) {
+                CancellableResult result = Objects.requireNonNull((CancellableResult)((Object)((Object)((Object)Event.invokeFast(callback, method, args)))));
+                if (!result.isCancelled()) continue;
+                return result;
+            }
+            return CancellableResult.pass();
+        }));
+    }
+
+    private static <T, S> S invokeFast(T callback, Method method, Object[] args) throws Throwable {
+        return (S)MethodHandles.lookup().unreflect(method).bindTo(callback).invokeWithArguments(args);
+    }
+}
+

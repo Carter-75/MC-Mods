@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_music_disc",
+	"textures": {
+		"disc": "item/music_disc_wait"
+	}
+}

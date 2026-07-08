@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold1.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold2.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold3.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold4.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold5.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold6.json",
+        "assets/minecraft/items/2d_sprites/raw_gold/raw_gold7.json"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_pickaxe",
+	"textures": {
+		"pick": "item/diamond_pickaxe"
+	}
+}

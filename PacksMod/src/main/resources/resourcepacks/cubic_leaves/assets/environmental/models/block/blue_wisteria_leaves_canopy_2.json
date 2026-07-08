@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy_notint",
+	"textures": {
+		"all": "environmental:block/blue_wisteria_leaves_canopy"
+	}
+}

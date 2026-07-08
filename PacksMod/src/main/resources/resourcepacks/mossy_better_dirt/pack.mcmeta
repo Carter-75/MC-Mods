@@ -1,0 +1,7 @@
+ {
+	"pack": {
+		"pack_format": 16,
+		"supported_formats": {"min_inclusive": 16, "max_inclusive": 999},
+		"description": "Updating dirt to the modern art style - by pixelmossy"
+	}
+}

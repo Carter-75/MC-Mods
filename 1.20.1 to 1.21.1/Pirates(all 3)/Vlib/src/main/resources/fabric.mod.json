@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "vlib",
+  "version": "${version}",
+  "name": "VLib",
+  "description": "Utility lib for Valkyrien Skies 2",
+  "authors": [
+    "G_Mungus"
+  ],
+  "contact": {
+    "homepage": "https://valkyrienskies.org/",
+    "sources": "https://github.com/ValkyrienSkies/Eureka"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/vlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "g_mungus.vlib.fabric.VLibFabric"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "g_mungus.vlib.fabric.VLibFabric$Client"
+      }
+    ]
+  },
+  "mixins": [
+    "vlib-common.mixins.json",
+    "vlib.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabricloader": "\u003e\u003d0.18.4",
+    "minecraft": "1.21.1",
+    "java": "\u003e\u003d17",
+    "valkyrienskies": "\u003e\u003d2.4.0",
+    "architectury": "\u003e\u003d9.1.12"
+  },
+  "accessWidener": "vlib.accesswidener",
+  "jars": [
+    {
+      "file": "META-INF/jars/architectury-fabric-9.1.12.jar"
+    }
+  ]
+}

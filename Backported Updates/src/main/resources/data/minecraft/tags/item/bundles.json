@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:bundle",
+    "backported_updates:black_bundle",
+    "backported_updates:blue_bundle",
+    "backported_updates:brown_bundle",
+    "backported_updates:cyan_bundle",
+    "backported_updates:gray_bundle",
+    "backported_updates:green_bundle",
+    "backported_updates:light_blue_bundle",
+    "backported_updates:light_gray_bundle",
+    "backported_updates:lime_bundle",
+    "backported_updates:magenta_bundle",
+    "backported_updates:orange_bundle",
+    "backported_updates:pink_bundle",
+    "backported_updates:purple_bundle",
+    "backported_updates:red_bundle",
+    "backported_updates:yellow_bundle",
+    "backported_updates:white_bundle"
+  ]
+}

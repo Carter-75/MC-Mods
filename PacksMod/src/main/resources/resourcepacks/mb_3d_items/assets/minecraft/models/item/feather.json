@@ -1,0 +1,12 @@
+{
+    "parent": "item/template_flat",
+    "textures": {
+        "front": "item/feather"
+    },
+	"display": {
+		"head": {
+			"rotation": [ -90, 45, 0 ],
+			"translation": [ 1, 11.75, 4 ]
+		}
+	}
+}

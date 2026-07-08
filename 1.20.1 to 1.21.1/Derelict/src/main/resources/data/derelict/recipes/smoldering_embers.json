@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CCC","CFC","CCC"],"key":{"C":{"tag":"c:coal"},"F":{"item":"minecraft:fire_charge"}},"result":{"item":"derelict:smoldering_embers","count":16}}

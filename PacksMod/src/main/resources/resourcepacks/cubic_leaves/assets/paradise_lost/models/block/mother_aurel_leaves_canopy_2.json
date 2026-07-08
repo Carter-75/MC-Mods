@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy_notint",
+	"textures": {
+		"all": "paradise_lost:block/mother_aurel_leaves_canopy"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [512, 512],
+	"texture": "textures/entity/zombie/zombie",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [256, 256]},
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [288, 256], "sizeAdd": 0.5}
+			]
+		}
+	]
+}

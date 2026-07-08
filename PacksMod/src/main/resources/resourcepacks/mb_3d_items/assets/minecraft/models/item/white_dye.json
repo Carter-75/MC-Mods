@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_dye",
+	"textures": {
+		"dye": "item/white_dye"
+	}
+}

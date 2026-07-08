@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper1.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper2.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper3.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper4.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper5.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper6.json",
+        "assets/minecraft/items/2d_sprites/raw_copper/raw_copper7.json"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "golemoverhaul",
+  "version": "1.0.1",
+  "name": "Golem Overhaul",
+  "description": "Golem overhaul adds awesome Golems!",
+  "authors": [
+    "Alex Nijjar",
+    "Joosh",
+    "3xpl01t"
+  ],
+  "contact": {
+    "sources": "https://github.com/bonsaistudi0s/golem-overhaul",
+    "issues": "https://github.com/bonsaistudi0s/golem-overhaul/issues"
+  },
+  "license": "ARR",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tech.alexnijjar.golemoverhaul.fabric.GolemOverhaulFabric"
+    ],
+    "jei_mod_plugin": [
+      "tech.alexnijjar.golemoverhaul.client.compat.jei.GolemOverhaulJeiPlugin"
+    ],
+    "rei_client": [
+      "tech.alexnijjar.golemoverhaul.client.compat.rei.GolemOverhaulReiPlugin"
+    ],
+    "modmenu": [
+      "tech.alexnijjar.golemoverhaul.fabric.client.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "golemoverhaul.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*",
+    "resourcefullib": ">=2.1.29",
+    "resourcefulconfig": ">=2.1.3",
+    "geckolib": ">=4.2.3"
+  },
+  "suggests": {
+    "modmenu": ">=7.2.2",
+    "jei": ">=15.20.0.112",
+    "rei": ">=12.1.785"
+  },
+  "custom": {
+    "mc-publish": {
+      "dependencies": [
+        "architectury#(ignore)",
+        "architectury-api@>={9.2.14}(required)",
+        "resourcefullib#(ignore)",
+        "resourceful-lib@>=2.1.29(required)",
+        "resourcefulconfig#(ignore)",
+        "resourceful-config@>=2.1.3(required)",
+        "rei@>=12.1.785(optional)#(ignore:curseforge)",
+        "roughly-enough-items@>=12.1.785(optional)#(ignore:modrinth)"
+      ]
+    }
+  }
+}

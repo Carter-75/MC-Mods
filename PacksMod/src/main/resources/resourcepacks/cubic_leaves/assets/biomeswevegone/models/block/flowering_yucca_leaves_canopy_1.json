@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_overlaid",
+	"textures": {
+		"all": "biomeswevegone:block/flowering_yucca_leaves_canopy",
+		"overlay": "biomeswevegone:block/flowering_yucca_leaves_canopy_overlay"
+	}
+}

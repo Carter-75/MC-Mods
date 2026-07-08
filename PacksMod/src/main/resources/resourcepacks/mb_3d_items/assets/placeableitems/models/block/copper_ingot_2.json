@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ingot_2",
+	"textures": {
+		"ingot": "item/copper_ingot"
+	}
+}

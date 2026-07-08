@@ -1,0 +1,33 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"pie": "item/pumpkin_pie",
+		"particle": "#pie"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 8],
+			"to": [13, 4, 13],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 7.5, 4.5], "texture": "#pie"},
+				"east": {"uv": [0, 2.5, 2.5, 4.5], "texture": "#pie"},
+				"south": {"uv": [10, 2.5, 15, 4.5], "texture": "#pie"},
+				"west": {"uv": [7.5, 2.5, 10, 4.5], "texture": "#pie"},
+				"up": {"uv": [7.5, 2.5, 2.5, 0], "texture": "#pie"},
+				"down": {"uv": [12.5, 0, 7.5, 2.5], "texture": "#pie"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [8, 4, 8],
+			"faces": {
+				"north": {"uv": [2.5, 7, 5, 9], "texture": "#pie"},
+				"east": {"uv": [0, 7, 2.5, 9], "texture": "#pie"},
+				"west": {"uv": [5, 7, 7.5, 9], "texture": "#pie"},
+				"up": {"uv": [5, 7, 2.5, 4.5], "texture": "#pie"},
+				"down": {"uv": [7.5, 4.5, 5, 7], "texture": "#pie"}
+			}
+		}
+	]
+}

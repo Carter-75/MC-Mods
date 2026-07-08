@@ -1,0 +1,7 @@
+{
+	"parent": "item/template_helmet_trim",
+	"textures": {
+		"helmet": "models/armor/diamond_layer_1",
+		"trim": "trims/models/armor/coast_copper"
+	}
+}

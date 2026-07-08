@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy_notint",
+	"textures": {
+		"all": "meadow:block/alpine_birch_leaves_top_canopy"
+	}
+}

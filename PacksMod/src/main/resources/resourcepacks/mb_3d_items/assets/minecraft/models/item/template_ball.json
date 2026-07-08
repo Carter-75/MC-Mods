@@ -1,0 +1,26 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"particle": "#ball"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 4],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#ball"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#ball"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#ball"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#ball"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#ball"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#ball"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 9.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

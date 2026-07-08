@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy_notint",
+	"textures": {
+		"all": "paradise_lost:block/rose_wisteria_leaves_canopy"
+	}
+}

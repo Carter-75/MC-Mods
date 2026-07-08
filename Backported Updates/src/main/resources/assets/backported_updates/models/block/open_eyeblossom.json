@@ -1,0 +1,7 @@
+{
+  "parent": "backported_updates:block/cross_emissive",
+  "textures": {
+    "cross": "backported_updates:block/open_eyeblossom",
+    "cross_emissive": "backported_updates:block/open_eyeblossom_emissive"
+  }
+}

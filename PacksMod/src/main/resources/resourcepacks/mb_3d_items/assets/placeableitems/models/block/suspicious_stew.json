@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_bowl",
+	"textures": {
+		"contents": "item/suspicious_stew"
+	}
+}

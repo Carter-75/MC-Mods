@@ -1,0 +1,80 @@
+{
+  "high_mountains_and_flowing_water": {
+    "subtitle": "subtitles.civilizations.high_mountains_and_flowing_water",
+    "sounds": [
+      {
+        "name": "civilizations:high_mountains_and_flowing_water",
+        "stream": true
+      }
+    ]
+  },
+  "autumn_moon_over_han_palace": {
+    "subtitle": "subtitles.civilizations.autumn_moon_over_han_palace",
+    "sounds": [
+      {
+        "name": "civilizations:autumn_moon_over_han_palace",
+        "stream": true
+      }
+    ]
+  },
+  "egypt_boss_music": {
+    "subtitle": "subtitles.civilizations.egypt_boss_music",
+    "sounds": [
+      "civilizations:egypt_boss_music"
+    ]
+  },
+  "egypt_god_music": {
+    "subtitle": "subtitles.civilizations.egypt_god_music",
+    "sounds": [
+      "civilizations:egypt_god_music"
+    ]
+  },
+  "china_boss_music": {
+    "subtitle": "subtitles.civilizations.china_boss_music",
+    "sounds": [
+      "civilizations:china_boss_music"
+    ]
+  },
+  "china_god_music": {
+    "subtitle": "subtitles.civilizations.china_god_music",
+    "sounds": [
+      "civilizations:china_god_music"
+    ]
+  },
+  "nordic_boss_music": {
+    "subtitle": "subtitles.civilizations.nordic_boss_music",
+    "sounds": [
+      "civilizations:nordic_boss_music"
+    ]
+  },
+  "nordic_god_music": {
+    "subtitle": "subtitles.civilizations.nordic_god_music",
+    "sounds": [
+      "civilizations:nordic_god_music"
+    ]
+  },
+  "greece_boss_music": {
+    "subtitle": "subtitles.civilizations.greece_boss_music",
+    "sounds": [
+      "civilizations:greece_boss_music"
+    ]
+  },
+  "greece_god_music": {
+    "subtitle": "subtitles.civilizations.greece_god_music",
+    "sounds": [
+      "civilizations:greece_god_music"
+    ]
+  },
+  "rome_boss_music": {
+    "subtitle": "subtitles.civilizations.rome_boss_music",
+    "sounds": [
+      "civilizations:rome_boss_music"
+    ]
+  },
+  "rome_god_music": {
+    "subtitle": "subtitles.civilizations.rome_god_music",
+    "sounds": [
+      "civilizations:rome_god_music"
+    ]
+  }
+}

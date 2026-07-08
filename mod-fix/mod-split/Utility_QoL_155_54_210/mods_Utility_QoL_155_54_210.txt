@@ -1,0 +1,1262 @@
+=== Utility/QoL ===
+
+[Almanac]
+File: Almanac-1.21.1-2-fabric-1.5.0.jar
+Type: Library
+Summary: Almanac provides shared code between multiple mods to reduce duplication and optimize performance. It also fixes an issue with empty tags, allowing non-stackable items to be handled correctly in game. By improving mod efficiency, Almanac enhances gameplay stability and consistency.
+URL: https://modrinth.com/mod/almanac
+
+[Anvian's Lib]
+File: anvianslib-fabric-1.21-1.4.2.jar
+Type: Library
+Summary: Anvian's Lib provides various helpful functions for mod developers to streamline their projects and offers telemetry capabilities to track player usage. The library can be easily integrated into mods using configuration files or build.gradle scripts. By implementing Anvian's Lib, modders can focus on creating new content without worrying about tedious tasks and gain insights into their project's popularity.
+URL: https://modrinth.com/mod/anvians-lib
+
+[Architectury API]
+File: architectury-13.0.8-fabric.jar
+Type: Library
+Summary: Architectury API simplifies developing multiplatform mods by abstracting calls to Fabric and Forge APIs, reducing boilerplate code and making it easier to create cross-compatible mods. This intermediary API currently features over 90 event hooks, networking abstraction, and an easy-to-use @ExpectPlatform annotation for static methods. By leveraging Architectury API, modders can focus on creating complex multiplatform mods with minimal effort.
+URL: https://modrinth.com/mod/architectury-api
+
+[AzureLib Armor]
+File: azurelibarmor-fabric-1.21.1-3.1.2.jar
+Type: Library
+Summary: Adds GeoArmor and GeoItem functions to Minecraft, allowing developers to create animated armor without requiring the full AzureLib mod. This library is compatible with various Minecraft versions, including Forge, NeoForge, and Fabric. It provides a stripped-down version of AzureLib's armor creation steps for easy integration into other mods.
+URL: https://modrinth.com/mod/azurelib-armor
+
+[AzureLib]
+File: azurelib-fabric-1.21.1-3.1.2.jar
+Type: Library
+Summary: Adds advanced animation capabilities to Minecraft mods through 3D keyframe-driven animations, over 30 easing functions, and concurrent animation support. AzureLib also features sound and particle keyframes, event-based keyframes, and other functionalities for intricate mod animations. It's built on top of Geckolib 4.x and serves as a dedicated animation engine for Minecraft mods.
+URL: https://modrinth.com/mod/azurelib
+
+[Balm]
+File: balm-fabric-1.21.1-21.0.55.jar
+Type: Library
+Summary: Balm simplifies multi-loader mods by providing common interfaces and events, removing the need for most mod-loader specific code. It supports various loaders like NeoForge, Fabric, and Forge without duplicate code, making it a useful tool for mod developers. This library mod is essential for users of mods that require Balm to function properly.
+URL: https://modrinth.com/mod/balm
+
+[CICADA]
+File: cicada-lib-0.14.3+1.21-1.21.1.jar
+Type: Library
+Summary: CICADA enhances gameplay with player rendering independent of world context and a custom cloak renderer, while also providing an API for inter-mod conversations in the game log and advanced logging features. It offers tools for mod developers, including a self-managed config template class and an abstract mixin plugin for compatibility mixins. This library mod streamlines mod development and enhances gameplay with its versatile set of utilities and abstractions.
+URL: https://modrinth.com/mod/cicada
+
+[Cardinal Components API]
+File: cardinal-components-api-6.1.3.jar
+Type: Library
+Summary: Attaches data to vanilla classes and allows for easy plugin integration, while also providing features such as automatic saving of modded data and synchronization with a single helper interface. Implements components that can be ticked alongside their target and provides customization options for component copying when players respawn. Utilizes ASM-generated extensions for blazing speed and performance.
+URL: https://modrinth.com/mod/cardinal-components-api
+
+[Cloth Config API]
+File: cloth-config-15.0.140-fabric.jar
+Type: Library
+Summary: Enables developers to create customizable config screens for their mods, providing users with a seamless and intuitive experience when adjusting settings. Offers a simple and easy-to-use API for creating dynamic and flexible configuration interfaces. Enhances modding capabilities by streamlining the process of implementing user-configurable options.
+URL: https://modrinth.com/mod/cloth-config
+
+[Collective]
+File: collective-1.21.1-8.13.jar
+Type: Library
+Summary: Collective provides a shared library of common code for all of Serilum's mods, centralizing data and functions in one place to simplify maintenance across multiple mod loader versions. The mod streamlines updates by allowing changes to be made once, affecting related projects simultaneously. This unified approach reduces development time and enables more efficient feature implementation.
+URL: https://modrinth.com/mod/collective
+
+[CorgiLib]
+File: Corgilib-Fabric-1.21.1-5.0.0.7.jar
+Type: Library
+Summary: CorgiLib provides essential features for modders, including `.json5` Config Serialization and commented codecs for easier config management. It also offers advanced features such as Trees from NBT and Entity Filters, allowing for more complex interactions within the game world. Additionally, Blending/Easing Functions codec registry simplifies codec serialization, making configuration setup more efficient.
+URL: https://modrinth.com/mod/corgilib
+
+[CoroUtil]
+File: coroutil-fabric-1.21.1-1.3.8.jar
+Type: Library
+Summary: CoroUtil consolidates essential code from multiple mods into one comprehensive package, providing tools for customization and advanced rendering capabilities to enhance gameplay and immersion in Minecraft. It combines four key components: CoroAI, BuildMod, ConfigMod, and ExtendedRenderer, streamlining access to core functionalities. This modpack staple empowers users with unparalleled flexibility and control over their Minecraft experience.
+URL: https://modrinth.com/mod/coroutil
+
+[Cristel Lib]
+File: cristellib-fabric-1.21.1-3.0.2.jar
+Type: Library
+Summary: Customize structure generation and adjust world generation through code or data with Cristel Lib's flexible framework. Create, manage, and override structure configs for supported mods to fit your personal playstyle. Easily link configs to specific mods using a simple format, giving you full control over structure behavior in-game.
+URL: https://modrinth.com/mod/cristel-lib
+
+[EpheroLib]
+File: EpheroLib-FABRIC-1.2.0-1.21.1.jar
+Type: Library
+Summary: EpheroLib abstracts code between fabric and forge, enabling common config systems through configurate, network packet abstraction, and server-side translations using GSON for localization. It also provides a GSON-based storage abstraction for storing data per world, simplifying mod development. This modular framework streamlines modding by eliminating compatibility issues and promoting efficient, multi-platform development.
+URL: https://modrinth.com/mod/epherolib
+
+[Fabric API]
+File: fabric-api-0.116.7+1.21.1.jar
+Type: Library
+Summary: Provides essential hooks and APIs for interoperability between mods, exposing useful but hard-to-access features like particles and biomes, with an advanced rendering API for optimized graphics. Enables registry synchronization and adds information to crash reports for improved stability. Offers a modular and lightweight library for faster mod development and game optimization.
+URL: https://modrinth.com/mod/fabric-api
+
+[Fabric Language Kotlin]
+File: fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar
+Type: Library
+Summary: Enables usage of Kotlin programming language for Fabric mods, providing a dependency for other mods to ensure compatibility across various Minecraft versions. Modders can utilize its features through the provided documentation on GitHub. This mod does not add content itself but rather serves as a foundation for other modifications.
+URL: https://modrinth.com/mod/fabric-language-kotlin
+
+[Fabric Yaml Configuration]
+File: fabric-yaml-configuration-1.0.1.jar
+Type: Library
+Summary: Fabric Yaml Configuration allows mods to use yaml configuration files, enabling customizable and dynamic settings through simple file updates. It provides methods for setting configuration paths, default configurations, initialization, saving, and reloading configurations. This mod simplifies configuration management for developers, making it easier to create complex, user-configurable mods.
+URL: https://modrinth.com/mod/fabric-yaml-configuration
+
+[Faewulf's Lib]
+File: faewulf_lib-fabric-1.21.1-1.3.2.jar
+Type: Library
+Summary: Faewulf's Lib provides utility functions and methods commonly used across Faewulf's mods, streamlining gameplay with essential tools. The mod relies on the Fabric API to function, making it a core component for fabric-modded servers. By using this library, players can tap into Faewulf's extensive range of features and enhance their Minecraft experience.
+URL: https://modrinth.com/mod/faewulfslib
+
+[Forgeconfigapiport]
+File: ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar
+Type: Library
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+[Konkrete]
+File: konkrete_fabric_1.9.9_MC_1.21.jar
+Type: Library
+Summary: Adds a suite of essential APIs and classes for other mods to leverage in customizing Minecraft gameplay, enabling the creation of complex features without modifying the game's core code. Konkrete serves as a foundation for integrating various functionalities, including Open Imaging, JsonPath, and Json-smart libraries. By utilizing Konkrete's infrastructure, mod developers can craft richer experiences for players.
+URL: https://modrinth.com/mod/konkrete
+
+[MaLiLib]
+File: malilib-fabric-1.21-0.21.9.jar
+Type: Library
+Summary: MaLiLib provides a shared codebase and utility classes for client-side mods, including configuration options, keybind systems, and GUI components. It serves as the foundation for numerous mods developed by masa and other authors. By standardizing common functionality, MaLiLib streamlines mod development and enhances gameplay experiences.
+URL: https://modrinth.com/mod/malilib
+
+[Melody]
+File: melody_fabric_1.0.10_MC_1.21.jar
+Type: Library
+Summary: Melody introduces an OpenAL-based client-side library for playing background music in Minecraft. It allows asynchronous loading of audio files from various sources and supports OGG and WAV formats, with potential extension to other file types. This mod enables easy music playback in menus or in-game environments, ideal for creating immersive experiences.
+URL: https://modrinth.com/mod/melody
+
+[MidnightLib]
+File: midnightlib-fabric-1.9.1+1.21.1.jar
+Type: Library
+Summary: MidnightLib provides a lightweight library of common utilities and a configuration system for mods, allowing developers to bundle it with their projects via Jar-in-Jar. The mod offers a customizable config screen/file, where every feature can be toggled as needed. This flexible framework enables mod creators to focus on gameplay mechanics without worrying about redundant code or configurations.
+URL: https://modrinth.com/mod/midnightlib
+
+[ModMenu Badges Lib (modmenu-badges-lib-2023.6.1.jar)]
+File: modmenu-badges-lib-2023.6.1.jar
+Type: Library
+Summary: Adds customizable badges to ModMenu, enabling users to showcase additional information about their mods or projects in-game. This library simplifies badge creation and management, allowing mod developers to focus on building and sharing their content without worrying about custom badge implementation. Easy integration via Gradle dependencies makes it a seamless addition to any project.
+URL: https://modrinth.com/mod/modmenu-badges-lib
+
+[Modopedia]
+File: modopedia-fabric-1.21.1-1.1.5.jar
+Type: Library
+Summary: Customizable in-game documentation and resource guides are provided by Modopedia, featuring an extensive API and versatile content creation options. Key features include custom textures, quick item lookup, and improved JSON formatting for mod developers' flexibility and efficiency. A range of templates and error handling capabilities enhance the overall user experience.
+URL: https://modrinth.com/mod/modopedia
+
+[MonoLib]
+File: monolib-fabric-1.21.1-2.1.0.jar
+Type: Library
+Summary: MonoLib provides a cornerstone library of reusable code for mods, reducing repetition and increasing efficiency in mod development. It offers utility functions for event callbacks, commands, registration binding, and more, drawing similarities to other popular mod libraries like Botania and Collective. Compatible with Minecraft versions 1.20.1-1.21.5.
+URL: https://modrinth.com/mod/monolib
+
+[Moog's Structure Lib (moogs_structures)]
+File: moogs_structures-1.1.0-1.21-1.21.1-fabric.jar
+Type: Library
+Summary: Adds a powerful library mod that provides flexible structure generation systems for other mods to build upon, allowing developers to create complex and dynamic structures with ease. Provides data-driven placement systems and various structure types, including a complete barn example, making it an essential tool for mod developers. Works across Forge, Fabric, and NeoForge platforms, and can be installed server-side only.
+URL: https://modrinth.com/mod/moogs-structure-lib
+
+[Moogs Structure Lib]
+File: MoogsEndStructures-1.21-2.0.0.jar
+Type: Library
+Summary: No description available.
+URL: https://www.curseforge.com/minecraft/mc-mods/moogs-structure-lib
+
+[Moonlight Lib]
+File: moonlight-1.21-2.27.1-fabric.jar
+Type: Library
+Summary: Moonlight Lib offers dynamic resource pack utilities, block set registration, custom map markers, dynamic villager AI, and tools for custom first and third person animations, enhancing gameplay with versatile customization options. It also includes a grindstone achievement trigger system to reward players' progress. This comprehensive library empowers modders to create more immersive experiences by providing a range of dynamic features and utilities.
+URL: https://modrinth.com/mod/moonlight
+
+[More Axolotl Variants API]
+File: mavapi-fabric-1.3.0-mc1.21.1.jar
+Type: Library
+Summary: Adds Axolotl variant support to other mods through a lightweight API, enabling seamless coexistence and custom variants without conflicts. Provides a customizable Axolotl Bucket Item model feature for modded variants. Appends informative tooltips to Axolotl Buckets displaying age, variant, and mod information.
+URL: https://modrinth.com/mod/mavapi
+
+[More RPG Library]
+File: more_rpg_library-fabric-2.5.7+1.21.1.jar
+Type: Library
+Summary: Enables the creation of RPG classes by providing unique EntityAttributes and Status Effects that can be used across multiple mods, serving as a library for various class-based content mods. Adds no spells on its own, requiring users to install corresponding class mods for functionality. This mod is an essential component of the More RPG Classes & Content Series Mods.
+URL: https://modrinth.com/mod/more-rpg-library
+
+[Necronomicon API]
+File: Necronomicon-Fabric-1.6.0+1.21.jar
+Type: Library
+Summary: Empowers modders with a utility API featuring tools for datagen, worldgen, registries, and multi-loader development, as well as a custom config system. Provides essential utilities for streamlining mod creation and enhancing gameplay experiences. Integrates seamlessly with Fabric and Forge, making it an indispensable asset for Minecraft modding projects.
+URL: https://modrinth.com/mod/necronomicon
+
+[OctoLib]
+File: OctoLib-FABRIC-0.6.0.4+1.21.jar
+Type: Library
+Summary: OctoLib provides a shared codebase for OctoStudios' mods, featuring a YAML-based config with auto-validation and deep serialization. This mod also requires ArchitecturyAPI to function properly, starting from version 1.20.1. By using OctoLib, developers can leverage its robust safety features in their projects.
+URL: https://modrinth.com/mod/octo-lib
+
+[Player Animation Library]
+File: player-animation-lib-fabric-2.0.1+1.21.1.jar
+Type: Library
+Summary: Enables mods to animate the player seamlessly, allowing for customizable animations loaded from Blender and Blockbench JSON files, as well as advanced molang support and keyframe control over effects and particle systems. Adds custom pivot points and bones, enabling precise animation manipulation. Streamlines mod development with its robust animation tools and flexible formatting options.
+URL: https://modrinth.com/mod/player-animation-library
+
+[Polymer Patch Bundle]
+File: polymer-bundled-0.9.18+1.21.1.jar
+Type: Library
+Summary: Patches multiple mods to run fully server-side with all original features intact, ensuring seamless gameplay and functionality on multiplayer servers. Requires installation of the original mods and a custom resource pack for optimal performance.
+URL: https://modrinth.com/mod/polymer-patch-bundle
+
+[Prickle]
+File: prickle-fabric-1.21.1-21.1.11.jar
+Type: Library
+Summary: Prickle introduces a JSON-based config format with added features like comments and decorators, ensuring seamless integration with Minecraft's existing datapack and command systems. This mod brings 100% backwards compatibility with JSON while offering improvements over traditional JSON formats. Prickle also supports default values, making it a more intuitive and user-friendly option for players.
+URL: https://modrinth.com/mod/prickle
+
+[Prism]
+File: Prism-1.21.1-fabric-1.0.11.jar
+Type: Library
+Summary: Adds a powerful set of utilities for easily adding color-related functionality to mods, including animated colors, web colors, and HSV manipulation. Enables mod developers to enhance Minecraft's built-in TextColor with additional features and capabilities. Supports advanced color functionality without requiring extensive coding or modifications.
+URL: https://modrinth.com/mod/prism-lib
+
+[Ranged Weapon API]
+File: ranged_weapon_api-fabric-2.3.3+1.21.1.jar
+Type: Library
+Summary: Bows and crossbows are streamlined for development through customizable properties, automatic model registration, and correct rendering features. Customizable weapon properties allow developers to fine-tune damage, pull time, and projectile velocity. Easy creation of complex ranged weapons is enabled with this mod's API.
+URL: https://modrinth.com/mod/ranged-weapon-api
+
+[Resourceful Config]
+File: resourcefulconfig-fabric-1.21-3.0.11.jar
+Type: Library
+Summary: Resourceful Config provides an intuitive configuration system for Minecraft mods on various platforms, including Forge and Fabric. It allows for hot reloading of configurations using the official Forge config system or JSONC, depending on the platform. Additionally, it features a user-friendly interface for configuring settings and a web interface for servers or clients to access configuration options.
+URL: https://modrinth.com/mod/resourceful-config
+
+[Resourceful Lib]
+File: resourcefullib-fabric-1.21-3.0.12.jar
+Type: Library
+Summary: Resourceful Lib provides a comprehensive collection of utilities and APIs that expand Minecraft's capabilities, including a GL Scissor API, Stateful and History Screen Manager, Codecs, Color API, Cross Platform Networking, and more. This modding library offers essential tools for developers to enhance gameplay, providing features like scheduling, web utilities, and compressed binary formatting (YABN). With its extensive range of APIs and utilities, Resourceful Lib is a crucial component for Minecraft mods that seek to deliver innovative experiences.
+URL: https://modrinth.com/mod/resourceful-lib
+
+[Shield API]
+File: shield_api-fabric-2.2.0.jar
+Type: Library
+Summary: Enables mod authors to easily create shields with custom models. Shields can now be designed and implemented with greater flexibility and creativity. Simplifies shield creation for mod developers.
+URL: https://modrinth.com/mod/shield-api
+
+[Sodiumoptionsapi]
+File: sodiumoptionsapi-fabric-1.0.10-1.21.1.jar
+Type: Library
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+[StateObserver]
+File: stateobserver-fabric-1.21.1-1.6.3.jar
+Type: Library
+Summary: Observes blockstate changes across large areas without significant performance impact, making it a valuable tool for developers to enhance their mod creations. This lightweight library helps optimize game performance while still allowing for detailed tracking of block state changes. It's designed specifically for use by developers, adding advanced functionality to their custom mods and projects.
+URL: https://modrinth.com/mod/stateobserver
+
+[Structure Pool API]
+File: structure_pool_api-fabric-1.2.1+1.21.1.jar
+Type: Library
+Summary: Injects custom structures into structure pools, allowing players to add unique village layouts and maximize spawn counts of specific structures. Popularly used for adding custom village structures to villages, with features including maximizing spawn count of injected structures. Enhances gameplay by providing a flexible way to customize the game world.
+URL: https://modrinth.com/mod/structure-pool-api
+
+[TCDCommons API]
+File: tcdcommons-3.12.7+fabric-1.21.jar
+Type: Library
+Summary: Adds a user-friendly GUI system and various events and hooks to optimize mod development, eliminating redundant code and enhancing productivity. The API also includes auto-config system, event handling, and HUD rendering capabilities for visual enhancement. These features are designed to streamline mod creation and enhance gameplay with customizable visuals and automated configuration management.
+URL: https://modrinth.com/mod/tcdcommons
+
+[TerraBlender]
+File: TerraBlender-fabric-1.21.1-4.1.0.8.jar
+Type: Library
+Summary: Adds biomes in a simple and compatible manner to Minecraft's new biome/terrain system. TerraBlender provides a library mod that allows developers to add custom biomes with ease, enhancing game worlds with diverse environments. Available for Forge, NeoForge, and Fabric, making it accessible across various mod loaders.
+URL: https://modrinth.com/mod/terrablender
+
+[Text Placeholder API]
+File: placeholder-api-2.4.2+1.21.jar
+Type: Library
+Summary: Enables users to create and parse placeholders in strings and Text Components, improving mod compatibility and user experience. Simplified formatting options allow for easy styling of placeholders without manual JSON configuration. Developers can leverage this API to achieve seamless mod integration and customizable user interfaces.
+URL: https://modrinth.com/mod/placeholder-api
+
+[Thermoo Patches]
+File: thermoo-patches-3.7.1.jar
+Type: Library
+Summary: Thermoo Patches brings compatibility patches and integrations to Thermoo-based mods, enhancing their gameplay experience with added features like temperature display on the HUD. The mod also includes planned patches for other non-Thermoo mods where Thermoo integration would be beneficial. For example, Armor Points++ now displays temperature percentages next to health text when paired with libhud.
+URL: https://modrinth.com/mod/thermoo-patches
+
+[Thermoo]
+File: thermoo-4.6.0.jar
+Type: Library
+Summary: Temperature and environment management is made easy with Thermoo's unified framework for temperature and wetness, powerful datapack-based Environment API, and robust API for unit-agnostic temperature records. This mod provides a foundation for mods like Frostiful or Scorchful to build upon, ensuring seamless compatibility between temperature-dependent mechanics. By utilizing Thermoo, developers can create more realistic and immersive environmental effects in Minecraft.
+URL: https://modrinth.com/mod/thermoo
+
+[TxniLib]
+File: txnilib-fabric-1.0.24-1.21.1.jar
+Type: Library
+Summary: A library mod designed to streamline development across multiple versions and platforms, providing platform- and version-specific implementations to simplify maintenance of projects on Forge and Fabric. It supports simultaneous release of mods on 1.20 & 1.21 from a single codebase using the accompanying multiversion template mod. Developers can leverage this library's functionality to reduce repetitive if/else statements when working across different versions.
+URL: https://modrinth.com/mod/txnilib
+
+[Villager API]
+File: Villager-API-1.21.1-fabric-1.0.1.jar
+Type: Library
+Summary: Adds a data-driven framework to create custom villager professions, types, and trades through JSON files without coding or complex setup. Customization options include workstations, trading pools, item components, treasure maps, biome appearances, and biome-specific trades. This mod is designed for pack makers and modders who want to add villager content without dealing with Java code.
+URL: https://modrinth.com/mod/villagerapi
+
+[VoiceChat Interaction]
+File: voicechat-fabric-1.21.1-2.6.6.jar
+Type: Library
+Summary: Adds player voice chat reactivity to Sculk sensors and the Warden, configurable through an auto-generated `config.yml` file. This allows for customizable voice triggers in group, whisper, and sneak modes, with adjustable decibel thresholds and cooldowns. Players can also toggle and reload settings using the `/voicechat_interaction` command.
+URL: https://modrinth.com/mod/voicechat-interaction
+
+[YUNG's API]
+File: YungsApi-1.21.1-Fabric-5.1.6.jar
+Type: Library
+Summary: YUNG's API offers a range of useful features and utilities for mod developers, particularly those working on worldgen mods. Key additions include an AutoRegistration system, a custom Jigsaw Manager with improved performance, and new criteria triggers for safely locating structures. The API also provides interfaces for JSON serialization and deserialization, as well as simple math utilities for vectors and column positions.
+URL: https://modrinth.com/mod/yungs-api
+
+[oωo (owo-lib)]
+File: owo-lib-0.12.15.4+1.21.jar
+Type: Library
+Summary: Adds a powerful utility library for Minecraft modding on Fabric and Quilt, featuring a declarative UI builder, customizable config system, automatic registration, item group extensions, and a robust networking layer with client-sided particle helpers and rich text translations. Enhances mod development with streamlined tools for building complex interfaces, managing configurations, and creating dynamic screens. Supports seamless server-client synchronization and compatibility across various Minecraft versions.
+URL: https://modrinth.com/mod/owo-lib
+
+* [ModMenu Badges Lib]
+File: modmenu-11.0.3.jar
+Type: Library
+Summary: Adds customizable badges to ModMenu through a simple library interface. This mod enables users to create and display their own unique badges within the game's menu system. Suitable for mods looking to add personalized flair or identify specific features without modifying core code.
+URL: https://modrinth.com/mod/modmenu-badges-lib
+
+1. [Accurate Block Placement Reborn]
+File: accurate-block-placement-1.3.9-mc1.20.5-1.21.1.jar
+Type: Mod
+Summary: Enables automatic block placement by holding the use key and looking at a new block, eliminating the need to time clicks or look carefully. This feature streamlines building and construction processes. Please note that this mod may be considered a "cheat" on some servers.
+URL: https://modrinth.com/mod/accurate-block-placement-reborn
+
+2. [Advanced Loot Info]
+File: AdvancedLootInfo-fabric-1.21.1-1.6.0.jar
+Type: Mod
+Summary: Advanced Loot Info provides a clear and organized display of loot table information, allowing players to access detailed data about dropped items. This mod integrates with supported recipe viewers such as JEI, EMI, or REI to enhance gameplay analysis. Customizable features enable developers to create tailored displays for custom loot entries, conditions, functions, and categories.
+URL: https://www.curseforge.com/minecraft/mc-mods/advanced-loot-info
+
+3. [Allay Upgrades]
+File: allay_upgrades-2.3.jar
+Type: Mod
+Summary: Adds vanilla-style quality-of-life improvements to allays, allowing them to better complete their purposes. Key features include enhanced note block recall, amethyst-aided allay retention, teleportation, and auto-dismount functionality. These upgrades streamline gameplay and make managing allays more efficient in both vanilla and modded worlds.
+URL: https://modrinth.com/mod/allay_upgrades
+
+4. [AmbientSounds]
+File: AmbientSounds_FABRIC_v6.3.1_mc1.21.1.jar
+Type: Mod
+Summary: Adds rich ambience to the Minecraft world with customizable sound engines and smooth loops, supported by CreativeCore and compatible with world gen mods. Offers variety in regional sounds that change over time and includes a reworked engine for more options. Can be configured using the /cmdclientconfig command or the /ambient-debug command for troubleshooting.
+URL: https://modrinth.com/mod/ambientsounds
+
+5. [Anim´s Bar]
+File: FarmersDelight-1.21.1-3.2.2+refabricated.jar
+Type: Mod
+Summary: Adds a completely retextured and golden-themed user interface, including health, hunger, and XP bars, as well as a Golden HotBar. The mod also features transparent backgrounds and clean pixel art, providing an improved visual experience for players. Compatible with Minecraft versions 1.6.1-1.21.x.
+URL: https://modrinth.com/mod/anims-bar
+
+6. [AppleSkin]
+File: appleskin-fabric-mc1.21-3.0.6.jar
+Type: Mod
+Summary: Adds food value information to tooltips and visualizes saturation and exhaustion on the HUD. It also displays potential hunger/saturation restored while holding food, as well as health restoration, in a variety of ways. This mod enhances gameplay by providing detailed information about players' vital signs, making it easier to manage resources.
+URL: https://modrinth.com/mod/appleskin
+
+7. [Auditory (Discontinued)]
+File: auditory-0.0.7-1.21.1.jar
+Type: Mod
+Summary: Auditory refreshes block and item sounds with modern alternatives, adding unique sounds to previously silent blocks and actions. The mod also introduces data-driven sound management, allowing for easy editing or addition of new sounds through datapacks. With a focus on immersive audio, Auditory enhances the Minecraft experience with enhanced auditory feedback.
+URL: https://modrinth.com/mod/auditory
+
+8. [Auto HUD]
+File: autohud-8.7+1.21.1-fabric.jar
+Type: Mod
+Summary: Hides unchanging parts of the HUD, such as status effects and certain UI elements, allowing for a cleaner view while still displaying essential information like remaining time on status effects and chat messages. The mod is highly configurable, including options to show or hide specific HUD components. It can be toggled with a key binding and offers customizable settings through YetAnotherConfigLib.
+URL: https://modrinth.com/mod/autohud
+
+9. [Auto Switch Elytra]
+File: auto_switch_elytra-fabric-1.21.jar
+Type: Mod
+Summary: Enables automatic switching of Elytra wings with a double-click in mid-air and re-equips chest armor upon landing. Also disables armor stand interaction to prevent accidental use when playing with other mods that utilize armor racks. Configure keybinds through the default Right-Alt shortcut or by modifying Minecraft's settings.
+URL: https://modrinth.com/mod/autoswitchelytra
+
+10. [Auto Tool]
+File: auto_tool-fabric-1.2.0.jar
+Type: Mod
+Summary: Auto Tool automatically switches to the best tool in your inventory based on the block you're about to break, saving time and effort. It seamlessly integrates with Minecraft's mechanics while enhancing gameplay efficiency. This mod is perfect for all players, streamlining actions and allowing focus on building, exploring, and surviving.
+URL: https://modrinth.com/mod/auto-tool
+
+11. [Auto-Run]
+File: autorun-1.21.X-0.6.0.jar
+Type: Mod
+Summary: Hands-free walking and sprinting in Minecraft is enabled by Auto-Run, allowing players to move around without holding down movement keys or buttons. This mod simplifies navigation and frees up player control inputs for other actions. Auto-Run supports cross-version compatibility and can be installed alongside Fabric API and optional mods like Mod Menu and Cloth Config API.
+URL: https://modrinth.com/mod/autorun
+
+12. [AutoEat]
+File: AutoEat-v1.0.1-Fabric+mc1.21.1.jar
+Type: Mod
+Summary: AutoEat automatically eats for you when your hunger drops, ensuring uninterrupted gameplay and allowing you to focus on mining, fighting, and building without interruptions. This mod offers a range of customizable features, including smart auto-eat, panic mode, and offhand support, as well as food prioritization and clean UI options. With client-side only functionality, AutoEat requires no server installation and is compatible with various Minecraft versions and loaders.
+URL: https://modrinth.com/mod/autoeat
+
+13. [Axiom]
+File: Axiom-5.1.1-for-MC1.21.1.jar
+Type: Mod
+Summary: Adds real-time previews and client-side rendering to enhance building experiences in Minecraft, simplifying the process while elevating its potential. Powered by specialized algorithms, it streamlines visual feedback and performance for improved efficiency.
+URL: https://modrinth.com/mod/axiom
+
+14. [BTA Cupboards]
+File: cupboard-fabric-1.21-2.9.jar
+Type: Mod
+Summary: Introduces vertical and mirrored cupboards that connect like doors, providing additional storage options to chests. Features a json config framework, full stacktrace crashes, log erroring commands, and debug options for chunk loading logging. Adds a new way to organize items in your Minecraft world with versatile cupboard functionality.
+URL: https://modrinth.com/mod/bta-cupboards
+
+15. [Bartering Station Resaturated GUI]
+File: BarteringStation-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Enhances the Bartering Station UI by providing a resaturated and modernized graphical interface, improving overall aesthetic appeal and player experience. The mod introduces refreshed visuals for the station's GUI, giving it a more vibrant and engaging look. This update revitalizes the user interface, making it more enjoyable to interact with the Bartering Stations in your Minecraft world.
+URL: https://modrinth.com/mod/barteringstation_resaturatedgui
+
+16. [Better Advancements]
+File: BetterAdvancements-Fabric-1.21.1-0.4.3.21.jar
+Type: Mod
+Summary: Enhances Minecraft's advancements system with a revamped UI and customizable features, including screen-filling interfaces, colorable icons, and adjustable background effects. Offers modders additional customization options, such as custom textures and descriptions that can be tailored to fit their project. Expands gameplay experience without altering core mechanics or requiring extensive knowledge of modding.
+URL: https://modrinth.com/mod/better-advancements
+
+17. [Better Climbing]
+File: better_climbing-fabric-3.jar
+Type: Mod
+Summary: Better Climbing enhances gameplay by allowing players to fall down ladders faster when looking down and increasing upwards climb speed. The mod also improves navigation by reducing slowdowns when walking through climbable blocks and preventing sudden "bumps" while descending into ladder shafts. Additionally, it enables jumping while standing in a climbable block, expanding player movement options.
+URL: https://modrinth.com/mod/better-climbing
+
+18. [Better Mount Hud]
+File: bettermounthud-1.2.4.jar
+Type: Mod
+Summary: No description available.
+URL: https://www.curseforge.com/minecraft/mc-mods/better-mount-hud
+
+19. [Better Rubidium Video Settings Button]
+File: bsvsb-3.0.3.jar
+Type: Mod
+Summary: Restores the original "Video Options" button in Minecraft's video settings menu. Instead, it adds a new button labeled "Rubidium Video Settings" that allows direct access to advanced video configuration options. This mod preserves the functionality of the classic video settings button while offering an alternative path for more detailed adjustments.
+URL: https://modrinth.com/mod/brvsb
+
+20. [Better Third Person]
+File: BetterThirdPerson-Fabric-1.21-1.9.0.jar
+Type: Mod
+Summary: Adds independent camera rotation in third person view, allowing 360-degree movement and seamless transitions between walking directions without altering camera rotation. Enables placement, breaking, and item use while maintaining a freely rotatable camera. Supports vehicles, swimming, elytra flying, and more on Minecraft versions [MC 1.16+] and above.
+URL: https://www.curseforge.com/minecraft/mc-mods/better-third-person
+
+21. [Better Tridents]
+File: BetterTridents-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Better Tridents introduces new trident enchantments and modifications to existing ones, enhancing gameplay and providing players with more options for customization and strategy in combat situations. Additionally, it overhauls trident recipes and behavior, offering alternative uses for this versatile tool. This mod also includes various quality-of-life tweaks to make playing with tridents even more efficient and enjoyable.
+URL: https://modrinth.com/mod/better-tridents
+
+22. [BetterF3]
+File: BetterF3-11.0.3-Fabric-1.21.1.jar
+Type: Mod
+Summary: Replaces Minecraft's original debug HUD with a highly customizable and human-readable display, offering customizable colors, positions, spacings, and more. Users can also add or delete modules, disable individual lines, and configure animations for opening/closing. This mod includes translations into multiple languages and provides an intuitive configuration menu via F3 + M.
+URL: https://modrinth.com/mod/betterf3
+
+23. [BetterStats]
+File: betterstats-3.13.9+fabric-1.21.jar
+Type: Mod
+Summary: View and manage Minecraft stats using the command /stats, which displays clean and modern information on player progression and achievements. The plugin also allows administrators to check any player's stats with /stats <player>. BetterStats is designed for survival, RPG, SMP, and minigames servers, adding a free premium-quality feature to enhance gameplay experience.
+URL: https://modrinth.com/mod/betterstats
+
+24. [Bhmenu]
+File: BHMenu-Fabric-1.21-2.5.3.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+25. [BoatView360]
+File: boatiview-fabric-0.0.6-1.21.1.jar
+Type: Mod
+Summary: Enables full 360° camera rotation while seated in a boat, removing the vanilla 210° rotation limit. This feature is essential for improved situational awareness and immersion during water travel. Compatible with other mods like Immersive Aircraft, Immersive Machinery, and Piggybacks.
+URL: https://modrinth.com/mod/boatview360
+
+26. [Bomd]
+File: BOMD-1.10.2-1.21.1.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+27. [Bookshelf]
+File: bookshelf-fabric-1.21.1-21.1.78.jar
+Type: Mod
+Summary: Bookshelf introduces new datapack features and debugging commands that enhance gameplay and modding experience. Players can access commands to retrieve item IDs and enjoy new crafting recipes that damage items with durability rather than consuming them. The mod also provides utility functions, serialization tools, and a registry manager for modders to streamline their development process.
+URL: https://modrinth.com/mod/bookshelf-lib
+
+28. [Bridging Mod]
+File: BridgingMod-2.6.2+1.21.1.fabric-release.jar
+Type: Mod
+Summary: Adds a bridging assist feature that enables placing blocks in gaps in front, above, or below blocks, even if the surface isn't visible, with optional crosshair and outline visual aids. This feature is similar to those found in Minecraft: Bedrock Edition and Quark mod. Available for Forge, Fabric, & Quilt.
+URL: https://modrinth.com/mod/bridging-mod
+
+29. [Camera Utils]
+File: camerautils-fabric-1.21.1-1.0.16.jar
+Type: Mod
+Summary: Dynamic zoom, camera detaching, and advanced cinematic controls enhance gameplay experience, while adjustable third person distance and customizable perspectives provide players with versatile camera options to suit their needs. Camera Utils offers movement smoothing and a settings GUI for adjusting properties or resetting default values. This client-side mod is designed to streamline and personalize the Minecraft camera functionality.
+URL: https://modrinth.com/mod/camera-utils
+
+30. [CameraOverhaul (Vintage)]
+File: CameraOverhaul-v2.0.5-fabric+mc[1.21.0-1.21.2].jar
+Type: Mod
+Summary: CameraOverhaul introduces dynamic camera rotations that emphasize player movement and improve visual feedback, responding to actions like strafing, turning, jumping, and falling with smooth pitch adjustments. Nearby explosions create a shaking effect, while ceasing movement causes the camera to gently sway back into place. The mod's features are highly configurable through in-game settings or manual editing of its well-documented configuration file.
+URL: https://modrinth.com/mod/cameraoverhaul-vintage
+
+31. [Charm Of Undying]
+File: charmofundying-fabric-9.1.0+1.21.1.jar
+Type: Mod
+Summary: Adds a new Charm slot to the player inventory, allowing for easier access and management of the Totem of Undying's death protection effect. The totem can be placed in this slot directly or through item usage, granting the same benefits as holding it in hand. This mod streamlines gameplay by freeing up hotbar and inventory space while maintaining crucial protections.
+URL: https://www.curseforge.com/minecraft/mc-mods/charm-of-undying
+
+32. [Chat Patches]
+File: chatpatches-8.0-alpha.6+1.21.1-fabric.jar
+Type: Mod
+Summary: Adds support for various chat features and improves compatibility between mods, allowing for smoother communication and interaction in-game. Enhances chat functionality with custom messages, command aliases, and auto-completion capabilities. Also resolves issues related to mod conflicts and incorrect formatting, ensuring a more enjoyable Minecraft experience.
+URL: https://modrinth.com/mod/chatpatches
+
+33. [Cherished Worlds]
+File: cherishedworlds-fabric-10.1.1+1.21.1.jar
+Type: Mod
+Summary: Adds bookmarks to worlds on the select screen, allowing players to pin favorite worlds and access them instantly. Bookmarking worlds also prevents deletion until they are unmarked, and they appear at the top of the selection list. Up to multiple worlds can be bookmarked, with internal ordering by last played date.
+URL: https://modrinth.com/mod/cherished-worlds
+
+34. [Clean Tooltips]
+File: clean_tooltips-1.1-fabric-1.21.1.jar
+Type: Mod
+Summary: Enchantments are now displayed in their own subcategory, color-coded for easier identification of good and cursed enchantments, with max level enchants highlighted in gold. Tooltips also show remaining durability on damaged items and accurately display used colors on dyed items. A reorganized layout keeps curses at the bottom of the list for clearer visibility.
+URL: https://modrinth.com/mod/clean-tooltips
+
+35. [Client Sort]
+File: clientsort-fabric-2.1.4+1.21.1.jar
+Type: Mod
+Summary: Client Sort allows for easy inventory organization and management through customizable sorting rules and auto-sorting features. This mod enables players to prioritize items based on specific conditions, such as rarity, type, or stack size, streamlining their inventory and reducing clutter. With Client Sort, players can customize the organization of their inventory to suit their playstyle and preferences.
+URL: https://modrinth.com/mod/clientsort
+
+36. [Client Tweaks]
+File: clienttweaks-fabric-1.21.1-21.1.9.jar
+Type: Mod
+Summary: Adds optional tweaks to improve Quality of Life during gameplay, configurable and individually enabled or disabled by default. Includes features such as disabling offhand torch placement when holding a block in the main hand or having an empty hand. Requires Balm mod for functionality.
+URL: https://modrinth.com/mod/client-tweaks
+
+37. [Comfortable Campfires]
+File: comfortable-campfires-1.1.2+1.21.1.jar
+Type: Mod
+Summary: Lit campfires now provide nearby players with Regeneration or Comfort effects, depending on whether Farmer's Delight is installed, making outdoor gatherings more comfortable. The mod supports both single-player and multi-player environments, allowing for a cozy experience in either setting.
+URL: https://modrinth.com/mod/comfortable-campfires
+
+38. [Configurable]
+File: configurable-3.3.0+1.21.1-fabric.jar
+Type: Mod
+Summary: Adds a decentralized configuration system to Minecraft, allowing users to manage and customize game settings without requiring mod reloads or config files. Enables seamless adjustments to gameplay mechanics and visuals through an intuitive interface. Enhances player flexibility and convenience by streamlining config management.
+URL: https://modrinth.com/mod/configurable
+
+39. [Configured Defaults]
+File: ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar
+Type: Mod
+Summary: Configured Defaults provides customizable default configurations for Minecraft's various settings and game mechanics, offering a range of pre-built profiles to suit different playstyles or preferences. These profiles can be easily swapped in-game using a convenient GUI, allowing players to quickly adapt to new scenarios or experiment with alternative gameplay experiences. The mod's extensive configuration options empower players to tailor their gameplay experience without requiring complex modifications or code changes.
+URL: https://modrinth.com/mod/configured-defaults
+
+40. [Continuity]
+File: continuity-3.0.0+1.21.jar
+Type: Mod
+Summary: Enables resource packs that use connected textures, emissive textures, or custom block layers to work without OptiFine. Includes two built-in resource packs and provides seamless glass pane culling with a fix pack. Compatible with Fabric, NeoForge, and Forge through the use of dependencies like Connector and Forgified Fabric API.
+URL: https://modrinth.com/mod/continuity
+
+41. [Controlling]
+File: Controlling-fabric-1.21.1-19.0.5.jar
+Type: Mod
+Summary: Search keybinds by name in the KeyBinding menu to quickly locate specific bindings. A button highlights conflicting keybindings, making it easier to resolve issues. View available keys for binding and streamline your key management with Controlling.
+URL: https://modrinth.com/mod/controlling
+
+42. [Craft Saddle]
+File: saddle-craft-v.1.1.0.jar
+Type: Mod
+Summary: Craft Saddle provides a new crafting recipe for the saddle in Minecraft, allowing players to craft this essential item without relying on drop-in resources or other mods. This addition streamlines gameplay and reduces dependence on external sources, giving players more flexibility and control over their world-building process. With Craft Saddle installed, players can focus on exploring and expanding their creations with greater ease and convenience.
+URL: https://modrinth.com/mod/saddle-craft
+
+43. [Crash Assistant]
+File: CrashAssistant-fabric-1.19-1.21.4-1.10.24.jar
+Type: Mod
+Summary: Crash Assistant provides an intuitive GUI to handle Minecraft crashes, analyzing logs for common issues and offering one-click solutions to upload or copy crash reports. It also offers analysis tools and auto-fixes for many known problems, including those related to GPU drivers and Java versions. Additionally, the mod warns about running on integrated GPUs when a dedicated one is available.
+URL: https://modrinth.com/mod/crash-assistant
+
+44. [CrashExploitFixer]
+File: crashexploitfixer-fabric-1.1.0+1.21.jar
+Type: Mod
+Summary: Fixes a server crash exploit that allows malicious players to instantly crash servers on versions 1.14.4-1.21 (inclusive) by sending a single malicious packet. The mod is open-source and has been tested on over 100,000 servers through the Paper implementation. Prevents malicious players from crashing servers with ease, ensuring a smoother gameplay experience.
+URL: https://modrinth.com/mod/crashexploitfixer
+
+45. [CreativeCore]
+File: CreativeCore_FABRIC_v2.13.14_mc1.21.1.jar
+Type: Mod
+Summary: CreativeCore provides a core set of features and functionalities for Minecraft mods, including a GUI API, packet system, event system, and config system with in-game options or console commands. It also introduces performance improvements, such as fixing huge lag spikes, and allows for platform-independent mod loading. This mod sets the foundation for other creative mods to build upon, simplifying development and playability.
+URL: https://modrinth.com/mod/creativecore
+
+46. [Debugify]
+File: Debugify-1.21.1+1.0.jar
+Type: Mod
+Summary: Adds over 70 bug fixes to Minecraft, resolving issues found on the official bug tracker, effectively replacing more than a dozen superseded mods and incorporating various fixes from other mods. This comprehensive fix mod addresses problems with game stability, performance, and user interface, streamlining gameplay experience. By rectifying these long-standing bugs, Debugify ensures a smoother and more enjoyable Minecraft experience for players.
+URL: https://modrinth.com/mod/debugify
+
+47. [Deimos]
+File: deimos-1.21.1-fabric-2.5.jar
+Type: Mod
+Summary: Generates and displays customizable config files in-game, simplifying mod development and configuration management through a user-friendly interface that can be accessed via Mod Menu on Fabric or natively on Forge and Neoforge. Enables dynamic recipe creation at game start with configurability, reducing the need for JSON files and streamlining version updates. Based on MidnightLib's configuration principles, Deimos enhances mod development efficiency and flexibility.
+URL: https://modrinth.com/mod/deimos
+
+48. [Delete Worlds To Trash Forge]
+File: DeleteWorldsToTrash-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Deletes worlds to the recycle bin/trash instead of permanently deleting them, giving players a chance to reconsider and potentially retrieve their creations later. This feature is supported on Windows, Mac, and some Linux systems. A vanilla delete option remains available for unsupported operating systems.
+URL: https://www.curseforge.com/minecraft/mc-mods/delete-worlds-to-trash-forge
+
+49. [Do a Barrel Roll]
+File: do_a_barrel_roll-fabric-3.7.3+1.21.jar
+Type: Mod
+Summary: Elytra flight gets a thrilling upgrade with "Do a Barrel Roll". This mod unlocks full camera orientation control in flight, allowing players to roll, pitch, and yaw freely. Players can customize their experience with various options, including banking and sensitivity settings.
+URL: https://modrinth.com/mod/do-a-barrel-roll
+
+50. [Door Knocking]
+File: door_knocking-1.0.1+1.21-fabric.jar
+Type: Mod
+Summary: Knock on doors to signal your presence and avoid surprise attacks when attacking blocks that open as doors in survival mode. This mod enhances gameplay by allowing players to knock instead of force-opening locked doors, promoting a safer experience. By introducing a non-violent door-knocking mechanism, Door Knocking adds a new dimension to Minecraft's combat system.
+URL: https://modrinth.com/mod/door-knocking
+
+51. [DoubleDoors]
+File: doubledoors-1.21.1-7.2.jar
+Type: Mod
+Summary: Allows players to open two doors facing each other simultaneously, streamlining door management and enhancing gameplay flexibility. Enables double doors to function as expected with manual or automated opening methods, such as button activation.
+URL: https://modrinth.com/mod/doubledoors
+
+52. [Dynamic Crosshair]
+File: dynamiccrosshair-9.10+1.21.1-fabric.jar
+Type: Mod
+Summary: Hides or changes the crosshair depending on context, providing options to customize its visibility and style based on what you're looking at or equipped with. Configurable settings allow for tailored gameplay experiences. Enhances the Minecraft experience by minimizing distractions and adding a customizable touch to your gameplay interface.
+URL: https://modrinth.com/mod/dynamiccrosshair
+
+53. [EMI Enchanting]
+File: emi_enchanting-0.1.2+1.21.jar
+Type: Mod
+Summary: Displays detailed enchantment information through an intuitive plugin for the EMI Recipe and Item viewer, including basic summaries, valid items, enchantment descriptions, and conflict exclusions. Tab through various screens to access this information. Enhances gameplay by providing a clear understanding of enchantments.
+URL: https://modrinth.com/mod/emi-enchanting
+
+54. [EMI Loot]
+File: emi_loot-0.7.8+1.21+fabric.jar
+Type: Mod
+Summary: EMI Loot displays loot tables for chests, blocks, and mobs, showing the probability of each item drop in a compact, visually organized format. This includes stacked items by percentage category, with hover-over effects displaying average expected counts. The mod provides an intuitive way to analyze and understand complex Minecraft game mechanics.
+URL: https://modrinth.com/mod/emi-loot
+
+55. [EMI]
+File: emi-1.1.22+1.21.1+fabric.jar
+Type: Mod
+Summary: EMI offers a comprehensive item and recipe viewer with features such as quick crafting, favorite recipes, and a recipe tree that breaks down complex crafts into every step, base ingredients, and leftovers. Additionally, it provides smart display of tags, breakdowns of base costs, tooltips for recipes and ingredients, and binds for quick crafting into the inventory or creative menu. This mod optimizes user experience with a streamlined interface and zero dependencies.
+URL: https://modrinth.com/mod/emi
+
+56. [Easy Anvils]
+File: EasyAnvils-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Easy Anvils simplifies item enchanting and repairing by allowing players to right-click on anvil blocks in survival mode. This feature eliminates the need to place an anvil and interact with it as a block, streamlining the process for enchanting and repairing tools, armor, and other items.
+URL: https://modrinth.com/mod/easy-anvils
+
+57. [Easyelytratakeoff]
+File: easyelytratakeoff-1.21.1-4.5.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+58. [Economical Villager Trading]
+File: economical-villager-trading-1.3.1+MC1.21-1.21.1.jar
+Type: Mod
+Summary: Economical Villager Trading introduces a more realistic and dynamic trading system to Minecraft servers, allowing villagers to offer valuable items in exchange for goods that are in high demand on the market. This mod enables a more intricate economy within the game, providing players with opportunities to specialize in specific trades and earn rewards accordingly. By simulating real-world economic principles, Economical Villager Trading adds depth to Minecraft's gameplay and encourages strategic decision-making among players.
+URL: https://modrinth.com/mod/economical-villager-trading
+
+59. [Elytra Drag]
+File: elytra-drag-0.4-1.21+.jar
+Type: Mod
+Summary: Elytra Drag introduces a drag mechanism while flying with elytras, allowing players to slow down or break by pressing the Sneak key and halting rocket propulsion. It also limits damage taken during high-velocity landings by capping fall distance, and modifies wing animations when applying drag. The mod's settings can be adjusted through its config file, affecting the drag coefficient, fall distance cap, and minimum speed required for drag application.
+URL: https://modrinth.com/mod/elytra-drag
+
+60. [FallingTree]
+File: FallingTree-1.21.1-1.21.1.11.jar
+Type: Mod
+Summary: FallingTree introduces four modes of tree breaking, including instantaneous and animated falls with blocks or items. Players can customize settings in the config file to adjust what constitutes a tree, tool options, and animation effects. The mod enhances gameplay by streamlining tree harvesting and providing more flexibility.
+URL: https://modrinth.com/mod/fallingtree
+
+61. [FancyMenu]
+File: fancymenu_fabric_3.8.1_MC_1.21.1.jar
+Type: Mod
+Summary: FancyMenu offers visual customization and layout editing capabilities to personalize Minecraft's menus with unique styles and features, including animated elements. A built-in editor allows users to easily tweak layouts and customize menus without extensive technical knowledge. With both client-side and optional server-side installation available, users can enhance their in-game interface and streamline GUI management.
+URL: https://modrinth.com/mod/fancymenu
+
+62. [Fauxcustomentitydata]
+File: FauxCustomEntityData-fabric-1.21.1-13.0.1.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+63. [Fishing Real]
+File: fishingreal-fabric-1.21.1-1.9.1.jar
+Type: Mod
+Summary: Fishing Real introduces live entities to fishing, replacing caught fish items with their living counterparts, and allows for custom item-to-entity conversions using datapack configurations. Players can craft specific entities by adding NBT tags to their datapack JSON files. This mod enables users to override vanilla fishing entity options by creating a custom datapack with the namespace "fishingreal".
+URL: https://modrinth.com/mod/fishing-real
+
+64. [Fixed Villager Trades]
+File: fixed-villager-trades-1.2.2.jar
+Type: Mod
+Summary: Villager trades are now fixed to their profession upon generation, preventing changes after workstation replacement. This affects librarian villagers and Mending Enchantments, making them more accessible. The mod also limits maximum trade discounts to 50%.
+URL: https://modrinth.com/mod/fixedvillagertrades
+
+65. [Friendsandfoes]
+File: friendsandfoes-fabric-4.0.17+mc1.21.1.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+66. [FullStack Watchdog]
+File: fullstackwatchdog-1.0.1+1.19.2-fabric.jar
+Type: Mod
+Summary: Enables detailed log output when the Watchdog system kills a stuck server, providing full stacktraces to aid in diagnosing deadlock issues. This information helps mod creators and server administrators track down the cause of deadlocks and optimize their code for better performance. Can be used on both standalone servers and within modpacks.
+URL: https://modrinth.com/mod/fullstack-watchdog
+
+67. [Fzzy Config]
+File: fzzy_config-0.7.3+1.21.jar
+Type: Mod
+Summary: Fzzy Config offers automatic GUI generation, server-client sync, and advanced validation features to simplify mod configuration. Its multi-loader support allows seamless integration across different Minecraft platforms, including Fabric and Forge. The mod's lightweight API ensures minimal integration requirements for developers.
+URL: https://modrinth.com/mod/fzzy-config
+
+68. [Grind Enchantments]
+File: grind-enchantments-4.0.0+1.21.1.jar
+Type: Mod
+Summary: Grind Enchantments introduces two features to the grindstone: disenchanting enchanted items onto a book and moving enchantments between books by swapping them in the grindstone's slots. This allows for efficient organization of enchantment-enabled items and separation of multi-type enchantments on a single book. Supports seamless integration with Tax Free Levels mod.
+URL: https://modrinth.com/mod/grind-enchantments
+
+69. [Happy Ghast: BombsAway]
+File: bombsaway-1.0.0.jar
+Type: Mod
+Summary: Adds TNT throwing mechanics that allow players to drop explosives while mounted on a Happy Ghast. Igniting TNT requires a Flint and Steel in Survival and Adventure modes, but is optional in Creative mode. This mod enhances gameplay with a fun twist on traditional TNT behavior.
+URL: https://modrinth.com/mod/happy-ghast-bombsaway
+
+70. [Hardcover]
+File: hardcover-3.0.0+1.21.jar
+Type: Mod
+Summary: Adds an alternative recipe book layout with extra space and improved navigation buttons, allowing for more efficient crafting management. Also introduces features such as auto-closing recipe books, circular scrolling, and mouse wheel scrolling to enhance gameplay experience. Additionally, the mod provides customizable options like inverted scroll direction and centered inventory display.
+URL: https://modrinth.com/mod/hardcover
+
+71. [Highlighter]
+File: Highlighter-1.21-fabric-1.1.11.jar
+Type: Mod
+Summary: Highlights items in your inventory with distinct colors based on enchantments and item types, making it easier to identify and manage equipment. Enchantments like piercing and multishot are color-coded for distinction, as well as totems and other item categories. This mod enhances inventory organization and visual clarity for players.
+URL: https://modrinth.com/mod/highlighter
+
+72. [IJM's Tweaks]
+File: ijmtweaks-1.4.0+1.21.jar
+Type: Mod
+Summary: Forces dark loading overlays and adjusts various client-side settings, such as auto-jump on stairs, experience bar visibility in creative mode, and fullbright options. Also includes features like reduced particle effects when breaking blocks and customizable zoom functionality via keybindings. Invisible entity hitboxes can be rendered using F3 + B for OP players on dedicated servers.
+URL: https://modrinth.com/mod/ijm-tweaks
+
+73. [Iceberg]
+File: Iceberg-1.21.1-fabric-1.3.2.jar
+Type: Mod
+Summary: Adds new events, helpers, and utilities to make modding easier on both client and server side for Forge mods. Provides additional functionality to enhance mod development experiences. Can be used in modpacks or as a dependency for individual mods.
+URL: https://modrinth.com/mod/iceberg
+
+74. [Immersive Hotbar]
+File: immersive-hotbar-1.0.4-1.21-1.21.1.jar
+Type: Mod
+Summary: Adds animated hotbar slots and tooltips to enhance immersion in Minecraft gameplay, allowing for a more engaging experience when placing blocks, picking up items, and using tools and weapons. The mod also includes customizable animations, such as bouncy or shrink styles, which can be configured through the in-game config menu. This results in smoother and more visually appealing hotbar interactions, further immersing players in the Minecraft world.
+URL: https://modrinth.com/mod/immersive-hotbar
+
+75. [Immersive Machinery]
+File: immersive_machinery-0.2.0+1.21.1-fabric.jar
+Type: Mod
+Summary: Adds a range of rustic machinery for transporting, mining, and automating tasks in Minecraft, while maintaining a vanilla-style aesthetic. Features a primitive submarine, Copperfin, for underwater exploration, as well as a large tunnel digger for excavating earth efficiently. Provides tools to automate repetitive tasks, expanding gameplay possibilities.
+URL: https://modrinth.com/mod/immersive-machinery
+
+76. [ImmersiveThunder]
+File: ImmersiveThunder-1.21.1+1.2.2.jar
+Type: Mod
+Summary: ImmersiveThunder introduces dynamic thunder sounds that respond to your distance from the source. Sounds become louder and more intense up close, but softer and delayed at a distance, creating a more immersive experience.
+URL: https://modrinth.com/mod/immersivethunder
+
+77. [InvMove]
+File: InvMove-0.9.2+1.21.1-Fabric.jar
+Type: Mod
+Summary: Enables moving, jumping, and sprinting from within inventories/screens, while also allowing toggling of these features on or off per-screen in the config menu. Hides the darkened background tint in screens that don't pause the game, further enhancing gameplay freedom. This mod provides seamless navigation between inventory management and exploration.
+URL: https://modrinth.com/mod/invmove
+
+78. [Inventory Hud +]
+File: inventoryhud.fabric.1.21.1-3.4.26.jar
+Type: Mod
+Summary: Adds live durability tracking and inventory previews to Minecraft's HUD, allowing players to monitor gear status at all times and make informed decisions in combat. This mod displays armor and tool durability on screen, as well as a preview of inventory items, to keep players battle-ready without cluttering the UI. Perfect for PvP, UHC, and competitive survival, it enhances tactical awareness with minimal footprint.
+URL: https://modrinth.com/mod/inventory-hud+-by-soulspeed
+
+79. [Iris/Oculus Shader Folder]
+File: iris_shader_folder-1.2.5-fabric.jar
+Type: Mod
+Summary: Hides, filters, and reorders shader packs in the Iris/Oculus shaders menu using flexible patterns, allowing users to customize their shader selection experience with features like name recoloring, tooltip addition, and unwanted pack suppression. Organizes the menu for a faster and cleaner shader selection process. Recolors shader pack names or parts of names with Minecraft color for improved visual organization.
+URL: https://modrinth.com/mod/iris-shader-folder
+
+80. [Item Descriptions]
+File: item-descriptions-2.5.6+1.21.1-fabric.jar
+Type: Mod
+Summary: Enables concise descriptions for blocks, items, entities, and enchantments by displaying them when holding Ctrl key, streamlining information without needing external resources. Supports vanilla content and popular mods like Mod Descriptions and Jade/WTHIT. Provides a clear understanding of each item's purpose, origin, or other essential details.
+URL: https://modrinth.com/mod/item-descriptions
+
+81. [Jade 🔍]
+File: Jade-1.21.1-Fabric-15.10.2.jar
+Type: Mod
+Summary: Adds a revamped information HUD to Minecraft, providing users with essential details and features in a modernized API design. Features customizable keys for navigating menus and displaying information, including liquid amounts, item storage, and brewing stand fuel levels. Requires server-side installation for full functionality, but can be installed client-side for basic use.
+URL: https://modrinth.com/mod/jade
+
+82. [Just Hammers]
+File: just-hammers-fabric-21.1.3.jar
+Type: Mod
+Summary: Minecraft receives a boost in mining efficiency with the addition of hammers capable of excavating 3x3, 3x3x3, and even 5x5x5 areas. These versatile tools come in various tiers, including Iron, Gold, Diamond, and Netherite, with increasing areas of effect as you upgrade. The mod's hammers are durable and can be repaired using an anvil when their durability drops to one.
+URL: https://modrinth.com/mod/just-hammers
+
+83. [Keybind Fix]
+File: keybind_fix-1.0.0.jar
+Type: Mod
+Summary: Minecraft players can now map multiple keybindings to the same key without losing functionality thanks to Keybind Fix. This mod resolves conflicts where two or more keybindings are set to the same key, allowing for simultaneous execution of both actions. Compatible keybinds will work together, enhancing gameplay flexibility and convenience.
+URL: https://modrinth.com/mod/keybind-fix
+
+84. [Kiwi 🥝]
+File: Kiwi-1.21-Fabric-15.1.5.jar
+Type: Mod
+Summary: Kiwi 🥝 enhances your Minecraft experience with quality-of-life features, including customizable tooltips that display item NBT and tags, and a command calculator `/kalc` to streamline gameplay. Additionally, it disables Microsoft telemetry and suppresses experimental world settings warnings, providing a more streamlined and secure environment. With Kiwi, you can also customize various settings using Cloth Config, giving you finer control over your Minecraft experience.
+URL: https://modrinth.com/mod/kiwi
+
+85. [KleeSlabs]
+File: kleeslabs-fabric-1.21.1-21.1.7.jar
+Type: Mod
+Summary: Breaks only one half of a double slab when looking at it, allowing for more precise placement and building control. Supports both Vanilla and modded slabs from various mods. Enhances building flexibility by enabling targeted slab removal.
+URL: https://modrinth.com/mod/kleeslabs
+
+86. [Language Reload]
+File: language-reload-1.7.5+1.21.1.jar
+Type: Mod
+Summary: Language Reload enhances Minecraft's language features with fast switching between languages without reloading resource packs, a search box in the language menu, and multilingual item search capabilities. It also allows multiple language selection, automatic language detection, and customizable keyboard shortcuts for language management. With these features, players can seamlessly navigate their game environment across different languages.
+URL: https://modrinth.com/mod/language-reload
+
+87. [Litematica]
+File: litematica-fabric-1.21-0.19.59.jar
+Type: Mod
+Summary: Litematica provides advanced schematic rendering and editing capabilities to Minecraft, building upon the features of its predecessor Schematica. It offers a range of tools, including direct hotkeys for configuring menus and toggling rendering modes, allowing players to efficiently manage schematics in-game. With Litematica, players can easily edit and manipulate schematics, streamlining their creative process and enhancing gameplay experience.
+URL: https://modrinth.com/mod/litematica
+
+88. [Log Begone]
+File: logbegone-fabric-1.21.1-1.0.3.jar
+Type: Mod
+Summary: Removes annoying log spam from your Minecraft experience by suppressing messages about missing structures, biomes, blocks, and items when they are removed or unloaded. By default, it also silences "the_aether" log messages. This mod streamlines gameplay by reducing clutter in the game's console output.
+URL: https://modrinth.com/mod/log-begone
+
+89. [Lootintegrations Yungs]
+File: lootintegrations_yungs-1.4.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+90. [Lootr]
+File: lootr-fabric-1.21-1.10.35.96.jar
+Type: Mod
+Summary: Lootr generates a unique inventory for each player who opens a loot container, such as chests or shulkers, and changes its appearance based on player interaction. This feature eliminates the need to rush to discover structures first and encourages players to explore existing environments without finding unwanted items. By providing individualized looting experiences, Lootr enhances gameplay dynamics and reduces world size growth.
+URL: https://modrinth.com/mod/lootr
+
+91. [Magnum Torch]
+File: MagnumTorch-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Magnum Torch introduces three extremely powerful torch variants that create large areas where natural mobs cannot spawn, effectively preventing unwanted enemies from entering these regions. The mod's functionality complements existing game mechanics by adding a new layer of control over mob spawning. By using these enhanced torches, players can better manage and optimize their gameplay experience.
+URL: https://modrinth.com/mod/magnum-torch
+
+92. [Map Distance Fix]
+File: MapDistanceFix-1.0.12+mc1.20.5-1.21.10.jar
+Type: Mod
+Summary: Always Visible Player indicators and Correct Direction tracking make navigation easier on treasure maps and other map items. Map Distance Fix also displays distance from the player to the map center, configurable via a JSON file or in-game GUI. This client-side mod requires no server modifications.
+URL: https://www.curseforge.com/minecraft/mc-mods/map-distance-fix
+
+93. [Minerally]
+File: minerally-1.21-1.21.jar
+Type: Mod
+Summary: Minerally generates ore piles, crystals, geodes, and mineral rocks in caves, deepslate caves, and the Nether. These structures require repeated mining to obtain resources, except for mineral rocks and geodes. The mod introduces a new type of resource gathering mechanic to Minecraft's exploration experience.
+URL: https://modrinth.com/mod/minerally
+
+94. [Miningspeedtooltips]
+File: miningspeedtooltips-fabric-1.0.0-1.21.1.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+95. [MiscTweaks]
+File: misctweaks-1.2.5+1.21.1-fabric.jar
+Type: Mod
+Summary: MiscTweaks enhances gameplay by eliminating annoying mechanics and optimizing player experiences. It includes tweaks such as dropping all items from creeper explosions, disabling shulker duplication on hit, and faster mining of obsidian-like blocks. The mod also adjusts shield visibility when held in the offhand and adds configuration options for tweaking these features.
+URL: https://modrinth.com/mod/misctweaks
+
+96. [More Mouse Tweaks (MouseTweaks-fabric-mc1.21-2.26.jar)]
+File: MouseTweaks-fabric-mc1.21-2.26.jar
+Type: Mod
+Summary: Enhances mouse controls by adding extra functions to improve player navigation and interaction with the game world. Adds features such as customizable mouse sensitivity and acceleration settings. Provides a more intuitive way of navigating Minecraft's vast environments using your computer's mouse.
+URL: https://modrinth.com/mod/moremousetweaks
+
+97. [More Mouse Tweaks]
+File: moremousetweaks-fabric-1.1.1+1.21.1.jar
+Type: Mod
+Summary: More Mouse Tweaks enhances Minecraft by introducing extra mouse functions, building upon the existing Mouse Tweaks mod to further enhance gameplay and user experience. It provides additional features to streamline interactions, allowing players to access a wider range of commands and tools with greater ease. This expansion enables more efficient navigation and manipulation within the game world.
+URL: https://modrinth.com/mod/moremousetweaks
+
+98. [More Useful Copper]
+File: more_useful_copper-merged-1.21.1-2.0.0.jar
+Type: Mod
+Summary: Copper has been overlooked in Minecraft, but this mod brings it to life by adding copper variants to default items and expanding its unique uses with additional crafted items. This expansion allows players to craft new useful items, giving copper a much-needed boost in functionality. With More Useful Copper, your game just got a whole lot more interesting!
+URL: https://modrinth.com/mod/more-useful-copper
+
+99. [MoreChatHistory Reforged]
+File: morechathistory-1.3.1.jar
+Type: Mod
+Summary: Increases the vanilla chat history length from 100 messages to 16384, ensuring you never miss important conversations during gameplay or when away from the keyboard. No longer will crucial chat messages be lost due to limited storage space. Browse up to 16,384 messages in the chat box with this client-side mod.
+URL: https://modrinth.com/mod/morechathistory-reforged
+
+100. [MrUltimateShop]
+File: mru-1.0.19+LTS+1.21.1+fabric.jar
+Type: Mod
+Summary: Minecraft servers gain advanced trading capabilities through MrUltimateShop's dynamic shop loading system and customizable features such as holographic price displays, tax systems, and vault economy integration. The mod introduces a player-owned chest shop system and team-based shop management, enabling collaborative ownership and real-time shop information. It also includes a comprehensive permission system and extensive customization options for configuring shop settings.
+URL: https://modrinth.com/mod/mrultimateshop
+
+101. [NetherCoords]
+File: NetherCoords v2.0.2 for 1.21.x.jar
+Type: Mod
+Summary: Converts Overworld and Nether coordinates instantly with customizable Y offset, automatic language switching, and tab completion for easier navigation between dimensions in Minecraft. The mod includes two commands: `/nc o` to convert Overworld to Nether and `/nc n` to do the reverse, perfect for survival, speedrunning, or server management. With its lightweight client-side design, it supports Paper 1.21-1.21.10 versions and can be easily dropped into a plugins folder.
+URL: https://modrinth.com/mod/nethercoords
+
+102. [Overflowing Bars]
+File: OverflowingBars-v21.1.1-1.21.1-Fabric.jar
+Type: Mod
+Summary: Overflowing Bars adds customizable and overflowable bars to Minecraft's GUI elements, allowing players to track various statistics and progress more effectively. The mod provides a range of features, including color customization, animation options, and support for multiple data types. By giving players greater visibility into their game state, Overflowing Bars enhances the overall gameplay experience.
+URL: https://modrinth.com/mod/overflowing-bars
+
+103. [Paxi]
+File: Paxi-1.21.1-Fabric-5.1.3.jar
+Type: Mod
+Summary: Global data and resource packs are now automatically loaded for every world, eliminating the need to load them separately in each world through the creation of a central "paxi" folder in the Minecraft config directory. This utility mod is perfect for modpack creators who want to simplify their workflow by consolidating data and resources into one accessible location.
+URL: https://modrinth.com/mod/paxi
+
+104. [Peek]
+File: peek-fabric-1.21.1-1.4.8.jar
+Type: Mod
+Summary: Peek adds various utility features to Minecraft, providing extra information about items and blocks such as shulker box contents, bee nest capacities, explorer map markers, compass destinations, and more. Additionally, it reveals effects of suspicious stews and highlights pick-blocked containers. This Fabric mod enhances exploration and gameplay by offering these additional details, useful for players seeking to optimize their gameplay experience.
+URL: https://modrinth.com/mod/peek
+
+105. [Physics Mod]
+File: physics-mod-pro-v172j-fabric-1.21.1.jar
+Type: Mod
+Summary: Adds interactive ragdolls and item physics to Minecraft, allowing mobs to fracture and blocks to crumble. Physics Mod also enables customizable gravity and environments, including support for planetary settings like Mars and Pluto. Players can explore immersive collapsing caves and experience a new level of interactivity in the game's world.
+URL: https://modrinth.com/mod/physicsmod
+
+106. [Pickup Notifications]
+File: PickUpNotifier-v21.1.1-1.21.1-Fabric.jar
+Type: Mod
+Summary: Enables popup notifications when picking up items, showcasing the raw item icon and name, as well as experience orbs. Configurable options allow customization of notification behavior, appearance, and offset. Notifications can be toggled on or off through a simple configuration setting.
+URL: https://www.curseforge.com/minecraft/mc-mods/pickup-notifications
+
+107. [Ping Wheel]
+File: Ping-Wheel-1.12.0-fabric-1.21.1.jar
+Type: Mod
+Summary: Enables players to mark in-game locations with customizable pings, viewable by all players and displaying player names when held. The default keybind is Mouse5 (Forward), but can be changed via the `/pingwheel config` or Mod Menu. Item Icons can also be enabled to reflect item textures on markers.
+URL: https://modrinth.com/mod/ping-wheel
+
+108. [Polymorph]
+File: polymorph-fabric-1.1.0+1.21.1.jar
+Type: Mod
+Summary: Polymorph resolves recipe conflicts by allowing players to choose between multiple possible outputs shared by the same ingredients in crafting, smelting, and smithing screens. A button appears above the output slot when a conflict is detected, offering a list of potential results to select from. The mod also features a command to identify potential conflicts across various recipes.
+URL: https://modrinth.com/mod/polymorph
+
+109. [Portable Crafting]
+File: portable-crafting-3.0.3+1.21.jar
+Type: Mod
+Summary: Portable Crafting enables seamless access to crafting screens from your inventory, allowing you to open workstation blocks by right-clicking them or using them from the hotbar. You can quickly craft, smith, and more with minimal interruptions, thanks to server-side functionality that's polished when installed on the client. Additionally, a customizable config file lets you add support for modded non-container workstations.
+URL: https://modrinth.com/mod/portable-crafting
+
+110. [Potion Stacking]
+File: potionstacking-1.1.2-1.21.jar
+Type: Mod
+Summary: Potion Stacking allows potions of all types to stack up to 16 in your inventory, freeing up valuable space and simplifying potion management. Modded potions are also supported for a seamless experience. Additionally, splash and lingering potions now have a 1-second cooldown between uses to maintain balance.
+URL: https://modrinth.com/mod/potion-stacking
+
+111. [Quartz Elevator]
+File: quartz-elevator-2.3.1+1.21.1.jar
+Type: Mod
+Summary: Adds Quartz Elevators and Smooth Quartz Elevators to the game, allowing players to teleport vertically between elevators with the same (x, z) coordinates using jump or crouch actions. Craft these elevators using quartz-related materials in various recipes. Elevators enable seamless vertical travel across map distances.
+URL: https://modrinth.com/mod/quartz-elevator
+
+112. [Raise Sound Limit Simplified]
+File: rsls-1.1.10.jar
+Type: Mod
+Summary: Raises Minecraft's sound sources limit to 4095 in a simplified way, eliminating the need for complex configurations or mod combinations. An in-game editor is also available if cloth config and fabric API are installed, allowing users to customize settings directly within the game. This modification enables more immersive gameplay experiences with enhanced audio capabilities.
+URL: https://modrinth.com/mod/rsls
+
+113. [Raised]
+File: raised-fabric-1.21.1-5.0.2.jar
+Type: Mod
+Summary: Raises the GUI to your fingertips! Allows you to move around in-game HUD elements and hotbar selector, giving you full control over their placement on screen. Now you can customize your Minecraft interface to fit your playstyle with Raised's versatile layer management system.
+URL: https://modrinth.com/mod/raised
+
+114. [Reacharound]
+File: reacharound+1.21-1.3.1.jar
+Type: Mod
+Summary: Adds support for placing blocks downwards and upwards, allowing for more flexible build designs. Configurable indicator types provide customization options in mod menu settings. Smart slab placement ensures seamless bridging between slabs with reduced skipping.
+URL: https://modrinth.com/mod/reacharound
+
+115. [Recipe Book is Pain]
+File: recipe_book_is_pain-0.11.2-1.21-build.42.jar
+Type: Mod
+Summary: Recipe Book is Pain adds creative tabs to the recipe book, making it more useful in modpacks. It also introduces group pages, allowing for more organized and extensive tab management. This mod enhances player convenience by streamlining access to recipes and item information.
+URL: https://modrinth.com/mod/rbip
+
+116. [Recipe Tweaks]
+File: recipetweaks-1.3.jar
+Type: Mod
+Summary: Recipe Tweaks enhances Minecraft's crafting system by introducing more consistent recipes and time-saving features, allowing players to create items without needing a crafting table in many cases, and adding renewable decorative blocks for convenience. This mod also optimizes gameplay mechanics with convenient additions and fairer item creation processes. It offers an improved user experience through streamlined crafting possibilities.
+URL: https://modrinth.com/mod/recipetweaks
+
+117. [Reese's Sodium Options]
+File: reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar
+Type: Mod
+Summary: Replaces Sodium's Options Screen with search bar, scrollable tabs and pages, and improved slider functionality. Allows changing slider values while holding down the SHIFT key and scrolling, enhancing overall user experience. Includes an Iris Shader Pack Button for easy access to shader options.
+URL: https://modrinth.com/mod/reeses-sodium-options
+
+118. [Remove Reloading Screen]
+File: rrls-5.0.10+mc1.21.1-fabric.jar
+Type: Mod
+Summary: Removes all non-essential elements from the reload screen, leaving only the progress bar to provide an uninterrupted experience. The mod is designed to make the game more accessible by eliminating distractions and keeping players focused on their progress. It is free and open-source, allowing users to include it in their modpacks with proper attribution.
+URL: https://modrinth.com/mod/rrls
+
+119. [Resourcepackoverrides]
+File: ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+120. [Respawning Animals]
+File: RespawningAnimals-v21.1.2-1.21.1-Fabric.jar
+Type: Mod
+Summary: Respawning Animals introduces a system where animals can respawn in their natural habitats after being killed, allowing players to continue exploring and interacting with the Minecraft world without interruption. This feature applies to all animal mobs, including those generated by other mods, creating a more immersive experience. The mod also provides configuration options for customizing spawn rates and mob behavior.
+URL: https://modrinth.com/mod/respawning-animals
+
+121. [Screenshot Viewer]
+File: screenshot_viewer-1.3.3-fabric-mc1.21.jar
+Type: Mod
+Summary: Enables in-game management and viewing of taken screenshots, including accidental ones. Features a GUI with navigation and zooming capabilities, and can be accessed from the title screen or pause menu via a configurable key binding. Configurable through CatConfigMC for a seamless user experience.
+URL: https://modrinth.com/mod/screenshot-viewer
+
+122. [Searchables]
+File: Searchables-fabric-1.21.1-1.0.2.jar
+Type: Mod
+Summary: Searchables provides helper methods that allow for searching and filtering elements based on components, as well as built-in auto-complete functionality. This includes a visually appealing auto-complete feature that simplifies finding specific items in-game. By offering improved search capabilities, Searchables enhances the overall Minecraft experience for players.
+URL: https://modrinth.com/mod/searchables
+
+123. [Smooth Scrolling Refurbished]
+File: SmoothScrollingRefurbished+1.21-1.1.4.jar
+Type: Mod
+Summary: Smooth scrolling has been reimagined in Minecraft with Smooth Scrolling Refurbished, replacing the original scrollbar on most screens to create a more fluid and seamless experience. This mod aims to replicate the functionality of its predecessor, Smooth Scrolling Everywhere, without relying on any code from the original project. By adopting this new scrolling mechanic, players can navigate menus and inventories with greater ease and efficiency.
+URL: https://www.curseforge.com/minecraft/mc-mods/smooth-scrolling-refurbished
+
+124. [Sodiumoptionsmodcompat]
+File: sodiumoptionsmodcompat-fabric-1.0.0-1.21.1.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+125. [Soul Candles]
+File: SoulCandles-1.2.1+mc1.21.jar
+Type: Mod
+Summary: Soul Candles introduces a new type of candle that burns with soul fire, offering a dimmer light than vanilla candles. Crafted using Soul Sand or Soul Soil, these candles can also be dyed for a personalized touch.
+URL: https://modrinth.com/mod/soul-candles
+
+126. [Sound Physics Remastered]
+File: sound-physics-remastered-fabric-1.21.1-1.5.1.jar
+Type: Mod
+Summary: Sound Physics Remastered enhances Minecraft's audio experience by introducing realistic sound attenuation, reverberation, and absorption through blocks. The mod optimizes sound processing performance, allowing for more immersive gameplay. Its advanced features also support seamless voice chat functionality with Simple Voice Chat 2.X.X.
+URL: https://modrinth.com/mod/sound-physics-remastered
+
+127. [StackRefill]
+File: stackrefill-1.21.1-4.9.jar
+Type: Mod
+Summary: Automatically refills your hotbar with matching stacks from inventory during gameplay, ensuring uninterrupted building and adventuring without manual item management. Supports various actions such as placing blocks, consuming food, and using items in combat. Can be toggled individually or enabled for players via server configuration options.
+URL: https://modrinth.com/mod/stackrefill
+
+128. [Status Effect Bars]
+File: status-effect-bars-1.0.6.jar
+Type: Mod
+Summary: Adds customizable bars to the status effects overlay and inventory to show remaining effect durations, including automatic hiding of cluttered or lengthy effects. Features cute little bars with a config screen for editing colors and positions. Requires Cloth Config and can be accessed through Mod Menu.
+URL: https://modrinth.com/mod/status-effect-bars
+
+129. [Suggestion Tweaker]
+File: suggestion-tweaker-1.20.6-1.5.3-fabric.jar
+Type: Mod
+Summary: Improves filtering and sorting of suggestions in Minecraft by introducing multiple filtering modes and customizable prefix hiding. Filtering modes range from STRICT to VERY LOOSE, allowing for more flexible searches. Also enhances suggestion organization by separating filtered server-side content from client-side content.
+URL: https://modrinth.com/mod/suggestion-tweaker
+
+130. [TalkBubbles]
+File: talkbubbles-1.0.8.jar
+Type: Mod
+Summary: Adds bubbles above your head when chatting with nearby friends, creating a fun and visual way to communicate in-game. This client-sided mod requires Cloth Config and is developed specifically for Fabric, with no plans for a Forge version. It's perfect for adding a playful touch to your multiplayer experience!
+URL: https://modrinth.com/mod/talkbubbles
+
+131. [Tom's Trading Network]
+File: toms_trading_network-fabric-1.21-0.3.0.jar
+Type: Mod
+Summary: Adds a simple trading machine that allows players to set up one-trade vendors in claimed chunks, eliminating the need for interact permissions. Items can be inserted or extracted on configured sides, and right-clicking on item stacks in the configuration GUI provides additional options. This vending machine streamlines player-to-player trading in Minecraft worlds.
+URL: https://modrinth.com/mod/toms-trading-network
+
+132. [ToolTipFix]
+File: tooltipfix-1.1.1-1.20.jar
+Type: Mod
+Summary: Stops tooltips that are too large to fit on the screen from running off the screen, and automatically wraps long tooltips with line breaks for easier reading. This feature helps improve visibility and usability in game menus and interfaces. The mod corrects a common issue where excessive tooltip text spills beyond the edges of the screen.
+URL: https://modrinth.com/mod/tooltipfix
+
+133. [TooltipRareness]
+File: tooltiprareness-1.0.9.jar
+Type: Mod
+Summary: Divides items into rareness groups and displays them as tooltips, enhancing the game's RPG feel by providing more nuanced item information. Rareness groups are visualized in a tooltip format, allowing players to easily distinguish between different rarity levels. This mod adds a new layer of depth to Minecraft's inventory management system.
+URL: https://modrinth.com/mod/tooltiprareness
+
+134. [Trading Post]
+File: TradingPost-v21.1.1-1.21.1-Fabric.jar
+Type: Mod
+Summary: Enables players to trade items and resources with NPCs in various locations throughout the game world, adding a new layer of commerce and economy to Minecraft gameplay. Trading Posts can be built using specific blocks and offer a range of trading options, including item exchanges and resource purchases. This mod introduces a new way for players to acquire rare or hard-to-find materials and items without relying on traditional mining or crafting methods.
+URL: https://modrinth.com/mod/trading-post
+
+135. [Translate the mod NotEnoughAnimations]
+File: notenoughanimations-fabric-1.10.6-mc1.21.1.jar
+Type: Mod
+Summary: NotEnoughAnimations now supports Russian language compatibility, offering players an intuitive and barrier-free experience in their native tongue. The translation adheres to professional localization standards, ensuring accurate and high-quality rendering of game content. This update enhances gameplay for Russian-speaking users, providing a seamless interaction with the modification's features.
+URL: https://modrinth.com/mod/-translatenotenoughanimations
+
+136. [Trinkets]
+File: trinkets-3.10.0.jar
+Type: Mod
+Summary: Minecraft gets a sleek and organized slot system with Trinkets, which introduces 6 default slot groups for various body parts, allowing mods to request specific slots for a clutter-free experience. This data-driven mod is accessible and easy to use through its intuitive user interface. Players can customize their inventory by adding or creating new slot groups according to their needs.
+URL: https://modrinth.com/mod/trinkets
+
+137. [Trivia]
+File: Trivia-1.2.6+1.21.1.jar
+Type: Mod
+Summary: Generates trivia questions every 10 minutes in chat, with rewards from customizable pools, and allows editing of messages through the config file. Questions can be configured to timeout after a specified time if not answered, and the plugin supports MiniMessage formatting for custom messaging. Players can use commands to reload configs, set question intervals, and start quizzes manually.
+URL: https://modrinth.com/mod/trivia
+
+138. [UniversalBoneMealGrowableOresCompat (universalbonemealgrowableorescompat-1.0.0.jar)]
+File: universalbonemealgrowableorescompat-1.0.0.jar
+Type: Mod
+Summary: UniversalBoneMealGrowableOresCompat provides compatibility between Universal Bonemeal and Growable Ores, allowing them to function together seamlessly. This means players can use bonemeal on growable ores without conflicts or issues. With this mod, the limitations of these two mods are lifted, enabling a more cohesive gameplay experience.
+URL: https://modrinth.com/mod/universalbonemealgrowableorescompat
+
+139. [Vanilla Refresh]
+File: vanilla-refresh-1.4.26_1.21.jar
+Type: Mod
+Summary: Adds player sitting functionality, mob health displays, and daycounters to track server days. The mod also introduces homing experience orbs and craft sounds with unique animations and sounds for various items. Crops now provide a chance to receive XP when broken, enhancing gameplay in creative mode.
+URL: https://modrinth.com/mod/vanilla-refresh
+
+140. [Vcinteraction]
+File: vcinteraction-fabric-1.21.1-1.0.8.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+141. [Villager Trading Plus]
+File: villager-trading-plus-1.1+1.21.jar
+Type: Mod
+Summary: Enables one-click trading with Villagers, simplifying transactions and saving time for players. Allows for instant trading of items, such as crops to farmers or paper to librarians. Trades can be disabled by holding down Ctrl.
+URL: https://modrinth.com/mod/trading+
+
+142. [VillagerNames Plugin]
+File: villagernames-1.21.1-8.2.jar
+Type: Mod
+Summary: Automatically assigns unique and customizable names to every villager on your server upon startup or spawn, ensuring no villager is left unnamed. The mod features a smart naming system that prevents duplicates and comes with a list of over 5000 pre-defined names to choose from, allowing for extensive customization. Additionally, the profession of named villagers is displayed on the trade screen.
+URL: https://modrinth.com/mod/villagernames-plugin
+
+143. [Villagesandpillages]
+File: villagesandpillages-fabric-mc1.21.1-1.0.3.jar
+Type: Mod
+Summary: Could not find mod online. Please check the filename or search manually.
+URL:
+
+144. [Visual Workbench]
+File: VisualWorkbench-v21.1.1-1.21.1-Fabric.jar
+Type: Mod
+Summary: Visual Workbench brings a new crafting station to Minecraft, allowing players to craft and manage items in a unique and organized way. This mod introduces a workbench that supports a wide range of blocks and items, making it easier to craft complex recipes and manage inventory space. By providing an alternative crafting interface, Visual Workbench enhances the game's building and exploration experience with improved organization and efficiency.
+URL: https://modrinth.com/mod/visual-workbench
+
+145. [VoidUtils]
+File: Essential_1-3-10-3_fabric_1-21-1.jar
+Type: Mod
+Summary: VoidUtils provides essential patches to prevent exploits and performance threats on Minecraft Beta 1.7.3 servers running Bukkit 1060. It includes features like anti-coordination logging, bedrock protection, and piston dupe prevention, as well as optional xAuth integration for enhanced security. This mod is ideal for anarchy or vanilla servers looking to safeguard against common exploits and bugs.
+URL: https://modrinth.com/mod/voidutils
+
+146. [Waystone Waypoint Maker]
+File: Xaeros_Minimap_25.2.10_Fabric_1.21.jar
+Type: Mod
+Summary: Automatically generates waypoints in Xaeros' Minimap when activating Waystones, streamlining navigation and exploration in Minecraft. This mod is designed to work seamlessly with both client and server-side installations.
+URL: https://modrinth.com/mod/waymaker
+
+147. [Wilderness Wayfinder]
+File: NaturesCompass-1.21.1-2.2.7-fabric.jar
+Type: Mod
+Summary: Crafts a compass that helps find elusive biomes by cycling through all biomes and displaying the direction to the selected one. The Wayfinder can be used in multiplayer servers but may cause lag if searching over long distances. It's recommended to keep the item selected while it searches for the biome, providing real-time updates on its location.
+URL: https://modrinth.com/mod/wilderness-wayfinder
+
+148. [Wizards (RPG Series)]
+File: wizards-fabric-2.6.5+1.21.1.jar
+Type: Mod
+Summary: Adds RPG-style combat and magic to Minecraft with three primary schools of magic: Arcane, Fire, and Frost. Players can wield powerful spells and abilities to destroy enemies in a more immersive and dynamic way. Compatible with Spell Engine and requiring AzureLib Armor, Runes, and other complementary mods for full functionality.
+URL: https://modrinth.com/mod/wizards
+
+149. [Xaeros Minimap World Map Waystones Compability]
+File: XaerosWorldMap_1.39.12_Fabric_1.21.jar
+Type: Mod
+Summary: Activates Waystones to create corresponding waypoints in Xaero's World Map and Minimap, ensuring seamless navigation across the Minecraft world on both client and server sides. Provides essential compatibility for players using Xaero's Minimap with waystone-based exploration strategies. Compatible with Forge 1.19.2-1.20.1 versions.
+URL: https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability
+
+150. [Yeetus Experimentus]
+File: yeetusexperimentus-fabric-87.0.0.jar
+Type: Mod
+Summary: Disables the Experimental Settings popup, removing the requirement to agree to experimental settings every time you create or load a world. This simplifies the gameplay experience and reduces unnecessary prompts. Eliminates an often-irksome aspect of Minecraft's startup process.
+URL: https://modrinth.com/mod/yeetus-experimentus
+
+151. [Yungs Better Desert Temples]
+File: YungsBetterDesertTemples-1.21.1-Fabric-4.1.5.jar
+Type: Mod
+Summary: Redesigned desert temples offer thrilling puzzles, traps, and parkour challenges, yielding better loot than vanilla versions. Mining fatigue is applied by default, but can be lifted once a temple is cleared or disabled in the config. This mod seamlessly integrates with various worldgen mods, including YUNG's other popular expansions.
+URL: https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples
+
+152. [Yungs Menu Tweaks]
+File: YungsMenuTweaks-1.21.1-Fabric-2.1.2.jar
+Type: Mod
+Summary: No description available.
+URL: https://www.curseforge.com/minecraft/mc-mods/yungs-menu-tweaks
+
+153. [Zoomify]
+File: Zoomify-2.14.6+1.21.1.jar
+Type: Mod
+Summary: Zoomify adds a new dimension to Minecraft, allowing players to explore and zoom in on blocks and structures at incredible resolutions up to 256x256. This mod provides an unparalleled level of detail, making it perfect for architects, builders, and anyone who wants to take their Minecraft creations to the next level. By increasing the game's resolution, Zoomify enables a more immersive experience and new opportunities for creative expression.
+URL: https://modrinth.com/mod/zoomify
+
+154. [[HTP] Minecells | Spanish Translation Pack]
+File: minecells-2.0.3.jar
+Type: Mod
+Summary: Adds Spanish translations to the Minecells mod, supporting all variations of the language. Provides accurate and consistent translations throughout the game, enhancing the overall gaming experience for Spanish-speaking players. Contributes to the growing library of translated mods in the Minecraft community.
+URL: https://modrinth.com/mod/htp-minecells-spanish-translation-pack
+
+155. [veinmining]
+File: veinmining-fabric-5.0.0-beta+1.21.jar
+Type: Mod
+Summary: Adds a powerful Veinmining enchantment to your pickaxe, allowing you to mine entire ore veins with a single break and granting experience points and durability consumption like normal mining. The enchantment comes in three levels: I (16 blocks), II (32 blocks), and III (64 blocks), offering increased range for larger ore veins. This mod enhances mining efficiency without requiring complex keybinds or GUIs, making it a simple yet effective addition to your Minecraft gameplay experience.
+URL: https://modrinth.com/mod/veinmining
+

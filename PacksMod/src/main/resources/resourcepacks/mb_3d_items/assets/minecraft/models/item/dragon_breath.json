@@ -1,0 +1,6 @@
+{
+    "parent": "item/potion",
+    "textures": {
+        "contents": "item/dragon_breath"
+    }
+}

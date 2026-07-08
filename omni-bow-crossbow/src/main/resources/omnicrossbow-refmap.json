@@ -1,0 +1,214 @@
+{
+  "mappings": {
+    "archives/tater/omnicrossbow/mixin/BoatItemAccessor": {
+      "chest": "field_38211:Z",
+      "type": "field_7902:Lnet/minecraft/class_1690$class_1692;"
+    },
+    "archives/tater/omnicrossbow/mixin/BreezeEntityMixin": {
+      "Lnet/minecraft/entity/projectile/ProjectileEntity;getType()Lnet/minecraft/entity/EntityType;": "Lnet/minecraft/class_1676;method_5864()Lnet/minecraft/class_1299;",
+      "getProjectileDeflection": "Lnet/minecraft/class_8949;method_56071(Lnet/minecraft/class_1676;)Lnet/minecraft/class_9109;"
+    },
+    "archives/tater/omnicrossbow/mixin/BucketItemAccessor": {
+      "fluid": "field_7905:Lnet/minecraft/class_3611;"
+    },
+    "archives/tater/omnicrossbow/mixin/CrossbowItemInvoker": {
+      "calcVelocity": "method_57343(Lnet/minecraft/class_1309;Lnet/minecraft/class_243;F)Lorg/joml/Vector3f;",
+      "getSoundPitch": "method_57342(Lnet/minecraft/class_5819;I)F",
+      "shoot": "method_7763(Lnet/minecraft/class_1309;Lnet/minecraft/class_1676;IFFFLnet/minecraft/class_1309;)V"
+    },
+    "archives/tater/omnicrossbow/mixin/CrossbowItemMixin": {
+      "Lnet/minecraft/component/type/ChargedProjectilesComponent;getProjectiles()Ljava/util/List;": "Lnet/minecraft/class_9278;method_57437()Ljava/util/List;",
+      "Lnet/minecraft/component/type/ChargedProjectilesComponent;isEmpty()Z": "Lnet/minecraft/class_9278;method_57442()Z",
+      "Lnet/minecraft/item/CrossbowItem;isCharged(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/class_1764;method_7781(Lnet/minecraft/class_1799;)Z",
+      "Lnet/minecraft/item/ItemStack;isEmpty()Z": "Lnet/minecraft/class_1799;method_7960()Z",
+      "Lnet/minecraft/item/ItemStack;set(Lnet/minecraft/component/ComponentType;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_1799;method_57379(Lnet/minecraft/class_9331;Ljava/lang/Object;)Ljava/lang/Object;",
+      "Lnet/minecraft/sound/SoundEvents;ITEM_CROSSBOW_SHOOT:Lnet/minecraft/sound/SoundEvent;": "Lnet/minecraft/class_3417;field_15187:Lnet/minecraft/class_3414;",
+      "appendTooltip": "Lnet/minecraft/class_1764;method_7851(Lnet/minecraft/class_1799;Lnet/minecraft/class_1792$class_9635;Ljava/util/List;Lnet/minecraft/class_1836;)V",
+      "loadProjectiles": "Lnet/minecraft/class_1764;method_7767(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)Z",
+      "onStoppedUsing": "Lnet/minecraft/class_1764;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V",
+      "shoot": "Lnet/minecraft/class_1764;method_7763(Lnet/minecraft/class_1309;Lnet/minecraft/class_1676;IFFFLnet/minecraft/class_1309;)V",
+      "shootAll": "Lnet/minecraft/class_1764;method_7777(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;FFLnet/minecraft/class_1309;)V",
+      "use": "Lnet/minecraft/class_1764;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+    },
+    "archives/tater/omnicrossbow/mixin/EntityAccessor": {
+      "standingEyeHeight": "field_18066:F"
+    },
+    "archives/tater/omnicrossbow/mixin/EntityBucketItemAccessor": {
+      "entityType": "field_7991:Lnet/minecraft/class_1299;"
+    },
+    "archives/tater/omnicrossbow/mixin/EntityMixin": {
+      "Lnet/minecraft/entity/Entity;hasNoGravity()Z": "Lnet/minecraft/class_1297;method_5740()Z",
+      "getFinalGravity": "Lnet/minecraft/class_1297;method_56989()D"
+    },
+    "archives/tater/omnicrossbow/mixin/FallingBlockEntityInvoker": {
+      "<init>": "<init>",
+      "blockEntityData": "field_7194:Lnet/minecraft/class_2487;"
+    },
+    "archives/tater/omnicrossbow/mixin/FallingBlockInvoker": {
+      "configureFallingBlockEntity": "method_10132(Lnet/minecraft/class_1540;)V"
+    },
+    "archives/tater/omnicrossbow/mixin/FireBlockInvoker": {
+      "getBurnChance": "method_10191(Lnet/minecraft/class_2680;)I",
+      "getStateForPosition": "method_10198(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
+    },
+    "archives/tater/omnicrossbow/mixin/HoneyBlockInvoker": {
+      "addCollisionEffects": "method_24177(Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;)V",
+      "updateSlidingVelocity": "method_24180(Lnet/minecraft/class_1297;)V"
+    },
+    "archives/tater/omnicrossbow/mixin/HostileEntityMixin": {
+      "Lnet/minecraft/item/RangedWeaponItem;getHeldProjectiles()Ljava/util/function/Predicate;": "Lnet/minecraft/class_1811;method_20310()Ljava/util/function/Predicate;",
+      "getProjectileType": "Lnet/minecraft/class_1588;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+    },
+    "archives/tater/omnicrossbow/mixin/LivingEntityAccessor": {
+      "getEquipmentChanges": "method_30129()Ljava/util/Map;",
+      "lastAttackedTicks": "field_6273:I"
+    },
+    "archives/tater/omnicrossbow/mixin/LivingEntityMixin": {
+      "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+    },
+    "archives/tater/omnicrossbow/mixin/MinecartItemAccessor": {
+      "type": "field_8897:Lnet/minecraft/class_1688$class_1689;"
+    },
+    "archives/tater/omnicrossbow/mixin/MobEntityMixin": {
+      "baseTick": "Lnet/minecraft/class_1308;method_5670()V",
+      "tryAttack": "Lnet/minecraft/class_1308;method_6121(Lnet/minecraft/class_1297;)Z"
+    },
+    "archives/tater/omnicrossbow/mixin/PlayerEntityInvoker": {
+      "getDamageAgainst": "method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F"
+    },
+    "archives/tater/omnicrossbow/mixin/PlayerEntityMixin": {
+      "Lnet/minecraft/item/RangedWeaponItem;getHeldProjectiles()Ljava/util/function/Predicate;": "Lnet/minecraft/class_1811;method_20310()Ljava/util/function/Predicate;",
+      "getProjectileType": "Lnet/minecraft/class_1657;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+    },
+    "archives/tater/omnicrossbow/mixin/ProjectileEntityAccessor": {
+      "leftOwner": "field_23740:Z"
+    },
+    "archives/tater/omnicrossbow/mixin/RangedWeaponItemMixin": {
+      "Lnet/minecraft/item/RangedWeaponItem;createArrowEntity(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/projectile/ProjectileEntity;": "Lnet/minecraft/class_1811;method_57344(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;Z)Lnet/minecraft/class_1676;",
+      "load": "Lnet/minecraft/class_1811;method_57390(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;)Ljava/util/List;",
+      "shootAll": "Lnet/minecraft/class_1811;method_57393(Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;Ljava/util/List;FFZLnet/minecraft/class_1309;)V"
+    },
+    "archives/tater/omnicrossbow/mixin/ThrownEntityMixin": {
+      "Lnet/minecraft/entity/projectile/thrown/ThrownEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1682;method_18799(Lnet/minecraft/class_243;)V",
+      "tick": "Lnet/minecraft/class_1682;method_5773()V"
+    },
+    "archives/tater/omnicrossbow/mixin/endereye/ServerPlayerEntityMixin": {
+      "Lnet/minecraft/entity/Entity;getType()Lnet/minecraft/entity/EntityType;": "Lnet/minecraft/class_1297;method_5864()Lnet/minecraft/class_1299;",
+      "Lnet/minecraft/entity/Entity;getWorld()Lnet/minecraft/world/World;": "Lnet/minecraft/class_1297;method_37908()Lnet/minecraft/class_1937;",
+      "Lnet/minecraft/server/network/ServerPlayNetworkHandler;syncWithPlayerPosition()V": "Lnet/minecraft/class_3244;method_14372()V",
+      "Lnet/minecraft/server/network/ServerPlayerEntity;teleport(Lnet/minecraft/server/world/ServerWorld;DDDLjava/util/Set;FF)Z": "Lnet/minecraft/class_3222;method_48105(Lnet/minecraft/class_3218;DDDLjava/util/Set;FF)Z",
+      "Lnet/minecraft/server/network/ServerPlayerEntity;updatePositionAndAngles(DDDFF)V": "Lnet/minecraft/class_3222;method_5641(DDDFF)V",
+      "Lnet/minecraft/server/world/ServerChunkManager;updatePosition(Lnet/minecraft/server/network/ServerPlayerEntity;)V": "Lnet/minecraft/class_3215;method_14096(Lnet/minecraft/class_3222;)V",
+      "onExplodedBy": "Lnet/minecraft/class_3222;method_56918(Lnet/minecraft/class_1297;)V",
+      "setCameraEntity": "Lnet/minecraft/class_3222;method_14224(Lnet/minecraft/class_1297;)V",
+      "tick": "Lnet/minecraft/class_3222;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "archives/tater/omnicrossbow/mixin/BoatItemAccessor": {
+        "chest": "field_38211:Z",
+        "type": "field_7902:Lnet/minecraft/class_1690$class_1692;"
+      },
+      "archives/tater/omnicrossbow/mixin/BreezeEntityMixin": {
+        "Lnet/minecraft/entity/projectile/ProjectileEntity;getType()Lnet/minecraft/entity/EntityType;": "Lnet/minecraft/class_1676;method_5864()Lnet/minecraft/class_1299;",
+        "getProjectileDeflection": "Lnet/minecraft/class_8949;method_56071(Lnet/minecraft/class_1676;)Lnet/minecraft/class_9109;"
+      },
+      "archives/tater/omnicrossbow/mixin/BucketItemAccessor": {
+        "fluid": "field_7905:Lnet/minecraft/class_3611;"
+      },
+      "archives/tater/omnicrossbow/mixin/CrossbowItemInvoker": {
+        "calcVelocity": "method_57343(Lnet/minecraft/class_1309;Lnet/minecraft/class_243;F)Lorg/joml/Vector3f;",
+        "getSoundPitch": "method_57342(Lnet/minecraft/class_5819;I)F",
+        "shoot": "method_7763(Lnet/minecraft/class_1309;Lnet/minecraft/class_1676;IFFFLnet/minecraft/class_1309;)V"
+      },
+      "archives/tater/omnicrossbow/mixin/CrossbowItemMixin": {
+        "Lnet/minecraft/component/type/ChargedProjectilesComponent;getProjectiles()Ljava/util/List;": "Lnet/minecraft/class_9278;method_57437()Ljava/util/List;",
+        "Lnet/minecraft/component/type/ChargedProjectilesComponent;isEmpty()Z": "Lnet/minecraft/class_9278;method_57442()Z",
+        "Lnet/minecraft/item/CrossbowItem;isCharged(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/class_1764;method_7781(Lnet/minecraft/class_1799;)Z",
+        "Lnet/minecraft/item/ItemStack;isEmpty()Z": "Lnet/minecraft/class_1799;method_7960()Z",
+        "Lnet/minecraft/item/ItemStack;set(Lnet/minecraft/component/ComponentType;Ljava/lang/Object;)Ljava/lang/Object;": "Lnet/minecraft/class_1799;method_57379(Lnet/minecraft/class_9331;Ljava/lang/Object;)Ljava/lang/Object;",
+        "Lnet/minecraft/sound/SoundEvents;ITEM_CROSSBOW_SHOOT:Lnet/minecraft/sound/SoundEvent;": "Lnet/minecraft/class_3417;field_15187:Lnet/minecraft/class_3414;",
+        "appendTooltip": "Lnet/minecraft/class_1764;method_7851(Lnet/minecraft/class_1799;Lnet/minecraft/class_1792$class_9635;Ljava/util/List;Lnet/minecraft/class_1836;)V",
+        "loadProjectiles": "Lnet/minecraft/class_1764;method_7767(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)Z",
+        "onStoppedUsing": "Lnet/minecraft/class_1764;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V",
+        "shoot": "Lnet/minecraft/class_1764;method_7763(Lnet/minecraft/class_1309;Lnet/minecraft/class_1676;IFFFLnet/minecraft/class_1309;)V",
+        "shootAll": "Lnet/minecraft/class_1764;method_7777(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;FFLnet/minecraft/class_1309;)V",
+        "use": "Lnet/minecraft/class_1764;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+      },
+      "archives/tater/omnicrossbow/mixin/EntityAccessor": {
+        "standingEyeHeight": "field_18066:F"
+      },
+      "archives/tater/omnicrossbow/mixin/EntityBucketItemAccessor": {
+        "entityType": "field_7991:Lnet/minecraft/class_1299;"
+      },
+      "archives/tater/omnicrossbow/mixin/EntityMixin": {
+        "Lnet/minecraft/entity/Entity;hasNoGravity()Z": "Lnet/minecraft/class_1297;method_5740()Z",
+        "getFinalGravity": "Lnet/minecraft/class_1297;method_56989()D"
+      },
+      "archives/tater/omnicrossbow/mixin/FallingBlockEntityInvoker": {
+        "<init>": "<init>",
+        "blockEntityData": "field_7194:Lnet/minecraft/class_2487;"
+      },
+      "archives/tater/omnicrossbow/mixin/FallingBlockInvoker": {
+        "configureFallingBlockEntity": "method_10132(Lnet/minecraft/class_1540;)V"
+      },
+      "archives/tater/omnicrossbow/mixin/FireBlockInvoker": {
+        "getBurnChance": "method_10191(Lnet/minecraft/class_2680;)I",
+        "getStateForPosition": "method_10198(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
+      },
+      "archives/tater/omnicrossbow/mixin/HoneyBlockInvoker": {
+        "addCollisionEffects": "method_24177(Lnet/minecraft/class_1937;Lnet/minecraft/class_1297;)V",
+        "updateSlidingVelocity": "method_24180(Lnet/minecraft/class_1297;)V"
+      },
+      "archives/tater/omnicrossbow/mixin/HostileEntityMixin": {
+        "Lnet/minecraft/item/RangedWeaponItem;getHeldProjectiles()Ljava/util/function/Predicate;": "Lnet/minecraft/class_1811;method_20310()Ljava/util/function/Predicate;",
+        "getProjectileType": "Lnet/minecraft/class_1588;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+      },
+      "archives/tater/omnicrossbow/mixin/LivingEntityAccessor": {
+        "getEquipmentChanges": "method_30129()Ljava/util/Map;",
+        "lastAttackedTicks": "field_6273:I"
+      },
+      "archives/tater/omnicrossbow/mixin/LivingEntityMixin": {
+        "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V"
+      },
+      "archives/tater/omnicrossbow/mixin/MinecartItemAccessor": {
+        "type": "field_8897:Lnet/minecraft/class_1688$class_1689;"
+      },
+      "archives/tater/omnicrossbow/mixin/MobEntityMixin": {
+        "baseTick": "Lnet/minecraft/class_1308;method_5670()V",
+        "tryAttack": "Lnet/minecraft/class_1308;method_6121(Lnet/minecraft/class_1297;)Z"
+      },
+      "archives/tater/omnicrossbow/mixin/PlayerEntityInvoker": {
+        "getDamageAgainst": "method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F"
+      },
+      "archives/tater/omnicrossbow/mixin/PlayerEntityMixin": {
+        "Lnet/minecraft/item/RangedWeaponItem;getHeldProjectiles()Ljava/util/function/Predicate;": "Lnet/minecraft/class_1811;method_20310()Ljava/util/function/Predicate;",
+        "getProjectileType": "Lnet/minecraft/class_1657;method_18808(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;"
+      },
+      "archives/tater/omnicrossbow/mixin/ProjectileEntityAccessor": {
+        "leftOwner": "field_23740:Z"
+      },
+      "archives/tater/omnicrossbow/mixin/RangedWeaponItemMixin": {
+        "Lnet/minecraft/item/RangedWeaponItem;createArrowEntity(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/projectile/ProjectileEntity;": "Lnet/minecraft/class_1811;method_57344(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;Z)Lnet/minecraft/class_1676;",
+        "load": "Lnet/minecraft/class_1811;method_57390(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;)Ljava/util/List;",
+        "shootAll": "Lnet/minecraft/class_1811;method_57393(Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;Ljava/util/List;FFZLnet/minecraft/class_1309;)V"
+      },
+      "archives/tater/omnicrossbow/mixin/ThrownEntityMixin": {
+        "Lnet/minecraft/entity/projectile/thrown/ThrownEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1682;method_18799(Lnet/minecraft/class_243;)V",
+        "tick": "Lnet/minecraft/class_1682;method_5773()V"
+      },
+      "archives/tater/omnicrossbow/mixin/endereye/ServerPlayerEntityMixin": {
+        "Lnet/minecraft/entity/Entity;getType()Lnet/minecraft/entity/EntityType;": "Lnet/minecraft/class_1297;method_5864()Lnet/minecraft/class_1299;",
+        "Lnet/minecraft/entity/Entity;getWorld()Lnet/minecraft/world/World;": "Lnet/minecraft/class_1297;method_37908()Lnet/minecraft/class_1937;",
+        "Lnet/minecraft/server/network/ServerPlayNetworkHandler;syncWithPlayerPosition()V": "Lnet/minecraft/class_3244;method_14372()V",
+        "Lnet/minecraft/server/network/ServerPlayerEntity;teleport(Lnet/minecraft/server/world/ServerWorld;DDDLjava/util/Set;FF)Z": "Lnet/minecraft/class_3222;method_48105(Lnet/minecraft/class_3218;DDDLjava/util/Set;FF)Z",
+        "Lnet/minecraft/server/network/ServerPlayerEntity;updatePositionAndAngles(DDDFF)V": "Lnet/minecraft/class_3222;method_5641(DDDFF)V",
+        "Lnet/minecraft/server/world/ServerChunkManager;updatePosition(Lnet/minecraft/server/network/ServerPlayerEntity;)V": "Lnet/minecraft/class_3215;method_14096(Lnet/minecraft/class_3222;)V",
+        "onExplodedBy": "Lnet/minecraft/class_3222;method_56918(Lnet/minecraft/class_1297;)V",
+        "setCameraEntity": "Lnet/minecraft/class_3222;method_14224(Lnet/minecraft/class_1297;)V",
+        "tick": "Lnet/minecraft/class_3222;method_5773()V"
+      }
+    }
+  }
+}

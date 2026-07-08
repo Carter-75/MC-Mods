@@ -1,0 +1,6 @@
+{
+    "parent": "item/carrot",
+	"textures": {
+		"carrot": "item/golden_carrot"
+	}
+}

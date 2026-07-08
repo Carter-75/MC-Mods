@@ -1,0 +1,42 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"ambientocclusion": false,
+	"parent": "block/block",
+	"textures": {
+		"pitch": "block/note_block_pitch/1"
+	},
+	"elements": [
+		{
+			"name": "PlaneZ10",
+			"from": [5, 9, 1],
+			"to": [11, 14, 1.001],
+			"faces": {
+				"north": {"uv": [0, 1.25, 15, 13.75], "texture": "#pitch", "cullface": "north"}
+			}
+		},
+		{
+			"name": "PlaneX8",
+			"from": [1, 9, 5],
+			"to": [1.001, 14, 11],
+			"faces": {
+				"west": {"uv": [0, 1.25, 15, 13.75], "texture": "#pitch", "cullface": "west"}
+			}
+		},
+		{
+			"name": "PlaneZ11",
+			"from": [5, 9, 15],
+			"to": [11, 14, 15.001],
+			"faces": {
+				"south": {"uv": [0, 1.25, 15, 13.75], "texture": "#pitch", "cullface": "south"}
+			}
+		},
+		{
+			"name": "PlaneX9",
+			"from": [15, 9, 5],
+			"to": [15.001, 14, 11],
+			"faces": {
+				"east": {"uv": [0, 1.25, 15, 13.75], "texture": "#pitch", "cullface": "east"}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_sword_5",
+	"textures": {
+		"sword": "item/golden_sword"
+	}
+}

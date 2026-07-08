@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "dronearmy:robot_core"
+    },
+    "base": {
+        "item": "dronearmy:controller_tier_6"
+    },
+    "addition": {
+        "item": "minecraft:emerald"
+    },
+    "result": {
+        "item": "dronearmy:controller_tier_7"
+    }
+}

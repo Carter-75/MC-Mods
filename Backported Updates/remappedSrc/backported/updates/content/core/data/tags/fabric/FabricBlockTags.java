@@ -1,0 +1,144 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.class_2248
+ *  net.minecraft.class_6862
+ *  net.minecraft.class_7924
+ */
+package backported.updates.content.core.data.tags.fabric;
+
+import backported.updates.foundation.common.data.TagRegistry;
+import net.minecraft.class_2248;
+import net.minecraft.class_6862;
+import net.minecraft.class_7924;
+
+public class FabricBlockTags {
+    public static final TagRegistry<class_2248> TAGS = TagRegistry.create(class_7924.field_41254, "c");
+    public static final class_6862<class_2248> BARRELS = TAGS.register("barrels");
+    public static final class_6862<class_2248> BARRELS_WOODEN = TAGS.register("barrels/wooden");
+    public static final class_6862<class_2248> BOOKSHELVES = TAGS.register("bookshelves");
+    public static final class_6862<class_2248> CHESTS = TAGS.register("chests");
+    public static final class_6862<class_2248> CHESTS_ENDER = TAGS.register("chests/ender");
+    public static final class_6862<class_2248> CHESTS_TRAPPED = TAGS.register("chests/trapped");
+    public static final class_6862<class_2248> CHESTS_WOODEN = TAGS.register("chests/wooden");
+    public static final class_6862<class_2248> COBBLESTONE = TAGS.register("cobblestone");
+    public static final class_6862<class_2248> COBBLESTONE_NORMAL = TAGS.register("cobblestone/normal");
+    public static final class_6862<class_2248> COBBLESTONE_INFESTED = TAGS.register("cobblestone/infested");
+    public static final class_6862<class_2248> COBBLESTONE_MOSSY = TAGS.register("cobblestone/mossy");
+    public static final class_6862<class_2248> COBBLESTONE_DEEPSLATE = TAGS.register("cobblestone/deepslate");
+    public static final class_6862<class_2248> END_STONES = TAGS.register("end_stones");
+    public static final class_6862<class_2248> ENDERMAN_PLACE_ON_BLACKLIST = TAGS.register("enderman_place_on_blacklist");
+    public static final class_6862<class_2248> FENCE_GATES = TAGS.register("fence_gates");
+    public static final class_6862<class_2248> FENCE_GATES_WOODEN = TAGS.register("fence_gates/wooden");
+    public static final class_6862<class_2248> FENCES = TAGS.register("fences");
+    public static final class_6862<class_2248> FENCES_NETHER_BRICK = TAGS.register("fences/nether_brick");
+    public static final class_6862<class_2248> FENCES_WOODEN = TAGS.register("fences/wooden");
+    public static final class_6862<class_2248> GLASS = TAGS.register("glass");
+    public static final class_6862<class_2248> GLASS_BLACK = TAGS.register("glass/black");
+    public static final class_6862<class_2248> GLASS_BLUE = TAGS.register("glass/blue");
+    public static final class_6862<class_2248> GLASS_BROWN = TAGS.register("glass/brown");
+    public static final class_6862<class_2248> GLASS_COLORLESS = TAGS.register("glass/colorless");
+    public static final class_6862<class_2248> GLASS_CYAN = TAGS.register("glass/cyan");
+    public static final class_6862<class_2248> GLASS_GRAY = TAGS.register("glass/gray");
+    public static final class_6862<class_2248> GLASS_GREEN = TAGS.register("glass/green");
+    public static final class_6862<class_2248> GLASS_LIGHT_BLUE = TAGS.register("glass/light_blue");
+    public static final class_6862<class_2248> GLASS_LIGHT_GRAY = TAGS.register("glass/light_gray");
+    public static final class_6862<class_2248> GLASS_LIME = TAGS.register("glass/lime");
+    public static final class_6862<class_2248> GLASS_MAGENTA = TAGS.register("glass/magenta");
+    public static final class_6862<class_2248> GLASS_ORANGE = TAGS.register("glass/orange");
+    public static final class_6862<class_2248> GLASS_PINK = TAGS.register("glass/pink");
+    public static final class_6862<class_2248> GLASS_PURPLE = TAGS.register("glass/purple");
+    public static final class_6862<class_2248> GLASS_RED = TAGS.register("glass/red");
+    public static final class_6862<class_2248> GLASS_SILICA = TAGS.register("glass/silica");
+    public static final class_6862<class_2248> GLASS_TINTED = TAGS.register("glass/tinted");
+    public static final class_6862<class_2248> GLASS_WHITE = TAGS.register("glass/white");
+    public static final class_6862<class_2248> GLASS_YELLOW = TAGS.register("glass/yellow");
+    public static final class_6862<class_2248> GLASS_PANES = TAGS.register("glass_panes");
+    public static final class_6862<class_2248> GLASS_PANES_BLACK = TAGS.register("glass_panes/black");
+    public static final class_6862<class_2248> GLASS_PANES_BLUE = TAGS.register("glass_panes/blue");
+    public static final class_6862<class_2248> GLASS_PANES_BROWN = TAGS.register("glass_panes/brown");
+    public static final class_6862<class_2248> GLASS_PANES_COLORLESS = TAGS.register("glass_panes/colorless");
+    public static final class_6862<class_2248> GLASS_PANES_CYAN = TAGS.register("glass_panes/cyan");
+    public static final class_6862<class_2248> GLASS_PANES_GRAY = TAGS.register("glass_panes/gray");
+    public static final class_6862<class_2248> GLASS_PANES_GREEN = TAGS.register("glass_panes/green");
+    public static final class_6862<class_2248> GLASS_PANES_LIGHT_BLUE = TAGS.register("glass_panes/light_blue");
+    public static final class_6862<class_2248> GLASS_PANES_LIGHT_GRAY = TAGS.register("glass_panes/light_gray");
+    public static final class_6862<class_2248> GLASS_PANES_LIME = TAGS.register("glass_panes/lime");
+    public static final class_6862<class_2248> GLASS_PANES_MAGENTA = TAGS.register("glass_panes/magenta");
+    public static final class_6862<class_2248> GLASS_PANES_ORANGE = TAGS.register("glass_panes/orange");
+    public static final class_6862<class_2248> GLASS_PANES_PINK = TAGS.register("glass_panes/pink");
+    public static final class_6862<class_2248> GLASS_PANES_PURPLE = TAGS.register("glass_panes/purple");
+    public static final class_6862<class_2248> GLASS_PANES_RED = TAGS.register("glass_panes/red");
+    public static final class_6862<class_2248> GLASS_PANES_WHITE = TAGS.register("glass_panes/white");
+    public static final class_6862<class_2248> GLASS_PANES_YELLOW = TAGS.register("glass_panes/yellow");
+    public static final class_6862<class_2248> GRAVEL = TAGS.register("gravel");
+    public static final class_6862<class_2248> NETHERRACK = TAGS.register("netherrack");
+    public static final class_6862<class_2248> OBSIDIAN = TAGS.register("obsidian");
+    public static final class_6862<class_2248> ORE_BEARING_GROUND_DEEPSLATE = TAGS.register("ore_bearing_ground/deepslate");
+    public static final class_6862<class_2248> ORE_BEARING_GROUND_NETHERRACK = TAGS.register("ore_bearing_ground/netherrack");
+    public static final class_6862<class_2248> ORE_BEARING_GROUND_STONE = TAGS.register("ore_bearing_ground/stone");
+    public static final class_6862<class_2248> ORE_RATES_DENSE = TAGS.register("ore_rates/dense");
+    public static final class_6862<class_2248> ORE_RATES_SINGULAR = TAGS.register("ore_rates/singular");
+    public static final class_6862<class_2248> ORE_RATES_SPARSE = TAGS.register("ore_rates/sparse");
+    public static final class_6862<class_2248> ORES = TAGS.register("ores");
+    public static final class_6862<class_2248> ORES_COAL = TAGS.register("ores/coal");
+    public static final class_6862<class_2248> ORES_COPPER = TAGS.register("ores/copper");
+    public static final class_6862<class_2248> ORES_DIAMOND = TAGS.register("ores/diamond");
+    public static final class_6862<class_2248> ORES_EMERALD = TAGS.register("ores/emerald");
+    public static final class_6862<class_2248> ORES_GOLD = TAGS.register("ores/gold");
+    public static final class_6862<class_2248> ORES_IRON = TAGS.register("ores/iron");
+    public static final class_6862<class_2248> ORES_LAPIS = TAGS.register("ores/lapis");
+    public static final class_6862<class_2248> ORES_NETHERITE_SCRAP = TAGS.register("ores/netherite_scrap");
+    public static final class_6862<class_2248> ORES_QUARTZ = TAGS.register("ores/quartz");
+    public static final class_6862<class_2248> ORES_REDSTONE = TAGS.register("ores/redstone");
+    public static final class_6862<class_2248> ORES_IN_GROUND_DEEPSLATE = TAGS.register("ores_in_ground/deepslate");
+    public static final class_6862<class_2248> ORES_IN_GROUND_NETHERRACK = TAGS.register("ores_in_ground/netherrack");
+    public static final class_6862<class_2248> ORES_IN_GROUND_STONE = TAGS.register("ores_in_ground/stone");
+    public static final class_6862<class_2248> SAND = TAGS.register("sand");
+    public static final class_6862<class_2248> SAND_COLORLESS = TAGS.register("sand/colorless");
+    public static final class_6862<class_2248> SAND_RED = TAGS.register("sand/red");
+    public static final class_6862<class_2248> SANDSTONE = TAGS.register("sandstone");
+    public static final class_6862<class_2248> STAINED_GLASS = TAGS.register("stained_glass");
+    public static final class_6862<class_2248> STAINED_GLASS_PANES = TAGS.register("stained_glass_panes");
+    public static final class_6862<class_2248> STONE = TAGS.register("stone");
+    public static final class_6862<class_2248> STORAGE_BLOCKS = TAGS.register("storage_blocks");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_AMETHYST = TAGS.register("storage_blocks/amethyst");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_COAL = TAGS.register("storage_blocks/coal");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_COPPER = TAGS.register("storage_blocks/copper");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_DIAMOND = TAGS.register("storage_blocks/diamond");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_EMERALD = TAGS.register("storage_blocks/emerald");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_GOLD = TAGS.register("storage_blocks/gold");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_IRON = TAGS.register("storage_blocks/iron");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_LAPIS = TAGS.register("storage_blocks/lapis");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_NETHERITE = TAGS.register("storage_blocks/netherite");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_QUARTZ = TAGS.register("storage_blocks/quartz");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_RAW_COPPER = TAGS.register("storage_blocks/raw_copper");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_RAW_GOLD = TAGS.register("storage_blocks/raw_gold");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_RAW_IRON = TAGS.register("storage_blocks/raw_iron");
+    public static final class_6862<class_2248> STORAGE_BLOCKS_REDSTONE = TAGS.register("storage_blocks/redstone");
+    public static final class_6862<class_2248> NEEDS_WOOD_TOOL = TAGS.register("needs_wood_tool");
+    public static final class_6862<class_2248> NEEDS_GOLD_TOOL = TAGS.register("needs_gold_tool");
+    public static final class_6862<class_2248> NEEDS_NETHERITE_TOOL = TAGS.register("needs_netherite_tool");
+    public static final class_6862<class_2248> QUARTZ_ORES = TAGS.register("quartz_ores");
+    public static final class_6862<class_2248> GLASS_BLOCKS = TAGS.register("glass_blocks");
+    public static final class_6862<class_2248> SHULKER_BOXES = TAGS.register("shulker_boxes");
+    public static final class_6862<class_2248> WOODEN_BARRELS = TAGS.register("wooden_barrels");
+    public static final class_6862<class_2248> BUDDING_BLOCKS = TAGS.register("budding_blocks");
+    public static final class_6862<class_2248> BUDS = TAGS.register("buds");
+    public static final class_6862<class_2248> CLUSTERS = TAGS.register("clusters");
+    public static final class_6862<class_2248> VILLAGER_JOB_SITES = TAGS.register("villager_job_sites");
+    public static final class_6862<class_2248> SANDSTONE_BLOCKS = TAGS.register("sandstone_blocks");
+    public static final class_6862<class_2248> SANDSTONE_SLABS = TAGS.register("sandstone_slabs");
+    public static final class_6862<class_2248> SANDSTONE_STAIRS = TAGS.register("sandstone_stairs");
+    public static final class_6862<class_2248> RED_SANDSTONE_BLOCKS = TAGS.register("red_sandstone_blocks");
+    public static final class_6862<class_2248> RED_SANDSTONE_SLABS = TAGS.register("red_sandstone_slabs");
+    public static final class_6862<class_2248> RED_SANDSTONE_STAIRS = TAGS.register("red_sandstone_stairs");
+    public static final class_6862<class_2248> UNCOLORED_SANDSTONE_BLOCKS = TAGS.register("uncolored_sandstone_blocks");
+    public static final class_6862<class_2248> UNCOLORED_SANDSTONE_SLABS = TAGS.register("uncolored_sandstone_slabs");
+    public static final class_6862<class_2248> UNCOLORED_SANDSTONE_STAIRS = TAGS.register("uncolored_sandstone_stairs");
+    public static final class_6862<class_2248> MOVEMENT_RESTRICTED = TAGS.register("movement_restricted");
+    public static final class_6862<class_2248> STRIPPED_LOGS = TAGS.register("stripped_logs");
+    public static final class_6862<class_2248> STRIPPED_WOOD = TAGS.register("stripped_wood");
+}
+

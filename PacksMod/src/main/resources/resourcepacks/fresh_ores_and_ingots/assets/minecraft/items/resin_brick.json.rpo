@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick1.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick2.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick3.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick4.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick5.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick6.json",
+        "assets/minecraft/items/2d_sprites/resin_brick/resin_brick7.json"
+    ]
+}

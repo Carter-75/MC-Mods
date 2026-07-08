@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_copper_door_top_hinge",
+  "textures": {
+    "topright": "minecraft:block/oxidized_copper_door_top2",
+    "top": "minecraft:block/oxidized_copper_door_top",
+	  "side_v": "minecraft:block/oxidized_copper_door_sides_v",
+	  "side_h": "minecraft:block/oxidized_copper_door_sides_h"
+  }
+}

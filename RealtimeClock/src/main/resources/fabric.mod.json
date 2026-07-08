@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "realtimeclock",
+  "version": "${version}",
+  "name": "Realtime Clock Gamerule",
+  "description": "Adds a single gamerule that locks Minecraft daylight to the host's local time.",
+  "authors": ["Carter"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["mod.realtimeclock.RealTimeClockMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}

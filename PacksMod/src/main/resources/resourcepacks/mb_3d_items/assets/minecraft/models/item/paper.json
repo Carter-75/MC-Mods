@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_flat",
+    "textures": {
+        "front": "item/paper"
+    }
+}

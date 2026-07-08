@@ -1,0 +1,111 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"template": "item/sentry_armor_trim_smithing_template",
+		"particle": "#template"
+	},
+	"elements": [
+		{
+			"from": [3.5, 2.5, 6],
+			"to": [12.5, 13.5, 10],
+			"faces": {
+				"north": {"uv": [2, 2, 6.5, 7.5], "texture": "#template"},
+				"east": {"uv": [0, 2, 2, 7.5], "texture": "#template"},
+				"south": {"uv": [8.5, 2, 13, 7.5], "texture": "#template"},
+				"west": {"uv": [6.5, 2, 8.5, 7.5], "texture": "#template"},
+				"up": {"uv": [6.5, 2, 2, 0], "texture": "#template"},
+				"down": {"uv": [11, 0, 6.5, 2], "texture": "#template"}
+			}
+		},
+		{
+			"from": [10, 2, 4.5],
+			"to": [13, 5, 7.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [11.5, 3.5, 5.5]},
+			"faces": {
+				"north": {"uv": [3, 9, 1.5, 7.5], "rotation": 180, "texture": "#template"},
+				"east": {"uv": [0, 9, 1.5, 10.5], "rotation": 90, "texture": "#template"},
+				"south": {"uv": [4.5, 7.5, 3, 9], "texture": "#template"},
+				"west": {"uv": [3, 9, 4.5, 10.5], "rotation": 270, "texture": "#template"},
+				"up": {"uv": [4.5, 9, 6, 10.5], "texture": "#template"},
+				"down": {"uv": [1.5, 9, 3, 10.5], "rotation": 180, "texture": "#template"}
+			}
+		},
+		{
+			"from": [3, 4, 4],
+			"to": [6, 7, 7],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4.5, 5.5, 5.5]},
+			"faces": {
+				"north": {"uv": [3, 9, 1.5, 7.5], "rotation": 180, "texture": "#template"},
+				"east": {"uv": [0, 9, 1.5, 10.5], "rotation": 90, "texture": "#template"},
+				"south": {"uv": [4.5, 7.5, 3, 9], "texture": "#template"},
+				"west": {"uv": [3, 9, 4.5, 10.5], "rotation": 270, "texture": "#template"},
+				"up": {"uv": [4.5, 9, 6, 10.5], "texture": "#template"},
+				"down": {"uv": [1.5, 9, 3, 10.5], "rotation": 180, "texture": "#template"}
+			}
+		},
+		{
+			"from": [2, 7, 4.5],
+			"to": [5, 10, 7.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.5, 8.5, 5.5]},
+			"faces": {
+				"north": {"uv": [3, 9, 1.5, 7.5], "rotation": 180, "texture": "#template"},
+				"east": {"uv": [0, 9, 1.5, 10.5], "rotation": 90, "texture": "#template"},
+				"south": {"uv": [4.5, 7.5, 3, 9], "texture": "#template"},
+				"west": {"uv": [3, 9, 4.5, 10.5], "rotation": 270, "texture": "#template"},
+				"up": {"uv": [4.5, 9, 6, 10.5], "texture": "#template"},
+				"down": {"uv": [1.5, 9, 3, 10.5], "rotation": 180, "texture": "#template"}
+			}
+		},
+		{
+			"from": [4, 12, 5],
+			"to": [7, 15, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [5.5, 13.5, 6.5]},
+			"faces": {
+				"north": {"uv": [3, 9, 1.5, 7.5], "rotation": 180, "texture": "#template"},
+				"east": {"uv": [0, 9, 1.5, 10.5], "rotation": 90, "texture": "#template"},
+				"south": {"uv": [4.5, 7.5, 3, 9], "texture": "#template"},
+				"west": {"uv": [3, 9, 4.5, 10.5], "rotation": 270, "texture": "#template"},
+				"up": {"uv": [4.5, 9, 6, 10.5], "texture": "#template"},
+				"down": {"uv": [1.5, 9, 3, 10.5], "rotation": 180, "texture": "#template"}
+			}
+		},
+		{
+			"from": [3, 5, 8.5],
+			"to": [6, 8, 11.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4.5, 6.5, 10.5]},
+			"faces": {
+				"north": {"uv": [4.5, 7.5, 3, 9], "rotation": 180, "texture": "#template"},
+				"east": {"uv": [0, 9, 1.5, 10.5], "rotation": 270, "texture": "#template"},
+				"south": {"uv": [3, 9, 1.5, 7.5], "texture": "#template"},
+				"west": {"uv": [3, 9, 4.5, 10.5], "rotation": 90, "texture": "#template"},
+				"up": {"uv": [1.5, 9, 3, 10.5], "rotation": 180, "texture": "#template"},
+				"down": {"uv": [4.5, 9, 6, 10.5], "texture": "#template"}
+			}
+		},
+		{
+			"from": [11, 3, 8],
+			"to": [14, 6, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [12.5, 4.5, 9.5]},
+			"faces": {
+				"north": {"uv": [1.5, 9, 3, 10.5], "rotation": 270, "texture": "#template"},
+				"east": {"uv": [3, 9, 1.5, 7.5], "rotation": 90, "texture": "#template"},
+				"south": {"uv": [4.5, 9, 6, 10.5], "rotation": 90, "texture": "#template"},
+				"west": {"uv": [4.5, 7.5, 3, 9], "rotation": 90, "texture": "#template"},
+				"up": {"uv": [3, 9, 4.5, 10.5], "rotation": 90, "texture": "#template"},
+				"down": {"uv": [0, 9, 1.5, 10.5], "rotation": 90, "texture": "#template"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-15, 180, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"gui": {
+			"rotation": [-15, 165, 15],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

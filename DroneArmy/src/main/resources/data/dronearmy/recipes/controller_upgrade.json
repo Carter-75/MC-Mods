@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DOD",
+        "ONO",
+        "CRC"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "C": {
+            "item": "dronearmy:robot_core"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "dronearmy:controller_upgrade",
+        "count": 1
+    }
+}

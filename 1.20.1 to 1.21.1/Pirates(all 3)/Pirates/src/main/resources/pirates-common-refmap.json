@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "ace/actually/pirates/mixin/BuiltinPackSourceMixin": {
+      "loadPacks": "Lnet/minecraft/class_7678;method_14453(Ljava/util/function/Consumer;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ace/actually/pirates/mixin/BuiltinPackSourceMixin": {
+        "loadPacks": "Lnet/minecraft/class_7678;method_14453(Ljava/util/function/Consumer;)V"
+      }
+    }
+  }
+}

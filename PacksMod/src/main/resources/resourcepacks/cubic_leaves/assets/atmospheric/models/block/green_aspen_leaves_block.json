@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "atmospheric:block/green_aspen_leaves"
+	}
+}

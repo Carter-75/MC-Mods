@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "backported_updates:weathered_copper_button"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "id": "backported_updates:waxed_weathered_copper_button",
+    "count": 1
+  }
+}

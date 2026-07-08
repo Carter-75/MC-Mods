@@ -1,0 +1,215 @@
+{
+	"parent": "item/template_chestplate",
+	"textures": {
+		"chestplate": "models/armor/leather_layer_1",
+		"overlay": "models/armor/leather_layer_1_overlay"
+	},
+	"elements": [
+		{
+			"from": [3, 1, 5],
+			"to": [13, 15, 11],
+			"faces": {
+				"north": {"uv": [5, 10, 7, 16], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [4, 10, 5, 16], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [8, 10, 10, 16], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 16], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [7, 10, 5, 8], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [9, 8, 7, 10], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11, 0.95, 5.05],
+			"to": [17, 14.95, 11.05],
+			"faces": {
+				"north": {"uv": [11, 10, 12, 16], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [10, 10, 11, 16], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [13, 10, 14, 16], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [12, 10, 13, 16], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [12, 10, 11, 8], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [13, 8, 12, 10], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-1, 0.95, 5.05],
+			"to": [5, 14.95, 11.05],
+			"faces": {
+				"north": {"uv": [12, 10, 11, 16], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [13, 10, 12, 16], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [14, 10, 13, 16], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [11, 10, 10, 16], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [11, 10, 12, 8], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [12, 8, 13, 10], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [12.99, 14.99, 10.99],
+			"to": [3.01, 1.01, 5.01],
+			"faces": {
+				"north": {"uv": [8, 16, 10, 10], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [7, 16, 8, 10], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [5, 16, 7, 10], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [4, 16, 5, 10], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [7, 8, 9, 10], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [5, 10, 7, 8], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [16.99, 14.94, 11.04],
+			"to": [11.01, 0.96, 5.06],
+			"faces": {
+				"north": {"uv": [13, 16, 14, 10], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [12, 16, 13, 10], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [11, 16, 12, 10], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [10, 16, 11, 10], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [12, 8, 13, 10], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [11, 10, 12, 8], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4.99, 14.94, 11.04],
+			"to": [-0.99, 0.96, 5.06],
+			"faces": {
+				"north": {"uv": [14, 16, 13, 10], "texture": "#chestplate", "tintindex": 0},
+				"east": {"uv": [11, 16, 10, 10], "texture": "#chestplate", "tintindex": 0},
+				"south": {"uv": [12, 16, 11, 10], "texture": "#chestplate", "tintindex": 0},
+				"west": {"uv": [13, 16, 12, 10], "texture": "#chestplate", "tintindex": 0},
+				"up": {"uv": [13, 8, 12, 10], "texture": "#chestplate", "tintindex": 0},
+				"down": {"uv": [12, 10, 11, 8], "texture": "#chestplate", "tintindex": 0}
+			}
+		},
+		{
+			"from": [3, 1, 5],
+			"to": [13, 15, 11],
+			"faces": {
+				"north": {"uv": [5, 10, 7, 16], "texture": "#overlay"},
+				"east": {"uv": [4, 10, 5, 16], "texture": "#overlay"},
+				"south": {"uv": [8, 10, 10, 16], "texture": "#overlay"},
+				"west": {"uv": [7, 10, 8, 16], "texture": "#overlay"},
+				"up": {"uv": [7, 10, 5, 8], "texture": "#overlay"},
+				"down": {"uv": [9, 8, 7, 10], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [11, 0.95, 5.05],
+			"to": [17, 14.95, 11.05],
+			"faces": {
+				"north": {"uv": [11, 10, 12, 16], "texture": "#overlay"},
+				"east": {"uv": [10, 10, 11, 16], "texture": "#overlay"},
+				"south": {"uv": [13, 10, 14, 16], "texture": "#overlay"},
+				"west": {"uv": [12, 10, 13, 16], "texture": "#overlay"},
+				"up": {"uv": [12, 10, 11, 8], "texture": "#overlay"},
+				"down": {"uv": [13, 8, 12, 10], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [-1, 0.95, 5.05],
+			"to": [5, 14.95, 11.05],
+			"faces": {
+				"north": {"uv": [12, 10, 11, 16], "texture": "#overlay"},
+				"east": {"uv": [13, 10, 12, 16], "texture": "#overlay"},
+				"south": {"uv": [14, 10, 13, 16], "texture": "#overlay"},
+				"west": {"uv": [11, 10, 10, 16], "texture": "#overlay"},
+				"up": {"uv": [11, 10, 12, 8], "texture": "#overlay"},
+				"down": {"uv": [12, 8, 13, 10], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [12.99, 14.99, 10.99],
+			"to": [3.01, 1.01, 5.01],
+			"faces": {
+				"north": {"uv": [8, 16, 10, 10], "texture": "#overlay"},
+				"east": {"uv": [7, 16, 8, 10], "texture": "#overlay"},
+				"south": {"uv": [5, 16, 7, 10], "texture": "#overlay"},
+				"west": {"uv": [4, 16, 5, 10], "texture": "#overlay"},
+				"up": {"uv": [7, 8, 9, 10], "texture": "#overlay"},
+				"down": {"uv": [5, 10, 7, 8], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [16.99, 14.94, 11.04],
+			"to": [11.01, 0.96, 5.06],
+			"faces": {
+				"north": {"uv": [13, 16, 14, 10], "texture": "#overlay"},
+				"east": {"uv": [12, 16, 13, 10], "texture": "#overlay"},
+				"south": {"uv": [11, 16, 12, 10], "texture": "#overlay"},
+				"west": {"uv": [10, 16, 11, 10], "texture": "#overlay"},
+				"up": {"uv": [12, 8, 13, 10], "texture": "#overlay"},
+				"down": {"uv": [11, 10, 12, 8], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [4.99, 14.94, 11.04],
+			"to": [-0.99, 0.96, 5.06],
+			"faces": {
+				"north": {"uv": [14, 16, 13, 10], "texture": "#overlay"},
+				"east": {"uv": [11, 16, 10, 10], "texture": "#overlay"},
+				"south": {"uv": [12, 16, 11, 10], "texture": "#overlay"},
+				"west": {"uv": [13, 16, 12, 10], "texture": "#overlay"},
+				"up": {"uv": [13, 8, 12, 10], "texture": "#overlay"},
+				"down": {"uv": [12, 10, 11, 8], "texture": "#overlay"}
+			}
+		}
+	],
+	"overrides": [
+		{
+			"model": "minecraft:item/leather_chestplate_quartz_trim",
+			"predicate": {
+				"trim_type": 0.1
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_iron_trim",
+			"predicate": {
+				"trim_type": 0.2
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_netherite_trim",
+			"predicate": {
+				"trim_type": 0.3
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_redstone_trim",
+			"predicate": {
+				"trim_type": 0.4
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_copper_trim",
+			"predicate": {
+				"trim_type": 0.5
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_gold_trim",
+			"predicate": {
+				"trim_type": 0.6
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_emerald_trim",
+			"predicate": {
+				"trim_type": 0.7
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_diamond_trim",
+			"predicate": {
+				"trim_type": 0.8
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_lapis_trim",
+			"predicate": {
+				"trim_type": 0.9
+			}
+		},
+		{
+			"model": "minecraft:item/leather_chestplate_amethyst_trim",
+			"predicate": {
+				"trim_type": 1.0
+			}
+		}
+	]
+}

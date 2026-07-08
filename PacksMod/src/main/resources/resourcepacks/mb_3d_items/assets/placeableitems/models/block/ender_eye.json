@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ball",
+	"textures": {
+		"ball": "item/ender_eye"
+	}
+}

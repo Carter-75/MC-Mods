@@ -1,0 +1,50 @@
+/tp @s 15000 ~ 15000
+/tp @s 0 0 0
+/worldborder center ~ ~
+/worldborder set 15000
+/tp @s 7500 ~ 7500
+/tp @s -6500 0 -6500
+/reload
+/function auto:run
+/datapack list
+/function auto_replace_pack:run
+/reload
+/function auto:run
+/reload
+/function auto:run
+/reload
+/function auto:run
+/tp @s -6500 ~ -6500
+/weather clear
+/gamerule doWeatherCycle
+/gamerule doWeatherCycle false
+/tp @s 0 0 0
+/worldborder
+/worldborder center 0 0
+/worldborder set 15000
+/tp @s -7500 0 -7500
+/function auto:run
+/reload
+/function auto:run
+/reload
+/function auto:run
+/function list
+/datapack list
+/axiomenablecheats
+/reload
+/function list
+/datapack
+/datapack list
+/function auto:run
+/function auto:start_loop
+/reload
+/function auto:start_loop
+/reload
+/function auto:start_loop
+/reload
+/function auto:start_loop
+/fill -6500 1 -6500 0 15 -2000 stone replace
+/reload
+/function auto:start_loop
+/reload
+/tp @s -6500 1 -6500

@@ -1,0 +1,30 @@
+{
+    "robot_ambient": {
+        "subtitle": "subtitles.dronearmy.robot_ambient",
+        "sounds": [
+            "minecraft:block/beacon/ambient"
+        ]
+    },
+    "robot_hurt": {
+        "subtitle": "subtitles.dronearmy.robot_hurt",
+        "sounds": [
+            "minecraft:entity/iron_golem/hurt"
+        ]
+    },
+    "robot_death": {
+        "subtitle": "subtitles.dronearmy.robot_death",
+        "sounds": [
+            "minecraft:entity/iron_golem/death"
+        ]
+    },
+    "combat_drone_blade": {
+        "sounds": [
+            "minecraft:entity/elytra/flying"
+        ]
+    },
+    "artillery_fire": {
+        "sounds": [
+            "minecraft:entity/generic/explode"
+        ]
+    }
+}

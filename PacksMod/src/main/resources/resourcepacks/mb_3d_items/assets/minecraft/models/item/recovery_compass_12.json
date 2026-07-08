@@ -1,0 +1,6 @@
+{
+    "parent": "item/recovery_compass",
+    "textures": {
+        "compass": "item/recovery_compass_12"
+    }
+}

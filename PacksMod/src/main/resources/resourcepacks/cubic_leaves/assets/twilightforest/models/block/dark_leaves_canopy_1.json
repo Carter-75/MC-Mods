@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "twilightforest:block/darkwood_leaves_canopy"
+	}
+}

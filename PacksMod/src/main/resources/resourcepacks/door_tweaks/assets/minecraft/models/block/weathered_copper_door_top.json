@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_copper_door_top",
+  "textures": {
+    "topright": "minecraft:block/weathered_copper_door_top2",
+    "top": "minecraft:block/weathered_copper_door_top",
+	  "side_v": "minecraft:block/weathered_copper_door_sides_v",
+	  "side_h": "minecraft:block/weathered_copper_door_sides_h"
+  }
+}

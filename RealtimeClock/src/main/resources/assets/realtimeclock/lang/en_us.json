@@ -1,0 +1,4 @@
+{
+  "gamerule.realtimeClockSync": "Realtime Clock Sync",
+  "gamerule.realtimeClockSync.description": "Aligns the world clock with the host machine's local time."
+}

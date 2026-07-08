@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "packsmod",
+	"version": "${version}",
+	"name": "PacksMod",
+	"description": "Merged embedded resource pack mod",
+	"authors": [
+		"LavaPhoenix75"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.packsmod.PacksMod"
+		],
+		"client": [
+			"com.packsmod.PacksModClient"
+		],
+		"modmenu": [
+			"com.packsmod.integration.PacksModModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["S S","SBS","S S"],"key":{"B":{"item":"derelict:weathered_noctisteel_block"},"S":{"item":"derelict:weathered_noctisteel_sheet"}},"result":{"item":"derelict:weathered_noctisteel_beam","count":6}}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_raw_ore",
+	"textures": {
+		"ore": "item/raw_iron"
+	}
+}

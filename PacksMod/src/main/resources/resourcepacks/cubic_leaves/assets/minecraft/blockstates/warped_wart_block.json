@@ -1,0 +1,145 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/warped_wart_block",
+					"weight": 24
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"weight": 8
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/warped_wart_block",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 24
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"x": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/warped_wart_block_canopy_2",
+					"weight": 1,
+					"y": 270
+				}
+			]
+		}
+	]
+}

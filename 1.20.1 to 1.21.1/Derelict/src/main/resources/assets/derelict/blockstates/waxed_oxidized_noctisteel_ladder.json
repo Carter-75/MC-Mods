@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"derelict:block/waxed_oxidized_noctisteel_ladder"},"facing=east":{"model":"derelict:block/waxed_oxidized_noctisteel_ladder","y":90},"facing=south":{"model":"derelict:block/waxed_oxidized_noctisteel_ladder","y":180},"facing=west":{"model":"derelict:block/waxed_oxidized_noctisteel_ladder","y":270}}}

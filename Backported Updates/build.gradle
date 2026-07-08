@@ -1,0 +1,105 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Fabric'
+        url = 'https://maven.fabricmc.net/'
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    modImplementation files('src/main/resources/META-INF/jars/mixinsquared-fabric-0.1.1.jar')
+    annotationProcessor files('src/main/resources/META-INF/jars/mixinsquared-fabric-0.1.1.jar')
+    implementation "com.electronwill.night-config:core:3.6.7"
+    implementation "com.electronwill.night-config:toml:3.6.7"
+    include "com.electronwill.night-config:core:3.6.7"
+    include "com.electronwill.night-config:toml:3.6.7"
+}
+
+sourceSets {
+    main {
+        java {
+            exclude 'backported/updates/foundation/nightconfig/**'
+        }
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/backported_updates.accesswidener")
+    mixin {
+        useLegacyMixinAp = true
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+def outputJar = layout.projectDirectory.file('backported_updates.jar')
+def backupsDir = layout.projectDirectory.dir('backups')
+
+tasks.register('backupExistingJar') {
+    doLast {
+        File jar = outputJar.asFile
+        if (jar.exists()) {
+            backupsDir.asFile.mkdirs()
+            String timestamp = new Date().format('yyyyMMdd-HHmmss')
+            copy {
+                from jar
+                into backupsDir.asFile
+                rename { "backported_updates-${timestamp}.jar" }
+            }
+            delete jar
+            println "Backed up previous jar to ${backupsDir.asFile}"
+        }
+    }
+}
+
+tasks.register('buildModJar') {
+    dependsOn 'backupExistingJar', 'remapJar'
+    doLast {
+        def remapJarTask = tasks.named('remapJar').get()
+        def inputFile = remapJarTask.archiveFile.get().asFile
+        def outputFile = project.file('backported_updates.jar')
+
+        copy {
+            from inputFile
+            into project.projectDir
+            rename { 'backported_updates.jar' }
+        }
+        println "Built mod jar: ${outputFile}"
+    }
+}
+
+tasks.named('assemble') {
+    dependsOn 'remapJar'
+}
+
+tasks.named('build') {
+    dependsOn 'remapJar'
+}
+
+tasks.named('clean') {
+    doLast {
+        delete outputJar.asFile
+    }
+}

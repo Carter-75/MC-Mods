@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_ball",
+	"textures": {
+		"ball": "item/ender_eye"
+	}
+}

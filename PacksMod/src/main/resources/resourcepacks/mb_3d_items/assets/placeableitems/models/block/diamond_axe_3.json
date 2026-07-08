@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_axe_3",
+	"textures": {
+		"axe": "item/diamond_axe"
+	}
+}

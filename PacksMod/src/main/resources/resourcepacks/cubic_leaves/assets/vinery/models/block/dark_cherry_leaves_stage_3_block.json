@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_block_column_notint",
+	"textures": {
+		"sides": "vinery:block/dark_cherry_leaves_3",
+		"ends": "vinery:block/dark_cherry_leaves_0"
+	}
+}

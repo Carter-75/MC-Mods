@@ -1,0 +1,76 @@
+{
+  "mappings": {
+    "tech/alexnijjar/golemoverhaul/mixins/common/BeeAccessor": {
+      "remainingCooldownBeforeLocatingNewFlower": "field_21644:I",
+      "remainingCooldownBeforeLocatingNewHive": "field_21643:I",
+      "wantsToEnterHive": "method_21789()Z"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/BeeMixin": {
+      "Lnet/minecraft/world/entity/animal/Bee;getAttributeValue(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D": "Lnet/minecraft/class_4466;method_26825(Lnet/minecraft/class_1320;)D",
+      "Lnet/minecraft/world/entity/animal/Bee;stopBeingAngry()V": "Lnet/minecraft/class_4466;method_29922()V",
+      "addAdditionalSaveData": "Lnet/minecraft/class_4466;method_5652(Lnet/minecraft/class_2487;)V",
+      "doHurtTarget": "Lnet/minecraft/class_4466;method_6121(Lnet/minecraft/class_1297;)Z",
+      "readAdditionalSaveData": "Lnet/minecraft/class_4466;method_5749(Lnet/minecraft/class_2487;)V",
+      "registerGoals": "Lnet/minecraft/class_4466;method_5959()V",
+      "setHasStung": "Lnet/minecraft/class_4466;method_21806(Z)V",
+      "tick": "Lnet/minecraft/class_4466;method_5773()V",
+      "wantsToEnterHive": "Lnet/minecraft/class_4466;method_21789()Z"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/CarvedPumpkinBlockMixin": {
+      "trySpawnGolem": "Lnet/minecraft/class_2276;method_9731(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/ConduitBlockEntityMixin": {
+      "applyEffects": "Lnet/minecraft/class_2597;method_11055(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Ljava/util/List;)V"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/MobMixin": {
+      "setTarget": "Lnet/minecraft/class_1308;method_5980(Lnet/minecraft/class_1309;)V"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/NearestAttackableTargetGoalMixin": {
+      "findTarget": "Lnet/minecraft/class_1400;method_18415()V"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/PiglinSpecificSensorMixin": {
+      "doTick": "Lnet/minecraft/class_4834;method_19101(Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;)V"
+    },
+    "tech/alexnijjar/golemoverhaul/mixins/common/SinglePoolElementMixin": {
+      "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z": "Lnet/minecraft/class_3781;method_16626(Lnet/minecraft/class_3485;Lnet/minecraft/class_5281;Lnet/minecraft/class_5138;Lnet/minecraft/class_2794;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lnet/minecraft/class_2470;Lnet/minecraft/class_3341;Lnet/minecraft/class_5819;Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "tech/alexnijjar/golemoverhaul/mixins/common/BeeAccessor": {
+        "remainingCooldownBeforeLocatingNewFlower": "field_21644:I",
+        "remainingCooldownBeforeLocatingNewHive": "field_21643:I",
+        "wantsToEnterHive": "method_21789()Z"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/BeeMixin": {
+        "Lnet/minecraft/world/entity/animal/Bee;getAttributeValue(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D": "Lnet/minecraft/class_4466;method_26825(Lnet/minecraft/class_1320;)D",
+        "Lnet/minecraft/world/entity/animal/Bee;stopBeingAngry()V": "Lnet/minecraft/class_4466;method_29922()V",
+        "addAdditionalSaveData": "Lnet/minecraft/class_4466;method_5652(Lnet/minecraft/class_2487;)V",
+        "doHurtTarget": "Lnet/minecraft/class_4466;method_6121(Lnet/minecraft/class_1297;)Z",
+        "readAdditionalSaveData": "Lnet/minecraft/class_4466;method_5749(Lnet/minecraft/class_2487;)V",
+        "registerGoals": "Lnet/minecraft/class_4466;method_5959()V",
+        "setHasStung": "Lnet/minecraft/class_4466;method_21806(Z)V",
+        "tick": "Lnet/minecraft/class_4466;method_5773()V",
+        "wantsToEnterHive": "Lnet/minecraft/class_4466;method_21789()Z"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/CarvedPumpkinBlockMixin": {
+        "trySpawnGolem": "Lnet/minecraft/class_2276;method_9731(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/ConduitBlockEntityMixin": {
+        "applyEffects": "Lnet/minecraft/class_2597;method_11055(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Ljava/util/List;)V"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/MobMixin": {
+        "setTarget": "Lnet/minecraft/class_1308;method_5980(Lnet/minecraft/class_1309;)V"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/NearestAttackableTargetGoalMixin": {
+        "findTarget": "Lnet/minecraft/class_1400;method_18415()V"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/PiglinSpecificSensorMixin": {
+        "doTick": "Lnet/minecraft/class_4834;method_19101(Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;)V"
+      },
+      "tech/alexnijjar/golemoverhaul/mixins/common/SinglePoolElementMixin": {
+        "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z": "Lnet/minecraft/class_3781;method_16626(Lnet/minecraft/class_3485;Lnet/minecraft/class_5281;Lnet/minecraft/class_5138;Lnet/minecraft/class_2794;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lnet/minecraft/class_2470;Lnet/minecraft/class_3341;Lnet/minecraft/class_5819;Z)Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"parent": "item/default_thin",
+	"textures": {
+		"sherd": "item/pottery_sherd_arms_up",
+		"particle": "#sherd"
+	},
+	"elements": [
+		{
+			"from": [2.5, 8, 2],
+			"to": [13.5, 9, 14],
+			"faces": {
+				"north": {"uv": [11.5, 0, 6, 0.5], "rotation": 180, "texture": "#sherd"},
+				"east": {"uv": [0, 0.5, 0.5, 6.5], "rotation": 270, "texture": "#sherd"},
+				"south": {"uv": [6, 0.5, 0.5, 0], "texture": "#sherd"},
+				"west": {"uv": [6, 0.5, 6.5, 6.5], "rotation": 90, "texture": "#sherd"},
+				"up": {"uv": [0.5, 0.5, 6, 6.5], "rotation": 180, "texture": "#sherd"},
+				"down": {"uv": [6.5, 0.5, 12, 6.5], "texture": "#sherd"}
+			}
+		},
+		{
+			"from": [13.49, 8.99, 13.99],
+			"to": [2.51, 8.01, 2.01],
+			"faces": {
+				"north": {"uv": [6, 0, 0.5, 0.5], "texture": "#sherd"},
+				"east": {"uv": [6.5, 0.5, 6, 6.5], "rotation": 90, "texture": "#sherd"},
+				"south": {"uv": [11.5, 0.5, 6, 0], "rotation": 180, "texture": "#sherd"},
+				"west": {"uv": [0.5, 0.5, 0, 6.5], "rotation": 270, "texture": "#sherd"},
+				"up": {"uv": [12, 0.5, 6.5, 6.5], "texture": "#sherd"},
+				"down": {"uv": [6, 0.5, 0.5, 6.5], "rotation": 180, "texture": "#sherd"}
+			}
+		}
+	],
+	"gui_light": "front",
+    "display": {
+		"gui": {
+			"rotation": [ 60, 165, 0 ],
+			"translation": [ 0.625, 0, 0 ],
+			"scale": [ 1.125, 1.125, 1.125 ]
+		}
+	}
+}

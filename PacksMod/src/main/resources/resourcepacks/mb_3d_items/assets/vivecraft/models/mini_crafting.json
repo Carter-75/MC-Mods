@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"craft": "vivecraft:block/mini_crafting",
+		"particle": "#craft"
+	},
+	"elements": [
+		{
+			"from": [0, -0.33333, 0],
+			"to": [7, 2, 7],
+			"faces": {
+				"north": {"uv": [3, 12, 12, 15], "texture": "#craft"},
+				"east": {"uv": [0, 3, 3, 12], "rotation": 270, "texture": "#craft"},
+				"south": {"uv": [3, 0, 12, 3], "rotation": 180, "texture": "#craft"},
+				"west": {"uv": [12, 3, 15, 12], "rotation": 90, "texture": "#craft"},
+				"up": {"uv": [3, 3, 12, 12], "texture": "#craft"}
+			}
+		},
+		{
+			"from": [6.99, 1.99, 6.99],
+			"to": [0.01, -0.32333, 0.01],
+			"faces": {
+				"north": {"uv": [3, 3, 12, 0], "rotation": 180, "texture": "#craft"},
+				"east": {"uv": [15, 3, 12, 12], "rotation": 90, "texture": "#craft"},
+				"south": {"uv": [3, 15, 12, 12], "texture": "#craft"},
+				"west": {"uv": [3, 3, 0, 12], "rotation": 270, "texture": "#craft"},
+				"down": {"uv": [12, 3, 3, 12], "texture": "#craft"}
+			}
+		}
+	]
+}

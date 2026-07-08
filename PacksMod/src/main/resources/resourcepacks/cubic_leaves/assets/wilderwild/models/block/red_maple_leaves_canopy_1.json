@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "wilderwild:block/red_maple_leaves_canopy"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"parent": "item/default_weapon",
+	"textures": {
+		"mace": "item/mace",
+		"particle": "#mace"
+	},
+	"elements": [
+		{
+			"from": [6.5, -3, 6.5],
+			"to": [9.5, -1, 9.5],
+			"faces": {
+				"north": {"uv": [5.5, 9.5, 7, 10.5], "texture": "#mace"},
+				"east": {"uv": [4, 9.5, 5.5, 10.5], "texture": "#mace"},
+				"south": {"uv": [8.5, 9.5, 10, 10.5], "texture": "#mace"},
+				"west": {"uv": [7, 9.5, 8.5, 10.5], "texture": "#mace"},
+				"up": {"uv": [7, 9.5, 5.5, 8], "texture": "#mace"},
+				"down": {"uv": [8.5, 8, 7, 9.5], "texture": "#mace"}
+			}
+		},
+		{
+			"from": [7, -1, 7],
+			"to": [9, 9, 9],
+			"faces": {
+				"north": {"uv": [1, 11, 2, 16], "texture": "#mace"},
+				"east": {"uv": [0, 11, 1, 16], "texture": "#mace"},
+				"south": {"uv": [3, 11, 4, 16], "texture": "#mace"},
+				"west": {"uv": [2, 11, 3, 16], "texture": "#mace"},
+				"up": {"uv": [2, 11, 1, 10], "texture": "#mace"},
+				"down": {"uv": [3, 10, 2, 11], "texture": "#mace"}
+			}
+		},
+		{
+			"from": [7, 17, 7],
+			"to": [9, 19, 9],
+			"faces": {
+				"north": {"uv": [1, 9, 2, 10], "texture": "#mace"},
+				"east": {"uv": [0, 9, 1, 10], "texture": "#mace"},
+				"south": {"uv": [3, 9, 4, 10], "texture": "#mace"},
+				"west": {"uv": [2, 9, 3, 10], "texture": "#mace"},
+				"up": {"uv": [2, 9, 1, 8], "texture": "#mace"},
+				"down": {"uv": [3, 8, 2, 9], "texture": "#mace"}
+			}
+		},
+		{
+			"from": [4, 9, 4],
+			"to": [12, 17, 12],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#mace"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#mace"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#mace"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#mace"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#mace"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#mace"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-22.5, 0, 0],
+			"translation": [1, 2, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"gui": {
+			"rotation": [-130, 158, 135],
+			"translation": [-0.5, -0.5, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"head": {
+			"translation": [0, 17.25, 0]
+		}
+	}
+}

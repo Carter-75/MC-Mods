@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 18,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 999
+    },
+    "description": "\u00A79Door Tweaks\n\u00A7bBy: StormDragon77"
+   	}
+}

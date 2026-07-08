@@ -1,0 +1,20 @@
+{
+  "values": [
+    "backported_updates:white_harness",
+    "backported_updates:orange_harness",
+    "backported_updates:magenta_harness",
+    "backported_updates:light_blue_harness",
+    "backported_updates:yellow_harness",
+    "backported_updates:lime_harness",
+    "backported_updates:pink_harness",
+    "backported_updates:gray_harness",
+    "backported_updates:light_gray_harness",
+    "backported_updates:cyan_harness",
+    "backported_updates:purple_harness",
+    "backported_updates:blue_harness",
+    "backported_updates:brown_harness",
+    "backported_updates:green_harness",
+    "backported_updates:red_harness",
+    "backported_updates:black_harness"
+  ]
+}

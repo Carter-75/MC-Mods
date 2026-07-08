@@ -1,0 +1,52 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"ingot": "item/gold_ingot",
+		"particle": "#ingot"
+	},
+	"elements": [
+		{
+			"from": [10, 0, 4.5],
+			"to": [14, 3, 11.5],
+			"faces": {
+				"north": {"uv": [5.5, 2, 7.5, 3.5], "texture": "#ingot"},
+				"east": {"uv": [2, 2, 5.5, 3.5], "texture": "#ingot"},
+				"south": {"uv": [0, 2, 2, 3.5], "texture": "#ingot"},
+				"up": {"uv": [5.5, 2, 2, 0], "rotation": 90, "texture": "#ingot"},
+				"down": {"uv": [9, 0, 5.5, 2], "rotation": 270, "texture": "#ingot"}
+			}
+		},
+		{
+			"from": [6, 0, 4.5],
+			"to": [10, 3, 11.5],
+			"faces": {
+				"north": {"uv": [5.5, 2, 7.5, 3.5], "texture": "#ingot"},
+				"south": {"uv": [0, 2, 2, 3.5], "texture": "#ingot"},
+				"down": {"uv": [9, 0, 5.5, 2], "rotation": 270, "texture": "#ingot"}
+			}
+		},
+		{
+			"from": [2, 0, 4.5],
+			"to": [6, 3, 11.5],
+			"faces": {
+				"north": {"uv": [5.5, 2, 7.5, 3.5], "texture": "#ingot"},
+				"south": {"uv": [0, 2, 2, 3.5], "texture": "#ingot"},
+				"west": {"uv": [7.5, 2, 11, 3.5], "texture": "#ingot"},
+				"up": {"uv": [5.5, 2, 2, 0], "rotation": 90, "texture": "#ingot"},
+				"down": {"uv": [9, 0, 5.5, 2], "rotation": 270, "texture": "#ingot"}
+			}
+		},
+		{
+			"from": [6, 3, 4.5],
+			"to": [10, 6, 11.5],
+			"faces": {
+				"north": {"uv": [5.5, 2, 7.5, 3.5], "texture": "#ingot"},
+				"east": {"uv": [2, 2, 5.5, 3.5], "texture": "#ingot"},
+				"south": {"uv": [0, 2, 2, 3.5], "texture": "#ingot"},
+				"west": {"uv": [7.5, 2, 11, 3.5], "texture": "#ingot"},
+				"up": {"uv": [5.5, 2, 2, 0], "rotation": 90, "texture": "#ingot"}
+			}
+		}
+	]
+}

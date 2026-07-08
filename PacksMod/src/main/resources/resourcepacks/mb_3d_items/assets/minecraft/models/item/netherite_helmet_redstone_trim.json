@@ -1,0 +1,7 @@
+{
+	"parent": "item/template_helmet_trim",
+	"textures": {
+		"helmet": "models/armor/netherite_layer_1",
+		"trim": "trims/models/armor/coast_redstone"
+	}
+}

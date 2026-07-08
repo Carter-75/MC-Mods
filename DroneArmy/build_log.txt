@@ -1,0 +1,713 @@
+
+> Configure project :
+Fabric Loom: 1.14.10
+Project directory 'C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy' is located in OneDrive. This is known to cause issues and slower performance. Consider moving the project to a different location.
+
+> Task :compileJava FAILED
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:4: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
+                                             ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:10: error: package net.fabricmc.fabric.api.client.rendering.v1 does not exist
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+                                                  ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:3: error: package com.mojang.blaze3d.systems does not exist
+import com.mojang.blaze3d.systems.RenderSystem;
+                                 ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:4: error: package net.minecraft.client.gui does not exist
+import net.minecraft.client.gui.DrawContext;
+                               ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:5: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                             ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:6: error: package net.minecraft.client.render does not exist
+import net.minecraft.client.render.GameRenderer;
+                                  ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:11: error: cannot find symbol
+public class ControllerScreen extends HandledScreen<ControllerScreenHandler> {
+                                      ^
+  symbol: class HandledScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:22: error: cannot find symbol
+    protected void drawBackground(DrawContext context, float delta, int mouseX, int mouseY) {
+                                  ^
+  symbol:   class DrawContext
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:33: error: cannot find symbol
+    public void render(DrawContext context, int mouseX, int mouseY, float delta) {
+                       ^
+  symbol:   class DrawContext
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:5: error: package net.minecraft.client.render.entity does not exist
+import net.minecraft.client.render.entity.BipedEntityRenderer;
+                                         ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:6: error: package net.minecraft.client.render.entity does not exist
+import net.minecraft.client.render.entity.EntityRendererFactory;
+                                         ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:7: error: package net.minecraft.client.render.entity.model does not exist
+import net.minecraft.client.render.entity.model.BipedEntityModel;
+                                               ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:8: error: package net.minecraft.client.render.entity.model does not exist
+import net.minecraft.client.render.entity.model.EntityModelLayers;
+                                               ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:11: error: cannot find symbol
+public class RobotEntityRenderer extends BipedEntityRenderer<RobotEntity, BipedEntityModel<RobotEntity>> {
+                                         ^
+  symbol: class BipedEntityRenderer
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:11: error: cannot find symbol
+public class RobotEntityRenderer extends BipedEntityRenderer<RobotEntity, BipedEntityModel<RobotEntity>> {
+                                                                          ^
+  symbol: class BipedEntityModel
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:14: error: package EntityRendererFactory does not exist
+    public RobotEntityRenderer(EntityRendererFactory.Context context, String textureName) {
+                                                    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:10: error: package net.minecraft.pathfinding does not exist
+import net.minecraft.pathfinding.PathNodeType;
+                                ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:225: error: method deployNextUnit(World,PlayerEntity,ItemStack) is already defined in class ControllerItem
+    private void deployNextUnit(World world, PlayerEntity user, ItemStack stack) {
+                 ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:44: error: package com.drone_army.entity.projectie does not exist
+    public static final EntityType<com.drone_army.entity.projectie.RocketProjectile> ROCKET = Registry.register(
+                                                                  ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:16: error: cannot find symbol
+        EntityRendererRegistry.register(ModEntities.COMBAT_DRONE,
+        ^
+  symbol:   variable EntityRendererRegistry
+  location: class DroneArmyModClient
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:18: error: cannot find symbol
+        EntityRendererRegistry.register(ModEntities.SENTINEL, (ctx) -> new RobotEntityRenderer(ctx, "sentinel"));
+        ^
+  symbol:   variable EntityRendererRegistry
+  location: class DroneArmyModClient
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:19: error: cannot find symbol
+        EntityRendererRegistry.register(ModEntities.ARTILLERY, (ctx) -> new RobotEntityRenderer(ctx, "artillery"));
+        ^
+  symbol:   variable EntityRendererRegistry
+  location: class DroneArmyModClient
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:20: error: cannot find symbol
+        HandledScreens.register(ModScreenHandlers.CONTROLLER_SCREEN_HANDLER, ControllerScreen::new);
+        ^
+  symbol:   variable HandledScreens
+  location: class DroneArmyModClient
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:17: error: cannot find symbol
+        this.backgroundHeight = 114 + 2 * 18; // Adjust height for 2 rows
+            ^
+  symbol: variable backgroundHeight
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:18: error: cannot find symbol
+        this.playerInventoryTitleY = this.backgroundHeight - 94;
+            ^
+  symbol: variable playerInventoryTitleY
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:18: error: cannot find symbol
+        this.playerInventoryTitleY = this.backgroundHeight - 94;
+                                         ^
+  symbol: variable backgroundHeight
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:23: error: cannot find symbol
+        RenderSystem.setShader(GameRenderer::getPositionTexProgram);
+        ^
+  symbol:   variable RenderSystem
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:23: error: cannot find symbol
+        RenderSystem.setShader(GameRenderer::getPositionTexProgram);
+                               ^
+  symbol:   variable GameRenderer
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:24: error: cannot find symbol
+        RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
+        ^
+  symbol:   variable RenderSystem
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:25: error: cannot find symbol
+        RenderSystem.setShaderTexture(0, TEXTURE);
+        ^
+  symbol:   variable RenderSystem
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:26: error: cannot find symbol
+        int x = (this.width - this.backgroundWidth) / 2;
+                     ^
+  symbol: variable width
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:26: error: cannot find symbol
+        int x = (this.width - this.backgroundWidth) / 2;
+                                  ^
+  symbol: variable backgroundWidth
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:27: error: cannot find symbol
+        int y = (this.height - this.backgroundHeight) / 2;
+                     ^
+  symbol: variable height
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:27: error: cannot find symbol
+        int y = (this.height - this.backgroundHeight) / 2;
+                                   ^
+  symbol: variable backgroundHeight
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:28: error: cannot find symbol
+        context.drawTexture(TEXTURE, x, y, 0, 0, this.backgroundWidth, 3 * 18 + 17); // Top part
+                                                     ^
+  symbol: variable backgroundWidth
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:29: error: cannot find symbol
+        context.drawTexture(TEXTURE, x, y + 3 * 18 + 17, 0, 126, this.backgroundWidth, 96); // Bottom part
+                                                                     ^
+  symbol: variable backgroundWidth
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:32: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:35: error: cannot find symbol
+        super.render(context, mouseX, mouseY, delta);
+        ^
+  symbol:   variable super
+  location: class ControllerScreen
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:19: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\RobotEntity.java:77: error: cannot find symbol
+                net.minecraft.entity.player.PlayerEntity.class, 10, true, false, (p) -> !this.isControlled()));
+                                                                                             ^
+  symbol: method isControlled()
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:119: error: cannot find symbol
+        PathNodeType pathNodeType = net.minecraft.entity.ai.pathing.LandPathNodeMaker
+        ^
+  symbol:   class PathNodeType
+  location: class DroneFollowGoal
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:120: error: no suitable method found for getLandNodeType(World,Mutable)
+                .getLandNodeType(this.mob.getWorld(), pos.mutableCopy());
+                ^
+    method LandPathNodeMaker.getLandNodeType(MobEntity,BlockPos) is not applicable
+      (argument mismatch; World cannot be converted to MobEntity)
+    method LandPathNodeMaker.getLandNodeType(PathContext,Mutable) is not applicable
+      (argument mismatch; World cannot be converted to PathContext)
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:121: error: cannot find symbol
+        if (pathNodeType != PathNodeType.WALKABLE) {
+                            ^
+  symbol:   variable PathNodeType
+  location: class DroneFollowGoal
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\projectile\RocketProjectile.java:16: error: RocketProjectile is not abstract and does not override abstract method getDefaultItemStack() in PersistentProjectileEntity
+public class RocketProjectile extends PersistentProjectileEntity {
+       ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:47: error: <anonymous com.drone_army.item.ControllerItem$1> is not abstract and does not override abstract method getScreenOpeningData(ServerPlayerEntity) in ExtendedScreenHandlerFactory
+                user.openHandledScreen(new ExtendedScreenHandlerFactory() {
+                                                                          ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:58: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:77: error: cannot find symbol
+        if (user.isSneaking() && entity instanceof ControlledMob controlled) {
+                                                   ^
+  symbol:   class ControlledMob
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:80: error: cannot find symbol
+                    CommandMode next = controlled.getCommandMode().next();
+                    ^
+  symbol:   class CommandMode
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:95: error: cannot find symbol
+                NbtCompound nbt = stack.getOrCreateNbt();
+                                       ^
+  symbol:   method getOrCreateNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:103: error: no suitable method found for writeNbt(NbtCompound,DefaultedList<ItemStack>)
+                Inventories.writeNbt(nbt, list);
+                           ^
+    method Inventories.writeNbt(NbtCompound,DefaultedList<ItemStack>,WrapperLookup) is not applicable
+      (actual and formal argument lists differ in length)
+    method Inventories.writeNbt(NbtCompound,DefaultedList<ItemStack>,boolean,WrapperLookup) is not applicable
+      (actual and formal argument lists differ in length)
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:107: error: cannot find symbol
+        NbtCompound nbt = stack.getNbt();
+                               ^
+  symbol:   method getNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:110: error: method readNbt in class Inventories cannot be applied to given types;
+            Inventories.readNbt(nbt, list);
+                       ^
+  required: NbtCompound,DefaultedList<ItemStack>,WrapperLookup
+  found:    NbtCompound,DefaultedList<ItemStack>
+  reason: actual and formal argument lists differ in length
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:139: error: cannot find symbol
+        NbtCompound nbt = stack.getOrCreateNbt();
+                               ^
+  symbol:   method getOrCreateNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:188: error: cannot find symbol
+                Identifier entityId = Identifier.tryParse(id);
+                ^
+  symbol:   class Identifier
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:188: error: cannot find symbol
+                Identifier entityId = Identifier.tryParse(id);
+                                      ^
+  symbol:   variable Identifier
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:190: error: package Registries does not exist
+                    net.minecraft.entity.EntityType<?> type = Registries.ENTITY_TYPE.get(entityId);
+                                                                        ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:192: error: cannot find symbol
+                        SpawnEggItem egg = SpawnEggItem.forEntity(type);
+                        ^
+  symbol:   class SpawnEggItem
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:192: error: cannot find symbol
+                        SpawnEggItem egg = SpawnEggItem.forEntity(type);
+                                           ^
+  symbol:   variable SpawnEggItem
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:205: error: cannot find symbol
+                            result.getOrCreateNbt().put("EntityTag", data);
+                                  ^
+  symbol:   method getOrCreateNbt()
+  location: variable result of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:226: error: cannot find symbol
+        NbtCompound nbt = stack.getOrCreateNbt();
+                               ^
+  symbol:   method getOrCreateNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:242: error: cannot find symbol
+            if (!s.isEmpty() && s.getItem() instanceof SpawnEggItem) {
+                                                       ^
+  symbol:   class SpawnEggItem
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:257: error: cannot find symbol
+            if (eggStack.getItem() instanceof SpawnEggItem egg) {
+                                              ^
+  symbol:   class SpawnEggItem
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:258: error: cannot find symbol
+                entity = egg.getEntityType(eggStack.getNbt()).create(world);
+                                                   ^
+  symbol:   method getNbt()
+  location: variable eggStack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:267: error: cannot find symbol
+                NbtCompound entityTag = eggStack.getSubNbt("EntityTag");
+                                                ^
+  symbol:   method getSubNbt(String)
+  location: variable eggStack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:276: error: cannot find symbol
+                if (entity instanceof ControlledMob controlled) {
+                                      ^
+  symbol:   class ControlledMob
+  location: class ControllerItem
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:325: error: cannot find symbol
+                            stack.getOrCreateNbt().put(ACTIVE_UNITS_KEY, activeUnits);
+                                 ^
+  symbol:   method getOrCreateNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:339: error: cannot find symbol
+        NbtCompound nbt = stack.getNbt();
+                               ^
+  symbol:   method getNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\EssenceItem.java:23: error: cannot find symbol
+        NbtCompound nbt = stack.getNbt();
+                               ^
+  symbol:   method getNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\LivingEntityMixin.java:47: error: cannot find symbol
+        NbtCompound nbt = essence.getOrCreateNbt();
+                                 ^
+  symbol:   method getOrCreateNbt()
+  location: variable essence of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\MobEntityMixin.java:73: error: cannot find symbol
+                        net.minecraft.nbt.NbtCompound nbt = stack.getNbt();
+                                                                 ^
+  symbol:   method getNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\MobEntityMixin.java:92: error: cannot find symbol
+                                stack.setNbt(nbt); // Technically not needed as getNbt is live, but good practice if
+                                     ^
+  symbol:   method setNbt(NbtCompound)
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:17: error: EssenceRecipe is not abstract and does not override abstract method craft(CraftingRecipeInput,WrapperLookup) in Recipe
+public class EssenceRecipe extends SpecialCraftingRecipe {
+       ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:46: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:53: error: cannot find symbol
+                NbtCompound nbt = stack.getNbt();
+                                       ^
+  symbol:   method getNbt()
+  location: variable stack of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:68: error: cannot find symbol
+                                        result.getOrCreateSubNbt("EntityTag")
+                                              ^
+  symbol:   method getOrCreateSubNbt(String)
+  location: variable result of type ItemStack
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:47: error: package com.drone_army.entity.projectie does not exist
+            FabricEntityTypeBuilder.<com.drone_army.entity.projectie.RocketProjectile>create(SpawnGroup.MISC,
+                                                                    ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:48: error: package com.drone_army.entity.projectie does not exist
+                    com.drone_army.entity.projectie.RocketProjectile::new)
+                                                   ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModScreenHandlers.java:16: error: cannot infer type arguments for ExtendedScreenHandlerType<>
+            new ExtendedScreenHandlerType<>(ControllerScreenHandler::new));
+            ^
+  reason: cannot infer type-variable(s) T,D
+    (actual and formal argument lists differ in length)
+  where T,D are type-variables:
+    T extends ScreenHandler declared in class ExtendedScreenHandlerType
+    D extends Object declared in class ExtendedScreenHandlerType
+Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+80 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/carte/OneDrive/Desktop/Code/MC%20Mods/DroneArmy/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java uses or overrides a deprecated API.
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:110: error: method readNbt in class Inventories cannot be applied to given types;
+              Inventories.readNbt(nbt, list);
+                         ^
+    required: NbtCompound,DefaultedList<ItemStack>,WrapperLookup
+    found:    NbtCompound,DefaultedList<ItemStack>
+    reason: actual and formal argument lists differ in length
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:120: error: no suitable method found for getLandNodeType(World,Mutable)
+                  .getLandNodeType(this.mob.getWorld(), pos.mutableCopy());
+                  ^
+      method LandPathNodeMaker.getLandNodeType(MobEntity,BlockPos) is not applicable
+        (argument mismatch; World cannot be converted to MobEntity)
+      method LandPathNodeMaker.getLandNodeType(PathContext,Mutable) is not applicable
+        (argument mismatch; World cannot be converted to PathContext)
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:103: error: no suitable method found for writeNbt(NbtCompound,DefaultedList<ItemStack>)
+                  Inventories.writeNbt(nbt, list);
+                             ^
+      method Inventories.writeNbt(NbtCompound,DefaultedList<ItemStack>,WrapperLookup) is not applicable
+        (actual and formal argument lists differ in length)
+      method Inventories.writeNbt(NbtCompound,DefaultedList<ItemStack>,boolean,WrapperLookup) is not applicable
+        (actual and formal argument lists differ in length)
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\RobotEntity.java:77: error: cannot find symbol
+                  net.minecraft.entity.player.PlayerEntity.class, 10, true, false, (p) -> !this.isControlled()));
+                                                                                               ^
+    symbol: method isControlled()
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\projectile\RocketProjectile.java:16: error: RocketProjectile is not abstract and does not override abstract method getDefaultItemStack() in PersistentProjectileEntity
+  public class RocketProjectile extends PersistentProjectileEntity {
+         ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:47: error: <anonymous com.drone_army.item.ControllerItem$1> is not abstract and does not override abstract method getScreenOpeningData(ServerPlayerEntity) in ExtendedScreenHandlerFactory
+                  user.openHandledScreen(new ExtendedScreenHandlerFactory() {
+                                                                            ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:17: error: EssenceRecipe is not abstract and does not override abstract method craft(CraftingRecipeInput,WrapperLookup) in Recipe
+  public class EssenceRecipe extends SpecialCraftingRecipe {
+         ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:22: error: cannot find symbol
+      protected void drawBackground(DrawContext context, float delta, int mouseX, int mouseY) {
+                                    ^
+    symbol:   class DrawContext
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:33: error: cannot find symbol
+      public void render(DrawContext context, int mouseX, int mouseY, float delta) {
+                         ^
+    symbol:   class DrawContext
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:16: error: cannot find symbol
+          EntityRendererRegistry.register(ModEntities.COMBAT_DRONE,
+          ^
+    symbol:   variable EntityRendererRegistry
+    location: class DroneArmyModClient
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:18: error: cannot find symbol
+          EntityRendererRegistry.register(ModEntities.SENTINEL, (ctx) -> new RobotEntityRenderer(ctx, "sentinel"));
+          ^
+    symbol:   variable EntityRendererRegistry
+    location: class DroneArmyModClient
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:19: error: cannot find symbol
+          EntityRendererRegistry.register(ModEntities.ARTILLERY, (ctx) -> new RobotEntityRenderer(ctx, "artillery"));
+          ^
+    symbol:   variable EntityRendererRegistry
+    location: class DroneArmyModClient
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:20: error: cannot find symbol
+          HandledScreens.register(ModScreenHandlers.CONTROLLER_SCREEN_HANDLER, ControllerScreen::new);
+          ^
+    symbol:   variable HandledScreens
+    location: class DroneArmyModClient
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:23: error: cannot find symbol
+          RenderSystem.setShader(GameRenderer::getPositionTexProgram);
+          ^
+    symbol:   variable RenderSystem
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:23: error: cannot find symbol
+          RenderSystem.setShader(GameRenderer::getPositionTexProgram);
+                                 ^
+    symbol:   variable GameRenderer
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:24: error: cannot find symbol
+          RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
+          ^
+    symbol:   variable RenderSystem
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:25: error: cannot find symbol
+          RenderSystem.setShaderTexture(0, TEXTURE);
+          ^
+    symbol:   variable RenderSystem
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:35: error: cannot find symbol
+          super.render(context, mouseX, mouseY, delta);
+          ^
+    symbol:   variable super
+    location: class ControllerScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:119: error: cannot find symbol
+          PathNodeType pathNodeType = net.minecraft.entity.ai.pathing.LandPathNodeMaker
+          ^
+    symbol:   class PathNodeType
+    location: class DroneFollowGoal
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:121: error: cannot find symbol
+          if (pathNodeType != PathNodeType.WALKABLE) {
+                              ^
+    symbol:   variable PathNodeType
+    location: class DroneFollowGoal
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:77: error: cannot find symbol
+          if (user.isSneaking() && entity instanceof ControlledMob controlled) {
+                                                     ^
+    symbol:   class ControlledMob
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:80: error: cannot find symbol
+                      CommandMode next = controlled.getCommandMode().next();
+                      ^
+    symbol:   class CommandMode
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:188: error: cannot find symbol
+                  Identifier entityId = Identifier.tryParse(id);
+                  ^
+    symbol:   class Identifier
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:188: error: cannot find symbol
+                  Identifier entityId = Identifier.tryParse(id);
+                                        ^
+    symbol:   variable Identifier
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:192: error: cannot find symbol
+                          SpawnEggItem egg = SpawnEggItem.forEntity(type);
+                          ^
+    symbol:   class SpawnEggItem
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:192: error: cannot find symbol
+                          SpawnEggItem egg = SpawnEggItem.forEntity(type);
+                                             ^
+    symbol:   variable SpawnEggItem
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:242: error: cannot find symbol
+              if (!s.isEmpty() && s.getItem() instanceof SpawnEggItem) {
+                                                         ^
+    symbol:   class SpawnEggItem
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:257: error: cannot find symbol
+              if (eggStack.getItem() instanceof SpawnEggItem egg) {
+                                                ^
+    symbol:   class SpawnEggItem
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:276: error: cannot find symbol
+                  if (entity instanceof ControlledMob controlled) {
+                                        ^
+    symbol:   class ControlledMob
+    location: class ControllerItem
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:21: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:32: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:19: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:58: error: method does not override or implement a method from a supertype
+                      @Override
+                      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:22: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:46: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModScreenHandlers.java:16: error: cannot infer type arguments for ExtendedScreenHandlerType<>
+              new ExtendedScreenHandlerType<>(ControllerScreenHandler::new));
+              ^
+    reason: cannot infer type-variable(s) T,D
+      (actual and formal argument lists differ in length)
+    where T,D are type-variables:
+      T extends ScreenHandler declared in class ExtendedScreenHandlerType
+      D extends Object declared in class ExtendedScreenHandlerType
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:11: error: cannot find symbol
+  public class ControllerScreen extends HandledScreen<ControllerScreenHandler> {
+                                        ^
+    symbol: class HandledScreen
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:11: error: cannot find symbol
+  public class RobotEntityRenderer extends BipedEntityRenderer<RobotEntity, BipedEntityModel<RobotEntity>> {
+                                           ^
+    symbol: class BipedEntityRenderer
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:11: error: cannot find symbol
+  public class RobotEntityRenderer extends BipedEntityRenderer<RobotEntity, BipedEntityModel<RobotEntity>> {
+                                                                            ^
+    symbol: class BipedEntityModel
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:17: error: cannot find symbol
+          this.backgroundHeight = 114 + 2 * 18; // Adjust height for 2 rows
+              ^
+    symbol: variable backgroundHeight
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:18: error: cannot find symbol
+          this.playerInventoryTitleY = this.backgroundHeight - 94;
+              ^
+    symbol: variable playerInventoryTitleY
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:18: error: cannot find symbol
+          this.playerInventoryTitleY = this.backgroundHeight - 94;
+                                           ^
+    symbol: variable backgroundHeight
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:26: error: cannot find symbol
+          int x = (this.width - this.backgroundWidth) / 2;
+                       ^
+    symbol: variable width
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:26: error: cannot find symbol
+          int x = (this.width - this.backgroundWidth) / 2;
+                                    ^
+    symbol: variable backgroundWidth
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:27: error: cannot find symbol
+          int y = (this.height - this.backgroundHeight) / 2;
+                       ^
+    symbol: variable height
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:27: error: cannot find symbol
+          int y = (this.height - this.backgroundHeight) / 2;
+                                     ^
+    symbol: variable backgroundHeight
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:28: error: cannot find symbol
+          context.drawTexture(TEXTURE, x, y, 0, 0, this.backgroundWidth, 3 * 18 + 17); // Top part
+                                                       ^
+    symbol: variable backgroundWidth
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:29: error: cannot find symbol
+          context.drawTexture(TEXTURE, x, y + 3 * 18 + 17, 0, 126, this.backgroundWidth, 96); // Bottom part
+                                                                       ^
+    symbol: variable backgroundWidth
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:95: error: cannot find symbol
+                  NbtCompound nbt = stack.getOrCreateNbt();
+                                         ^
+    symbol:   method getOrCreateNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:107: error: cannot find symbol
+          NbtCompound nbt = stack.getNbt();
+                                 ^
+    symbol:   method getNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:139: error: cannot find symbol
+          NbtCompound nbt = stack.getOrCreateNbt();
+                                 ^
+    symbol:   method getOrCreateNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:205: error: cannot find symbol
+                              result.getOrCreateNbt().put("EntityTag", data);
+                                    ^
+    symbol:   method getOrCreateNbt()
+    location: variable result of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:226: error: cannot find symbol
+          NbtCompound nbt = stack.getOrCreateNbt();
+                                 ^
+    symbol:   method getOrCreateNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:258: error: cannot find symbol
+                  entity = egg.getEntityType(eggStack.getNbt()).create(world);
+                                                     ^
+    symbol:   method getNbt()
+    location: variable eggStack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:267: error: cannot find symbol
+                  NbtCompound entityTag = eggStack.getSubNbt("EntityTag");
+                                                  ^
+    symbol:   method getSubNbt(String)
+    location: variable eggStack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:325: error: cannot find symbol
+                              stack.getOrCreateNbt().put(ACTIVE_UNITS_KEY, activeUnits);
+                                   ^
+    symbol:   method getOrCreateNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:339: error: cannot find symbol
+          NbtCompound nbt = stack.getNbt();
+                                 ^
+    symbol:   method getNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\EssenceItem.java:23: error: cannot find symbol
+          NbtCompound nbt = stack.getNbt();
+                                 ^
+    symbol:   method getNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\LivingEntityMixin.java:47: error: cannot find symbol
+          NbtCompound nbt = essence.getOrCreateNbt();
+                                   ^
+    symbol:   method getOrCreateNbt()
+    location: variable essence of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\MobEntityMixin.java:73: error: cannot find symbol
+                          net.minecraft.nbt.NbtCompound nbt = stack.getNbt();
+                                                                   ^
+    symbol:   method getNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\mixin\MobEntityMixin.java:92: error: cannot find symbol
+                                  stack.setNbt(nbt); // Technically not needed as getNbt is live, but good practice if
+                                       ^
+    symbol:   method setNbt(NbtCompound)
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:53: error: cannot find symbol
+                  NbtCompound nbt = stack.getNbt();
+                                         ^
+    symbol:   method getNbt()
+    location: variable stack of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:68: error: cannot find symbol
+                                          result.getOrCreateSubNbt("EntityTag")
+                                                ^
+    symbol:   method getOrCreateSubNbt(String)
+    location: variable result of type ItemStack
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:225: error: method deployNextUnit(World,PlayerEntity,ItemStack) is already defined in class ControllerItem
+      private void deployNextUnit(World world, PlayerEntity user, ItemStack stack) {
+                   ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:4: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.HandledScreens;
+                                               ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\DroneArmyModClient.java:10: error: package net.fabricmc.fabric.api.client.rendering.v1 does not exist
+  import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+                                                    ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:3: error: package com.mojang.blaze3d.systems does not exist
+  import com.mojang.blaze3d.systems.RenderSystem;
+                                   ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:4: error: package net.minecraft.client.gui does not exist
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:5: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                               ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreen.java:6: error: package net.minecraft.client.render does not exist
+  import net.minecraft.client.render.GameRenderer;
+                                    ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:5: error: package net.minecraft.client.render.entity does not exist
+  import net.minecraft.client.render.entity.BipedEntityRenderer;
+                                           ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:6: error: package net.minecraft.client.render.entity does not exist
+  import net.minecraft.client.render.entity.EntityRendererFactory;
+                                           ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:7: error: package net.minecraft.client.render.entity.model does not exist
+  import net.minecraft.client.render.entity.model.BipedEntityModel;
+                                                 ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:8: error: package net.minecraft.client.render.entity.model does not exist
+  import net.minecraft.client.render.entity.model.EntityModelLayers;
+                                                 ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\renderer\RobotEntityRenderer.java:14: error: package EntityRendererFactory does not exist
+      public RobotEntityRenderer(EntityRendererFactory.Context context, String textureName) {
+                                                      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:10: error: package net.minecraft.pathfinding does not exist
+  import net.minecraft.pathfinding.PathNodeType;
+                                  ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:44: error: package com.drone_army.entity.projectie does not exist
+      public static final EntityType<com.drone_army.entity.projectie.RocketProjectile> ROCKET = Registry.register(
+                                                                    ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:190: error: package Registries does not exist
+                      net.minecraft.entity.EntityType<?> type = Registries.ENTITY_TYPE.get(entityId);
+                                                                          ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:47: error: package com.drone_army.entity.projectie does not exist
+              FabricEntityTypeBuilder.<com.drone_army.entity.projectie.RocketProjectile>create(SpawnGroup.MISC,
+                                                                      ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java:48: error: package com.drone_army.entity.projectie does not exist
+                      com.drone_army.entity.projectie.RocketProjectile::new)
+                                                     ^
+  80 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_hoe_4",
+	"textures": {
+		"hoe": "item/golden_hoe"
+	}
+}

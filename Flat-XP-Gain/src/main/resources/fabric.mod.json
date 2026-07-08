@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "flat_xp_gain",
+	"version": "${version}",
+	"name": "Flat XP Gain",
+	"description": "Configurable flat or linear XP costs for levels.",
+	"authors": [
+		"Carter"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "Custom",
+	"icon": "assets/flat_xp_gain/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.flatxpgain.FlatXpGain"
+		],
+		"client": [
+			"com.flatxpgain.client.FlatXpGainClient"
+		],
+		"modmenu": [
+			"com.flatxpgain.client.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"flat_xp_gain.mixins.json",
+		{
+			"config": "flat_xp_gain.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "backported_updates:block/open_eyeblossom",
+    "layer1": "backported_updates:block/open_eyeblossom_emissive"
+  }
+}

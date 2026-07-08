@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "natures_spirit:block/sugi_leaves"
+	}
+}

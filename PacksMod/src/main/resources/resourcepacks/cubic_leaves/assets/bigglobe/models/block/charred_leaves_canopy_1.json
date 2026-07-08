@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "bigglobe:block/charred_leaves_canopy"
+	}
+}

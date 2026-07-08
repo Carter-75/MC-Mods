@@ -1,0 +1,33 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"meat": "item/mutton",
+		"particle": "#meat"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 7],
+			"to": [12, 11, 9],
+			"faces": {
+				"north": {"uv": [1, 1, 4.5, 5], "rotation": 270, "texture": "#meat"},
+				"east": {"uv": [4.5, 1, 1, 0], "rotation": 90, "texture": "#meat"},
+				"south": {"uv": [5.5, 1, 9, 5], "rotation": 90, "texture": "#meat"},
+				"west": {"uv": [8, 0, 4.5, 1], "rotation": 90, "texture": "#meat"},
+				"up": {"uv": [4.5, 1, 5.5, 5], "rotation": 90, "texture": "#meat"},
+				"down": {"uv": [0, 1, 1, 5], "rotation": 90, "texture": "#meat"}
+			}
+		},
+		{
+			"from": [4, 11, 7],
+			"to": [10, 16, 9],
+			"faces": {
+				"north": {"uv": [10, 1, 12.5, 4], "rotation": 270, "texture": "#meat"},
+				"east": {"uv": [12.5, 1, 10, 0], "rotation": 90, "texture": "#meat"},
+				"south": {"uv": [13.5, 1, 16, 4], "rotation": 90, "texture": "#meat"},
+				"west": {"uv": [15, 0, 12.5, 1], "rotation": 90, "texture": "#meat"},
+				"up": {"uv": [12.5, 1, 13.5, 4], "rotation": 90, "texture": "#meat"}
+			}
+		}
+	]
+}

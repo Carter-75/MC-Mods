@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": {"min_inclusive": 15, "max_inclusive": 34},
+		"description": "no more sprites for items\n§31.20.6 v1.6.0 | mbanders§r"
+	}
+}

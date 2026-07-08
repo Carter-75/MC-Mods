@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "biomeswevegone:block/firecracker_leaves_canopy"
+	}
+}

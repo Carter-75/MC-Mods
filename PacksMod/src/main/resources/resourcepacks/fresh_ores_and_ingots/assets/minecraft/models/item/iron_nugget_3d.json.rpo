@@ -1,0 +1,4 @@
+{
+  "condition": "extraOptions.Outlines",
+  "fallback": "assets/minecraft/models/item/no_outline/iron_nugget_3d.json"
+}

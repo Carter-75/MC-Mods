@@ -1,0 +1,51 @@
+Here is the output in the specified format:
+
+**Group 1**
+
+* **Mining Mods**
+	+ Veinmining
+	+ UniversalBoneMealGrowableOresCompat (for compatibility)
+	+ Yungs Better Desert Temples (temples may contain valuable minerals)
+	+ Zoomify (increased resolution for detailed exploration)
+
+Reason: These mods all relate to mining and exploration in Minecraft, either by providing new tools or enhancing existing ones.
+
+**Group 2**
+
+* **Inventory Management Mods**
+	+ Trinkets
+	+ Visual Workbench
+
+Reason: These mods both focus on organizing and managing inventory in Minecraft, with Trinkets providing a slot system and Visual Workbench introducing a workbench for crafting and item management.
+
+**Group 3**
+
+* **RPG-Style Combat and Magic Mods**
+	+ Wizards (RPG Series)
+
+Reason: This mod adds RPG-style combat and magic to Minecraft, making it distinct from the other mods listed here.
+
+**Group 4**
+
+* **UI and Visual Mods**
+	+ ToolTipFix
+	+ TooltipRareness
+	+ Status Effect Bars
+
+Reason: These mods all relate to improving the user interface (UI) or visual aspects of Minecraft, with ToolTipFix fixing tooltip overflow issues, TooltipRareness adding rarity information, and Status Effect Bars providing bars for remaining effect durations.
+
+**Group 5**
+
+* **Trading and Economy Mods**
+	+ Trading Post
+	+ Tom's Trading Network
+
+Reason: These mods both focus on trade and commerce in Minecraft, with Trading Post allowing players to trade items and resources with NPCs and Tom's Trading Network enabling one-trade vendors.
+
+**Group 6**
+
+* **Miscellaneous Mods**
+	+ StackRefill (automatically refills hotbar)
+	+ TalkBubbles (adds chat bubbles for nearby friends)
+
+Reason: These mods are more miscellaneous in nature, with StackRefill providing a convenience feature and TalkBubbles adding a fun way to communicate.

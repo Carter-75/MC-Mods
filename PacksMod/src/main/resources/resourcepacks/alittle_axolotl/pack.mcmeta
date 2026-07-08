@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"description": "Alittl Axolotl!",
+		"pack_format": 34,
+		"supported_formats":[0,99]
+	}
+}

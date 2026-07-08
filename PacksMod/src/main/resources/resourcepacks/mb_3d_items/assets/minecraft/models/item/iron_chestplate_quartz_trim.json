@@ -1,0 +1,7 @@
+{
+	"parent": "item/template_chestplate_trim",
+	"textures": {
+		"chestplate": "models/armor/iron_layer_1",
+		"trim": "trims/models/armor/wild_quartz"
+	}
+}

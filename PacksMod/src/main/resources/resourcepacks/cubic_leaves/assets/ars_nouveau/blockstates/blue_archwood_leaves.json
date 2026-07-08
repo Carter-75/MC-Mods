@@ -1,0 +1,192 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_block",
+					"weight": 4
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_block",
+					"weight": 4
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "ars_nouveau:block/blue_archwood_leaves_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

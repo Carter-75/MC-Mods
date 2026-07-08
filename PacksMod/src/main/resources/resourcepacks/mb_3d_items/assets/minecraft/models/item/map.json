@@ -1,0 +1,29 @@
+{
+	"parent": "item/template_flat",
+	"textures": {
+		"front": "map/map_background_checkerboard",
+		"back": "map/map_background"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, 180, 0],
+			"translation": [0, 2, -1],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [75, 180, -22.5],
+            "translation": [ 0, 2, 0 ],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"ground": {
+			"rotation": [0, 180, 0],
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.3125, 0.3125, 0.3125 ]
+		},
+		"gui": {
+			"rotation": [60, -168.5, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.825, 0.825, 0.825]
+		}
+	}
+}

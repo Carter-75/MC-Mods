@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "civilizations:papyrus"
+    },
+    {
+      "item": "civilizations:papyrus"
+    },
+    {
+      "item": "civilizations:papyrus"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book"
+  }
+}

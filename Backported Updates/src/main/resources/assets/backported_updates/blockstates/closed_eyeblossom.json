@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "backported_updates:block/closed_eyeblossom"
+    }
+  }
+}

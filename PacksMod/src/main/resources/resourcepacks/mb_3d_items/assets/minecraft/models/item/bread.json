@@ -1,0 +1,47 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"bread": "item/bread",
+		"particle": "#bread"
+	},
+	"elements": [
+		{
+			"from": [3, 6, 5],
+			"to": [13, 10, 11],
+			"faces": {
+				"north": {"uv": [3, 6, 8, 8], "texture": "#bread"},
+				"east": {"uv": [0, 6, 3, 8], "texture": "#bread"},
+				"south": {"uv": [11, 6, 16, 8], "texture": "#bread"},
+				"west": {"uv": [8, 6, 11, 8], "texture": "#bread"},
+				"up": {"uv": [8, 6, 3, 3], "texture": "#bread"},
+				"down": {"uv": [13, 3, 8, 6], "texture": "#bread"}
+			}
+		},
+		{
+			"from": [4, 10, 5.5],
+			"to": [12, 11, 10.5],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 6.5, 3], "texture": "#bread"},
+				"east": {"uv": [0, 2.5, 2.5, 3], "texture": "#bread"},
+				"south": {"uv": [9, 2.5, 13, 3], "texture": "#bread"},
+				"west": {"uv": [6.5, 2.5, 9, 3], "texture": "#bread"},
+				"up": {"uv": [6.5, 2.5, 2.5, 0], "texture": "#bread"},
+				"down": {"uv": [10.5, 0, 6.5, 2.5], "texture": "#bread"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 8.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -1.5],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "item/default_thin",
+	"textures": {
+		"particle": "item/armadillo_scute",
+		"scute": "item/armadillo_scute"
+	},
+	"elements": [
+		{
+			"from": [5, 7, 4.5],
+			"to": [11, 8, 11.5],
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 6.5, 4], "texture": "#scute"},
+				"east": {"uv": [0, 3.5, 3.5, 4], "texture": "#scute"},
+				"south": {"uv": [10, 3.5, 13, 4], "texture": "#scute"},
+				"west": {"uv": [6.5, 3.5, 10, 4], "texture": "#scute"},
+				"up": {"uv": [6.5, 3.5, 3.5, 0], "texture": "#scute"},
+				"down": {"uv": [9.5, 0, 6.5, 3.5], "texture": "#scute"}
+			}
+		},
+		{
+			"from": [10.99, 7.99, 11.49],
+			"to": [5.01, 7.01, 4.51],
+			"faces": {
+				"north": {"uv": [10, 3.5, 13, 4], "rotation": 180, "texture": "#scute"},
+				"east": {"uv": [0, 3.5, 3.5, 4], "rotation": 180, "texture": "#scute"},
+				"south": {"uv": [3.5, 3.5, 6.5, 4], "rotation": 180, "texture": "#scute"},
+				"west": {"uv": [6.5, 3.5, 10, 4], "rotation": 180, "texture": "#scute"},
+				"up": {"uv": [9.5, 0, 6.5, 3.5], "texture": "#scute"},
+				"down": {"uv": [6.5, 3.5, 3.5, 0], "texture": "#scute"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [45, 225, 0],
+			"scale": [1.375, 1.375, 1.375]
+		}
+	}
+}

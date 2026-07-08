@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy_notint",
+	"textures": {
+		"all": "natures_spirit:block/part_purple_wisteria_leaves_canopy"
+	}
+}

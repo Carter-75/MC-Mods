@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy",
+	"textures": {
+		"all": "minecraft:block/spruce_leaves_canopy"
+	}
+}

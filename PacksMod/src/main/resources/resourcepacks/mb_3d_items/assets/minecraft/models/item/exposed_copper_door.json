@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_inventory",
+	"textures": {
+		"bottom": "block/exposed_copper_door_bottom",
+		"top": "block/exposed_copper_door_top"
+	}
+}

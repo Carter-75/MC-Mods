@@ -1,0 +1,9 @@
+{
+	"credit": "Made by StormDragon77",
+	"parent": "block/edit_template_orientable_trapdoor_top_east_west",
+	"textures": {
+		"particle": "block/crimson_trapdoor",
+		"texture": "block/crimson_trapdoor",
+		"side": "block/crimson_trapdoor_sides"
+	}
+}

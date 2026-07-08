@@ -1,0 +1,36 @@
+{
+	"pack": {
+		"description": [
+			{
+				"text": " │  ",
+				"color": "dark_green"
+			},
+			{
+				"text": "by: zanderest",
+				"color": "white"
+			},
+			{
+				"text": " ░ ",
+				"color": "dark_green"
+			},
+			{
+				"text": "≥1.13",
+				"color": "white"
+			},
+			{
+				"text": "\n │  ",
+				"color": "dark_green"
+			},
+			{
+				"text": "Optimized Edition (faster)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"pack_format": 16,
+		"supported_formats": {
+			"min_inclusive": 16,
+			"max_inclusive": 64
+		}
+	}
+}

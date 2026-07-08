@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap1.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap2.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap3.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap4.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap5.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap6.json",
+        "assets/minecraft/items/2d_sprites/netherite_scrap/netherite_scrap7.json"
+    ]
+}

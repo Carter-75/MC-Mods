@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ball_small",
+	"textures": {
+		"ball": "item/magma_cream"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"credit": "Made by StormDragon77",
+	"textures": {
+		"particle": "#bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [10, 0, 13, 16], "texture": "#side_v", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottomright"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#side_v", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [9, 0, 12, 16], "texture": "#side_h"},
+				"down": {"uv": [0, 0, 3, 16], "texture": "#side_h", "cullface": "down"}
+			}
+		}
+	]
+}

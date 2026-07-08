@@ -1,0 +1,226 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"growth": "0"
+			},
+			"apply": [
+				{
+					"model": "paradise_lost:block/orange_leaves",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"growth": "0"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"growth": "1"
+			},
+			"apply": [
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_block",
+					"weight": 4
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"growth": "1"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_flowering_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"growth": "2"
+			},
+			"apply": [
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_block",
+					"weight": 4
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"growth": "2"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "paradise_lost:block/orange_leaves_fruiting_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

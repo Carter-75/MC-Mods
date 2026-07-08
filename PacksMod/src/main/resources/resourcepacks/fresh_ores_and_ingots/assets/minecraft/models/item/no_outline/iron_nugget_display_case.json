@@ -1,0 +1,305 @@
+{
+    "format_version": "1.21.6",
+    "credit": "cyberia was here",
+    "textures": {
+        "3": "item/iron_nugget_3d"
+    },
+    "elements": [
+        {
+            "from": [
+                6.5,
+                3.02171,
+                6.8269
+            ],
+            "to": [
+                9.5,
+                6.02171,
+                9.8269
+            ],
+            "light_emission": 5,
+            "rotation": {
+                "angle": 0.0,
+                "axis": "x",
+                "origin": [
+                    8,
+                    4.52171,
+                    9.3269
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        3,
+                        9,
+                        0,
+                        6
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        3,
+                        3,
+                        6,
+                        6
+                    ],
+                    "rotation": 90,
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        9,
+                        0,
+                        6,
+                        3
+                    ],
+                    "rotation": 180,
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        3,
+                        3,
+                        6
+                    ],
+                    "rotation": 270,
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        3,
+                        0,
+                        6,
+                        3
+                    ],
+                    "rotation": 180,
+                    "texture": "#3"
+                }
+            }
+        },
+        {
+            "from": [
+                7,
+                3.52171,
+                9.8269
+            ],
+            "to": [
+                9,
+                5.52171,
+                10.8269
+            ],
+            "light_emission": 5,
+            "rotation": {
+                "angle": 0.0,
+                "axis": "x",
+                "origin": [
+                    8,
+                    4.52171,
+                    9.3269
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        7,
+                        6,
+                        9,
+                        7
+                    ],
+                    "rotation": 90,
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        8,
+                        3,
+                        6,
+                        5
+                    ],
+                    "rotation": 180,
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        6,
+                        5,
+                        8,
+                        6
+                    ],
+                    "rotation": 270,
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        5,
+                        6,
+                        7,
+                        7
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        5,
+                        7,
+                        7,
+                        8
+                    ],
+                    "rotation": 180,
+                    "texture": "#3"
+                }
+            }
+        }
+    ],
+    "gui_light": "front",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                -31,
+                0
+            ],
+            "translation": [
+                0,
+                4,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                -31,
+                0
+            ],
+            "translation": [
+                0,
+                4,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -54,
+                0
+            ],
+            "translation": [
+                2,
+                3.25,
+                0.5
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                -54,
+                0
+            ],
+            "translation": [
+                2,
+                3.25,
+                0.5
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "gui": {
+            "rotation": [
+                22.5,
+                -35,
+                0
+            ],
+            "translation": [
+                0,
+                -0.25,
+                0
+            ],
+            "scale": [
+                0.65,
+                0.65,
+                0.65
+            ]
+        },
+        "head": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                14.25,
+                0
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                -90,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                -14
+            ],
+            "scale": [
+                2,
+                2,
+                2
+            ]
+        },
+        "on_shelf": {
+            "translation": [
+                0,
+                -2,
+                1
+            ],
+            "scale": [
+                0.75,
+                0.75,
+                0.75
+            ]
+        }
+    }
+}

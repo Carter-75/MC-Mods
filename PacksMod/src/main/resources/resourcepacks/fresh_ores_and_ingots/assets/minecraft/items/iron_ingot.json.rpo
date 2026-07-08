@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot1.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot2.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot3.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot4.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot5.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot6.json",
+        "assets/minecraft/items/2d_sprites/iron_ingot/iron_ingot7.json"
+    ]
+}

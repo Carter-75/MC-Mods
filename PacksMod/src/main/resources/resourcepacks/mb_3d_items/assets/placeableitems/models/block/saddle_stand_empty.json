@@ -1,0 +1,91 @@
+{
+	"credit": "Designed by MasterianoX",
+	"parent": "placeableitems:block/saddle_stand",
+	"loader": "placeableitems:rotation",
+	"elements": [
+		{
+			"from": [12.5, 0, 3.5],
+			"to": [15.5, 14, 6.5],
+			"faces": {
+				"north": {"uv": [0.75, 3.75, 1.5, 7.25], "texture": "#stand"},
+				"east": {"uv": [0, 3.75, 0.75, 7.25], "texture": "#stand"},
+				"south": {"uv": [2.25, 3.75, 3, 7.25], "texture": "#stand"},
+				"west": {"uv": [1.5, 3.75, 2.25, 7.25], "texture": "#stand"},
+				"up": {"uv": [1.5, 3.75, 0.75, 3], "texture": "#stand"},
+				"down": {"uv": [2.25, 3, 1.5, 3.75], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [12.5, 0, 9.5],
+			"to": [15.5, 14, 12.5],
+			"faces": {
+				"north": {"uv": [6.75, 3.75, 7.5, 7.25], "texture": "#stand"},
+				"east": {"uv": [6, 3.75, 6.75, 7.25], "texture": "#stand"},
+				"south": {"uv": [8.25, 3.75, 9, 7.25], "texture": "#stand"},
+				"west": {"uv": [7.5, 3.75, 8.25, 7.25], "texture": "#stand"},
+				"up": {"uv": [7.5, 3.75, 6.75, 3], "texture": "#stand"},
+				"down": {"uv": [8.25, 3, 7.5, 3.75], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [0.5, 0, 3.5],
+			"to": [3.5, 14, 6.5],
+			"faces": {
+				"north": {"uv": [3.75, 3.75, 4.5, 7.25], "texture": "#stand"},
+				"east": {"uv": [3, 3.75, 3.75, 7.25], "texture": "#stand"},
+				"south": {"uv": [5.25, 3.75, 6, 7.25], "texture": "#stand"},
+				"west": {"uv": [4.5, 3.75, 5.25, 7.25], "texture": "#stand"},
+				"up": {"uv": [4.5, 3.75, 3.75, 3], "texture": "#stand"},
+				"down": {"uv": [5.25, 3, 4.5, 3.75], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [0.5, 0, 9.5],
+			"to": [3.5, 14, 12.5],
+			"faces": {
+				"north": {"uv": [9.75, 3.75, 10.5, 7.25], "texture": "#stand"},
+				"east": {"uv": [9, 3.75, 9.75, 7.25], "texture": "#stand"},
+				"south": {"uv": [11.25, 3.75, 12, 7.25], "texture": "#stand"},
+				"west": {"uv": [10.5, 3.75, 11.25, 7.25], "texture": "#stand"},
+				"up": {"uv": [10.5, 3.75, 9.75, 3], "texture": "#stand"},
+				"down": {"uv": [11.25, 3, 10.5, 3.75], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [0, 14, 3],
+			"to": [16, 16, 13],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 6.5, 3], "texture": "#stand"},
+				"east": {"uv": [0, 2.5, 2.5, 3], "texture": "#stand"},
+				"south": {"uv": [9, 2.5, 13, 3], "texture": "#stand"},
+				"west": {"uv": [6.5, 2.5, 9, 3], "texture": "#stand"},
+				"up": {"uv": [6.5, 2.5, 2.5, 0], "texture": "#stand"},
+				"down": {"uv": [10.5, 0, 6.5, 2.5], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [3.5, 5, 4.5],
+			"to": [12.5, 6, 5.5],
+			"faces": {
+				"north": {"uv": [0.25, 7.5, 2.5, 7.75], "texture": "#stand"},
+				"east": {"uv": [0, 7.5, 0.25, 7.75], "texture": "#stand"},
+				"south": {"uv": [2.75, 7.5, 5, 7.75], "texture": "#stand"},
+				"west": {"uv": [2.5, 7.5, 2.75, 7.75], "texture": "#stand"},
+				"up": {"uv": [2.5, 7.5, 0.25, 7.25], "texture": "#stand"},
+				"down": {"uv": [4.75, 7.25, 2.5, 7.5], "texture": "#stand"}
+			}
+		},
+		{
+			"from": [3.5, 5, 10.5],
+			"to": [12.5, 6, 11.5],
+			"faces": {
+				"north": {"uv": [5.25, 7.5, 7.5, 7.75], "texture": "#stand"},
+				"east": {"uv": [5, 7.5, 5.25, 7.75], "texture": "#stand"},
+				"south": {"uv": [7.75, 7.5, 10, 7.75], "texture": "#stand"},
+				"west": {"uv": [7.5, 7.5, 7.75, 7.75], "texture": "#stand"},
+				"up": {"uv": [7.5, 7.5, 5.25, 7.25], "texture": "#stand"},
+				"down": {"uv": [9.75, 7.25, 7.5, 7.5], "texture": "#stand"}
+			}
+		}
+	]
+}

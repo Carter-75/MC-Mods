@@ -1,0 +1,364 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"age": 0
+			},
+			"apply": [
+				{
+					"model": "cobblemon:block/saccharine_leaves",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"when": {
+				"age": 0
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"age": 1
+			},
+			"apply": [
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_block",
+					"weight": 4
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"when": {
+				"age": 1
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_sticky_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"age": 2
+			},
+			"apply": [
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_block",
+					"weight": 4
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"when": {
+				"age": 2
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 16
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "cobblemon:block/saccharine_leaves_dripping_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

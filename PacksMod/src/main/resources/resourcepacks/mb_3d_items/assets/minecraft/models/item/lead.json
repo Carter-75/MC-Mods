@@ -1,0 +1,77 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"lead": "item/lead",
+		"particle": "#lead"
+	},
+	"elements": [
+		{
+			"from": [5, 7, 7.5],
+			"to": [11, 13, 8.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [5, 7, 7.5]},
+			"faces": {
+				"north": {"uv": [1, 1, 7, 7], "texture": "#lead"},
+				"east": {"uv": [0, 1, 1, 7], "texture": "#lead"},
+				"south": {"uv": [8, 1, 14, 7], "texture": "#lead"},
+				"west": {"uv": [7, 1, 8, 7], "texture": "#lead"},
+				"up": {"uv": [7, 1, 1, 0], "texture": "#lead"},
+				"down": {"uv": [13, 0, 7, 1], "texture": "#lead"}
+			}
+		},
+		{
+			"from": [5, 3, 7.5],
+			"to": [9, 7, 8.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5, 7, 8]},
+			"faces": {
+				"north": {"uv": [1, 8, 5, 12], "texture": "#lead"},
+				"east": {"uv": [0, 8, 1, 12], "texture": "#lead"},
+				"south": {"uv": [6, 8, 10, 12], "texture": "#lead"},
+				"west": {"uv": [5, 8, 6, 12], "texture": "#lead"},
+				"up": {"uv": [5, 8, 1, 7], "texture": "#lead"},
+				"down": {"uv": [9, 7, 5, 8], "texture": "#lead"}
+			}
+		},
+		{
+			"from": [10.99, 12.99, 8.49],
+			"to": [5.01, 7.01, 7.51],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [5, 7, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 7, 14, 1], "texture": "#lead"},
+				"east": {"uv": [7, 7, 8, 1], "texture": "#lead"},
+				"south": {"uv": [1, 7, 7, 1], "texture": "#lead"},
+				"west": {"uv": [0, 7, 1, 1], "texture": "#lead"},
+				"up": {"uv": [7, 0, 13, 1], "texture": "#lead"},
+				"down": {"uv": [1, 1, 7, 0], "texture": "#lead"}
+			}
+		},
+		{
+			"from": [8.99, 6.99, 8.49],
+			"to": [5.01, 3.01, 7.51],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5, 7, 8]},
+			"faces": {
+				"north": {"uv": [6, 12, 10, 8], "texture": "#lead"},
+				"east": {"uv": [5, 12, 6, 8], "texture": "#lead"},
+				"south": {"uv": [1, 12, 5, 8], "texture": "#lead"},
+				"west": {"uv": [0, 12, 1, 8], "texture": "#lead"},
+				"up": {"uv": [5, 7, 9, 8], "texture": "#lead"},
+				"down": {"uv": [1, 8, 5, 7], "texture": "#lead"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"rotation": [22.5, 180, 0],
+			"translation": [3.5, -2, -6]
+		},
+		"fixed": {
+			"rotation": [-11.25, 0, 0],
+			"translation": [ 0, 0, -2 ],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

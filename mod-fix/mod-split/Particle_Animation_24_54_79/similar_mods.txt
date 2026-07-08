@@ -1,0 +1,30 @@
+Here are the redundant or conflicting mods identified:
+
+**Group 1: Particle Animation Mods**
+
+* Falling Leaves
+* Make Bubbles Pop
+* Visuality
+* Wakes
+
+Reason: These mods all provide particle animation effects, with some overlapping features such as adding realistic leaf drop particles (Falling Leaves) and bubble popping effects (Make Bubbles Pop). Visuality also adds numerous client-sided cosmetic particles, including water effects similar to Wakes. While not entirely redundant, they share some similarities in their functionality.
+
+**Group 2: Animation and Rendering Mods**
+
+* A Good Place
+* Elytra Physics
+* ExParticle
+* Geckolib
+
+Reason: These mods all focus on animation and rendering improvements, with some overlap in features such as customizable animations (A Good Place) and particle manipulation (ExParticle). Geckolib provides advanced animation capabilities that might conflict with the functionality of other mods like A Good Place.
+
+**Group 3: Visual Effects Mods**
+
+* Effective
+* Perception
+* Sodium Extra
+* Subtle Effects
+
+Reason: These mods all add various visual effects to Minecraft, including ambient particles and screen-shaking (Effective), trails and directional screen-shaking (Perception), and customizable display options (Sodium Extra). While not entirely redundant, they share some similarities in their functionality.
+
+Note that while these mods have overlapping features, it's likely that they can coexist without conflicts. However, the mod author should be aware of these overlaps to ensure compatibility and avoid unnecessary redundancy.

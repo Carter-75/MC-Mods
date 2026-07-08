@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "vinery:block/dark_cherry_leaves_0_canopy"
+	}
+}

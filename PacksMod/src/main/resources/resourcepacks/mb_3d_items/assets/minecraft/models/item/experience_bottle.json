@@ -1,0 +1,6 @@
+{
+    "parent": "item/glass_bottle",
+    "textures": {
+        "bottle": "item/experience_bottle"
+    }
+}

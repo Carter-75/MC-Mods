@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "promenade:block/vermilion_maple_leaves"
+	}
+}

@@ -1,0 +1,16 @@
+This pack uses some free stock textures from share.substance3d.com and substance3d.com/assets
+These free stock textures were modified/edited and made
+into Minecraft Formats.
+Most textures are procedurally created by myself using various softwares.
+This pack uses normals baked from following models:
+Bucket-
+https://sketchfab.com/3d-models/realistic-bucket-free-05eb332dcc8c46ef81944c0c854d7776
+Skeleton model by-
+https://sketchfab.com/soidev
+With edits by Subi http://ko-fi.com/subipng
+Credits for Copper Doors,Copper trapdoors, Spruce Door, Acacia Door, Birch Door, Cherry Door, Crimson Door, Warped Door, Crimson Door and Jungle Door to https://www.artstation.com/mraaa
+Dripstone models from Textureless:
+https://github.com/Null-MC/Textureless
+Credits for crop textures excluding the wheat to SPLT
+
+----------------------------------------------------------------------------------------------------------

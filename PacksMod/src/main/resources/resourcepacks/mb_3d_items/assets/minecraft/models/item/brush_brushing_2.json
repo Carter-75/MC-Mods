@@ -1,0 +1,10 @@
+{
+    "parent": "item/brush",
+    "display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 30],
+			"translation": [-2, 2.5, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		}
+    }
+}

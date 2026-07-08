@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "item_uncrafting",
+	"version": "${version}",
+	"name": "Item Uncrafting",
+	"description": "Uncraft any item back into its materials using an Uncrafted Crate.",
+	"authors": [
+		"Carter"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/item_uncrafting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.itemuncrafting.ItemUncrafting"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

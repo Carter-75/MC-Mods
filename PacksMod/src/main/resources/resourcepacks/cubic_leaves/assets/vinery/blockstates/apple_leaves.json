@@ -1,0 +1,300 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"age": "0"
+			},
+			"apply": [
+				{
+					"model": "vinery:block/apple_leaves_stage_0",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_block",
+					"weight": 4
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "0"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_0_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "1"
+			},
+			"apply": [
+				{
+					"model": "vinery:block/apple_leaves_stage_1",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_block",
+					"weight": 4
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "1"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_1_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "2"
+			},
+			"apply": [
+				{
+					"model": "vinery:block/apple_leaves_stage_2",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_block",
+					"weight": 4
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "2"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_2_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "3"
+			},
+			"apply": [
+				{
+					"model": "vinery:block/apple_leaves_stage_3",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_block",
+					"weight": 4
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"when": {
+				"age": "3"
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "vinery:block/apple_leaves_stage_3_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

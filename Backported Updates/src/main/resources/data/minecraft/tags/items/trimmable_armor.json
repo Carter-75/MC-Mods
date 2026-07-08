@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "backported_updates:copper_helmet",
+    "backported_updates:copper_chestplate",
+    "backported_updates:copper_leggings",
+    "backported_updates:copper_boots"
+  ]
+}

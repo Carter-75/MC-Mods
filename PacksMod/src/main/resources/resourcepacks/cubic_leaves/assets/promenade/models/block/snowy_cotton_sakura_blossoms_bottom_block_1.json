@@ -1,0 +1,8 @@
+{
+	"parent": "cubicleaves:block/template_block_column_overlaid_sides",
+	"textures": {
+		"sides": "promenade:block/cotton_sakura_blossoms",
+		"sides_overlay": "promenade:block/snowy_sakura_blossoms_bottom",
+		"ends": "promenade:block/cotton_sakura_blossoms"
+	}
+}

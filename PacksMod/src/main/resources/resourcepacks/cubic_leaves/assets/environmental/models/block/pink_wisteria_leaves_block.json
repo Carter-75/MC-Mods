@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_notint",
+	"textures": {
+		"all": "environmental:block/pink_wisteria_leaves"
+	}
+}

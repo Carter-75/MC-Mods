@@ -1,0 +1,72 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "regions_unexplored:block/bamboo_leaves",
+					"weight": 8
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/bamboo_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

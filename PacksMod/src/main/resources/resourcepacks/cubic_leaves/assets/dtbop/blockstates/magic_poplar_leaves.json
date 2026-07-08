@@ -1,0 +1,132 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "biomesoplenty:block/magic_leaves",
+					"weight": 8
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_alt",
+					"weight": 8
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_block_alt",
+					"weight": 4
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_block_alt",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "biomesoplenty:block/magic_leaves_canopy_alt_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

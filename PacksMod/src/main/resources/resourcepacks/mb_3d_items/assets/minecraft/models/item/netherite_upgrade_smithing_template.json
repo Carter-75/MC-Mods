@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_smithing_template",
+	"textures": {
+		"template": "item/netherite_upgrade_smithing_template"
+	}
+}

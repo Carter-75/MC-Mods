@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_overlaid",
+	"textures": {
+		"all": "minecraft:block/oak_leaves_canopy",
+		"overlay": "regions_unexplored:block/flowering_leaves_flower_canopy"
+	}
+}

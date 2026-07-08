@@ -1,0 +1,51 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"diamond": "item/diamond",
+		"particle": "#diamond"
+	},
+	"elements": [
+		{
+			"from": [5.5, 10, 7],
+			"to": [10.5, 12, 9],
+			"faces": {
+				"north": {"uv": [10, 1, 12.5, 2], "texture": "#diamond"},
+				"east": {"uv": [9, 1, 10, 2], "texture": "#diamond"},
+				"south": {"uv": [13.5, 1, 16, 2], "texture": "#diamond"},
+				"west": {"uv": [12.5, 1, 13.5, 2], "texture": "#diamond"},
+				"up": {"uv": [12.5, 1, 10, 0], "texture": "#diamond"},
+				"down": {"uv": [15, 0, 12.5, 1], "texture": "#diamond"}
+			}
+		},
+		{
+			"from": [5.5, 4, 6],
+			"to": [10.5, 10, 10],
+			"faces": {
+				"north": {"uv": [9, 4, 11.5, 7], "texture": "#diamond"},
+				"east": {"uv": [7, 4, 9, 7], "texture": "#diamond"},
+				"south": {"uv": [13.5, 4, 16, 7], "texture": "#diamond"},
+				"west": {"uv": [11.5, 4, 13.5, 7], "texture": "#diamond"},
+				"up": {"uv": [11.5, 4, 9, 2], "texture": "#diamond"},
+				"down": {"uv": [14, 2, 11.5, 4], "texture": "#diamond"}
+			}
+		},
+		{
+			"from": [4.5, 5, 7],
+			"to": [11.5, 10, 9],
+			"faces": {
+				"north": {"uv": [1, 1, 4.5, 3.5], "texture": "#diamond"},
+				"east": {"uv": [0, 1, 1, 3.5], "texture": "#diamond"},
+				"south": {"uv": [5.5, 1, 9, 3.5], "texture": "#diamond"},
+				"west": {"uv": [4.5, 1, 5.5, 3.5], "texture": "#diamond"},
+				"up": {"uv": [4.5, 1, 1, 0], "texture": "#diamond"},
+				"down": {"uv": [8, 0, 4.5, 1], "texture": "#diamond"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

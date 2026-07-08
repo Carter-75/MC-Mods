@@ -1,0 +1,7 @@
+{
+	"parent": "item/template_leggings_trim",
+	"textures": {
+		"leggings": "models/armor/iron_layer_2",
+		"trim": "trims/models/armor/shaper_leggings_iron_darker"
+	}
+}

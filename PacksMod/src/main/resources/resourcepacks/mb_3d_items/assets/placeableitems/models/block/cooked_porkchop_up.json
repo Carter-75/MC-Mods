@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_meat_up",
+	"textures": {
+		"meat": "item/cooked_porkchop"
+	}
+}

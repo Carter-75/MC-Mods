@@ -1,0 +1,55 @@
+
+> Configure project :
+Fabric Loom: 1.14.10
+Project directory 'C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy' is located in OneDrive. This is known to cause issues and slower performance. Consider moving the project to a different location.
+
+> Task :compileJava FAILED
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:120: error: no suitable method found for getLandNodeType(World,Mutable)
+                .getLandNodeType(this.mob.getWorld(), pos.mutableCopy());
+                ^
+    method LandPathNodeMaker.getLandNodeType(MobEntity,BlockPos) is not applicable
+      (argument mismatch; World cannot be converted to MobEntity)
+    method LandPathNodeMaker.getLandNodeType(PathContext,Mutable) is not applicable
+      (argument mismatch; World cannot be converted to PathContext)
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:280: error: incompatible types: NbtCompound cannot be converted to ItemStack
+                entity = egg.getEntityType(eggNbt).create(world);
+                                           ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:19: error: EssenceRecipe is not abstract and does not override abstract method fits(int,int) in Recipe
+public class EssenceRecipe extends SpecialCraftingRecipe {
+       ^
+Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/carte/OneDrive/Desktop/Code/MC%20Mods/DroneArmy/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java uses or overrides a deprecated API.
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\entity\ai\DroneFollowGoal.java:120: error: no suitable method found for getLandNodeType(World,Mutable)
+                  .getLandNodeType(this.mob.getWorld(), pos.mutableCopy());
+                  ^
+      method LandPathNodeMaker.getLandNodeType(MobEntity,BlockPos) is not applicable
+        (argument mismatch; World cannot be converted to MobEntity)
+      method LandPathNodeMaker.getLandNodeType(PathContext,Mutable) is not applicable
+        (argument mismatch; World cannot be converted to PathContext)
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\recipe\EssenceRecipe.java:19: error: EssenceRecipe is not abstract and does not override abstract method fits(int,int) in Recipe
+  public class EssenceRecipe extends SpecialCraftingRecipe {
+         ^
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\item\ControllerItem.java:280: error: incompatible types: NbtCompound cannot be converted to ItemStack
+                  entity = egg.getEntityType(eggNbt).create(world);
+                                             ^
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  3 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+BUILD FAILED in 3s
+1 actionable task: 1 executed

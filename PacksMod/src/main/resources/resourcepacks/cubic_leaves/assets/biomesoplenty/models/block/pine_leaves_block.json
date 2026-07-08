@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_block_overlaid",
+	"textures": {
+		"all": "biomesoplenty:block/pine_leaves",
+		"overlay": "biomesoplenty:block/pine_leaves_overlay"
+	}
+}

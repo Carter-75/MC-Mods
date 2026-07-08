@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "A blocky 3D model for the Goat Horn item",
+		"pack_format": 18,
+		"supported_formats": [
+			9,
+			33
+		]
+	}
+}

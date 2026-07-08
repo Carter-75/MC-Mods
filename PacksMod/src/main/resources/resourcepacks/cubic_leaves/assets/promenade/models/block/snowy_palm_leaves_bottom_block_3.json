@@ -1,0 +1,9 @@
+{
+	"parent": "cubicleaves:block/template_block_column_overlaid_sides_horizontal",
+	"textures": {
+		"sides": "promenade:block/palm_leaves",
+		"sides_overlay": "promenade:block/snowy_palm_leaves_bottom",
+		"top": "promenade:block/snowy_palm_leaves",
+		"bottom": "promenade:block/palm_leaves"
+	}
+}

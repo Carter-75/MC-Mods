@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_shovel_5",
+	"textures": {
+		"shovel": "item/golden_shovel"
+	}
+}

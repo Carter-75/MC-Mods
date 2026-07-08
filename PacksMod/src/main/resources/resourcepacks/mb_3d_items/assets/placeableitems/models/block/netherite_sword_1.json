@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_sword_1",
+	"textures": {
+		"sword": "item/netherite_sword"
+	}
+}

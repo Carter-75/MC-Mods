@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "textures": {
+        "top": "betternether:block/nether_mycelium_top_blue",
+        "side": "betternether:block/nether_mycelium_side_blue"
+      },
+      "masks": {
+        "blend_up": "lambdabettergrass:bettergrass/mask/grass_block_side_blend_up",
+        "arch": "lambdabettergrass:bettergrass/mask/grass_block_side_arch_blend"
+      }
+    }
+  ]
+}

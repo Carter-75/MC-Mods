@@ -1,0 +1,11 @@
+Here is the output in the required format:
+
+**Group 1**
+
+* RPG Series classes (Skill Tree, Rogues & Warriors, and others)
+* Spell Engine
+* Spell Power Attributes
+
+Reason: These mods all contribute to a comprehensive fantasy roleplaying experience in Minecraft, with features such as spellcasting, attribute-based character progression, and magical abilities. While they have distinct features, they share a common theme and can be used together to create a rich and immersive gameplay experience.
+
+Note that this is just one possible grouping of the mods, and there may be other ways to categorize them based on their features and themes.

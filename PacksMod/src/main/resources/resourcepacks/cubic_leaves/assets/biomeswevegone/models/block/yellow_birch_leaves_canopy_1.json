@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "biomeswevegone:block/yellow_birch_leaves_canopy"
+	}
+}

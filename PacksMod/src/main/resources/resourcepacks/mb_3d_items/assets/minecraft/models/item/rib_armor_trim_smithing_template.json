@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_smithing_template",
+	"textures": {
+		"template": "item/rib_armor_trim_smithing_template"
+	}
+}

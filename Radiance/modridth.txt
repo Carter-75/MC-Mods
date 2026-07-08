@@ -1,0 +1,327 @@
+
+?
+Discover content
+Host a server
+Get Modrinth App
+Sign in
+Radiance - Minecraft Mod
+Radiance
+Radiance
+Radiance is rebuilt of Minecraft OpenGL on a Vulkan C++ backend, featuring native Hardware Ray Tracing. Break free from OpenGL limits for Minecraft on Windows.
+
+5,431
+58
+Decoration
+Optimization
+Download
+
+Compatibility
+Minecraft: Java Edition
+1.21.4
+Platforms
+Fabric
+Supported environments
+Client-side
+Links
+Report issues
+View source
+Buy Me a Coffee
+Tags
+Decoration
+Optimization
+Creators
+Radiance
+Radiance
+Member
+amber__117
+Member
+LJIONG
+LJIONG
+Member
+PxWa
+PxWa
+Member
+Details
+Licensed GPL-3.0-only
+Published 3 weeks ago
+Description
+Gallery
+Changelog
+Versions
+Radiance
+Important: Radiance currently only supports Windows operating systems on this modrinth project.
+
+Radiance is a Minecraft mod that completely replace the vanilla OpenGL renderer with our Vulkan C++ renderer, which supports high performance rendering and hardware-accelerated ray tracing. Due to the variety of C++ usage in the modern industrial rendering pipeline, a seamless integration of a modern industrial rendering module (such as DLSS and FSR) into our Vulkan C++ renderer is thus possible.
+
+Radiance
+
+System Requirements
+Operating System: Windows 10/11 (64-bit)
+
+Graphics API: Vulkan-compatible GPU with VK_KHR_ray_tracing_pipeline extension
+
+Hardware: GPU with VK_KHR_ray_tracing_pipeline extension (NVIDIA RTX Series or AMD/Intel cards supporting this extension)
+
+Installation Guide
+Please view Github Pages for detailed installation guides.
+
+Credits
+This project uses Vulkan technology. Please refer to this page for more information.
+
+This project also uses Nvidia's DLSS (Deep Learning Super Sampling) technology. Please refer to this page and this page for more information.
+
+Special thanks to all contributors of open-source libraries used in this project, including GLFW, GLM, STB Image and VMA. If any are not credited and should be, please inform the author and credit will be applied where required.
+
+Disclaimer
+This is a community-made third-party mod and is not affiliated with, authorized, sponsored, endorsed by, or otherwise officially connected to Mojang Studios or Microsoft. A commonly used wording on mod platforms is: "NOT AN OFFICIAL MINECRAFT SERVICE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT."
+Minecraft and related names, logos, and assets are trademarks and/or intellectual property of Mojang Studios and/or Microsoft.
+This project is also not affiliated with, sponsored by, or endorsed by NVIDIA. NVIDIA / GeForce / RTX / DLSS are trademarks of NVIDIA Corporation and remain the property of their respective owners.
+This mod is provided "AS IS" without warranties. You assume all risks arising from its use (including, but not limited to, crashes, visual issues, data loss, or incompatibilities with other mods). Please back up your worlds and configs before installation.
+Modrinth is open source.
+
+© 2026 Rinth, Inc.
+
+About
+News
+Changelog
+Status
+Careers
+Rewards Program
+Products
+Modrinth+
+Modrinth App
+Modrinth Hosting
+Resources
+Help Center
+Translate
+Report issues
+API documentation
+Legal
+Content Rules
+Terms of Use
+Privacy Policy
+Security Notice
+Copyright Policy and DMCA
+NOT AN OFFICIAL MINECRAFT SERVICE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+
+https://github.com/Minecraft-Radiance/Radiance
+Privacy IconYour Privacy Choices
+
+Skip to main content
+GeForce
+NVIDIA DLSS 4
+Supreme Speed. Superior Visuals. Powered by AI.
+DLSS is a revolutionary suite of neural rendering technologies that uses AI to boost FPS, reduce latency, and improve image quality. DLSS 4 introduced Multi Frame Generation (MFG) and transformer models. DLSS 4.5 brings Dynamic MFG and a second gen transformer model. All backed by an NVIDIA AI supercomputer in the cloud, constantly improving your PC’s gaming capabilities.
+
+Multi Frame Generation
+Dynamic Multi Frame Generation
+Buy GeForce
+ Black Magic 
+– mmorpg
+
+quote 1
+quote 2
+quote 3
+quote 4
+quote 5
+Maximizes Quality with AI Transformer Models
+DLSS Super Resolution, Ray Reconstruction, and DLAA use cutting-edge transformer AI models trained by NVIDIA’s supercomputers for the best image quality.
+
+
+GeForce RTX 5090, 4K Max Settings, DLSS with Multi Frame Generation (4X Mode), Ray Reconstruction, Super Resolution (Performance Mode).
+
+Alan Wake 2
+DLSS Multi Frame Generation
+Powered by GeForce RTX 50 Series and fifth-generation Tensor Cores, new DLSS Multi Frame Generation boosts FPS by using AI to generate up to three frames per rendered frame - and up to five frames coming soon.
+
+
+GeForce RTX 5090, 4K, RT Overdrive, Max Settings, DLSS with Multi Frame Generation (6X Mode), Super Resolution (Performance Mode)
+
+cyberpunk-ultimate-edition-logo
+DLSS Dynamic Multi Frame Generation
+Dynamically adjust your multiplier to maximize smoothness across different games and scenes on GeForce RTX 50 Series GPUs.
+
+
+GeForce RTX 5080, 4K, Max Settings, DLSS with Dynamic Multi Frame Generation, Super Resolution (Performance Mode)
+
+The Outer World 2 logo
+DLSS Frame Generation
+Boosts performance by using AI to generate frames while maintaining great responsiveness with NVIDIA Reflex.
+
+
+*Captured with GeForce RTX 4060 Ti (8 GB) at 1920x1080 resolution, highest game settings.
+
+Darktide
+DLSS Ray Reconstruction
+Enhances image quality by using AI to generate additional pixels for intensive ray-traced scenes. DLSS replaces hand-tuned denoisers with an NVIDIA supercomputer-trained AI network that generates higher-quality pixels between sampled rays.
+
+
+*Captured with GeForce RTX 4090 at 3840 x 2160, highest game settings and RT Overdrive mode
+
+cyberpunk-ultimate-edition-logo
+DLSS Super Resolution
+Boosts performance by using AI to output higher-resolution frames from a lower-resolution input. DLSS samples multiple lower-resolution images and uses motion data and feedback from prior frames to construct high-quality images. A new second-generation Transformer AI model further improves stability, anti-aliasing, and visual clarity.
+
+
+*Captured at 3840 x 2160 resolution, highest game settings
+
+Godofwar
+Deep Learning Anti-Aliasing
+Provides higher image quality with an AI-based anti-aliasing technique. DLAA uses the same Super Resolution technology developed for DLSS, constructing a more realistic, high-quality image at native resolution.
+
+
+*Captured at 3840 x 2160 resolution, highest game settings
+
+Nomanssky
+
+Upgrade to the Latest DLSS with NVIDIA App
+With the NVIDIA app you can update hundreds of games to use the latest DLSS features including Multi Frame Generation, and the newest AI models for DLSS Super Resolution, Frame Generation, and Ray Reconstruction.
+
+Learn More
+DLSS Supported Hardware
+Maximize your performance, responsiveness, and image quality on GeForce RTX GPUs.
+
+GeForce RTX 50 Series	GeForce RTX 40 Series	GeForce RTX 30 Series	GeForce RTX 20 Series
+DLSS Dynamic Multi Frame Generation		-	-	-
+DLSS Multi Frame Generation		-	-	-
+DLSS Frame Generation			-	-
+DLSS Ray Reconstruction				
+DLSS Super Resolution				
+Deep Learning Anti-Aliasing (DLAA)				
+Revolutionizing Your Favorite Games and Apps
+DLSS is transforming the industry and is now available in the biggest games and apps, from Black Myth: Wukong and Indiana Jones and the Great Circle™, to indie favorites like Still Wakes the Deep, with new games integrating regularly.
+
+See DLSS In Action
+Watch how DLSS enhances your favorite games.
+
+DLSS 4.5 | Enhanced Super Resolution & Dynamic Multi Frame Gen
+DLSS 4.5 | Enhanced Super Resolution & Dynamic Multi Frame Gen
+ Play
+DLSS 4.5 | Enhanced Super Resolution & Dynamic Multi Frame Gen
+DLSS 4.5 | Enhanced Super Resolution & Dynamic Multi Frame Gen
+GeForce On - Resident Evil Requiem Trailer
+GeForce On - Resident Evil Requiem Trailer
+ARC Raiders | 4K NVIDIA DLSS 4 Trailer
+ARC Raiders | 4K NVIDIA DLSS 4 Trailer
+Battlefield 6 | 4K NVIDIA DLSS 4 Reveal
+Battlefield 6 | 4K NVIDIA DLSS 4 Reveal
+DLSS 4 | New Multi Frame Gen Everything Enhanced
+DLSS 4 | New Multi Frame Gen Everything Enhanced
+DLSS 4 with DLSS Overrides in NVIDIA App
+DLSS 4 with DLSS Overrides in NVIDIA App
+DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4
+DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4
+FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal
+FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal
+WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison
+WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison
+RoadCraft | 4K NVIDIA DLSS 4 Comparison
+RoadCraft | 4K NVIDIA DLSS 4 Comparison
+FragPunk | 4K NVIDIA DLSS 4 Comparison
+FragPunk | 4K NVIDIA DLSS 4 Comparison
+Black Myth Wukong | DLSS 4 Launch Video
+Black Myth Wukong | DLSS 4 Launch Video
+Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction
+Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction
+Marvel Rivals | 4K NVIDIA DLSS 4 Comparison
+Marvel Rivals | 4K NVIDIA DLSS 4 Comparison
+Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison
+Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison
+Dune: Awakening | 4K NVIDIA DLSS 4 Comparison
+Dune: Awakening | 4K NVIDIA DLSS 4 Comparison
+Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation
+Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation
+Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal 
+Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal
+Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere 
+Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere
+NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI
+NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI
+Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison
+Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison
+What is NVIDIA DLSS 3? | The Performance Multiplier
+What is NVIDIA DLSS 3? | The Performance Multiplier
+Warhammer 40,000: Darktide | 4K DLSS 3 Comparison
+Warhammer 40,000: Darktide | 4K DLSS 3 Comparison
+Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison
+Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison
+THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex
+THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex
+Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison
+Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison
+Hitman 3 | 4K NVIDIA DLSS 3 Comparison
+Hitman 3 | 4K NVIDIA DLSS 3 Comparison
+F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison
+F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison
+Justice | 4K NVIDIA DLSS 3 Comparison
+Justice | 4K NVIDIA DLSS 3 Comparison
+Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal
+Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal
+NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps 
+NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps
+Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look
+Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look
+God of War with DLSS
+God of War with DLSS
+F1 ® 22 | 4K NVIDIA DLSS Comparison
+F1 ® 22 | 4K NVIDIA DLSS Comparison
+Hitman 3 with DLSS
+Hitman 3 with DLSS
+Farming Simulator 22 with DLSS
+Farming Simulator 22 with DLSS
+Assetto Corsa Competizione with DLSS
+Assetto Corsa Competizione with DLSS
+Red Dead Redemption 2 with DLSS
+Red Dead Redemption 2 with DLSS
+Rainbow Six Siege with DLSS
+Rainbow Six Siege with DLSS
+Call of Duty: Warzone With DLSS
+Call of Duty: Warzone With DLSS
+Outriders With DLSS
+Outriders With DLSS
+ 
+Latest DLSS News
+Resident Evil™ Requiem Available Now, Featuring Path Tracing, DLSS 4 With Multi Frame Generation & DLSS Ray Reconstruction
+February 26, 2026
+Resident Evil™ Requiem Available Now, Featuring Path Tracing, DLSS 4 With Multi Frame Generation & DLSS Ray Reconstruction
+Get the definitive Resident Evil Requiem experience on GeForce RTX 50 Series PCs, with incredible path-traced effects and blistering performance.
+DLSS 4 With Multi Frame Generation Available Now In The John Carpenter's Toxic Commando Demo, And Coming To Crimson Desert March 19th
+February 24, 2026
+DLSS 4 With Multi Frame Generation Available Now In The John Carpenter's Toxic Commando Demo, And Coming To Crimson Desert March 19th
+Plus, ARC Raiders’ Shrouded Sky update is available now.
+DLSS 4 With Multi Frame Generation Available This Week In Styx: Blades of Greed,  Star Trek: Voyager - Across the Unknown, And NORSE: Oath of Blood
+February 17, 2026
+DLSS 4 With Multi Frame Generation Available This Week In Styx: Blades of Greed, Star Trek: Voyager - Across the Unknown, And NORSE: Oath of Blood
+Plus, Battlefield 6: Season 2 begins today: multiply performance by an average of 3.8x with DLSS 4.
+Shop All GeForce RTX
+GeForce RTX 50 Series Graphics Cards
+ See All Buying Options
+Learn More
+GeForce RTX 50 Series Desktops
+ See All Buying Options
+Learn More
+GeForce RTX 50 Series Laptops
+ See All Buying Options
+Learn More
+NVIDIA Studio Laptops and Desktops
+ See All Buying Options
+Learn More
+Products
+Graphics Cards
+Laptops
+G-SYNC Monitors
+GeForce NOW Cloud Gaming
+ 
+Community & News
+Latest News
+Community Forums
+Community Portal
+Developer Resources
+ 
+Support
+Drivers
+Purchase Support
+Technical Support
+Follow GeForce
+Privacy Policy Your Privacy Choices Terms of Service Accessibility Corporate Policies Product Security Contact
+Copyright © 2026 NVIDIA Corporation

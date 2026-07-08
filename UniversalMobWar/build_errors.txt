@@ -1,0 +1,200 @@
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:6: error: package net.minecraft.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:7: error: package net.minecraft.command.argument does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:8: error: package net.minecraft.enchantment does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:9: error: package net.minecraft.enchantment does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:10: error: package net.minecraft.item does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:11: error: package net.minecraft.item does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:12: error: package net.minecraft.item does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:13: error: package net.minecraft.registry does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:14: error: package net.minecraft.registry does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:15: error: package net.minecraft.registry.entry does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:16: error: package net.minecraft.registry does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:17: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:18: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:19: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:20: error: package net.minecraft.text does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:21: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: package CommandManager does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:43: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:43: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:2: error: package net.minecraft.util.math does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:11: error: package net.minecraft.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:12: error: package net.minecraft.entity does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:13: error: package net.minecraft.entity.mob does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:14: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:15: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:16: error: package net.minecraft.server.world does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:17: error: package net.minecraft.text does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:18: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:19: error: package net.minecraft.util.math does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: package CommandManager does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:63: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:171: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:246: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:267: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:342: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:372: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:2: error: package net.minecraft.text does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:3: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:6: error: package net.minecraft.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:7: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:8: error: package net.minecraft.server.command does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: package CommandManager does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:27: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:9: error: package net.minecraft.entity.attribute does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:10: error: package net.minecraft.entity.attribute does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:11: error: package net.minecraft.entity.mob does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:12: error: package net.minecraft.entity.boss does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:13: error: package net.minecraft.entity.boss does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:14: error: package net.minecraft.entity.damage does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:15: error: package net.minecraft.entity.data does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:16: error: package net.minecraft.entity.data does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:17: error: package net.minecraft.entity.data does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:19: error: package net.minecraft.entity.player does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:20: error: package net.minecraft.entity.projectile.thrown does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:21: error: package net.minecraft.item does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:22: error: package net.minecraft.item does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:23: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:24: error: package net.minecraft.particle does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:25: error: package net.minecraft.component does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:26: error: package net.minecraft.component.type does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:27: error: package net.minecraft.entity.effect does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:28: error: package net.minecraft.entity.effect does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:29: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:30: error: package net.minecraft.server.world does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:31: error: package net.minecraft.sound does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:32: error: package net.minecraft.text does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:33: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:34: error: package net.minecraft.util.math does not exist
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:35: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:62: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:64: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:65: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:70: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:108: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:19: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:21: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:43: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:43: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:62: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:161: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:165: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:169: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:175: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:18: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:63: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:171: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:246: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:267: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:342: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:372: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:3: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:27: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:23: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:29: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:33: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:35: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:64: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:65: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:70: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:88: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:108: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:62: error: cannot find symbol
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:6: error: package net.minecraft.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:7: error: package net.minecraft.command.argument does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:8: error: package net.minecraft.enchantment does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:9: error: package net.minecraft.enchantment does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:10: error: package net.minecraft.item does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:11: error: package net.minecraft.item does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:12: error: package net.minecraft.item does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:13: error: package net.minecraft.registry does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:14: error: package net.minecraft.registry does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:15: error: package net.minecraft.registry.entry does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:16: error: package net.minecraft.registry does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:17: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:18: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:20: error: package net.minecraft.text does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\KitCommand.java:34: error: package CommandManager does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:2: error: package net.minecraft.util.math does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:11: error: package net.minecraft.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:12: error: package net.minecraft.entity does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:13: error: package net.minecraft.entity.mob does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:14: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:15: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:16: error: package net.minecraft.server.world does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:17: error: package net.minecraft.text does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:19: error: package net.minecraft.util.math does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\MobWarCommand.java:28: error: package CommandManager does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:2: error: package net.minecraft.text does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:6: error: package net.minecraft.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:7: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:8: error: package net.minecraft.server.command does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\command\RaidBossSpawnCommand.java:17: error: package CommandManager does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:9: error: package net.minecraft.entity.attribute does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:10: error: package net.minecraft.entity.attribute does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:11: error: package net.minecraft.entity.mob does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:12: error: package net.minecraft.entity.boss does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:13: error: package net.minecraft.entity.boss does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:14: error: package net.minecraft.entity.damage does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:15: error: package net.minecraft.entity.data does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:16: error: package net.minecraft.entity.data does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:17: error: package net.minecraft.entity.data does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:19: error: package net.minecraft.entity.player does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:20: error: package net.minecraft.entity.projectile.thrown does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:21: error: package net.minecraft.item does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:22: error: package net.minecraft.item does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:24: error: package net.minecraft.particle does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:25: error: package net.minecraft.component does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:26: error: package net.minecraft.component.type does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:27: error: package net.minecraft.entity.effect does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:28: error: package net.minecraft.entity.effect does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:30: error: package net.minecraft.server.world does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:31: error: package net.minecraft.sound does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:32: error: package net.minecraft.text does not exist
+  C:\Users\carte\Documents\Code\MC Mods\UniversalMobWar\src\main\java\mod\universalmobwar\entity\MobWarlordEntity.java:34: error: package net.minecraft.util.math does not exist

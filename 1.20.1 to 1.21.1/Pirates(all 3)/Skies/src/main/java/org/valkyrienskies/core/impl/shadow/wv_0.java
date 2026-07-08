@@ -1,0 +1,22 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.valkyrienskies.core.impl.shadow;
+
+import org.valkyrienskies.core.impl.shadow.kO;
+import org.valkyrienskies.core.impl.shadow.uJ;
+import org.valkyrienskies.core.impl.shadow.wr_0;
+
+/*
+ * This class specifies class file version 49.0 but uses Java 6 signatures.  Assumed Java 6.
+ * Renamed from org.valkyrienskies.core.impl.shadow.wv
+ */
+public interface wv_0<T extends kO<T>> {
+    public void a(uJ<T> var1, T var2);
+
+    /*
+     * Ignored method signature, as it can't be verified against descriptor
+     */
+    public void a(wr_0 var1, boolean var2);
+}
+

@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "textures": {
+        "top": "betterend:block/amber_moss_top",
+        "side": "betterend:block/amber_moss_side"
+      },
+      "masks": {
+        "blend_up": "lambdabettergrass:bettergrass/mask/grass_block_side_blend_up",
+        "arch": "lambdabettergrass:bettergrass/mask/grass_block_side_arch_blend"
+      }
+    }
+  ]
+}

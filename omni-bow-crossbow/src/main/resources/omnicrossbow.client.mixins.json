@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "archives.tater.omnicrossbow.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ItemRendererMixin",
+    "endereye.BackgroundRendererMixin",
+    "endereye.ClientPlayerEntityMixin",
+    "endereye.HeldItemRendererMixin",
+    "endereye.InGameHudMixin",
+    "endereye.LightmapTextureManagerMixin",
+    "endereye.MouseMixin",
+    "endereye.WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ModelPredicateProviderRegistryMixin"
+  ],
+  "refmap": "client-omnicrossbow-refmap.json"
+}

@@ -1,0 +1,1 @@
+{"name":"derelict:spider_caves/overworld_hint","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","projection":"rigid","location":"derelict:spider_caves/overworld_hint","processors":"minecraft:empty"}}]}

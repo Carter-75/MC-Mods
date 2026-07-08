@@ -1,0 +1,6 @@
+{
+	"parent": "vivecraft:bag",
+	"textures": {
+		"bag": "vivecraft:block/bag_gold"
+	}
+}

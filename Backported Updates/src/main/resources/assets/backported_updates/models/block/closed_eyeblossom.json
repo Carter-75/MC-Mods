@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "backported_updates:block/closed_eyeblossom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_sword_0",
+	"textures": {
+		"sword": "item/iron_sword"
+	}
+}

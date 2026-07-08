@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "net/_void/civilizations/mixin/ItemRendererAccessor": {
+      "models": "field_4732:Lnet/minecraft/class_763;"
+    },
+    "net/_void/civilizations/mixin/ItemRendererMixin": {
+      "renderItem": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+    },
+    "net/_void/civilizations/mixin/ModelLoaderMixin": {
+      "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+      "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_4727(Lnet/minecraft/class_1091;)V"
+    },
+    "net/_void/civilizations/mixin/TombstoneMixin": {
+      "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/_void/civilizations/mixin/ItemRendererAccessor": {
+        "models": "field_4732:Lnet/minecraft/class_763;"
+      },
+      "net/_void/civilizations/mixin/ItemRendererMixin": {
+        "renderItem": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+      },
+      "net/_void/civilizations/mixin/ModelLoaderMixin": {
+        "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+        "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_4727(Lnet/minecraft/class_1091;)V"
+      },
+      "net/_void/civilizations/mixin/TombstoneMixin": {
+        "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+      }
+    }
+  }
+}

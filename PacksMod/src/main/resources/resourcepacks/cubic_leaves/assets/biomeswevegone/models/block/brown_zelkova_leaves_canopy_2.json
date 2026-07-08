@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy_notint",
+	"textures": {
+		"all": "biomeswevegone:block/brown_zelkova_leaves_canopy"
+	}
+}

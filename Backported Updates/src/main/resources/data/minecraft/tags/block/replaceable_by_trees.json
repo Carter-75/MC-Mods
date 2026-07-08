@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bush",
+    "minecraft:firefly_bush",
+    "minecraft:leaf_litter",
+    "minecraft:tall_dry_grass",
+    "backported_updates:closed_eyeblossom",
+    "minecraft:short_dry_grass",
+    "backported_updates:pale_moss_carpet",
+    "backported_updates:open_eyeblossom"
+  ]
+}

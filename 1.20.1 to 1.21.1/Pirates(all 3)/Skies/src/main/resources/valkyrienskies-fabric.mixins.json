@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "package": "org.valkyrienskies.mod.fabric.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "org.valkyrienskies.mod.fabric.mixin.ValkyrienSkiesFabricMixinPlugin",
+  "mixins": [
+    "compat.create.MixinBlockBreakingKineticTileEntity",
+    "compat.create.MixinControlledContraptionEntity",
+    "compat.terra.MixinMinecraftChunkGeneratorWrapper",
+    "entity.MixinContainerEntity",
+    "feature.explosions.ClipContextMixin",
+    "feature.fix_tp_ships_cross_dimension.MixinLevelChunk",
+    "feature.shipyard_entities.MixinPersistentEntitySectionManager",
+    "feature.water_in_ships_entity.MixinEntity",
+    "server.network.MixinServerGamePacketListenerImpl",
+    "server.network.MixinServerPlayerGameMode",
+    "world.level.block.FireMixin"
+  ],
+  "client": [
+    "client.render.MixinLevelRenderer",
+    "compat.create.client.MixinBlockEntityRenderHelper",
+    "compat.create.client.MixinChainConveyorBlockEntity",
+    "compat.create.client.MixinContraptionHandlerClient",
+    "compat.create.client.MixinCullingBlockEntityIterator",
+    "compat.create.client.MixinSuperGlueSelectionHandler",
+    "compat.sodium.MixinSodiumWorldRenderer",
+    "compat.emf.MixinEMFAnimationEntityContext",
+    "feature.duplicate_keybindings.KeyMappingAccessor",
+    "feature.duplicate_keybindings.MixinKeyMapping"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "refmap": "valkyrienskies-120-fabric-refmap.json"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activated=true": {
+      "model": "backported_updates:block/creaking_heart_on"
+    },
+    "activated=false": {
+      "model": "backported_updates:block/creaking_heart_off"
+    }
+  }
+}

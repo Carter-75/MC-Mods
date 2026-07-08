@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_shovel",
+	"textures": {
+		"shovel": "item/netherite_shovel"
+	}
+}

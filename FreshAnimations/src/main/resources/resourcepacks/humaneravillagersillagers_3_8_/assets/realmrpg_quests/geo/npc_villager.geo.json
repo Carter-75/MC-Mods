@@ -1,0 +1,148 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.npc_villager",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "npc_villager",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "backpack",
+					"parent": "npc_villager",
+					"pivot": [-1.75, 23, 7],
+					"cubes": [
+						{"origin": [-4, 11.5, 2], "size": [8, 12, 8], "uv": [0, 236]},
+						{"origin": [0, 21, 4.75], "size": [2, 4, 6], "pivot": [1, 23, 6.75], "rotation": [-67.68953, 0.94269, -162.14478], "uv": [0, 217]},
+						{"origin": [1, 21, 10.75], "size": [0, 4, 4], "pivot": [1, 23, 6.75], "rotation": [-67.68953, 0.94269, -162.14478], "uv": [0, 209]},
+						{"origin": [-2.75, 21, 2], "size": [2, 4, 6], "pivot": [-1.75, 23, 7], "rotation": [-84.91492, -0.64686, -14.98637], "uv": [16, 217]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "npc_villager",
+					"pivot": [0, 12, 1],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.28, "uv": [16, 32]},
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.24, "uv": [80, 32]},
+						{"origin": [-4, 12, 2], "size": [8, 12, 0], "inflate": 0.28, "uv": [112, 36]},
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 16]}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "body",
+					"pivot": [0, 21.05, -0.05],
+					"rotation": [-43, 0, 0]
+				},
+				{
+					"name": "right_arm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 16]},
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [40, 32]},
+						{"origin": [-7, 12, -2], "size": [3, 12, 4], "uv": [24, 64]},
+						{"origin": [-7, 12, -2], "size": [3, 12, 4], "inflate": 0.25, "uv": [24, 80]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [48, 48]},
+						{"origin": [4, 12, -2], "size": [3, 12, 4], "uv": [38, 64]},
+						{"origin": [4, 12, -2], "size": [3, 12, 4], "inflate": 0.25, "uv": [38, 80]},
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [32, 48]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, -2],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bobber",
+					"parent": "head",
+					"pivot": [-5, 32, -1],
+					"cubes": [
+						{"origin": [4, 29.2, -1], "size": [2, 3, 2], "uv": [24, 236]},
+						{"origin": [5, 27.1, -0.5], "size": [0, 2, 2], "uv": [0, 239]}
+					]
+				},
+				{
+					"name": "bobber2",
+					"parent": "head",
+					"pivot": [-5, 32, -4],
+					"cubes": [
+						{"origin": [4, 29.2, -4], "size": [2, 3, 2], "uv": [0, 236]},
+						{"origin": [5, 27.1, -3.5], "size": [0, 2, 2], "uv": [0, 239]}
+					]
+				},
+				{
+					"name": "pipe",
+					"parent": "head",
+					"pivot": [-0.85, 25.4, -4],
+					"rotation": [17.5, 27.5, 0],
+					"cubes": [
+						{"origin": [-2.85, 24.4, -10], "size": [3, 3, 3], "uv": [0, 204]},
+						{"origin": [-1.85, 24.4, -7], "size": [1, 1, 3], "uv": [0, 200]}
+					]
+				},
+				{
+					"name": "pipe_stick",
+					"parent": "pipe",
+					"pivot": [-1.85, 25.4, -8]
+				},
+				{
+					"name": "nose",
+					"parent": "head",
+					"pivot": [0, 27, -6],
+					"cubes": [
+						{"origin": [-1, 23, -8], "size": [2, 4, 2], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "head",
+					"pivot": [8, 28, -8],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-7, 29, -9], "size": [14, 14, 1], "uv": [32, 241]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "npc_villager",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 48]},
+						{"origin": [0, 0, -2], "size": [4, 12, 4], "uv": [16, 48]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "npc_villager",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [0, 32]},
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}

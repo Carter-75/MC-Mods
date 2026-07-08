@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "valkyrienskies",
+  "version": "${version}",
+  "name": "Valkyrien Skies 2",
+  "description": "Moving blocks with physics :)",
+  "authors": [
+    "Tri0de",
+    "Rubydesic"
+  ],
+  "contact": {
+    "homepage": "https://valkyrienskies.org/",
+    "sources": "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/",
+    "issues": "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/valkyrienskies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.valkyrienskies.mod.fabric.common.ValkyrienSkiesModFabric"
+    ]
+  },
+  "mixins": [
+    "valkyrienskies-common.mixins.json",
+    "valkyrienskies-fabric.mixins.json"
+  ],
+  "accessWidener": "valkyrienskies-common.accesswidener",
+  "depends": {
+    "fabric": "*",
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.1",
+    "java": ">=17"
+  },
+  "breaks": {
+    "sodium": "<0.5.8",
+    "create": "<6.0.7",
+    "computercraft": "<1.115.0"
+  },
+  "custom": {
+    "lithium:options": {
+      "mixin.ai.poi": false
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.5.0.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/forgeconfigapiport-fabric-8.0.3.jar"
+    },
+    {
+      "file": "META-INF/jars/classmate-1.5.1.jar"
+    }
+  ]
+}
+    "lithium:options": {
+      "mixin.ai.poi": false
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.5.0.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/forgeconfigapiport-fabric-8.0.3.jar"
+    },
+    {
+      "file": "META-INF/jars/classmate-1.5.1.jar"
+    }
+  ]
+}

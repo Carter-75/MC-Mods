@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy",
+	"textures": {
+		"all": "cobblemon:block/wood/saccharine_leaves_dripping_canopy"
+	}
+}

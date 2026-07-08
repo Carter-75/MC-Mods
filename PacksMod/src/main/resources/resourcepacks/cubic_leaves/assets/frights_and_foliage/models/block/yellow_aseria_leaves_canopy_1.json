@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "frights_and_foliage:block/yellow_aseria_leaves_canopy"
+	}
+}

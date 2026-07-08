@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_ingot",
+	"textures": {
+		"ingot": "item/iron_ingot"
+	}
+}

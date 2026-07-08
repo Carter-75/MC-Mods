@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ingot_4",
+	"textures": {
+		"ingot": "item/netherite_ingot"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"shell": "item/nautilus_shell",
+		"particle": "#shell"
+	},
+	"elements": [
+		{
+			"from": [2, 2.5, 5.5],
+			"to": [12, 13.5, 10.5],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 7.5, 8], "texture": "#shell"},
+				"east": {"uv": [0, 2.5, 2.5, 8], "texture": "#shell"},
+				"south": {"uv": [10, 2.5, 15, 8], "texture": "#shell"},
+				"west": {"uv": [7.5, 2.5, 10, 8], "texture": "#shell"},
+				"up": {"uv": [7.5, 2.5, 2.5, 0], "texture": "#shell"},
+				"down": {"uv": [12.5, 0, 7.5, 2.5], "texture": "#shell"}
+			}
+		},
+		{
+			"from": [12, 2.5, 5.5],
+			"to": [14, 7.5, 10.5],
+			"faces": {
+				"north": {"uv": [2.5, 10.5, 3.5, 13], "texture": "#shell"},
+				"east": {"uv": [0, 10.5, 2.5, 13], "texture": "#shell"},
+				"south": {"uv": [6, 10.5, 7, 13], "texture": "#shell"},
+				"west": {"uv": [3.5, 10.5, 6, 13], "texture": "#shell"},
+				"up": {"uv": [3.5, 10.5, 2.5, 8], "texture": "#shell"},
+				"down": {"uv": [4.5, 8, 3.5, 10.5], "texture": "#shell"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 12.25, 0]
+		}
+	}
+}

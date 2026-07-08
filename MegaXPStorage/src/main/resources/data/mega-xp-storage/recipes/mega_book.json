@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" },
+		{ "item": "mega-xp-storage:super_book" }
+	],
+	"result": {
+		"item": "mega-xp-storage:mega_book",
+		"count": 1
+	}
+}

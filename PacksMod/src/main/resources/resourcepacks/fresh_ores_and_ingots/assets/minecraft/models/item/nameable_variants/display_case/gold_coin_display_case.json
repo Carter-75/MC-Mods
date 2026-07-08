@@ -1,0 +1,231 @@
+{
+    "format_version": "1.21.6",
+    "credit": "cyberia was here",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "0": "item/nameable_variants/gold_coin_3d",
+        "particle": "item/nameable_variants/gold_coin_3d"
+    },
+    "elements": [
+        {
+            "from": [
+                6.125,
+                7.30574,
+                6.59293
+            ],
+            "to": [
+                9.875,
+                8.55574,
+                10.34293
+            ],
+            "rotation": {
+                "angle": 0.0,
+                "axis": "x",
+                "origin": [
+                    -12.75,
+                    6.11271,
+                    -6.50589
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        6,
+                        0,
+                        12,
+                        2
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        6,
+                        2,
+                        12,
+                        4
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        4,
+                        12,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        6,
+                        6,
+                        12,
+                        8
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        6,
+                        6,
+                        0,
+                        0
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        6,
+                        6,
+                        0,
+                        12
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                -31,
+                0
+            ],
+            "translation": [
+                0,
+                4,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                -31,
+                0
+            ],
+            "translation": [
+                0,
+                4,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -54,
+                0
+            ],
+            "translation": [
+                2,
+                3.25,
+                0.5
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                -54,
+                0
+            ],
+            "translation": [
+                2,
+                3.25,
+                0.5
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "gui": {
+            "rotation": [
+                22.5,
+                -35,
+                0
+            ],
+            "translation": [
+                0,
+                -0.25,
+                0
+            ],
+            "scale": [
+                0.65,
+                0.65,
+                0.65
+            ]
+        },
+        "head": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                14.25,
+                0
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                -90,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                -1,
+                -14
+            ],
+            "scale": [
+                1.99995,
+                1.99995,
+                1.99995
+            ]
+        },
+        "on_shelf": {
+            "translation": [
+                0,
+                -2,
+                1
+            ],
+            "scale": [
+                0.75,
+                0.75,
+                0.75
+            ]
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Created by UnduGT for the Undopia Patch",
+    "parent": "block/activator_rail_raised_ne",
+    "textures": {
+        "rail": "block/activator_rail_on",
+		"sticks": "block/activator_rail_on_sticks"
+    }
+}

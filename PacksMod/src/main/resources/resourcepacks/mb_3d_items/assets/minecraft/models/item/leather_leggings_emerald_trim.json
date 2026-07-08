@@ -1,0 +1,8 @@
+{
+	"parent": "item/leather_leggings_trim",
+	"textures": {
+		"leggings": "models/armor/leather_layer_2",
+		"overlay": "models/armor/leather_layer_2_overlay",
+		"trim": "trims/models/armor/shaper_leggings_emerald"
+	}
+}

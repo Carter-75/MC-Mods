@@ -1,0 +1,21 @@
+{
+	"parent": "item/default_rod",
+	"textures": {
+		"stick": "item/stick",
+		"particle": "#stick"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#stick"},
+				"east": {"uv": [4, 0, 6, 16], "texture": "#stick"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#stick"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#stick"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#stick"},
+				"down": {"uv": [8, 2, 10, 4], "texture": "#stick"}
+			}
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"textures": {
+		"bin": "vivecraft:block/trashbin",
+		"particle": "#bin"
+	},
+	"elements": [
+		{
+			"from": [5, -2, 5],
+			"to": [12, 7, 12],
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 7, 8], "texture": "#bin"},
+				"east": {"uv": [0, 3.5, 3.5, 8], "texture": "#bin"},
+				"south": {"uv": [10.5, 3.5, 14, 8], "texture": "#bin"},
+				"west": {"uv": [7, 3.5, 10.5, 8], "texture": "#bin"},
+				"up": {"uv": [7, 3.5, 3.5, 0], "texture": "#bin"},
+				"down": {"uv": [10.5, 0, 7, 3.5], "texture": "#bin"}
+			}
+		},
+		{
+			"from": [11, 7, 11],
+			"to": [6, -1, 6],
+			"faces": {
+				"north": {"uv": [7.5, 14.5, 10, 10.5], "texture": "#bin"},
+				"east": {"uv": [5, 14.5, 7.5, 10.5], "texture": "#bin"},
+				"south": {"uv": [2.5, 14.5, 5, 10.5], "texture": "#bin"},
+				"west": {"uv": [0, 14.5, 2.5, 10.5], "texture": "#bin"},
+				"up": {"uv": [5, 8, 7.5, 10.5], "texture": "#bin"},
+				"down": {"uv": [2.5, 10.5, 5, 8], "texture": "#bin"}
+			}
+		},
+		{
+			"from": [12, 6, 5],
+			"to": [15, 6, 12],
+			"faces": {
+				"north": {"uv": [0, 3.5, 1.5, 3.5], "texture": "#bin"},
+				"east": {"uv": [-3.5, 3.5, 0, 3.5], "texture": "#bin"},
+				"south": {"uv": [5, 3.5, 6.5, 3.5], "texture": "#bin"},
+				"west": {"uv": [1.5, 3.5, 5, 3.5], "texture": "#bin"},
+				"up": {"uv": [1.5, 3.5, 0, 0], "texture": "#bin"},
+				"down": {"uv": [3, 0, 1.5, 3.5], "texture": "#bin"}
+			}
+		},
+		{
+			"from": [2, 6, 5],
+			"to": [5, 6, 12],
+			"faces": {
+				"north": {"uv": [10.5, 3.5, 12, 3.5], "texture": "#bin"},
+				"east": {"uv": [7, 3.5, 10.5, 3.5], "texture": "#bin"},
+				"south": {"uv": [15.5, 3.5, 17, 3.5], "texture": "#bin"},
+				"west": {"uv": [12, 3.5, 15.5, 3.5], "texture": "#bin"},
+				"up": {"uv": [12, 3.5, 10.5, 0], "texture": "#bin"},
+				"down": {"uv": [13.5, 0, 12, 3.5], "texture": "#bin"}
+			}
+		}
+	]
+}

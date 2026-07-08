@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_pickaxe_3",
+	"textures": {
+		"pick": "item/netherite_pickaxe"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "aether:block/natural/golden_oak_leaves_canopy"
+	}
+}

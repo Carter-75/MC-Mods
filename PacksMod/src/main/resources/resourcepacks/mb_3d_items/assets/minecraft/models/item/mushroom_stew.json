@@ -1,0 +1,7 @@
+{
+    "parent": "item/template_bowl",
+	"textures": {
+		"bowl": "item/bowl",
+		"contents": "item/mushroom_stew"
+	}
+}

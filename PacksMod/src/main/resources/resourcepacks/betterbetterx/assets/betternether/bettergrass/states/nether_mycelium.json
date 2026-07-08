@@ -1,0 +1,14 @@
+
+
+{
+  "type": "grass",
+  "variants": {
+    "blue=false": {
+      "data": "betternether:bettergrass/data/nether_mycelium"
+  },
+    "blue=true": {
+      "data": "betternether:bettergrass/data/blue_nether_mycelium"
+    }
+  }
+}
+

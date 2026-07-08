@@ -1,0 +1,41 @@
+{
+	"parent": "item/default_thin",
+	"textures": {
+		"scrap": "item/netherite_scrap",
+		"particle": "#scrap"
+	},
+	"elements": [
+		{
+			"from": [3.5, 7, 4],
+			"to": [10.5, 8, 9],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [6, 1, 7, 8], "rotation": 90, "texture": "#scrap"},
+				"east": {"uv": [11, 0, 6, 1], "rotation": 180, "texture": "#scrap"},
+				"south": {"uv": [0, 1, 1, 8], "rotation": 270, "texture": "#scrap"},
+				"west": {"uv": [6, 1, 1, 0], "texture": "#scrap"},
+				"up": {"uv": [1, 1, 6, 8], "rotation": 270, "texture": "#scrap"},
+				"down": {"uv": [7, 1, 12, 8], "rotation": 270, "texture": "#scrap"}
+			}
+		},
+		{
+			"from": [5, 7.75, 7],
+			"to": [12, 8.75, 12],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 8.25, 9.5]},
+			"faces": {
+				"north": {"uv": [6, 1, 7, 8], "rotation": 90, "texture": "#scrap"},
+				"east": {"uv": [11, 0, 6, 1], "rotation": 180, "texture": "#scrap"},
+				"south": {"uv": [0, 1, 1, 8], "rotation": 270, "texture": "#scrap"},
+				"west": {"uv": [6, 1, 1, 0], "texture": "#scrap"},
+				"up": {"uv": [1, 1, 6, 8], "rotation": 270, "texture": "#scrap"},
+				"down": {"uv": [7, 1, 12, 8], "rotation": 270, "texture": "#scrap"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [45, 225, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

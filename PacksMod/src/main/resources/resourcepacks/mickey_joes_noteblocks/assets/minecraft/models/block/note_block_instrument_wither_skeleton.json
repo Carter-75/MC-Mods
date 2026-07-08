@@ -1,0 +1,13 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/cube_bottom_top",
+	"textures": {
+        "particle": "block/note_block_wither_skeleton_top",
+        "down": "block/note_block_wither_skeleton_bottom",
+        "up": "block/note_block_wither_skeleton_top",
+        "north": "block/note_block_wither_skeleton_side",
+        "east": "block/note_block_wither_skeleton_side",
+        "south": "block/note_block_wither_skeleton_side",
+        "west": "block/note_block_wither_skeleton_side"
+	}
+}

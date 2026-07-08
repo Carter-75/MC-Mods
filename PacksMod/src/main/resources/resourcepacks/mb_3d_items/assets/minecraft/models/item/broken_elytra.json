@@ -1,0 +1,6 @@
+{
+    "parent": "item/elytra",
+    "textures": {
+        "elytra": "item/broken_elytra"
+    }
+}

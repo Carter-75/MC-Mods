@@ -1,0 +1,6 @@
+{
+	"parent": "item/wolf_armor_crackiness_low",
+	"textures": {
+		"crack": "entity/wolf/wolf_armor_crackiness_medium"
+	}
+}

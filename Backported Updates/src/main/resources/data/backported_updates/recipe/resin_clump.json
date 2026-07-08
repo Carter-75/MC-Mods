@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "backported_updates:resin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "backported_updates:resin_clump"
+  }
+}

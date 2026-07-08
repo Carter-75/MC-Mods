@@ -1,0 +1,23 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"melon": "item/melon_slice",
+		"particle": "#melon"
+	},
+	"elements": [
+		{
+			"from": [2, 0.5, 5.5],
+			"to": [14, 5.5, 10.5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 5, 8.5], "rotation": 270, "texture": "#melon"},
+				"east": {"uv": [5, 2.5, 2.5, 0], "rotation": 90, "texture": "#melon"},
+				"south": {"uv": [7.5, 2.5, 10, 8.5], "rotation": 90, "texture": "#melon"},
+				"west": {"uv": [7.5, 0, 5, 2.5], "rotation": 90, "texture": "#melon"},
+				"up": {"uv": [5, 2.5, 7.5, 8.5], "rotation": 90, "texture": "#melon"},
+				"down": {"uv": [0, 2.5, 2.5, 8.5], "rotation": 90, "texture": "#melon"}
+			}
+		}
+	]
+}

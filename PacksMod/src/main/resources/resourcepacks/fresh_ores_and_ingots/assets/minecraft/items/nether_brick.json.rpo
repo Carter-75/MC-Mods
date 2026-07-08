@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick1.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick2.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick3.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick4.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick5.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick6.json",
+        "assets/minecraft/items/2d_sprites/nether_brick/nether_brick7.json"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster1.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster2.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster3.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster4.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster5.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster6.json",
+        "assets/minecraft/items/2d_sprites/amethyst_cluster/amethyst_cluster7.json"
+    ]
+}

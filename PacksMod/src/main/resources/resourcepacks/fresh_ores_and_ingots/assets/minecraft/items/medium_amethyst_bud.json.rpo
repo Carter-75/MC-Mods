@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud1.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud2.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud3.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud4.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud5.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud6.json",
+        "assets/minecraft/items/2d_sprites/medium_amethyst_bud/medium_amethyst_bud7.json"
+    ]
+}

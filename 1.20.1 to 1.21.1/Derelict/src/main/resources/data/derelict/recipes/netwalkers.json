@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["GLG","M M","C C"],"key":{"G":{"item":"derelict:spider_silk_gland"},"C":{"item":"derelict:spider_silk_strand"},"M":{"item":"derelict:spider_molt"},"L":{"item":"minecraft:iron_leggings"}},"result":{"item":"derelict:netwalkers","count":1}}

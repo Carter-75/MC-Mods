@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wildflowers",
+    "minecraft:cactus_flower",
+    "backported_updates:open_eyeblossom",
+    "backported_updates:closed_eyeblossom"
+  ]
+}

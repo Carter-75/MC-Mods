@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "meadow:block/yellow_pine_leaves_canopy"
+	}
+}

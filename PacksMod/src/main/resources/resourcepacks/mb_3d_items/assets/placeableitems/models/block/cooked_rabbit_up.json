@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/rabbit_up",
+	"textures": {
+		"rabbit": "item/cooked_rabbit"
+	}
+}

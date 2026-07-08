@@ -1,0 +1,74 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"flint": "item/flint",
+		"particle": "#flint"
+	},
+	"elements": [
+		{
+			"from": [3.5, 3, 4.01],
+			"to": [8.5, 7, 7.99],
+			"faces": {
+				"north": {"uv": [9, 2, 11.5, 4], "texture": "#flint"},
+				"east": {"uv": [7, 2, 9, 4], "texture": "#flint"},
+				"south": {"uv": [13.5, 2, 16, 4], "texture": "#flint"},
+				"west": {"uv": [11.5, 2, 13.5, 4], "texture": "#flint"},
+				"up": {"uv": [11.5, 2, 9, 0], "texture": "#flint"},
+				"down": {"uv": [14, 0, 11.5, 2], "texture": "#flint"}
+			}
+		},
+		{
+			"from": [7.5, 3, 4],
+			"to": [12.5, 10, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.5, 3, 6]},
+			"faces": {
+				"north": {"uv": [2, 4, 4.5, 7.5], "texture": "#flint"},
+				"east": {"uv": [0, 4, 2, 7.5], "texture": "#flint"},
+				"south": {"uv": [6.5, 4, 9, 7.5], "texture": "#flint"},
+				"west": {"uv": [4.5, 4, 6.5, 7.5], "texture": "#flint"},
+				"up": {"uv": [4.5, 4, 2, 2], "texture": "#flint"},
+				"down": {"uv": [7, 2, 4.5, 4], "texture": "#flint"}
+			}
+		},
+		{
+			"from": [9, 7.5, 9.5],
+			"to": [13, 14.5, 10.5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11, 11, 10]},
+			"faces": {
+				"north": {"uv": [11.5, 4.5, 13.5, 8], "texture": "#flint"},
+				"east": {"uv": [11, 4.5, 11.5, 8], "texture": "#flint"},
+				"south": {"uv": [14, 4.5, 16, 8], "texture": "#flint"},
+				"west": {"uv": [13.5, 4.5, 14, 8], "texture": "#flint"},
+				"up": {"uv": [13.5, 4.5, 11.5, 4], "texture": "#flint"},
+				"down": {"uv": [15.5, 4, 13.5, 4.5], "texture": "#flint"}
+			}
+		},
+		{
+			"from": [12.99, 14.49, 10.49],
+			"to": [9.01, 7.51, 9.51],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11, 11, 10]},
+			"faces": {
+				"north": {"uv": [16, 4.5, 14, 8], "rotation": 180, "texture": "#flint"},
+				"east": {"uv": [14, 4.5, 13.5, 8], "rotation": 180, "texture": "#flint"},
+				"south": {"uv": [13.5, 4.5, 11.5, 8], "rotation": 180, "texture": "#flint"},
+				"west": {"uv": [11.5, 4.5, 11, 8], "rotation": 180, "texture": "#flint"},
+				"up": {"uv": [13.5, 4, 15.5, 4.5], "texture": "#flint"},
+				"down": {"uv": [11.5, 4.5, 13.5, 4], "texture": "#flint"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.125, 1.125, 1.125]
+		},
+		"head": {
+			"translation": [0, 11.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, 22.5, 0],
+			"translation": [0, 0, -1.375],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

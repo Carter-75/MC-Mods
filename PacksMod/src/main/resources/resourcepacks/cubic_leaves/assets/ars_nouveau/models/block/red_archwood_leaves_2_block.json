@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "ars_nouveau:block/red_archwood_leaves_2"
+	}
+}

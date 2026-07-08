@@ -1,0 +1,294 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"bottom": false
+			},
+			"apply": [
+				{
+					"model": "promenade:block/snowy_palm_leaves",
+					"weight": 24
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"weight": 8
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_block",
+					"uvlock": true,
+					"weight": 2,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"when": {
+				"bottom": false
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 24
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"bottom": true
+			},
+			"apply": [
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom",
+					"weight": 24
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_1",
+					"weight": 8
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_2",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_3",
+					"uvlock": true,
+					"weight": 2
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_3",
+					"uvlock": true,
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_3",
+					"uvlock": true,
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom_block_3",
+					"uvlock": true,
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_bottom",
+					"weight": 4
+				}
+			]
+		},
+		{
+			"when": {
+				"bottom": true
+			},
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 24
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/snowy_palm_leaves_canopy_1",
+					"weight": 2,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "promenade:block/palm_leaves_canopy_2",
+					"weight": 1,
+					"y": 270
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "cubicleaves:block/template_block_column_overlaid_sides",
+	"textures": {
+		"sides": "minecraft:block/birch_leaves",
+		"sides_overlay": "promenade:block/snowy_birch_leaves_bottom",
+		"ends": "minecraft:block/birch_leaves"
+	}
+}

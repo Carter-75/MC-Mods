@@ -1,0 +1,7 @@
+{
+	"parent": "item/template_boots_trim",
+	"textures": {
+		"boots": "models/armor/gold_layer_1",
+		"trim": "trims/models/armor/ward_redstone"
+	}
+}

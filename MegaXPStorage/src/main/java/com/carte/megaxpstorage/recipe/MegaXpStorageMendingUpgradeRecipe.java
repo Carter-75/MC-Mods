@@ -1,0 +1,109 @@
+package com.carte.megaxpstorage.recipe;
+
+import com.carte.megaxpstorage.MegaXpStorageMod;
+import com.carte.megaxpstorage.item.MegaXpStorageItem;
+
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.ItemEnchantmentsComponent;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
+import net.minecraft.recipe.RecipeSerializer;
+import net.minecraft.recipe.SpecialCraftingRecipe;
+import net.minecraft.recipe.SpecialRecipeSerializer;
+import net.minecraft.recipe.input.CraftingRecipeInput;
+import net.minecraft.recipe.book.CraftingRecipeCategory;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.world.World;
+
+public class MegaXpStorageMendingUpgradeRecipe extends SpecialCraftingRecipe {
+	public static final RecipeSerializer<MegaXpStorageMendingUpgradeRecipe> SERIALIZER = new SpecialRecipeSerializer<>(MegaXpStorageMendingUpgradeRecipe::new);
+
+	public MegaXpStorageMendingUpgradeRecipe(CraftingRecipeCategory category) {
+		super(category);
+	}
+
+	@Override
+	public boolean matches(CraftingRecipeInput input, World world) {
+		if (input.getWidth() != 3 || input.getHeight() != 3) {
+			return false;
+		}
+
+		ItemStack center = input.getStackInSlot(1, 1);
+		if (!center.isOf(MegaXpStorageMod.MEGA_XP_STORAGE)) {
+			return false;
+		}
+
+		RegistryEntry<Enchantment> mending = world.getRegistryManager()
+				.getWrapperOrThrow(RegistryKeys.ENCHANTMENT)
+				.getOrThrow(Enchantments.MENDING);
+
+		for (int y = 0; y < 3; y++) {
+			for (int x = 0; x < 3; x++) {
+				if (x == 1 && y == 1) {
+					continue;
+				}
+
+				ItemStack stack = input.getStackInSlot(x, y);
+				if (!stack.isOf(Items.ENCHANTED_BOOK)) {
+					return false;
+				}
+
+				ItemEnchantmentsComponent stored = stack.get(DataComponentTypes.STORED_ENCHANTMENTS);
+				if (stored == null || stored.getLevel(mending) <= 0) {
+					return false;
+				}
+			}
+		}
+
+		return true;
+	}
+
+	@Override
+	public ItemStack craft(CraftingRecipeInput input, RegistryWrapper.WrapperLookup registries) {
+		ItemStack center = input.getStackInSlot(1, 1);
+		long storedLevels = MegaXpStorageItem.getStoredLevels(center);
+		ItemStack out = new ItemStack(MegaXpStorageMod.MEGA_XP_STORAGE_MENDING);
+		RegistryEntry<Enchantment> mending = registries.getWrapperOrThrow(RegistryKeys.ENCHANTMENT).getOrThrow(Enchantments.MENDING);
+		out.addEnchantment(mending, 1);
+		MegaXpStorageItem.setStoredLevels(out, storedLevels);
+		return out;
+	}
+
+	@Override
+	public ItemStack getResult(RegistryWrapper.WrapperLookup registries) {
+		ItemStack out = new ItemStack(MegaXpStorageMod.MEGA_XP_STORAGE_MENDING);
+		RegistryEntry<Enchantment> mending = registries.getWrapperOrThrow(RegistryKeys.ENCHANTMENT).getOrThrow(Enchantments.MENDING);
+		out.addEnchantment(mending, 1);
+		return out;
+	}
+
+	@Override
+	public DefaultedList<Ingredient> getIngredients() {
+		DefaultedList<Ingredient> ingredients = DefaultedList.ofSize(9, Ingredient.EMPTY);
+		for (int slot = 0; slot < 9; slot++) {
+			ingredients.set(slot, slot == 4 ? Ingredient.ofItems(MegaXpStorageMod.MEGA_XP_STORAGE) : Ingredient.ofItems(Items.ENCHANTED_BOOK));
+		}
+		return ingredients;
+	}
+
+	@Override
+	public boolean isIgnoredInRecipeBook() {
+		return false;
+	}
+
+	@Override
+	public boolean fits(int width, int height) {
+		return width == 3 && height == 3;
+	}
+
+	@Override
+	public RecipeSerializer<?> getSerializer() {
+		return SERIALIZER;
+	}
+}

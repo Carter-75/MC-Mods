@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_all_notint",
+	"textures": {
+		"all": "meadow:block/alpine_birch_leaves_top"
+	}
+}

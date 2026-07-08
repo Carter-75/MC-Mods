@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ingot",
+	"textures": {
+		"ingot": "item/nether_brick"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"parent": "item/default_rod",
+	"textures": {
+		"shard": "item/amethyst_shard",
+		"particle": "#shard"
+	},
+	"elements": [
+		{
+			"from": [6.5, 4, 6.5],
+			"to": [9.5, 12, 9.5],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 11], "texture": "#shard"},
+				"east": {"uv": [0, 3, 3, 11], "texture": "#shard"},
+				"south": {"uv": [9, 3, 12, 11], "texture": "#shard"},
+				"west": {"uv": [6, 3, 9, 11], "texture": "#shard"},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#shard"},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#shard"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [90, 0, 90],
+			"translation": [0, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [45, 22.5, -45],
+			"scale": [1.3125, 1.3125, 1.3125]
+		},
+		"thirdperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2, 1],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 0, 45],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "natures_spirit:block/frosty_fir_leaves_canopy"
+	}
+}

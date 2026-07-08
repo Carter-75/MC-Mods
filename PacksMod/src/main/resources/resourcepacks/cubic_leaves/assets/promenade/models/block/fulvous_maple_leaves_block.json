@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "promenade:block/fulvous_maple_leaves"
+	}
+}

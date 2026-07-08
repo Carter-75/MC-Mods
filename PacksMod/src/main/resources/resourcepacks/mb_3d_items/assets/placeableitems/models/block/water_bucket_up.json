@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_bucket_up",
+	"textures": {
+		"contents": "item/water_bucket"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": [
+      {
+        "text": "▣ By sulep\n"
+      },
+      {
+        "text": "Adds Refined Cats",
+        "color": "dark_purple"
+      }
+    ]
+  },
+  "optifine": {
+    "emissive_textures": true
+  }
+}

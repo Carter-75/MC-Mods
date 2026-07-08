@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard1.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard2.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard3.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard4.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard5.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard6.json",
+        "assets/minecraft/items/2d_sprites/echo_shard/echo_shard7.json"
+    ]
+}

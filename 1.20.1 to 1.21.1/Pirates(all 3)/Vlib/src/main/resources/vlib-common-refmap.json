@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "g_mungus/vlib/mixin/shipPlacement/StructureTemplateManagerMixin": {
+      "get": "Lnet/minecraft/class_3485;method_15094(Lnet/minecraft/class_2960;)Ljava/util/Optional;"
+    },
+    "g_mungus/vlib/mixin/specialSaveBehavior/StructureTemplateMixin": {
+      "Lnet/minecraft/world/level/Level;getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;": "Lnet/minecraft/class_1937;method_8321(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2586;",
+      "fillFromWorld(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Vec3i;ZLnet/minecraft/world/level/block/Block;)V": "Lnet/minecraft/class_3499;method_15174(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2382;ZLnet/minecraft/class_2248;)V"
+    },
+    "g_mungus/vlib/mixin/v2/ServerLevelMixin": {
+      "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "g_mungus/vlib/mixin/v2/shipAssembly/PaletteInvoker": {
+      "<init>": "<init>"
+    },
+    "g_mungus/vlib/mixin/v2/templatePlacement/BlockPosArgumentMixin": {
+      "getLoadedBlockPos(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/server/level/ServerLevel;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;": "Lnet/minecraft/class_2262;method_48298(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/class_3218;Ljava/lang/String;)Lnet/minecraft/class_2338;"
+    },
+    "g_mungus/vlib/mixin/v2/templatePlacement/StructureTemplateAccessor": {
+      "entityInfoList": "field_15589:Ljava/util/List;"
+    },
+    "g_mungus/vlib/mixin/v2/templatePlacement/StructureTemplateMixin": {
+      "placeInWorld": "Lnet/minecraft/class_3499;method_15172(Lnet/minecraft/class_5425;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lnet/minecraft/class_3492;Lnet/minecraft/class_5819;I)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "g_mungus/vlib/mixin/shipPlacement/StructureTemplateManagerMixin": {
+        "get": "Lnet/minecraft/class_3485;method_15094(Lnet/minecraft/class_2960;)Ljava/util/Optional;"
+      },
+      "g_mungus/vlib/mixin/specialSaveBehavior/StructureTemplateMixin": {
+        "Lnet/minecraft/world/level/Level;getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;": "Lnet/minecraft/class_1937;method_8321(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2586;",
+        "fillFromWorld(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Vec3i;ZLnet/minecraft/world/level/block/Block;)V": "Lnet/minecraft/class_3499;method_15174(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2382;ZLnet/minecraft/class_2248;)V"
+      },
+      "g_mungus/vlib/mixin/v2/ServerLevelMixin": {
+        "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "g_mungus/vlib/mixin/v2/shipAssembly/PaletteInvoker": {
+        "<init>": "<init>"
+      },
+      "g_mungus/vlib/mixin/v2/templatePlacement/BlockPosArgumentMixin": {
+        "getLoadedBlockPos(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/server/level/ServerLevel;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;": "Lnet/minecraft/class_2262;method_48298(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/class_3218;Ljava/lang/String;)Lnet/minecraft/class_2338;"
+      },
+      "g_mungus/vlib/mixin/v2/templatePlacement/StructureTemplateAccessor": {
+        "entityInfoList": "field_15589:Ljava/util/List;"
+      },
+      "g_mungus/vlib/mixin/v2/templatePlacement/StructureTemplateMixin": {
+        "placeInWorld": "Lnet/minecraft/class_3499;method_15172(Lnet/minecraft/class_5425;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lnet/minecraft/class_3492;Lnet/minecraft/class_5819;I)Z"
+      }
+    }
+  }
+}

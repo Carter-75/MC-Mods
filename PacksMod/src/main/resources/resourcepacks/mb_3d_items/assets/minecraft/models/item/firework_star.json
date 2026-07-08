@@ -1,0 +1,33 @@
+{
+	"parent": "item/template_ball_small",
+	"textures": {
+		"ball": "item/firework_star",
+		"overlay": "item/firework_star_overlay"
+	},
+	"elements": [
+		{
+			"from": [5, 5, 5],
+			"to": [11, 11, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6], "texture": "#ball"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#ball"},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#ball"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#ball"},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#ball"},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#ball"}
+			}
+		},
+		{
+			"from": [5, 5, 5],
+			"to": [11, 11, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6], "texture": "#overlay", "tintindex": 1},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#overlay", "tintindex": 1},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#overlay", "tintindex": 1},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#overlay", "tintindex": 1},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#overlay", "tintindex": 1},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#overlay", "tintindex": 1}
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+
+> Configure project :
+Fabric Loom: 1.14.10
+Project directory 'C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy' is located in OneDrive. This is known to cause issues and slower performance. Consider moving the project to a different location.
+
+> Task :compileJava
+Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\registry\ModEntities.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources
+> Task :classes
+> Task :compileClientJava
+> Task :processClientResources
+> Task :jar
+> Task :processIncludeJars
+> Task :sourcesJar
+> Task :clientClasses
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener NO-SOURCE
+> Task :check UP-TO-DATE
+Cannot remap onDeath because it does not exists in any of the targets [net/minecraft/entity/mob/MobEntity]
+> Task :remapJar
+> Task :remapSourcesJar
+> Task :assemble
+> Task :build
+
+[Incubating] Problems report is available at: file:///C:/Users/carte/OneDrive/Desktop/Code/MC%20Mods/DroneArmy/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 22s
+9 actionable tasks: 9 executed

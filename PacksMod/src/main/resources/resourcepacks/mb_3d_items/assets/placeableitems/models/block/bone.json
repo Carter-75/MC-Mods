@@ -1,0 +1,64 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"bone": "item/bone",
+		"particle": "#bone"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 2],
+			"to": [9, 2, 14],
+			"faces": {
+				"east": {"uv": [0, 2, 2, 14], "rotation": 270, "texture": "#bone"},
+				"west": {"uv": [4, 2, 6, 14], "rotation": 90, "texture": "#bone"},
+				"up": {"uv": [2, 2, 4, 14], "rotation": 180, "texture": "#bone"},
+				"down": {"uv": [6, 2, 8, 14], "texture": "#bone"}
+			}
+		},
+		{
+			"from": [8, 0, 14],
+			"to": [10, 2, 16],
+			"faces": {
+				"north": {"uv": [14, 0, 12, 2], "rotation": 180, "texture": "#bone"},
+				"east": {"uv": [8, 2, 10, 4], "rotation": 270, "texture": "#bone"},
+				"south": {"uv": [12, 2, 10, 0], "texture": "#bone"},
+				"up": {"uv": [10, 2, 12, 4], "rotation": 180, "texture": "#bone"},
+				"down": {"uv": [14, 2, 16, 4], "texture": "#bone"}
+			}
+		},
+		{
+			"from": [6, 0, 14],
+			"to": [8, 2, 16],
+			"faces": {
+				"north": {"uv": [14, 4, 12, 6], "rotation": 180, "texture": "#bone"},
+				"south": {"uv": [12, 6, 10, 4], "texture": "#bone"},
+				"west": {"uv": [12, 6, 14, 8], "rotation": 90, "texture": "#bone"},
+				"up": {"uv": [10, 6, 12, 8], "rotation": 180, "texture": "#bone"},
+				"down": {"uv": [14, 6, 16, 8], "texture": "#bone"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [10, 2, 2],
+			"faces": {
+				"north": {"uv": [14, 8, 12, 10], "rotation": 180, "texture": "#bone"},
+				"east": {"uv": [8, 10, 10, 12], "rotation": 270, "texture": "#bone"},
+				"south": {"uv": [12, 10, 10, 8], "texture": "#bone"},
+				"up": {"uv": [10, 10, 12, 12], "rotation": 180, "texture": "#bone"},
+				"down": {"uv": [14, 10, 16, 12], "texture": "#bone"}
+			}
+		},
+		{
+			"from": [6, 0, 0],
+			"to": [8, 2, 2],
+			"faces": {
+				"north": {"uv": [14, 12, 12, 14], "rotation": 180, "texture": "#bone"},
+				"south": {"uv": [12, 14, 10, 12], "texture": "#bone"},
+				"west": {"uv": [12, 14, 14, 16], "rotation": 90, "texture": "#bone"},
+				"up": {"uv": [10, 14, 12, 16], "rotation": 180, "texture": "#bone"},
+				"down": {"uv": [14, 14, 16, 16], "texture": "#bone"}
+			}
+		}
+	]
+}

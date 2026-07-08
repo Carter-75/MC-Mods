@@ -1,0 +1,72 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "atmospheric:block/green_aspen_leaves",
+					"weight": 8
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_block",
+					"weight": 4
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 8
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/green_aspen_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

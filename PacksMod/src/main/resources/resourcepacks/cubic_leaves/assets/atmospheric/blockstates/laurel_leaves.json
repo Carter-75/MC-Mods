@@ -1,0 +1,145 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "atmospheric:block/laurel_leaves",
+					"weight": 24
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"weight": 8
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 24
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_2",
+					"weight": 2
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_2",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_2",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "atmospheric:block/laurel_leaves_canopy_2",
+					"weight": 2,
+					"y": 270
+				}
+			]
+		}
+	]
+}

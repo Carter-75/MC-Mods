@@ -1,0 +1,32 @@
+{
+	"credit": "zanderest",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "#sides"
+	},
+	"elements": [
+		{
+			"name": "block",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sides", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sides", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sides", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sides", "cullface": "west", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#ends", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "block_overlay",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sides_overlay", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sides_overlay", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sides_overlay", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sides_overlay", "cullface": "west"}
+			}
+		}
+	]
+}

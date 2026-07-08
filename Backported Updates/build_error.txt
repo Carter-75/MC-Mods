@@ -1,0 +1,18 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+> Configure project :
+Fabric Loom: 1.7.4
+
+> Task :backupExistingJar
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :processIncludeJars UP-TO-DATE
+> Task :remapJar
+
+> Task :buildModJar
+Built mod jar: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\Backported Updates\backported_updates.jar
+
+BUILD SUCCESSFUL in 56s
+7 actionable tasks: 3 executed, 4 up-to-date

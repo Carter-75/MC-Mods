@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_axe_0",
+	"textures": {
+		"axe": "item/iron_axe"
+	}
+}

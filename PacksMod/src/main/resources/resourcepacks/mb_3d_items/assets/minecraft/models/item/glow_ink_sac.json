@@ -1,0 +1,6 @@
+{
+    "parent": "item/ink_sac",
+	"textures": {
+		"sac": "item/glow_ink_sac"
+	}
+}

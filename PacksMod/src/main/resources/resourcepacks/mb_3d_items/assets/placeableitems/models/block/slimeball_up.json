@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_ball_small_up",
+	"textures": {
+		"ball": "item/slime_ball"
+	}
+}

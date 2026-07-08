@@ -1,0 +1,41 @@
+{
+	"sources": [
+		{
+			"type": "directory",
+			"source": "block",
+			"prefix": "block/"
+		},
+		{
+			"type": "directory",
+			"source": "item",
+			"prefix": "item/"
+		},
+		{
+			"type": "directory",
+			"source": "entity",
+			"prefix": "entity/"
+		},
+		{
+			"type": "single",
+			"resource": "map/map_background"
+		},
+		{
+			"type": "single",
+			"resource": "map/map_background_checkerboard"
+		},
+		{
+			"type": "directory",
+			"source": "models/armor",
+			"prefix": "models/armor/"
+		},
+		{
+			"type": "single",
+			"resource": "painting/back"
+		},
+		{
+			"type": "directory",
+			"source": "sprite",
+			"prefix": "sprite/"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/arrow",
+	"textures": {
+		"arrow": "entity/projectiles/spectral_arrow"
+	}
+}

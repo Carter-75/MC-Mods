@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "regions_unexplored:block/blue_magnolia_leaves_canopy"
+	}
+}

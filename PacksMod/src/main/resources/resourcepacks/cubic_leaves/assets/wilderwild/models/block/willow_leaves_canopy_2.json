@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy",
+	"textures": {
+		"all": "wilderwild:block/willow_leaves_canopy"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"shell": "entity/shulker/shulker",
+		"particle": "#shell"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 7], "texture": "#shell"},
+				"east": {"uv": [0, 4, 4, 7], "texture": "#shell"},
+				"south": {"uv": [12, 4, 16, 7], "texture": "#shell"},
+				"west": {"uv": [8, 4, 12, 7], "texture": "#shell"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#shell"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#shell"}
+			}
+		},
+		{
+			"from": [15.99, 15.99, 15.99],
+			"to": [0.01, 4.01, 0.01],
+			"faces": {
+				"north": {"uv": [16, 4, 12, 7], "rotation": 180, "texture": "#shell"},
+				"east": {"uv": [12, 4, 8, 7], "rotation": 180, "texture": "#shell"},
+				"south": {"uv": [8, 4, 4, 7], "rotation": 180, "texture": "#shell"},
+				"west": {"uv": [4, 4, 0, 7], "rotation": 180, "texture": "#shell"},
+				"up": {"uv": [8, 0, 12, 4], "texture": "#shell"},
+				"down": {"uv": [4, 4, 8, 0], "texture": "#shell"}
+			}
+		}
+	]
+}

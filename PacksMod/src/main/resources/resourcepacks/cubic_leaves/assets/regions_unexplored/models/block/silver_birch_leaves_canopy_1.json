@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "regions_unexplored:block/silver_birch_leaves_canopy"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"parent": "item/default_thin",
+	"textures": {
+		"shard": "item/prismarine_shard",
+		"particle": "#shard"
+	},
+	"elements": [
+		{
+			"from": [7.2509, 7, 4.12132],
+			"to": [11.2509, 9, 11.12132],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9.37222, 8, 9]},
+			"faces": {
+				"north": {"uv": [10, 0, 6, 2], "rotation": 180, "texture": "#shard"},
+				"east": {"uv": [0, 2, 2, 9], "rotation": 270, "texture": "#shard"},
+				"south": {"uv": [6, 2, 2, 0], "texture": "#shard"},
+				"west": {"uv": [6, 2, 8, 9], "rotation": 90, "texture": "#shard"},
+				"up": {"uv": [2, 2, 6, 9], "rotation": 180, "texture": "#shard"},
+				"down": {"uv": [8, 2, 12, 9], "texture": "#shard"}
+			}
+		},
+		{
+			"from": [4.37222, 7.01, 7],
+			"to": [9.37222, 8.99, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.37222, 8, 9]},
+			"faces": {
+				"north": {"uv": [12, 9, 7, 11], "rotation": 180, "texture": "#shard"},
+				"east": {"uv": [0, 11, 2, 16], "rotation": 270, "texture": "#shard"},
+				"south": {"uv": [7, 11, 2, 9], "texture": "#shard"},
+				"west": {"uv": [7, 11, 9, 16], "rotation": 90, "texture": "#shard"},
+				"up": {"uv": [2, 11, 7, 16], "rotation": 180, "texture": "#shard"},
+				"down": {"uv": [9, 11, 14, 16], "texture": "#shard"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [45, 225, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 45, 0],
+			"translation": [0, 0, -1],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

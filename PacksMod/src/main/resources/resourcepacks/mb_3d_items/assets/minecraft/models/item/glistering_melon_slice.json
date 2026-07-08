@@ -1,0 +1,6 @@
+{
+    "parent": "item/melon_slice",
+    "textures": {
+		"melon": "item/glistering_melon_slice"
+    }
+}

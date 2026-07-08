@@ -1,0 +1,15 @@
+{
+    "providers": [	
+        {
+         "type": "bitmap",
+         "file": "icons:items/tooltip/attributes.png",
+         "ascent": 8,
+         "height": 9,
+         "chars": [
+            "\uDB80\uDCFD\uDB80\uDCFE\uDB80\uDCFF\uDB80\uDD00\uDB80\uDD01\uDB80\uDD02\uDB80\uDD03\uDB80\uDD04\uDB80\uDD05\uDB80\uDD06",
+            "\uDB80\uDD07\uDB80\uDD08\uDB80\uDD09\uDB80\uDD0A\uDB80\uDD0B\uDB80\uDD0C\uDB80\uDD0D\uDB80\uDD0E\uDB80\uDD0F\uDB80\uDD10",
+			"\uDB80\uDD11\uDB80\uDD12\uDB80\uDD13\uDB80\uDD14\uDB80\uDD15\uDB80\uDD16\uDB80\uDD17\uDB80\uDD18\uDB80\uDD19\uDB80\uDD1A"
+            ]
+        }		
+    ]
+}

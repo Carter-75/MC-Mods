@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "promenade:block/sap_maple_leaves_canopy"
+	}
+}

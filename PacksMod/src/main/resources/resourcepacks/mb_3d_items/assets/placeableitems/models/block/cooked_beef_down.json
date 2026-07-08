@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_meat_down",
+	"textures": {
+		"meat": "item/cooked_beef"
+	}
+}

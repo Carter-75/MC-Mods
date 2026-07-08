@@ -1,0 +1,6 @@
+{
+    "parent": "item/clock",
+    "textures": {
+        "clock": "item/clock_05"
+    }
+}

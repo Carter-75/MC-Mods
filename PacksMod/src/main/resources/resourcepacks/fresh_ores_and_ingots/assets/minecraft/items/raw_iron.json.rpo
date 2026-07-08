@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron1.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron2.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron3.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron4.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron5.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron6.json",
+        "assets/minecraft/items/2d_sprites/raw_iron/raw_iron7.json"
+    ]
+}

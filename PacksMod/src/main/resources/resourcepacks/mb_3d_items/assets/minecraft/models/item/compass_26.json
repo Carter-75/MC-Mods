@@ -1,0 +1,6 @@
+{
+    "parent": "item/compass",
+    "textures": {
+        "compass": "item/compass_26"
+    }
+}

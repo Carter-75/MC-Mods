@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block",
+	"textures": {
+		"all": "biomesoplenty:block/palm_leaves"
+	}
+}

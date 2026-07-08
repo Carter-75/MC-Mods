@@ -1,0 +1,21 @@
+accessWidener	v2	named
+accessible class net/minecraft/world/biome/Biome$Weather
+accessible class net/minecraft/entity/SpawnRestriction$Entry
+accessible class net/minecraft/client/render/BackgroundRenderer$FogData
+accessible field net/minecraft/entity/SpawnRestriction RESTRICTIONS Ljava/util/Map;
+accessible class net/minecraft/entity/ai/control/MoveControl$State
+accessible field net/minecraft/entity/ai/control/MoveControl state Lnet/minecraft/entity/ai/control/MoveControl$State;
+mutable field net/minecraft/entity/ai/control/MoveControl state Lnet/minecraft/entity/ai/control/MoveControl$State;
+accessible field net/minecraft/entity/vehicle/BoatEntity fallVelocity D
+mutable field net/minecraft/entity/vehicle/BoatEntity fallVelocity D
+accessible field net/minecraft/entity/vehicle/BoatEntity location Lnet/minecraft/entity/vehicle/BoatEntity$Location;
+accessible class net/minecraft/entity/vehicle/BoatEntity$Location
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen focusedSlot Lnet/minecraft/screen/slot/Slot;
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen x I
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen y I
+accessible field net/minecraft/item/AxeItem STRIPPED_BLOCKS Ljava/util/Map;
+accessible field net/minecraft/item/ShovelItem PATH_STATES Ljava/util/Map;
+accessible field net/minecraft/entity/mob/MobEntity goalSelector Lnet/minecraft/entity/ai/goal/GoalSelector;
+accessible field net/minecraft/entity/mob/MobEntity targetSelector Lnet/minecraft/entity/ai/goal/GoalSelector;
+accessible field net/minecraft/entity/passive/ParrotEntity MOB_SOUNDS Ljava/util/Map;
+accessible method net/minecraft/util/WorldSavePath <init> (Ljava/lang/String;)V

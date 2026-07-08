@@ -1,0 +1,131 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"bow": "item/bow",
+		"arrow": "entity/projectiles/arrow",
+		"particle": "#bow"
+	},
+	"elements": [
+		{
+			"from": [7, 12, 7],
+			"to": [9, 20, 9],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 12, 7]},
+			"faces": {
+				"north": {"uv": [1, 1, 2, 5], "texture": "#bow"},
+				"east": {"uv": [0, 1, 1, 5], "texture": "#bow"},
+				"south": {"uv": [3, 1, 4, 5], "texture": "#bow"},
+				"west": {"uv": [2, 1, 3, 5], "texture": "#bow"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#bow"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#bow"}
+			}
+		},
+		{
+			"from": [6.99, 3.99, 6.99],
+			"to": [9.01, 12.01, 9.01],
+			"faces": {
+				"north": {"uv": [5, 1, 6, 5], "texture": "#bow"},
+				"east": {"uv": [4, 1, 5, 5], "texture": "#bow"},
+				"south": {"uv": [7, 1, 8, 5], "texture": "#bow"},
+				"west": {"uv": [6, 1, 7, 5], "texture": "#bow"},
+				"up": {"uv": [6, 1, 5, 0], "texture": "#bow"},
+				"down": {"uv": [7, 0, 6, 1], "texture": "#bow"}
+			}
+		},
+		{
+			"from": [7, -4, 7],
+			"to": [9, 4, 9],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 4, 7]},
+			"faces": {
+				"north": {"uv": [9, 1, 10, 5], "texture": "#bow"},
+				"east": {"uv": [8, 1, 9, 5], "texture": "#bow"},
+				"south": {"uv": [11, 1, 12, 5], "texture": "#bow"},
+				"west": {"uv": [10, 1, 11, 5], "texture": "#bow"},
+				"up": {"uv": [10, 1, 9, 0], "texture": "#bow"},
+				"down": {"uv": [11, 0, 10, 1], "texture": "#bow"}
+			}
+		},
+		{
+			"from": [7.99, 0, 7],
+			"to": [8.01, 16, 23],
+			"faces": {
+				"east": {"uv": [0, 8, 8, 16], "texture": "#bow"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#bow"}
+			}
+		}
+	],
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.125
+            },
+            "model": "item/bow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.4
+            },
+            "model": "item/bow_pulling_2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.7
+            },
+            "model": "item/bow_pulling_3"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1
+            },
+            "model": "item/bow_pulling_4"
+        }
+    ],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.5, 0, 1.5],
+			"scale": [0.825, 0.825, 0.825]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.5, 0, 1.5],
+			"scale": [-0.825, -0.825, 0.825]
+		},
+		"firstperson_righthand": {
+			"rotation": [22.5, 0, 0],
+			"translation": [0, 4, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [22.5, 0, 0],
+			"translation": [0, 4, 1],
+			"scale": [-0.5, -0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [0, 180, 90],
+			"translation": [0, 2, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [90, 45, 101.5],
+			"translation": [-2.5, 2.5, 0],
+			"scale": [0.875, 0.875, 0.875]
+		},
+		"head": {
+			"rotation": [-90, 0, 90],
+			"translation": [0, -4, -7]
+		},
+		"fixed": {
+			"rotation": [90, -45, 90],
+			"translation": [2.5, 2.5, -0.5]
+		}
+	}
+}

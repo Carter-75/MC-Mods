@@ -1,0 +1,9 @@
+{
+	"item.mega-xp-storage.super_book": "Super Book",
+	"item.mega-xp-storage.mega_book": "Mega Book",
+	"item.mega-xp-storage.super_lapis": "Super Lapis",
+	"item.mega-xp-storage.mega_lapis": "Mega Lapis",
+	"item.mega-xp-storage.mega_xp_storage": "Mega XP Storage",
+	"item.mega-xp-storage.mega_xp_storage_mending": "Mega XP Storage (Mending)",
+	"item.mega-xp-storage.mega_xp_storage.stored_levels": "Stored Levels: %s"
+}

@@ -1,0 +1,63 @@
+{
+	"parent": "item/arrow",
+	"textures": {
+		"overlay": "item/tipped_arrow_head",
+		"arrow": "item/tipped_arrow_base"
+	},
+	"elements": [
+		{
+			"from": [7.99, 0, 5.5],
+			"to": [8.01, 16, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"east": {"uv": [0, 2.5, 8, 0], "rotation": 270, "texture": "#arrow"},
+				"west": {"uv": [8, 0, 0, 2.5], "rotation": 90, "texture": "#arrow"}
+			}
+		},
+		{
+			"from": [5.5, 0, 7.99],
+			"to": [10.5, 16, 8.01],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 2.5, 8, 0], "rotation": 270, "texture": "#arrow"},
+				"south": {"uv": [8, 0, 0, 2.5], "rotation": 90, "texture": "#arrow"}
+			}
+		},
+		{
+			"from": [5.5, 1.99, 5.5],
+			"to": [10.5, 2.01, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"up": {"uv": [2.5, 2.5, 0, 5], "rotation": 90, "texture": "#arrow"},
+				"down": {"uv": [2.5, 2.5, 0, 5], "rotation": 270, "texture": "#arrow"}
+			}
+		},
+		{
+			"from": [7.99, 0, 5.5],
+			"to": [8.01, 16, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"east": {"uv": [0, 2.5, 8, 0], "rotation": 270, "texture": "#overlay", "tintindex": 0},
+				"west": {"uv": [8, 0, 0, 2.5], "rotation": 90, "texture": "#overlay", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.5, 0, 7.99],
+			"to": [10.5, 16, 8.01],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 2.5, 8, 0], "rotation": 270, "texture": "#overlay", "tintindex": 0},
+				"south": {"uv": [8, 0, 0, 2.5], "rotation": 90, "texture": "#overlay", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.5, 1.99, 5.5],
+			"to": [10.5, 2.01, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1.75, 8]},
+			"faces": {
+				"up": {"uv": [2.5, 2.5, 0, 5], "rotation": 90, "texture": "#overlay", "tintindex": 0},
+				"down": {"uv": [2.5, 2.5, 0, 5], "rotation": 270, "texture": "#overlay", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "item/default_weapon",
+	"textures": {
+		"particle": "#pick"
+	},
+	"elements": [
+		{
+			"from": [7, -1, 7],
+			"to": [9, 17, 9],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 10], "texture": "#pick"},
+				"east": {"uv": [0, 1, 1, 10], "texture": "#pick"},
+				"south": {"uv": [3, 1, 4, 10], "texture": "#pick"},
+				"west": {"uv": [2, 1, 3, 10], "texture": "#pick"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#pick"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#pick"}
+			}
+		},
+		{
+			"from": [7.5, 14, 4],
+			"to": [8.5, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 9, 8.5, 10], "texture": "#pick"},
+				"east": {"uv": [4, 9, 8, 10], "texture": "#pick"},
+				"south": {"uv": [12.5, 9, 13, 10], "texture": "#pick"},
+				"west": {"uv": [8.5, 9, 12.5, 10], "texture": "#pick"},
+				"up": {"uv": [8.5, 9, 8, 5], "texture": "#pick"},
+				"down": {"uv": [9, 5, 8.5, 9], "texture": "#pick"}
+			}
+		},
+		{
+			"from": [7.99, 8, 2],
+			"to": [8.01, 16, 14],
+			"faces": {
+				"east": {"uv": [0, 10, 6, 14], "texture": "#pick"},
+				"west": {"uv": [6, 10, 12, 14], "texture": "#pick"}
+			}
+		}
+	]
+}

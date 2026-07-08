@@ -1,0 +1,66 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"rocket": "item/firework_rocket",
+		"particle": "#rocket"
+	},
+	"elements": [
+		{
+			"from": [6.5, 4, 6.5],
+			"to": [9.5, 15, 9.5],
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 3, 7], "texture": "#rocket"},
+				"east": {"uv": [0, 1.5, 1.5, 7], "texture": "#rocket"},
+				"south": {"uv": [4.5, 1.5, 6, 7], "texture": "#rocket"},
+				"west": {"uv": [3, 1.5, 4.5, 7], "texture": "#rocket"},
+				"up": {"uv": [3, 1.5, 1.5, 0], "texture": "#rocket"},
+				"down": {"uv": [4.5, 0, 3, 1.5], "texture": "#rocket"}
+			}
+		},
+		{
+			"from": [7.5, 15, 7.5],
+			"to": [8.5, 16, 8.5],
+			"faces": {
+				"north": {"uv": [5, 0.5, 5.5, 1], "texture": "#rocket"},
+				"east": {"uv": [4.5, 0.5, 5, 1], "texture": "#rocket"},
+				"south": {"uv": [6, 0.5, 6.5, 1], "texture": "#rocket"},
+				"west": {"uv": [5.5, 0.5, 6, 1], "texture": "#rocket"},
+				"up": {"uv": [5.5, 0.5, 5, 0], "texture": "#rocket"}
+			}
+		},
+		{
+			"from": [5.5, 12, 5.5],
+			"to": [10.5, 14, 10.5],
+			"faces": {
+				"north": {"uv": [8.5, 2.5, 11, 3.5], "texture": "#rocket"},
+				"east": {"uv": [6, 2.5, 8.5, 3.5], "texture": "#rocket"},
+				"south": {"uv": [13.5, 2.5, 16, 3.5], "texture": "#rocket"},
+				"west": {"uv": [11, 2.5, 13.5, 3.5], "texture": "#rocket"},
+				"up": {"uv": [11, 2.5, 8.5, 0], "texture": "#rocket"},
+				"down": {"uv": [13.5, 0, 11, 2.5], "texture": "#rocket"}
+			}
+		},
+		{
+			"from": [1.5, 1, 7.99],
+			"to": [9.5, 4, 8.01],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [6, 3.5, 10, 5], "texture": "#rocket"},
+				"south": {"uv": [10, 3.5, 14, 5], "texture": "#rocket"}
+			}
+		},
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 5, 8.5],
+			"faces": {
+				"north": {"uv": [14.5, 4, 15, 6.5], "texture": "#rocket"},
+				"east": {"uv": [14, 4, 14.5, 6.5], "texture": "#rocket"},
+				"south": {"uv": [15.5, 4, 16, 6.5], "texture": "#rocket"},
+				"west": {"uv": [15, 4, 15.5, 6.5], "texture": "#rocket"},
+				"down": {"uv": [15.5, 3.5, 15, 4], "texture": "#rocket"}
+			}
+		}
+	]
+}

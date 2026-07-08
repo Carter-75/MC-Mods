@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli1.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli2.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli3.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli4.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli5.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli6.json",
+        "assets/minecraft/items/2d_sprites/lapis_lazuli/lapis_lazuli7.json"
+    ]
+}

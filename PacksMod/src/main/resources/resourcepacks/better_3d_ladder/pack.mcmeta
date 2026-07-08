@@ -1,0 +1,12 @@
+﻿{
+  "pack": {
+    "pack_format": 1,
+    "supported_formats": { "min_inclusive": 1, "max_inclusive": 69 },
+    "min_format": [1, 0],
+    "max_format": [69, 0],
+    "description": "§6by Heycronus\n§9(1.12 → 1.21.4)"
+  },
+  "overlays": {
+    "entries": []
+  }
+}

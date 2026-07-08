@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy_notint",
+	"textures": {
+		"all": "biomeswevegone:block/blooming_witch_hazel_leaves_canopy"
+	}
+}

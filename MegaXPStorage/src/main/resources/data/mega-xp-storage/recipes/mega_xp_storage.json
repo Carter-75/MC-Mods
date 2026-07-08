@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"MMM",
+		"MLM",
+		"MMM"
+	],
+	"key": {
+		"M": {
+			"item": "mega-xp-storage:mega_book"
+		},
+		"L": {
+			"item": "mega-xp-storage:mega_lapis"
+		}
+	},
+	"result": {
+		"item": "mega-xp-storage:mega_xp_storage",
+		"count": 1
+	}
+}

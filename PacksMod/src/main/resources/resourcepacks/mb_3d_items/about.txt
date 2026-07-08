@@ -1,0 +1,108 @@
+ -=- MB-3D Items Pack -=-
+https://www.planetminecraft.com/texture-pack/mb3d-items-pack/
+
+This is a resource pack that attempts to remodel Minecraft's item sprites into full 3D models that still fit within the blocky style of Minecraft.
+I've seen a few other resource packs / mods that tried to do the same thing, but none of them had remade every item in the game, and fewer of them did so in an art style fitting that of Minecraft. So, here we are.
+
+Compatible with the Placeable Items mod! https://www.curseforge.com/minecraft/mc-mods/placeable-items
+Compatible with the Vivecraft mod! (use the included patch) https://modrinth.com/mod/vivecraft
+
+Pack created by:
+	mbanders
+
+Inspirations:
+	Ferdz_ + MasterianoX (Placeable Items https://www.curseforge.com/minecraft/mc-mods/placeable-items)
+	walid SMA (walid's 3D items https://www.planetminecraft.com/texture-pack/walid-s-3d-tools/)
+	Stridey (3Default https://www.planetminecraft.com/texture-pack/3d-efault/)
+
+You don't have to give credit, but it would be appreciated.
+
+Check out my other stuff maybe:
+https://www.planetminecraft.com/member/mbanders/
+https://www.youtube.com/c/mbanders
+
+
+Changelog:
+	-v1.6.0 (Jun 13, 2024)
+		-Updated for 1.21.
+		-Added models:
+			-Precipice, Creator, and Creator (Music Box) discs.
+	
+	-v1.5.0 (Apr 21, 2024)
+		-Updated for 1.20.5.
+		-Added models:
+			-Armadillo Scute
+			-Wolf Armor
+			-Wind Charge
+			-Breeze Rod
+			-Mace
+			-Ominous Bottle
+			-Ominous Trial Key
+			-Flow and Guster Banner Patterns
+			-Flow, Guster, and Scrape Pottery Sherds
+			-Bolt and Flow Smithing Templates
+		-Changed models:
+			-Blaze Rod
+			-Trial Key
+		-VRPatch:
+			-New Climb Claws model.
+			-Slightly adjusted bow position (hopefully reduces arrow inaccuracy).
+
+	-v1.4.0 (Dec 8, 2023)
+		-Updated for 1.20.4.
+		-Added experimental 1.21 snapshot models:
+			-Trial Key
+			-Copper Doors
+
+	-v1.3.2 (Sep 15, 2023)
+		-Fixed all trimmed leather leggings models.
+
+	-v1.3.1 (Aug 5, 2023)
+		-VRPatch:
+			-1.20 item support.
+		-Fixed redstone-trimmed turtle shell model.
+
+	-v1.3.0 (Jun 7, 2023)
+		-Updated for 1.20.
+		-Added models:
+			-New Smithing Templates
+			-New Pottery Sherds
+			-Pitcher Pod
+			-Relic Music Disc
+		-Changed models:
+			-Spawn Egg
+		-VRPatch:
+			-Brush animation now shows in first person.
+		-Adjusted item frame placement for a few items.
+
+	-v1.2.0 (Mar 14, 2023)
+		-Updated for 1.19.4.
+		-Added models:
+			-Smithing Templates
+			-Trimmed Armor (no pattern support cuz tech limitations :/)
+			-Brush
+			-Pottery Shards
+			-Torchflower Seeds
+		-Changed models:
+			-Debug Stick
+			-Snowball
+			-Slimeball
+			-Magma Cream
+			-Fire Charge
+			-Firework Star
+			-Clay Ball
+		-VRPatch:
+			-Is now included with main pack download.
+			-Synchronicity updates with v1.1.0 and v1.2.0.
+		-Increased GUI appearance size for several items.
+		-Adjusted GUI appearance of armor and potions for clarity.
+		-Other minor tweaks.
+
+	-v1.1.0 (Dec 7, 2022)
+		-Updated pack for 1.19.3.
+		-Added support for hanging signs.
+		-Increased sizes of some dropped and framed items.
+		-Other minor fixes and tweaks.
+
+	-v1.0.0 (Sep 6, 2022)
+		-Initial release.

@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_shovel",
+	"textures": {
+		"shovel": "item/golden_shovel"
+	}
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "backported_updates:pale_moss_carpet"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "backported_updates:pale_short_grass"
+          },
+          "weight": 30
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "backported_updates:open_eyeblossom"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "backported_updates:closed_eyeblossom"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

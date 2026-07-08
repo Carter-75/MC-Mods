@@ -1,0 +1,9 @@
+=== NAMESPACE REPLACEMENT COMPLETE ===
+iwie: replacements:           0
+vanillabackport: replacements: 0
+copperagebackport: replacements: 0
+Total files modified: 0
+
+--- Files modified ---
+--- Verification: checking for remaining legacy namespaces ---
+PASS: No remaining legacy namespace references found.

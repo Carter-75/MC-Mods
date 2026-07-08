@@ -1,0 +1,57 @@
+{
+  "providers": [
+    {
+      "id": "minecraft:include/default",
+      "type": "reference"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/firework"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/gui"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/banner_pattern"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/tropical_fish"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/music"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/info"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/smithing"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/tooltip"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/bee"
+    },
+    {
+      "type": "space",
+      "advances": {
+        "󎀀": -90,
+        "󎀁": 2,
+        "󎀂": -54,
+        "󎀃": 54,
+        "󎀄": -30,
+        "󎀅": -131
+      }
+    }
+  ]
+}
+
+

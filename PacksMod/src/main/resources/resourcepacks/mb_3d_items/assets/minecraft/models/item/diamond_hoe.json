@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_hoe",
+	"textures": {
+		"hoe": "item/diamond_hoe"
+	}
+}

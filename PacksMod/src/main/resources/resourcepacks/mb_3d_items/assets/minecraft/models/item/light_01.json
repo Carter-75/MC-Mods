@@ -1,0 +1,7 @@
+{
+	"parent": "item/light",
+	"textures": {
+		"light": "item/light_01",
+		"particle": "sprite/light_01"
+	}
+}

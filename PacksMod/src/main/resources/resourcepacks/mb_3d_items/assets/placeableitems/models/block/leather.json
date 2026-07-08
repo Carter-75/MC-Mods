@@ -1,0 +1,18 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"flat": "item/leather",
+		"particle": "#flat"
+	},
+	"elements": [
+		{
+			"from": [-8, 0.5, -8],
+			"to": [24, 0.51, 24],
+			"faces": {
+				"up": {"uv": [16, 16, 8, 8], "texture": "#flat"},
+				"down": {"uv": [16, 8, 8, 16], "texture": "#flat"}
+			}
+		}
+	]
+}

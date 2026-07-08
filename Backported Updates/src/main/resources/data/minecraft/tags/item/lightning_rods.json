@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lightning_rod",
+    "backported_updates:exposed_lightning_rod",
+    "backported_updates:weathered_lightning_rod",
+    "backported_updates:oxidized_lightning_rod",
+    "minecraft:waxed_lightning_rod",
+    "minecraft:waxed_exposed_lightning_rod",
+    "minecraft:waxed_weathered_lightning_rod",
+    "minecraft:waxed_oxidized_lightning_rod"
+  ]
+}

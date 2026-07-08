@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "promenade:block/blush_sakura_blossoms_canopy"
+	}
+}

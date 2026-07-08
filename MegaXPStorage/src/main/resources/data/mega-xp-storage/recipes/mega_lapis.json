@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" },
+		{ "item": "mega-xp-storage:super_lapis" }
+	],
+	"result": {
+		"item": "mega-xp-storage:mega_lapis",
+		"count": 1
+	}
+}

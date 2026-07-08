@@ -1,0 +1,191 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "minecraft:block/pale_oak_leaves",
+					"weight": 40
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"weight": 8
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"uvlock": true,
+					"weight": 8,
+					"x": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_block",
+					"uvlock": true,
+					"weight": 1,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves",
+					"weight": 12
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 40
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"x": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 1,
+					"x": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_1",
+					"weight": 1,
+					"x": 90,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/dark_oak_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_3",
+					"weight": 2
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_3",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_3",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "minecraft:block/pale_oak_leaves_canopy_3",
+					"weight": 2,
+					"y": 270
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves",
+					"weight": 28
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_block",
+					"weight": 8
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_block",
+					"uvlock": true,
+					"weight": 8,
+					"x": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves",
+					"weight": 12
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 28
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"x": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_1",
+					"weight": 2,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 2
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 2,
+					"y": 90
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 2,
+					"y": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 2,
+					"y": 270
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "biomeswevegone:block/palo_verde_leaves_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

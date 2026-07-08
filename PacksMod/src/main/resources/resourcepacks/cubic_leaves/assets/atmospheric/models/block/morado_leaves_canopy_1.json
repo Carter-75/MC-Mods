@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "atmospheric:block/morado_leaves_canopy"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"credit": "zanderest",
+	"elements": [
+		{
+			"name": "canopy",
+			"from": [-3, 7.9996, -8.6858],
+			"to": [19, 15.9996, 15.3142],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 7.9996, 15.3142], "rescale": true},
+			"faces": {
+				"north": {"uv": [2.5, 4, 13.5, 8], "texture": "#all", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [2, 12, 14, 16], "texture": "#all", "cullface": "north", "tintindex": 0},
+				"south": {"uv": [2.5, 4, 13.5, 8], "texture": "#all", "cullface": "north", "tintindex": 0},
+				"west": {"uv": [2, 12, 14, 16], "texture": "#all", "cullface": "north", "tintindex": 0},
+				"up": {"uv": [2.5, 0, 13.5, 12], "texture": "#all", "cullface": "north", "tintindex": 0},
+				"down": {"uv": [2.5, 0, 13.5, 12], "texture": "#all", "cullface": "north", "tintindex": 0}
+			}
+		}
+	]
+}

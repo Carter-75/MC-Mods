@@ -1,0 +1,97 @@
+
+> Configure project :
+Fabric Loom: 1.15.3
+Project directory 'C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod' is located in OneDrive. This is known to cause issues and slower performance. Consider moving the project to a different location.
+
+> Task :compileJava FAILED
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:9: error: package net.minecraft.client does not exist
+import net.minecraft.client.MinecraftClient;
+                           ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:16: error: cannot access Screen
+    public ConfigScreenFactory<?> getModConfigScreenFactory() {
+                              ^
+  class file for net.minecraft.client.gui.screen.Screen not found
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:42: error: cannot find symbol
+                            if (newValue && config.autoResolveConflicts) {
+                                                  ^
+  symbol:   variable autoResolveConflicts
+  location: variable config of type PacksModConfig
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:61: error: cannot find symbol
+                    .startBooleanToggle(Text.of("Auto-Resolve Conflicts"), config.autoResolveConflicts)
+                                                                                 ^
+  symbol:   variable autoResolveConflicts
+  location: variable config of type PacksModConfig
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:65: error: cannot find symbol
+                    .setSaveConsumer(val -> config.autoResolveConflicts = val)
+                                                  ^
+  symbol:   variable autoResolveConflicts
+  location: variable config of type PacksModConfig
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:70: error: cannot find symbol
+                if (MinecraftClient.getInstance() != null) {
+                    ^
+  symbol:   variable MinecraftClient
+  location: class PacksModModMenu
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:71: error: cannot find symbol
+                    MinecraftClient.getInstance().reloadResources();
+                    ^
+  symbol:   variable MinecraftClient
+  location: class PacksModModMenu
+Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\PacksMod.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+7 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/carte/OneDrive/Desktop/Code/MC%20Mods/PacksMod/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\PacksMod.java uses or overrides a deprecated API.
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:16: error: cannot access Screen
+      public ConfigScreenFactory<?> getModConfigScreenFactory() {
+                                ^
+    class file for net.minecraft.client.gui.screen.Screen not found
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:42: error: cannot find symbol
+                              if (newValue && config.autoResolveConflicts) {
+                                                    ^
+    symbol:   variable autoResolveConflicts
+    location: variable config of type PacksModConfig
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:61: error: cannot find symbol
+                      .startBooleanToggle(Text.of("Auto-Resolve Conflicts"), config.autoResolveConflicts)
+                                                                                   ^
+    symbol:   variable autoResolveConflicts
+    location: variable config of type PacksModConfig
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:65: error: cannot find symbol
+                      .setSaveConsumer(val -> config.autoResolveConflicts = val)
+                                                    ^
+    symbol:   variable autoResolveConflicts
+    location: variable config of type PacksModConfig
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:70: error: cannot find symbol
+                  if (MinecraftClient.getInstance() != null) {
+                      ^
+    symbol:   variable MinecraftClient
+    location: class PacksModModMenu
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:71: error: cannot find symbol
+                      MinecraftClient.getInstance().reloadResources();
+                      ^
+    symbol:   variable MinecraftClient
+    location: class PacksModModMenu
+  C:\Users\carte\OneDrive\Desktop\Code\MC Mods\PacksMod\src\main\java\com\packsmod\integration\PacksModModMenu.java:9: error: package net.minecraft.client does not exist
+  import net.minecraft.client.MinecraftClient;
+                             ^
+  7 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed

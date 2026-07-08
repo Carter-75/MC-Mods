@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot1.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot2.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot3.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot4.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot5.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot6.json",
+        "assets/minecraft/items/2d_sprites/netherite_ingot/netherite_ingot7.json"
+    ]
+}

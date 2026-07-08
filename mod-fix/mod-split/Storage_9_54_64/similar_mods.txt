@@ -1,0 +1,28 @@
+After analyzing the list of mods from the 'Storage_9_54_64' category, I have identified some redundant or conflicting mods.
+
+**Group 1: Inventory Management Mods**
+
+- Bundle API
+- EasyShulkerBoxes Supplementaries Sacks Compat
+- Inmis (Backpack mod)
+- Inventory Essentials
+- Stack to Nearby Chests
+
+Reason: These mods provide similar inventory management features such as drag-to-transfer, single-item moves, inventory sorting, and seamless compatibility between different storage systems. Some of these mods also offer additional features like customizable settings, quick stacking, and restocking actions.
+
+The Bundle API is a more general-purpose mod that enables mod authors to create complex crafting recipes and inventory systems without extensive coding expertise. EasyShulkerBoxes Supplementaries Sacks Compat integrates specific compatibility between Shulker Boxes and other storage mods. Inmis (Backpack mod) allows players to equip and access their inventory on demand through an armor slot or keybind. Inventory Essentials offers drag-to-transfer, single-item moves, and inventory sorting features. Stack to Nearby Chests brings Terraria's stacking and restocking features to Minecraft.
+
+While these mods are not identical, they do overlap in terms of inventory management functionality. A player may not need all of these mods installed simultaneously, as the Bundle API alone provides a foundation for complex inventory systems, while EasyShulkerBoxes Supplementaries Sacks Compat offers specific compatibility with Shulker Boxes and other storage mods.
+
+**Group 2: Performance and Inventory Mods**
+
+- None found
+
+However, I did notice that Fastitemframes was listed in the mod list but could not be found online. If this mod is removed from the list, it would also eliminate any potential conflicts or redundancies with other mods in the Storage_9_54_64 category.
+
+**Group 3: Redundant Mods**
+
+- Inventory Totem and Inmis (Backpack mod)
+Reason: These two mods provide overlapping features related to inventory management. The Backpack mod included in Inmis allows players to equip and access their inventory on demand, which is similar to the feature provided by Inventory Totem that saves the used Totem from being lost and allows players to survive.
+
+The mod Nether Chested does not seem to conflict with any other mods in this list but provides a unique addition of new dimension-themed chests, so it can be considered as a non-redundant mod.

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "backported_updates:resin_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "backported_updates:resin_brick_wall"
+  }
+}

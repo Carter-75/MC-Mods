@@ -1,0 +1,79 @@
+{
+	"parent": "item/fishing_rod",
+	"textures": {
+		"fungus": "block/warped_fungus",
+		"rod": "item/fishing_rod_connect",
+		"particle": "#fungus"
+	},
+	"elements": [
+		{
+			"from": [7, -4, 7],
+			"to": [9, 20, 9],
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 1, 6.5], "texture": "#rod"},
+				"east": {"uv": [0, 0.5, 0.5, 6.5], "texture": "#rod"},
+				"south": {"uv": [1.5, 0.5, 2, 6.5], "texture": "#rod"},
+				"west": {"uv": [1, 0.5, 1.5, 6.5], "texture": "#rod"},
+				"up": {"uv": [1, 0.5, 0.5, 0], "texture": "#rod"},
+				"down": {"uv": [1.5, 0, 1, 0.5], "texture": "#rod"}
+			}
+		},
+		{
+			"from": [6.5, 0, 4],
+			"to": [9.5, 3, 7],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 1.5, 5.5]},
+			"faces": {
+				"north": {"uv": [0.75, 7.25, 1.5, 8], "texture": "#rod"},
+				"east": {"uv": [0, 7.25, 0.75, 8], "texture": "#rod"},
+				"south": {"uv": [2.25, 7.25, 3, 8], "texture": "#rod"},
+				"west": {"uv": [1.5, 7.25, 2.25, 8], "texture": "#rod"},
+				"up": {"uv": [1.5, 7.25, 0.75, 6.5], "texture": "#rod"},
+				"down": {"uv": [2.25, 6.5, 1.5, 7.25], "texture": "#rod"}
+			}
+		},
+		{
+			"from": [7.99, -5, -4],
+			"to": [8.01, 19, 20],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [2, 0, 8, 6], "texture": "#rod"},
+				"west": {"uv": [8, 0, 14, 6], "texture": "#rod"}
+			}
+		},
+		{
+			"from": [9.3, -7, -0.5],
+			"to": [23.7, 9, -0.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#fungus"},
+				"east": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#fungus"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#fungus"},
+				"west": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#fungus"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#fungus"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#fungus"}
+			}
+		},
+		{
+			"from": [16.5, -7, -7.7],
+			"to": [16.5, 9, 6.7],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#fungus"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#fungus"},
+				"south": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#fungus"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#fungus"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#fungus"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#fungus"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [-90, -45, -101.5],
+			"translation": [0, 2.25, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

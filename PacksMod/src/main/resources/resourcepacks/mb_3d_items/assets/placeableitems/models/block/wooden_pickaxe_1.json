@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_pickaxe_1",
+	"textures": {
+		"pick": "item/wooden_pickaxe"
+	}
+}

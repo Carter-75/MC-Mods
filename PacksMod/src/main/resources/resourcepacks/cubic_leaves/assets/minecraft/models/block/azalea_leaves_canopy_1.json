@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "minecraft:block/azalea_leaves_canopy"
+	}
+}

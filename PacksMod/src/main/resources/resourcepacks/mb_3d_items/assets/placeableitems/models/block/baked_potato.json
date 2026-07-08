@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/potato",
+	"textures": {
+		"potato": "item/baked_potato"
+	}
+}

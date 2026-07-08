@@ -1,0 +1,6 @@
+{
+	"parent": "item/blaze_rod",
+	"textures": {
+		"stick": "item/breeze_rod"
+	}
+}

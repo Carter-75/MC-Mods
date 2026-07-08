@@ -1,0 +1,40 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"flint": "item/flint",
+		"particle": "#flint"
+	},
+	"elements": [
+		{
+			"from": [4.5, 4, 6.01],
+			"to": [9.5, 8, 9.99],
+			"faces": {
+				"north": {"uv": [9, 2, 11.5, 4], "texture": "#flint"},
+				"east": {"uv": [7, 2, 9, 4], "texture": "#flint"},
+				"south": {"uv": [13.5, 2, 16, 4], "texture": "#flint"},
+				"west": {"uv": [11.5, 2, 13.5, 4], "texture": "#flint"},
+				"up": {"uv": [11.5, 2, 9, 0], "texture": "#flint"},
+				"down": {"uv": [14, 0, 11.5, 2], "texture": "#flint"}
+			}
+		},
+		{
+			"from": [8.5, 4, 6],
+			"to": [13.5, 11, 10],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9.5, 4, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 4.5, 7.5], "texture": "#flint"},
+				"east": {"uv": [0, 4, 2, 7.5], "texture": "#flint"},
+				"south": {"uv": [6.5, 4, 9, 7.5], "texture": "#flint"},
+				"west": {"uv": [4.5, 4, 6.5, 7.5], "texture": "#flint"},
+				"up": {"uv": [4.5, 4, 2, 2], "texture": "#flint"},
+				"down": {"uv": [7, 2, 4.5, 4], "texture": "#flint"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

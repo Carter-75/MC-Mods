@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_notint",
+	"textures": {
+		"all": "biomeswevegone:block/blooming_witch_hazel_leaves"
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"parent": "item/default_weapon",
+	"textures": {
+		"brush": "item/brush",
+		"particle": "#brush"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [11, 1, 12, 5], "texture": "#brush"},
+				"east": {"uv": [10, 1, 11, 5], "texture": "#brush"},
+				"south": {"uv": [13, 1, 14, 5], "texture": "#brush"},
+				"west": {"uv": [12, 1, 13, 5], "texture": "#brush"},
+				"up": {"uv": [12, 1, 11, 0], "texture": "#brush"},
+				"down": {"uv": [13, 0, 12, 1], "texture": "#brush"}
+			}
+		},
+		{
+			"from": [6, 8, 5],
+			"to": [10, 14, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 5, 6], "texture": "#brush"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#brush"},
+				"south": {"uv": [8, 3, 10, 6], "texture": "#brush"},
+				"west": {"uv": [5, 3, 8, 6], "texture": "#brush"},
+				"up": {"uv": [5, 3, 3, 0], "texture": "#brush"},
+				"down": {"uv": [7, 0, 5, 3], "texture": "#brush"}
+			}
+		},
+		{
+			"from": [9.99, 13.99, 10.99],
+			"to": [6.01, 8.01, 5.01],
+			"faces": {
+				"north": {"uv": [8, 6, 10, 3], "texture": "#brush"},
+				"east": {"uv": [5, 6, 8, 3], "texture": "#brush"},
+				"south": {"uv": [3, 6, 5, 3], "texture": "#brush"},
+				"west": {"uv": [0, 6, 3, 3], "texture": "#brush"},
+				"up": {"uv": [5, 0, 7, 3], "texture": "#brush"},
+				"down": {"uv": [3, 3, 5, 0], "texture": "#brush"}
+			}
+		},
+		{
+			"from": [6.5, 7, 6],
+			"to": [9.5, 16, 10],
+			"faces": {
+				"north": {"uv": [2, 8, 3.5, 12.5], "texture": "#brush"},
+				"east": {"uv": [0, 8, 2, 12.5], "texture": "#brush"},
+				"south": {"uv": [5.5, 8, 7, 12.5], "texture": "#brush"},
+				"west": {"uv": [3.5, 8, 5.5, 12.5], "texture": "#brush"},
+				"up": {"uv": [3.5, 8, 2, 6], "texture": "#brush"},
+				"down": {"uv": [5, 6, 3.5, 8], "texture": "#brush"}
+			}
+		},
+		{
+			"from": [9.49, 15.99, 9.99],
+			"to": [6.51, 7.01, 6.01],
+			"faces": {
+				"north": {"uv": [5.5, 12.5, 7, 8], "texture": "#brush"},
+				"east": {"uv": [3.5, 12.5, 5.5, 8], "texture": "#brush"},
+				"south": {"uv": [2, 12.5, 3.5, 8], "texture": "#brush"},
+				"west": {"uv": [0, 12.5, 2, 8], "texture": "#brush"},
+				"up": {"uv": [3.5, 6, 5, 8], "texture": "#brush"},
+				"down": {"uv": [2, 8, 3.5, 6], "texture": "#brush"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"brushing": 0.25}, "model": "item/brush_brushing_0"},
+		{"predicate": {"brushing": 0.5}, "model": "item/brush_brushing_1"},
+		{"predicate": {"brushing": 0.75}, "model": "item/brush_brushing_2"}
+	],
+	"display": {
+		"gui": {
+			"rotation": [-135, 135, 102.5],
+			"translation": [-0.25, -0.25, 0],
+			"scale": [1.125, 1.125, 1.125]
+		},
+		"head": {
+			"rotation": [180, 90, 0],
+			"translation": [0, -2.75, -5.25]
+		},
+		"thirdperson_righthand": {
+			"translation": [0, 2.5, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [11.25, 0, 0],
+			"translation": [7.125, -1.825, -7]
+		}
+	}
+}

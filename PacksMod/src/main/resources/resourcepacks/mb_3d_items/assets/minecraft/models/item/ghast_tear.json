@@ -1,0 +1,43 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"tear": "item/ghast_tear",
+		"particle": "#tear"
+	},
+	"elements": [
+		{
+			"from": [7, 5, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [4, 2, 2, 7], "texture": "#tear"},
+				"east": {"uv": [6, 2, 4, 7], "texture": "#tear"},
+				"south": {"uv": [8, 2, 6, 7], "texture": "#tear"},
+				"west": {"uv": [2, 2, 0, 7], "texture": "#tear"},
+				"up": {"uv": [2, 2, 4, 0], "texture": "#tear"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#tear"}
+			}
+		},
+		{
+			"from": [6.5, 5.5, 6.5],
+			"to": [9.5, 8.5, 9.5],
+			"faces": {
+				"north": {"uv": [6, 10, 3, 13], "texture": "#tear"},
+				"east": {"uv": [9, 10, 6, 13], "texture": "#tear"},
+				"south": {"uv": [12, 10, 9, 13], "texture": "#tear"},
+				"west": {"uv": [3, 10, 0, 13], "texture": "#tear"},
+				"up": {"uv": [3, 10, 6, 7], "texture": "#tear"},
+				"down": {"uv": [6, 7, 9, 10], "texture": "#tear"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [-4.5, -4, -6.75],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.375, 1.375, 1.375]
+		}
+	}
+}

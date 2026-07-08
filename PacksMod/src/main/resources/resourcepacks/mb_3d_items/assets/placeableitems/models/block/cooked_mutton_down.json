@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/mutton_down",
+	"textures": {
+		"meat": "item/cooked_mutton"
+	}
+}

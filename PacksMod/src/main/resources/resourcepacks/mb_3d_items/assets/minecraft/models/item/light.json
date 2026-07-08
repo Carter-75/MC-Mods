@@ -1,0 +1,117 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"light": "minecraft:item/light_15",
+		"particle": "#light"
+	},
+	"elements": [
+		{
+			"from": [4.5, 4, 4.5],
+			"to": [11.5, 10, 11.5],
+			"faces": {
+				"north": {"uv": [1.75, 1.75, 3.5, 3.25], "texture": "#light"},
+				"east": {"uv": [0, 1.75, 1.75, 3.25], "texture": "#light"},
+				"south": {"uv": [5.25, 1.75, 7, 3.25], "texture": "#light"},
+				"west": {"uv": [3.5, 1.75, 5.25, 3.25], "texture": "#light"},
+				"up": {"uv": [3.5, 1.75, 1.75, 0], "texture": "#light"},
+				"down": {"uv": [5.25, 0, 3.5, 1.75], "texture": "#light"}
+			}
+		},
+		{
+			"from": [11.49, 9.99, 11.49],
+			"to": [4.51, 4.01, 4.51],
+			"faces": {
+				"north": {"uv": [12.25, 3.25, 14, 1.75], "texture": "#light"},
+				"east": {"uv": [10.5, 3.25, 12.25, 1.75], "texture": "#light"},
+				"south": {"uv": [8.75, 3.25, 10.5, 1.75], "texture": "#light"},
+				"west": {"uv": [7, 3.25, 8.75, 1.75], "texture": "#light"},
+				"up": {"uv": [10.5, 0, 12.25, 1.75], "texture": "#light"},
+				"down": {"uv": [8.75, 1.75, 10.5, 0], "texture": "#light"}
+			}
+		},
+		{
+			"from": [6.5, 2.9999, 6.5],
+			"to": [9.5, 4, 9.5],
+			"faces": {
+				"north": {"uv": [5.25, 5.5, 6, 5.75], "texture": "#light"},
+				"east": {"uv": [4.5, 5.5, 5.25, 5.75], "texture": "#light"},
+				"south": {"uv": [6.75, 5.5, 7.5, 5.75], "texture": "#light"},
+				"west": {"uv": [6, 5.5, 6.75, 5.75], "texture": "#light"},
+				"up": {"uv": [6, 5.5, 5.25, 4.75], "texture": "#light"},
+				"down": {"uv": [6.75, 4.75, 6, 5.5], "texture": "#light"}
+			}
+		},
+		{
+			"from": [9.49, 4.01, 9.49],
+			"to": [6.51, 3.01, 6.51],
+			"faces": {
+				"north": {"uv": [9.75, 5.75, 10.5, 5.5], "texture": "#light"},
+				"east": {"uv": [9, 5.75, 9.75, 5.5], "texture": "#light"},
+				"south": {"uv": [8.25, 5.75, 9, 5.5], "texture": "#light"},
+				"west": {"uv": [7.5, 5.75, 8.25, 5.5], "texture": "#light"},
+				"up": {"uv": [9, 4.75, 9.75, 5.5], "texture": "#light"},
+				"down": {"uv": [8.25, 5.5, 9, 4.75], "texture": "#light"}
+			}
+		},
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 3, 9.5],
+			"faces": {
+				"north": {"uv": [10.25, 4, 11, 4.75], "texture": "#light"},
+				"east": {"uv": [9.5, 4, 10.25, 4.75], "texture": "#light"},
+				"south": {"uv": [11.75, 4, 12.5, 4.75], "texture": "#light"},
+				"west": {"uv": [11, 4, 11.75, 4.75], "texture": "#light"},
+				"up": {"uv": [11, 4, 10.25, 3.25], "texture": "#light"},
+				"down": {"uv": [11.75, 3.25, 11, 4], "texture": "#light"}
+			}
+		},
+		{
+			"from": [3.5, 0, 7.99],
+			"to": [12.5, 10, 8.01],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 3.25, 2.25, 5.75], "texture": "#light"},
+				"south": {"uv": [2.25, 3.25, 4.5, 5.75], "texture": "#light"}
+			}
+		},
+		{
+			"from": [3, 10, 7.99],
+			"to": [13, 16, 8.01],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4.5, 3.25, 7, 4.75], "texture": "#light"},
+				"south": {"uv": [7, 3.25, 9.5, 4.75], "texture": "#light"}
+			}
+		}
+	],
+	"overrides": [
+		{ "predicate": { "level": 0.0000 }, "model": "item/light_00" },
+		{ "predicate": { "level": 0.0625 }, "model": "item/light_01" },
+		{ "predicate": { "level": 0.1250 }, "model": "item/light_02" },
+		{ "predicate": { "level": 0.1875 }, "model": "item/light_03" },
+		{ "predicate": { "level": 0.2500 }, "model": "item/light_04" },
+		{ "predicate": { "level": 0.3125 }, "model": "item/light_05" },
+		{ "predicate": { "level": 0.3750 }, "model": "item/light_06" },
+		{ "predicate": { "level": 0.4375 }, "model": "item/light_07" },
+		{ "predicate": { "level": 0.5000 }, "model": "item/light_08" },
+		{ "predicate": { "level": 0.5625 }, "model": "item/light_09" },
+		{ "predicate": { "level": 0.6250 }, "model": "item/light_10" },
+		{ "predicate": { "level": 0.6875 }, "model": "item/light_11" },
+		{ "predicate": { "level": 0.7500 }, "model": "item/light_12" },
+		{ "predicate": { "level": 0.8125 }, "model": "item/light_13" },
+		{ "predicate": { "level": 0.8750 }, "model": "item/light_14" },
+		{ "predicate": { "level": 0.9375 }, "model": "item/light_15" }
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 0.5, 0]
+		},
+		"head": {
+			"translation": [0, 16, 0]
+		}
+	}
+}

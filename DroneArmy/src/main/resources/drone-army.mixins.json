@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.drone_army.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "DroneArmyMixin",
+        "LivingEntityMixin",
+        "MobEntityMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

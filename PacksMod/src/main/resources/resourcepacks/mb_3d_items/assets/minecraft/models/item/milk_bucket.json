@@ -1,0 +1,7 @@
+{
+    "parent": "item/template_bucket",
+    "textures": {
+		"bucket": "item/bucket",
+		"contents": "item/milk_bucket"
+    }
+}

@@ -1,0 +1,47 @@
+
+> Configure project :
+Fabric Loom: 1.14.10
+Project directory 'C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy' is located in OneDrive. This is known to cause issues and slower performance. Consider moving the project to a different location.
+
+> Task :compileJava FAILED
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:3: error: package com.drone_army.registry does not exist
+import com.drone_army.registry.ModScreenHandlers;
+                              ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:21: error: cannot find symbol
+    public static final ExtendedScreenHandlerType<ControllerScreenHandler, ControllerScreenData> TYPE = new ExtendedScreenHandlerType<>(
+                        ^
+  symbol:   class ExtendedScreenHandlerType
+  location: class ControllerScreenHandler
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:26: error: record ControllerScreenData is already defined in class ControllerScreenHandler
+    public record ControllerScreenData(ItemStack stack) {
+           ^
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:21: error: cannot find symbol
+    public static final ExtendedScreenHandlerType<ControllerScreenHandler, ControllerScreenData> TYPE = new ExtendedScreenHandlerType<>(
+                                                                                                            ^
+  symbol:   class ExtendedScreenHandlerType
+  location: class ControllerScreenHandler
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:23: error: cannot find symbol
+            ControllerScreenData.PACKET_CODEC);
+                                ^
+  symbol:   variable PACKET_CODEC
+  location: class ControllerScreenData
+C:\Users\carte\OneDrive\Desktop\Code\MC Mods\DroneArmy\src\main\java\com\drone_army\client\gui\ControllerScreenHandler.java:41: error: cannot find symbol
+        super(ModScreenHandlers.CONTROLLER_SCREEN_HANDLER, syncId);
+              ^
+  symbol:   variable ModScreenHandlers
+  location: class ControllerScreenHandler
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> java.lang.NullPointerException: Cannot invoke "javax.lang.model.element.TypeElement.getNestingKind()" because "typeElement" is null
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed

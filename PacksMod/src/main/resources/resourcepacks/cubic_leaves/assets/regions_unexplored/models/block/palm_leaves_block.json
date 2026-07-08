@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_block_column",
+	"textures": {
+		"sides": "regions_unexplored:block/palm_leaves_side",
+		"ends": "regions_unexplored:block/palm_leaves_top"
+	}
+}

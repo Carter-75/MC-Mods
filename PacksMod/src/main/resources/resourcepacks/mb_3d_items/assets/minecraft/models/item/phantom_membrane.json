@@ -1,0 +1,43 @@
+{
+	"parent": "item/default_thin",
+	"textures": {
+		"membrane": "item/phantom_membrane",
+		"particle": "#membrane"
+	},
+	"elements": [
+		{
+			"from": [0.5, 3, 3.5],
+			"to": [15.5, 10, 12.5],
+			"faces": {
+				"north": {"uv": [2.25, 2.25, 6, 4], "texture": "#membrane"},
+				"east": {"uv": [0, 2.25, 2.25, 4], "texture": "#membrane"},
+				"south": {"uv": [8.25, 2.25, 12, 4], "texture": "#membrane"},
+				"west": {"uv": [6, 2.25, 8.25, 4], "texture": "#membrane"},
+				"up": {"uv": [6, 2.25, 2.25, 0], "texture": "#membrane"},
+				"down": {"uv": [9.75, 0, 6, 2.25], "texture": "#membrane"}
+			}
+		},
+		{
+			"from": [15.49, 9.99, 12.49],
+			"to": [0.51, 3.01, 3.51],
+			"faces": {
+				"north": {"uv": [12, 2.25, 8.25, 4], "rotation": 180, "texture": "#membrane"},
+				"east": {"uv": [8.25, 2.25, 6, 4], "rotation": 180, "texture": "#membrane"},
+				"south": {"uv": [6, 2.25, 2.25, 4], "rotation": 180, "texture": "#membrane"},
+				"west": {"uv": [2.25, 2.25, 0, 4], "rotation": 180, "texture": "#membrane"},
+				"up": {"uv": [6, 0, 9.75, 2.25], "texture": "#membrane"},
+				"down": {"uv": [2.25, 2.25, 6, 0], "texture": "#membrane"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [45, 225, 0],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"head": {
+			"translation": [0, 5.25, 0],
+			"scale": [1, 1, 1.625]
+		}
+	}
+}

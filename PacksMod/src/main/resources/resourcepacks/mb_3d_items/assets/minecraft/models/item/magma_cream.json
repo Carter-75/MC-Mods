@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_ball_small",
+	"textures": {
+		"ball": "item/magma_cream"
+	}
+}

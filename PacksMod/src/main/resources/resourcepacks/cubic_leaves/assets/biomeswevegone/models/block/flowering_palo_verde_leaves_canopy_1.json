@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_notint",
+	"textures": {
+		"all": "biomeswevegone:block/flowering_palo_verde_leaves_canopy"
+	}
+}

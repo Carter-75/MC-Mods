@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_shovel_1",
+	"textures": {
+		"shovel": "item/netherite_shovel"
+	}
+}

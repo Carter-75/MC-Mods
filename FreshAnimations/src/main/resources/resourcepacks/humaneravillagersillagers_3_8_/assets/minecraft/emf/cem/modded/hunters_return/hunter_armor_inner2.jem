@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "hat",
+			"id": "hat",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "tit",
+					"invertAxis": "xy",
+					"translate": [0, 0, 4]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-6, -22, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [6, -22, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"boxes": [
+				{"coordinates": [0.9, 5, -2, 2, 3, 0], "textureOffset": [5, 24], "sizeAdd": 0.26}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -12, 0],
+			"boxes": [
+				{"coordinates": [-2.9, 5, -2, 2, 3, 0], "textureOffset": [5, 24], "sizeAdd": 0.26}
+			]
+		}
+	]
+}

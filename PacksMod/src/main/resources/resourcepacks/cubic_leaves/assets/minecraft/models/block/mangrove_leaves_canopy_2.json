@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy",
+	"textures": {
+		"all": "minecraft:block/mangrove_leaves_canopy"
+	}
+}

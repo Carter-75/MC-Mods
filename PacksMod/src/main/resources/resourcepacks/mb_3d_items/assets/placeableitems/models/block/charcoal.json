@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/coal",
+	"textures": {
+		"coal": "item/charcoal"
+	}
+}

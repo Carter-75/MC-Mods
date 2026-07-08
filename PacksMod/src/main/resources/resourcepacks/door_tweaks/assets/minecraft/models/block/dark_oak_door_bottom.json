@@ -1,0 +1,46 @@
+{
+	"credit": "Made by StormDragon77",
+	"textures": {
+		"side_h": "block/dark_oak_door_sides_h",
+		"particle": "block/dark_oak_door_bottom",
+		"bottom": "block/dark_oak_door_bottom",
+		"bottomright": "block/dark_oak_door_bottom2",
+		"side_v": "block/dark_oak_door_sides_v"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#side_v", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottomright"},
+				"south": {"uv": [10, 0, 13, 16], "texture": "#side_v", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [12, 0, 15, 16], "texture": "#side_h"},
+				"down": {"uv": [0, 0, 3, 16], "texture": "#side_h", "cullface": "down"}
+			}
+		},
+		{
+			"from": [-1, 15, 11],
+			"to": [0, 16, 12],
+			"faces": {
+				"north": {"uv": [11, 0, 12, 1], "texture": "#bottom", "cullface": "west"},
+				"south": {"uv": [11, 0, 12, 1], "texture": "#bottom", "cullface": "west"},
+				"west": {"uv": [11, 0, 12, 1], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [11, 0, 12, 1], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [11, 0, 12, 1], "texture": "#bottom", "cullface": "west"}
+			}
+		},
+		{
+			"from": [3, 15, 11],
+			"to": [4, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 5, 1], "texture": "#bottomright"},
+				"east": {"uv": [4, 0, 5, 1], "texture": "#bottomright"},
+				"south": {"uv": [4, 0, 5, 1], "texture": "#bottomright"},
+				"up": {"uv": [4, 0, 5, 1], "texture": "#bottomright"},
+				"down": {"uv": [4, 0, 5, 1], "texture": "#bottomright"}
+			}
+		}
+	]
+}

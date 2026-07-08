@@ -1,0 +1,148 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "civilizations:on_greece_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 100,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.greece"
+							}
+						}
+					]
+				},{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "civilizations:on_china_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.china"
+							}
+						}
+					]
+				},{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "civilizations:on_egypt_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.egypt"
+							}
+						}
+					]
+				},{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "civilizations:on_nordic_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.nordic"
+							}
+						}
+					]
+				},{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "civilizations:on_rome_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.rome"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 10,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ink_sac"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:feather"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20,
+							"treasure": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"berries": "item/sweet_berries",
+		"particle": "#berries"
+	},
+	"elements": [
+		{
+			"from": [5, 4, 7.99],
+			"to": [13, 10, 8.01],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 3], "texture": "#berries"},
+				"south": {"uv": [10, 0, 14, 3], "texture": "#berries"}
+			}
+		},
+		{
+			"from": [4, 6, 7.99],
+			"to": [7, 9, 8.01],
+			"rotation": {"angle": 45, "axis": "x", "origin": [6, 9, 8]},
+			"faces": {
+				"north": {"uv": [6, 3, 7.5, 4.5], "texture": "#berries"},
+				"south": {"uv": [7.5, 3, 9, 4.5], "texture": "#berries"}
+			}
+		},
+		{
+			"from": [10, 8, 7.99],
+			"to": [12, 11, 8.01],
+			"rotation": {"angle": 45, "axis": "x", "origin": [10, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 3, 10, 4.5], "texture": "#berries"},
+				"south": {"uv": [10, 3, 11, 4.5], "texture": "#berries"}
+			}
+		},
+		{
+			"from": [6.5, 9.5, 7],
+			"to": [9.5, 12.5, 10],
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 3, 3], "texture": "#berries"},
+				"east": {"uv": [0, 1.5, 1.5, 3], "texture": "#berries"},
+				"south": {"uv": [4.5, 1.5, 6, 3], "texture": "#berries"},
+				"west": {"uv": [3, 1.5, 4.5, 3], "texture": "#berries"},
+				"up": {"uv": [3, 1.5, 1.5, 0], "texture": "#berries"},
+				"down": {"uv": [4.5, 0, 3, 1.5], "texture": "#berries"}
+			}
+		},
+		{
+			"from": [7.5, 5, 6],
+			"to": [10.5, 8, 9],
+			"faces": {
+				"north": {"uv": [1.5, 4.5, 3, 6], "texture": "#berries"},
+				"east": {"uv": [0, 4.5, 1.5, 6], "texture": "#berries"},
+				"south": {"uv": [4.5, 4.5, 6, 6], "texture": "#berries"},
+				"west": {"uv": [3, 4.5, 4.5, 6], "texture": "#berries"},
+				"up": {"uv": [3, 4.5, 1.5, 3], "texture": "#berries"},
+				"down": {"uv": [4.5, 3, 3, 4.5], "texture": "#berries"}
+			}
+		},
+		{
+			"from": [3.5, 8.5, 6.5],
+			"to": [5.5, 10.5, 8.5],
+			"faces": {
+				"north": {"uv": [1, 7, 2, 8], "texture": "#berries"},
+				"east": {"uv": [0, 7, 1, 8], "texture": "#berries"},
+				"south": {"uv": [3, 7, 4, 8], "texture": "#berries"},
+				"west": {"uv": [2, 7, 3, 8], "texture": "#berries"},
+				"up": {"uv": [2, 7, 1, 6], "texture": "#berries"},
+				"down": {"uv": [3, 6, 2, 7], "texture": "#berries"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"translation": [0, 9.25, 0]
+		}
+	}
+}

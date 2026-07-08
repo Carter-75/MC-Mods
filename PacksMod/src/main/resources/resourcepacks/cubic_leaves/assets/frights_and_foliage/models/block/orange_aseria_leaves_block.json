@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_notint",
+	"textures": {
+		"all": "frights_and_foliage:block/orange_aseria_leaves"
+	}
+}

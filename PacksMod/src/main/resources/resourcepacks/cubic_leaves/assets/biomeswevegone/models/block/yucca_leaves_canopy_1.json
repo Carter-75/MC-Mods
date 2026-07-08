@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "biomeswevegone:block/yucca_leaves_canopy"
+	}
+}

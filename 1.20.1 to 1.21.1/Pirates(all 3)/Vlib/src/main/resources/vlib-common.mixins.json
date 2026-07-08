@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "g_mungus.vlib.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "bugfix.EntityShipCollisionUtilsMixin",
+    "shipPlacement.StructureTemplateManagerMixin",
+    "specialSaveBehavior.MixinTestHingeBlockEntity",
+    "specialSaveBehavior.StructureTemplateMixin",
+    "v2.ServerLevelMixin",
+    "v2.shipAssembly.PaletteInvoker",
+    "v2.shipAssembly.StructureTemplateMixin",
+    "v2.templatePlacement.BlockPosArgumentMixin",
+    "v2.templatePlacement.StructureTemplateAccessor",
+    "v2.templatePlacement.StructureTemplateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "refmap": "vlib-common-refmap.json"
+}

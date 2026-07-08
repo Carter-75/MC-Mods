@@ -1,0 +1,4 @@
+{
+  "condition": "extraOptions.Outlines",
+  "fallback": "assets/minecraft/models/item/no_outline/gold_ingots_3d.json"
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/potion",
+	"textures": {
+		"contents": "item/honey_bottle"
+	}
+}

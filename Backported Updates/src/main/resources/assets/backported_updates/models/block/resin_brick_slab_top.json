@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "backported_updates:block/resin_bricks",
+    "side": "backported_updates:block/resin_bricks",
+    "top": "backported_updates:block/resin_bricks"
+  }
+}

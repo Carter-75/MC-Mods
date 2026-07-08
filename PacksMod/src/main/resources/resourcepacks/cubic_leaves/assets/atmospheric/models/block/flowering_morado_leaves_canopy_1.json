@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_overlaid",
+	"textures": {
+		"all": "atmospheric:block/flowering_morado_leaves_canopy",
+		"overlay": "atmospheric:block/flowering_morado_leaves_overlay_canopy"
+	}
+}

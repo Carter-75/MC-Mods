@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy_overlaid",
+	"textures": {
+		"all": "biomesoplenty:block/flowering_oak_leaves_canopy",
+		"overlay": "biomesoplenty:block/flowering_oak_leaves_canopy_overlay"
+	}
+}

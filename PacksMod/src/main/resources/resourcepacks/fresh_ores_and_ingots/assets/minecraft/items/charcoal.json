@@ -1,0 +1,1 @@
+{"model":{"type":"select","property":"display_context","cases":[{"when":["firstperson_righthand","firstperson_lefthand","thirdperson_righthand","thirdperson_lefthand","head"],"model":{"type":"model","model":"item/charcoal_3d"}}],"fallback":{"type":"model","model":"item/charcoal"}}}

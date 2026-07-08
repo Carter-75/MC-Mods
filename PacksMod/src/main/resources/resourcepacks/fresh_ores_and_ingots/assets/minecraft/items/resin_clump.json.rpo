@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump1.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump2.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump3.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump4.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump5.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump6.json",
+        "assets/minecraft/items/2d_sprites/resin_clump/resin_clump7.json"
+    ]
+}

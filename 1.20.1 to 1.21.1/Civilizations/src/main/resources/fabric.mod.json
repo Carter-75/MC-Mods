@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "civilizations",
+	"version": "0.2-1.20.1",
+	"name": "Civilizations",
+	"description": "Civilizations content pack decompiled from 1.20.1 build.",
+	"authors": [
+		"_Void"
+	],
+	"contact": {},
+	"license": "All Rights Reserved",
+	"icon": "assets/civilizations/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net._void.civilizations.Civilizations"
+		],
+		"client": [
+			"net._void.civilizations.CivilizationsClient"
+		],
+		"fabric-datagen": [
+			"net._void.civilizations.CivilizationsDataGenerator"
+		]
+	},
+	"mixins": [
+		"civilizations.mixins.json"
+	],
+	"depends": {
+		"fabric": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.1",
+		"java": ">=17"
+	}
+}

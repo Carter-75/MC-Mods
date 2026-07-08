@@ -1,0 +1,35 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "mod.universalmobwar.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MobXpDropScalingMixin",
+		"IndexedIterableRawIdFixMixin",
+		"RegistryEntryEncodingFixMixin",
+		"MobEntityAccessor",
+		"MobEntityInitEquipmentMixin",
+		"PersistentProjectileEntityAccessor",
+		"ExplosiveProjectileEntityAccessor",
+		"CreeperEntityAccessor",
+		"MobDataMixin",
+		"LivingEntityDamageMixin",
+		"PotionEntityMixin",
+		"MobRevengeBlockerMixin",
+		"MobDeathTrackerMixin",
+		"NeutralMobBehaviorMixin",
+		"UniversalSummonerTrackingMixin",
+		"WarlordMinionProtectionMixin",
+		"RaidSpawningMixin",
+		"NaturalMobSpawnBlockerMixin",
+		"WitchAbilityMixin",
+		"PersistentProjectileAbilityMixin",
+		"ProjectileAbilityMixin",
+		"EndermanAbilityMixin",
+		"CreeperAbilityMixin",
+		"DragonFireballAbilityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

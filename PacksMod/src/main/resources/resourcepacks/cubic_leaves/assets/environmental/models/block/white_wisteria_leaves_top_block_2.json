@@ -1,0 +1,7 @@
+{
+	"parent": "cubicleaves:block/template_block_column_notint",
+	"textures": {
+		"sides": "environmental:block/white_wisteria_leaves_top",
+		"ends": "environmental:block/wisteria_leaves"
+	}
+}

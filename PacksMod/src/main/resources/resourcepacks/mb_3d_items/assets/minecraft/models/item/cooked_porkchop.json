@@ -1,0 +1,6 @@
+{
+    "parent": "item/template_meat",
+	"textures": {
+		"meat": "item/cooked_porkchop"
+	}
+}

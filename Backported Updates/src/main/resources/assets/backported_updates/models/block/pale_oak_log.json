@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "backported_updates:block/pale_oak_log_top",
+    "side": "backported_updates:block/pale_oak_log"
+  }
+}

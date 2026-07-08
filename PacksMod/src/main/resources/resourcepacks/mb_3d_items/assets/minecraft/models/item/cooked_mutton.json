@@ -1,0 +1,6 @@
+{
+    "parent": "item/mutton",
+	"textures": {
+		"meat": "item/cooked_mutton"
+	}
+}

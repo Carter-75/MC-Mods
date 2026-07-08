@@ -1,0 +1,98 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.joml.sampling;
+
+import java.util.ArrayList;
+import org.joml.Random;
+import org.joml.Vector2f;
+import org.joml.sampling.Callback2d;
+import org.joml.sampling.Math;
+
+public class PoissonSampling {
+
+    public static class Disk {
+        private final Vector2f[] grid;
+        private final float diskRadius;
+        private final float diskRadiusSquared;
+        private final float minDist;
+        private final float minDistSquared;
+        private final float cellSize;
+        private final int numCells;
+        private final Random rnd;
+        private final ArrayList processList;
+
+        public Disk(long seed, float diskRadius, float minDist, int k2, Callback2d callback) {
+            this.diskRadius = diskRadius;
+            this.diskRadiusSquared = diskRadius * diskRadius;
+            this.minDist = minDist;
+            this.minDistSquared = minDist * minDist;
+            this.rnd = new Random(seed);
+            this.cellSize = minDist / (float)Math.sqrt(2.0);
+            this.numCells = (int)(diskRadius * 2.0f / this.cellSize) + 1;
+            this.grid = new Vector2f[this.numCells * this.numCells];
+            this.processList = new ArrayList();
+            this.compute(k2, callback);
+        }
+
+        private void compute(int k2, Callback2d callback) {
+            float y;
+            float x;
+            while ((x = this.rnd.nextFloat() * 2.0f - 1.0f) * x + (y = this.rnd.nextFloat() * 2.0f - 1.0f) * y > 1.0f) {
+            }
+            Vector2f initial = new Vector2f(x, y);
+            this.processList.add(initial);
+            callback.onNewSample(initial.x, initial.y);
+            this.insert(initial);
+            while (!this.processList.isEmpty()) {
+                int i2 = this.rnd.nextInt(this.processList.size());
+                Vector2f sample2 = (Vector2f)this.processList.get(i2);
+                boolean found = false;
+                for (int s = 0; s < k2; ++s) {
+                    float angle = this.rnd.nextFloat() * ((float)java.lang.Math.PI * 2);
+                    float radius = this.minDist * (this.rnd.nextFloat() + 1.0f);
+                    x = (float)((double)radius * Math.sin_roquen_9((double)angle + 1.5707963267948966));
+                    y = (float)((double)radius * Math.sin_roquen_9(angle));
+                    if ((x += sample2.x) * x + (y += sample2.y) * y > this.diskRadiusSquared || this.searchNeighbors(x, y)) continue;
+                    found = true;
+                    callback.onNewSample(x, y);
+                    Vector2f f2 = new Vector2f(x, y);
+                    this.processList.add(f2);
+                    this.insert(f2);
+                    break;
+                }
+                if (found) continue;
+                this.processList.remove(i2);
+            }
+        }
+
+        private boolean searchNeighbors(float px, float py) {
+            int row = (int)((py + this.diskRadius) / this.cellSize);
+            int col = (int)((px + this.diskRadius) / this.cellSize);
+            if (this.grid[row * this.numCells + col] != null) {
+                return true;
+            }
+            int minX = Math.max(0, col - 1);
+            int minY = Math.max(0, row - 1);
+            int maxX = Math.min(col + 1, this.numCells - 1);
+            int maxY = Math.min(row + 1, this.numCells - 1);
+            for (int y = minY; y <= maxY; ++y) {
+                for (int x = minX; x <= maxX; ++x) {
+                    float dy;
+                    float dx;
+                    Vector2f v = this.grid[y * this.numCells + x];
+                    if (v == null || !((dx = v.x - px) * dx + (dy = v.y - py) * dy < this.minDistSquared)) continue;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private void insert(Vector2f p) {
+            int row = (int)((p.y + this.diskRadius) / this.cellSize);
+            int col = (int)((p.x + this.diskRadius) / this.cellSize);
+            this.grid[row * this.numCells + col] = p;
+        }
+    }
+}
+

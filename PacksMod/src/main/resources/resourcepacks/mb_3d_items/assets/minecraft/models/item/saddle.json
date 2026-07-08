@@ -1,0 +1,48 @@
+{
+	"parent": "item/default",
+	"textures": {
+		"saddle": "entity/pig/pig_saddle",
+		"particle": "#saddle"
+	},
+	"elements": [
+		{
+			"from": [3, 4, 0],
+			"to": [13, 12, 16],
+			"faces": {
+				"north": {"uv": [11.5, 8, 9, 4], "rotation": 180, "texture": "#saddle"},
+				"east": {"uv": [7, 8, 9, 16], "rotation": 90, "texture": "#saddle"},
+				"south": {"uv": [14, 4, 11.5, 8], "texture": "#saddle"},
+				"west": {"uv": [11.5, 8, 13.5, 16], "rotation": 270, "texture": "#saddle"},
+				"up": {"uv": [13.5, 8, 16, 16], "texture": "#saddle"},
+				"down": {"uv": [9, 8, 11.5, 16], "rotation": 180, "texture": "#saddle"}
+			}
+		},
+		{
+			"from": [12.99, 11.99, 15.99],
+			"to": [3.01, 4.01, 0.01],
+			"faces": {
+				"north": {"uv": [11.5, 4, 14, 8], "rotation": 180, "texture": "#saddle"},
+				"east": {"uv": [13.5, 8, 11.5, 16], "rotation": 270, "texture": "#saddle"},
+				"south": {"uv": [9, 8, 11.5, 4], "texture": "#saddle"},
+				"west": {"uv": [9, 8, 7, 16], "rotation": 90, "texture": "#saddle"},
+				"up": {"uv": [11.5, 8, 9, 16], "rotation": 180, "texture": "#saddle"},
+				"down": {"uv": [16, 8, 13.5, 16], "texture": "#saddle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2, -1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 1.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

@@ -1,0 +1,861 @@
+================================================================================
+                        UNIVERSAL MOB WAR - MOB PROGRESS TRACKER
+================================================================================
+
+- DO NOT CREATE EXTRA ABILITIES BESIDE THE ONES ALREADY LISTED, AND READ THE JSON FILE THAT WAS CREATED TO UNDERSTAND THE FORMAT AND REVIEW THE FULL SKILL TREE.
+
+PROGRESS: 70 / 80 mobs completed
+
+================================================================================
+                              RECENT SYSTEM UPDATES
+================================================================================
+
+✅ WEAPON ARRAY SYSTEM:
+   - Weapons now use array format: "weapon": [{ ... }, { ... }]
+   - UUID-based locking: Each mob instance locks to ONE weapon deterministically
+   - Lottery shows ALL weapons at tier 0 (base_cost for acquisition)
+   - After acquiring weapon, only that weapon's tiers/enchants/masteries appear
+   - Empty tiers [] means weapon acquired at base_cost with no tier progression
+
+✅ SPECIAL ABILITIES FILTERING:
+   - Abilities auto-filter based on attack capability (ranged/melee/both)
+   - Mobs WITH weapons: Capability from weapon type (bow/crossbow=ranged, sword/axe=melee)
+   - Mobs WITHOUT weapons: Capability from abilities in JSON config
+   - Ranged abilities: piercing_shot, multishot, ranged_potion_mastery
+   - Melee abilities: hunger_attack, cleave, life_steal
+   - Universal: horde_summon (available to all)
+
+✅ ALL ABILITY HANDLERS IMPLEMENTED (10 total):
+   1. hunger_attack - Melee hit applies hunger (Bogged, Drowned, Giant, Husk)
+   2. horde_summon - On damage taken, spawn reinforcements (Bogged, Drowned, Giant, Husk)
+   3. piercing_shot - Projectile pierces entities (Blaze, Bogged, Breeze, Drowned, Ender Dragon, Illusioner, Llama, Piglin)
+   4. multishot - Fire extra projectiles (same mobs as piercing_shot)
+   5. ranged_potion_mastery - Projectile applies potion effects (same mobs)
+   6. shadow_step - Enderman teleport leaves blindness area (Enderman)
+   7. void_grasp - Periodic range check applies weakness+levitation (Enderman)
+   8. poison_mastery - Melee hit applies poison/wither/slowness (Cave Spider)
+   9. creeper_power - Increases explosion radius (Creeper)
+   10. creeper_potion_cloud - Explosion spawns area effects (Creeper)
+   11. void_bombardment - Enhanced dragon fireballs (Ender Dragon)
+
+✅ PERFORMANCE OPTIMIZATIONS:
+   - Potion effects use StatusEffectInstance.INFINITE duration
+   - Effects applied only during upgrade cycles (not every tick)
+   - Upgrades trigger: on spawn OR every 24000 ticks (1 Minecraft day)
+   - All mob calculations target 5-second completion time (configurable)
+
+✅ UNIVERSAL MIXIN & DYNAMIC SCALING:
+  - MobDataMixin injects into every MobEntity; no per-mob mixins exist anymore
+  - ScalingSystem scans mob_configs/* on startup and auto-loads new mobs
+  - Adding a mob now only requires the JSON config + progress update
+
+================================================================================
+                              ALL MOBS (A-Z ORDER)
+================================================================================
+
+1.  [X] Allay              
+2.  [X] Armadillo          
+3.  [X] Axolotl            
+4.  [X] Bat                
+5.  [X] Bee                
+6.  [X] Blaze              
+7.  [X] Bogged             
+8.  [X] Breeze             
+9.  [X] Camel              
+10. [X] Cat               
+11. [X] Cave_Spider       
+12. [X] Chicken           
+13. [X] Cod               
+14. [X] Cow               
+15. [X] Creaking          
+16. [X] Creeper           
+17. [X] Dolphin           
+18. [X] Donkey            
+19. [X] Drowned           
+20. [X] Elder_Guardian    
+21. [X] Ender_Dragon     
+22. [X] Enderman         
+23. [X] Endermite        
+24. [X] Evoker           
+25. [X] Fox              
+26. [X] Frog             
+27. [X] Giant            
+28. [X] Glow_Squid      
+29. [X] Goat             
+30. [X] Guardian        
+31. [X] Hoglin          
+32. [X] Horse           
+33. [X] Husk            
+34. [X] Illusioner      
+35. [X] Iron_Golem      
+36. [X] Llama           
+37. [X] Magma_Cube      
+38. [X] Mooshroom       
+39. [X] Mule            
+40. [X] Ocelot          
+41. [X] Panda           
+42. [X] Parrot          
+43. [X] Phantom         
+44. [X] Pig             
+45. [X] Piglin          
+46. [X] Piglin_Brute    
+47. [X] Pillager        
+48. [X] Polar_Bear      
+49. [X] Pufferfish      
+50. [X] Rabbit          
+51. [X] Ravager         
+52. [X] Salmon          
+53. [X] Sheep
+54. [X] Shulker
+55. [X] Silverfish
+56. [X] Skeleton
+57. [X] Skeleton_Horse
+58. [X] Slime
+59. [X] Sniffer
+60. [X] Snow_Golem
+61. [X] Spider
+62. [X] Squid
+63. [X] Stray
+64. [X] Strider
+65. [X] Tadpole
+66. [X] Trader_Llama
+67. [X] Tropical_Fish
+68. [X] Turtle
+69. [X] Vex
+70. [X] Villager
+71. [X] Vindicator
+72. [X] Wandering_Trader
+73. [X] Warden
+74. [X] Witch
+75. [X] Wither
+76. [X] Wither_Skeleton
+77. [X] Wolf
+78. [X] Zoglin
+79. [X] Zombie
+80. [X] Zombie_Villager
+
+================================================================================
+                              MOB DEFINITIONS
+================================================================================
+
+Each mob has: type, weapon, armor, shield, special_trees
+
+Allay:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Armadillo:       type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Axolotl:         type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Bat:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Bee:             type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Blaze:           type=hostile,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Bogged:          type=hostile,  weapon=bow,          armor=full_normal, shield=true,  trees=[zombie,ranged]
+Breeze:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Camel:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Cat:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Cave_Spider:     type=hostile,  weapon=none,         armor=none,        shield=false, trees=[cave_spider]
+Chicken:         type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Cod:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Cow:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Creaking:        type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Creeper:         type=hostile,  weapon=none,         armor=none,        shield=false, trees=[creeper]
+Dolphin:         type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Donkey:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Drowned:         type=hostile,  weapon=trident,      armor=full_normal, shield=true,  trees=[zombie,ranged]
+Elder_Guardian:  type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Ender_Dragon:    type=hostile,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Enderman:        type=hostile,  weapon=none,         armor=none,        shield=false, trees=[enderman]
+Endermite:       type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Evoker:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Fox:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Frog:            type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Giant:           type=hostile,  weapon=normal_sword, armor=full_normal, shield=true,  trees=[zombie]
+Glow_Squid:      type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Goat:            type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Guardian:        type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Hoglin:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Horse:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Husk:            type=hostile,  weapon=normal_sword, armor=full_normal, shield=true,  trees=[zombie]
+Illusioner:      type=hostile,  weapon=crossbow,     armor=full_normal, shield=true,  trees=[ranged]
+Iron_Golem:      type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Llama:           type=neutral,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Magma_Cube:      type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Mooshroom:       type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Mule:            type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Ocelot:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Panda:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Parrot:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Phantom:         type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Pig:             type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Piglin:          type=neutral,  weapon=gold_sword_or_crossbow, armor=full_gold, shield=true, trees=[ranged_if_crossbow]
+Piglin_Brute:    type=hostile,  weapon=gold_axe,     armor=full_gold,   shield=true,  trees=[]
+Pillager:        type=hostile,  weapon=crossbow,     armor=full_normal, shield=true,  trees=[ranged]
+Polar_Bear:      type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Pufferfish:      type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Rabbit:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Ravager:         type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Salmon:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Sheep:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Shulker:         type=hostile,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Silverfish:      type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Skeleton:        type=hostile,  weapon=bow,          armor=full_normal, shield=true,  trees=[ranged]
+Skeleton_Horse:  type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Slime:           type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Sniffer:         type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Snow_Golem:      type=neutral,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Spider:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Squid:           type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Stray:           type=hostile,  weapon=bow,          armor=full_normal, shield=true,  trees=[ranged]
+Strider:         type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Tadpole:         type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Trader_Llama:    type=neutral,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Tropical_Fish:   type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Turtle:          type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Vex:             type=hostile,  weapon=iron_sword,         armor=normal,        shield=true, trees=[]
+Villager:        type=passive,  weapon=none,         armor=full_normal, shield=false, trees=[]
+Vindicator:      type=hostile,  weapon=iron_axe,     armor=full_normal, shield=true,  trees=[]
+Wandering_Trader:type=passive,  weapon=none,         armor=none,        shield=false, trees=[]
+Warden:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[]
+Witch:           type=hostile,  weapon=none,         armor=none,        shield=false, trees=[witch,ranged]
+Wither:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[ranged]
+Wither_Skeleton: type=hostile,  weapon=stone_sword,  armor=full_normal, shield=true,  trees=[]
+Wolf:            type=neutral,  weapon=none,         armor=none,        shield=false, trees=[]
+Zoglin:          type=hostile,  weapon=none,         armor=none,        shield=false, trees=[zombie]
+Zombie:          type=hostile,  weapon=normal_sword, armor=full_normal, shield=true,  trees=[zombie]
+Zombie_Villager: type=hostile,  weapon=normal_sword, armor=full_normal, shield=true,  trees=[zombie]
+
+================================================================================
+                              POINT SYSTEM
+================================================================================
+
+EARNING POINTS:
+  - World age (daily): All mobs of same type share daily points
+  - Player kills: 1 point per player kill of that mob type
+
+DAILY SCALING (points earned per world day):
+  days 0-10:   0.1 points/day
+  days 11-15:  0.5 points/day
+  days 16-20:  1.0 points/day
+  days 21-25:  1.5 points/day
+  days 26-30:  3.0 points/day
+  days 31+:    5.0 points/day
+
+SPENDING LOGIC:
+  Triggers: on natural spawn, every new world day, after 1+ day idle
+  Loop: while points available AND affordable upgrades exist:
+    1. List all affordable upgrades (equal weight)
+    2. Pick one random upgrade
+    3. If cost=0: ALWAYS buy (no save chance)
+    4. If cost>0: 80% chance BUY, 20% chance SAVE and stop
+    5. If bought, continue loop
+  All purchases accumulate, applied in one batch when loop ends.
+
+SLOT LOCKING RULES:
+  Each equipment slot can only hold ONE item at a time.
+  Once a slot is filled, all other items for that slot are LOCKED (not in affordable list).
+  Slots unlock when item is removed (broken at lowest tier).
+
+  Slots:
+    - weapon (mainhand): Only one weapon. If mob has gold_sword, cannot buy crossbow until gold_sword gone.
+    - shield (offhand): Only one shield.
+    - helmet: Only one helmet.
+    - chestplate: Only one chestplate.
+    - leggings: Only one leggings.
+    - boots: Only one boots.
+
+  This means for Piglin with gold_sword AND crossbow both at base_cost=0:
+    - On spawn, both are in affordable list
+    - Random pick selects one (e.g. crossbow)
+    - Crossbow bought, weapon slot filled
+    - Gold_sword now LOCKED (not affordable) because weapon slot occupied
+    - If crossbow breaks and is removed, gold_sword unlocks again
+
+UPGRADE PATH LOGIC:
+  For items with tiers (swords, axes, armor):
+    - Must own current tier to upgrade to next tier
+    - Tier upgrades require: Drop Mastery 10 + Durability Mastery 10 + all enchants maxed
+    - Each tier is a separate upgrade in the affordable list
+    - Cannot skip tiers
+
+  For items without tiers (bow, crossbow, trident, shield):
+    - Only one "tier" exists
+    - Progression is through enchants and masteries only
+
+ITEM BREAK LOGIC:
+  When any item reaches 0 durability:
+
+  For TIERED items (swords, axes, armor):
+    - If NOT lowest tier: Downgrade one tier, wipe all enchants, reset drop_mastery to 0, reset durability_mastery to 0
+    - If AT lowest tier: Item is REMOVED from slot, slot becomes empty and unlocked
+
+  For NON-TIERED items (bow, crossbow, trident, shield):
+    - Item is REMOVED from slot (no downgrade possible)
+    - Slot becomes empty and unlocked
+    - All enchants lost, all masteries reset
+
+  After item removed:
+    - Slot is now empty
+    - All base items for that slot become available in affordable list again
+    - Mob can buy same item again OR different item (e.g. Piglin loses crossbow, can now buy gold_sword or crossbow)
+
+  Example - Bogged bow breaks:
+    1. Bow reaches 0 durability
+    2. Bow has no tiers, so it's REMOVED
+    3. Weapon slot now empty
+    4. Bow (base_cost=0) is back in affordable list
+    5. Next spending cycle, mob buys bow again
+
+  Example - Zombie iron sword breaks:
+    1. Iron sword reaches 0 durability
+    2. Iron sword downgrades to stone sword
+    3. All enchants wiped, drop_mastery=0, durability_mastery=0
+    4. Mob now has stone sword
+    5. Stone sword breaks later, downgrades to wood sword
+    6. Wood sword breaks, item REMOVED (lowest tier)
+    7. Weapon slot empty, wood sword (base_cost=3) back in affordable list
+
+================================================================================
+                         POTION EFFECTS - PASSIVE MOBS
+================================================================================
+
+Only for type=passive mobs (Allay, Bat, Cat, etc.)
+
+regeneration:
+  level 1: cost=3,  effect="Permanent Regeneration I"
+  level 2: cost=4,  effect="Permanent Regeneration II"
+  level 3: cost=5,  effect="Permanent Regeneration III"
+
+resistance:
+  level 1: cost=5,  effect="Permanent Resistance I"
+
+health_boost:
+  level 1: cost=4,  effect="+2 max HP (total +2)"
+  level 2: cost=5,  effect="+2 max HP (total +4)"
+  level 3: cost=6,  effect="+2 max HP (total +6)"
+
+================================================================================
+                    POTION EFFECTS - HOSTILE & NEUTRAL MOBS
+================================================================================
+
+Only for type=hostile or type=neutral mobs
+
+healing:
+  level 1:  cost=1,  effect="Permanent Regeneration I"
+  level 2:  cost=2,  effect="Permanent Regeneration II"
+  level 3:  cost=3,  effect="Permanent Regeneration II + when damaged apply Regeneration III for 10s (60s cooldown)"
+  level 4:  cost=4,  effect="Permanent Regeneration II + when damaged apply Regeneration IV for 10s (60s cooldown)"
+  level 5:  cost=5,  effect="Permanent Regeneration II + when damaged apply Regeneration V for 20s (60s cooldown)"
+
+health_boost:
+  level 1:  cost=2,  effect="+2 max HP (total +2)"
+  level 2:  cost=3,  effect="+2 max HP (total +4)"
+  level 3:  cost=4,  effect="+2 max HP (total +6)"
+  level 4:  cost=5,  effect="+2 max HP (total +8)"
+  level 5:  cost=6,  effect="+2 max HP (total +10)"
+  level 6:  cost=7,  effect="+2 max HP (total +12)"
+  level 7:  cost=8,  effect="+2 max HP (total +14)"
+  level 8:  cost=9,  effect="+2 max HP (total +16)"
+  level 9:  cost=10, effect="+2 max HP (total +18)"
+  level 10: cost=11, effect="+2 max HP (total +20)"
+
+resistance:
+  level 1: cost=4, effect="Permanent Resistance I"
+  level 2: cost=6, effect="Permanent Resistance II"
+  level 3: cost=8, effect="Permanent Resistance II + Permanent Fire Resistance I"
+
+strength:
+  level 1: cost=3, effect="Permanent Strength I"
+  level 2: cost=5, effect="Permanent Strength II"
+  level 3: cost=7, effect="Permanent Strength III"
+  level 4: cost=9, effect="Permanent Strength IV"
+
+speed:
+  level 1: cost=6,  effect="Permanent Speed I"
+  level 2: cost=9,  effect="Permanent Speed II"
+  level 3: cost=12, effect="Permanent Speed III"
+
+invisibility_on_hit:
+  level 1: cost=8,  effect="5% chance when hit to gain Invisibility for 5s (60s cooldown)"
+  level 2: cost=12, effect="20% chance when hit to gain Invisibility for 8s (60s cooldown)"
+  level 3: cost=16, effect="40% chance when hit to gain Invisibility for 12s (60s cooldown)"
+  level 4: cost=20, effect="60% chance when hit to gain Invisibility for 16s (60s cooldown)"
+  level 5: cost=25, effect="80% chance when hit to gain Invisibility for 20s (60s cooldown)"
+
+================================================================================
+                              WEAPON TYPES
+================================================================================
+
+WEAPONS THAT SPAWN WITH MOB (mob starts with this weapon):
+  stone_sword:  Wither_Skeleton spawns with stone sword
+  iron_axe:     Vindicator spawns with iron axe
+  gold_axe:     Piglin_Brute spawns with gold axe
+
+WEAPONS THAT MUST BE PURCHASED (mob starts with nothing):
+  normal_sword: cost=3 for wood, then upgrade tiers
+  gold_sword:   cost=3 for gold (Piglin 50% option)
+  bow:          cost=5 (single type, no tiers, enchants only)
+  crossbow:     cost=5 (single type, no tiers, enchants only)
+  trident:      cost=5 (single type, no tiers, Drowned only, enchants only)
+
+================================================================================
+                           WEAPON TIER PROGRESSION
+================================================================================
+
+normal_sword (Zombie, Husk, Giant, Zombie_Villager):
+  tier 1: wood      - cost=3 to purchase
+  tier 2: stone     - cost=4 to upgrade
+  tier 3: iron      - cost=5 to upgrade
+  tier 4: diamond   - cost=6 to upgrade
+  tier 5: netherite - cost=7 to upgrade
+
+stone_sword (Wither_Skeleton):
+  base_cost=0 (spawns with it)
+  tier 1: stone     - base_cost=0
+  tier 2: iron      - cost=5 to upgrade
+  tier 3: diamond   - cost=6 to upgrade
+  tier 4: netherite - cost=7 to upgrade
+
+gold_sword (Piglin 50% option):
+  base_cost=0 (spawns with it if chosen)
+  tier 1: gold      - base_cost=0
+  tier 2: netherite - cost=10 to upgrade
+
+iron_axe (Vindicator):
+  base_cost=0 (spawns with it)
+  tier 1: iron      - base_cost=0
+  tier 2: diamond   - cost=5 to upgrade
+  tier 3: netherite - cost=7 to upgrade
+
+gold_axe (Piglin_Brute):
+  base_cost=0 (spawns with it)
+  tier 1: gold      - base_cost=0
+  tier 2: netherite - cost=10 to upgrade
+
+bow (Skeleton, Stray, Bogged):
+  base_cost=0 (spawns with it), no tiers, enchants only
+
+crossbow (Pillager, Illusioner, Piglin 50%):
+  base_cost=0 (spawns with it), no tiers, enchants only
+
+trident (Drowned):
+  base_cost=0 (spawns with it), no tiers, enchants only
+
+================================================================================
+                           WEAPON ENCHANTMENTS
+================================================================================
+
+SWORD/AXE ENCHANTS:
+  sharpness:    level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6, level 5: cost=7
+  fire_aspect:  level 1: cost=4, level 2: cost=5
+  knockback:    level 1: cost=3, level 2: cost=4
+  looting:      level 1: cost=5, level 2: cost=7, level 3: cost=9
+  unbreaking:   level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:      level 1: cost=10
+
+BOW ENCHANTS:
+  power:        level 1: cost=2, level 2: cost=3, level 3: cost=4, level 4: cost=5, level 5: cost=6
+  punch:        level 1: cost=4, level 2: cost=5
+  flame:        level 1: cost=8
+  infinity:     level 1: cost=12
+  unbreaking:   level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:      level 1: cost=10
+
+CROSSBOW ENCHANTS:
+  quick_charge: level 1: cost=3, level 2: cost=4, level 3: cost=5
+  piercing:     level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  multishot:    level 1: cost=5
+  unbreaking:   level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:      level 1: cost=10
+
+TRIDENT ENCHANTS:
+  loyalty:      level 1: cost=4, level 2: cost=5, level 3: cost=6
+  impaling:     level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6, level 5: cost=7
+  riptide:      level 1: cost=5, level 2: cost=6, level 3: cost=7
+  channeling:   level 1: cost=8
+  unbreaking:   level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:      level 1: cost=10
+
+================================================================================
+                              SHIELD
+================================================================================
+
+shield: cost=10 to purchase (available to any mob that can hold mainhand weapon)
+
+SHIELD ENCHANTS:
+  unbreaking:   level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:      level 1: cost=10
+
+================================================================================
+                           ARMOR PROGRESSION
+================================================================================
+
+NORMAL ARMOR (full_normal - most mobs):
+  Each piece (helmet, chestplate, leggings, boots):
+    tier 1: leather    - cost=3 to purchase
+    tier 2: chainmail  - cost=4 to upgrade
+    tier 3: iron       - cost=5 to upgrade
+    tier 4: diamond    - cost=6 to upgrade
+    tier 5: netherite  - cost=7 to upgrade
+
+GOLD ARMOR (full_gold - Piglin, Piglin_Brute):
+  Each piece (helmet, chestplate, leggings, boots):
+    tier 1: gold       - cost=3 to purchase
+    tier 2: netherite  - cost=7 to upgrade
+
+================================================================================
+                           ARMOR ENCHANTMENTS
+================================================================================
+
+ALL ARMOR PIECES (helmet, chestplate, leggings, boots):
+  protection:            level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  fire_protection:       level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  blast_protection:      level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  projectile_protection: level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  thorns:                level 1: cost=4, level 2: cost=5, level 3: cost=6
+  unbreaking:            level 1: cost=3, level 2: cost=4, level 3: cost=5
+  mending:               level 1: cost=10
+
+HELMET ONLY:
+  aqua_affinity:         level 1: cost=6
+  respiration:           level 1: cost=4, level 2: cost=5, level 3: cost=6
+
+LEGGINGS ONLY:
+  swift_sneak:           level 1: cost=6, level 2: cost=8, level 3: cost=10
+
+BOOTS ONLY:
+  feather_falling:       level 1: cost=3, level 2: cost=4, level 3: cost=5, level 4: cost=6
+  depth_strider:         level 1: cost=4, level 2: cost=5, level 3: cost=6
+  soul_speed:            level 1: cost=5, level 2: cost=6, level 3: cost=7
+  frost_walker:          level 1: cost=6, level 2: cost=7
+
+================================================================================
+                           ITEM MASTERIES
+================================================================================
+
+Applied PER ITEM (each weapon, shield, armor piece has its own masteries)
+
+DROP MASTERY (reduces chance item drops when mob dies):
+  level 1:  cost=5,  drop_chance="100% -> 90%"
+  level 2:  cost=7,  drop_chance="90% -> 80%"
+  level 3:  cost=9,  drop_chance="80% -> 70%"
+  level 4:  cost=11, drop_chance="70% -> 60%"
+  level 5:  cost=13, drop_chance="60% -> 50%"
+  level 6:  cost=15, drop_chance="50% -> 40%"
+  level 7:  cost=17, drop_chance="40% -> 30%"
+  level 8:  cost=19, drop_chance="30% -> 20%"
+  level 9:  cost=21, drop_chance="20% -> 10%"
+  level 10: cost=23, drop_chance="10% -> 1%"
+
+DURABILITY MASTERY (item spawns with more durability):
+  level 1:  cost=10, durability="1% -> 10%"
+  level 2:  cost=12, durability="10% -> 20%"
+  level 3:  cost=14, durability="20% -> 30%"
+  level 4:  cost=16, durability="30% -> 40%"
+  level 5:  cost=18, durability="40% -> 50%"
+  level 6:  cost=20, durability="50% -> 60%"
+  level 7:  cost=22, durability="60% -> 70%"
+  level 8:  cost=24, durability="70% -> 80%"
+  level 9:  cost=26, durability="80% -> 90%"
+  level 10: cost=28, durability="90% -> 100%"
+
+TIER UPGRADE REQUIREMENT:
+  To upgrade an item to next material tier, mob must have:
+  - Drop Mastery level 10 on that item
+  - Durability Mastery level 10 on that item
+  - All enchantments at max level on that item
+
+ITEM BREAK BEHAVIOR:
+  When item reaches 0 durability:
+  - Downgrades one material tier
+  - All enchantments wiped
+  - Drop Mastery reset to 0
+  - Durability Mastery reset to 0
+  - If already lowest tier: item removed
+
+================================================================================
+                           SPECIAL ABILITY TREES
+================================================================================
+
+ZOMBIE TREE (for mobs with trees=[zombie]):
+  horde_summon:
+    level 1: cost=10, effect="10% chance on hit to summon 1 ally of same type"
+    level 2: cost=15, effect="20% chance on hit to summon 1 ally of same type"
+    level 3: cost=20, effect="30% chance on hit to summon 1 ally of same type"
+    level 4: cost=25, effect="40% chance on hit to summon 1 ally of same type"
+    level 5: cost=30, effect="50% chance on hit to summon 1 ally of same type"
+
+  hunger_attack:
+    level 1: cost=6,  effect="Apply Hunger I for 10s on hit"
+    level 2: cost=10, effect="Apply Hunger II for 15s on hit"
+    level 3: cost=14, effect="Apply Hunger III for 20s on hit"
+
+RANGED TREE (for mobs with trees=[ranged]):
+  piercing_shot:
+    level 1: cost=8,  effect="Projectiles pierce through 1 entity"
+    level 2: cost=12, effect="Projectiles pierce through 2 entities"
+    level 3: cost=16, effect="Projectiles pierce through 3 entities"
+    level 4: cost=20, effect="Projectiles pierce through 4 entities"
+
+  ranged_potion_mastery:
+    level 1: cost=10, effect="20% chance projectile applies Slowness I for 10s"
+    level 2: cost=15, effect="40% chance projectile applies Slowness II for 15s OR Weakness I for 10s"
+    level 3: cost=20, effect="60% chance projectile applies Poison I for 10s OR Weakness I for 15s"
+    level 4: cost=25, effect="80% chance projectile applies Poison II for 15s OR Instant Damage I"
+    level 5: cost=30, effect="100% chance projectile applies Poison II for 20s OR Instant Damage II OR Wither I for 10s"
+
+  multishot:
+    level 1: cost=15, effect="Fire 1 additional projectile"
+    level 2: cost=25, effect="Fire 2 additional projectiles"
+    level 3: cost=35, effect="Fire 3 additional projectiles"
+
+CREEPER TREE (only for Creeper):
+  creeper_power:
+    level 1: cost=10, effect="Explosion radius 4.25 blocks"
+    level 2: cost=15, effect="Explosion radius 5.5 blocks"
+    level 3: cost=20, effect="Explosion radius 6.75 blocks"
+    level 4: cost=25, effect="Explosion radius 8.0 blocks"
+    level 5: cost=30, effect="Explosion radius 10.0 blocks"
+
+  creeper_potion_cloud:
+    level 1: cost=12, effect="Explosion leaves Slowness I cloud for 10s"
+    level 2: cost=18, effect="Explosion leaves Slowness I 15s + Weakness I 10s cloud"
+    level 3: cost=24, effect="Explosion leaves Slowness II 20s + Weakness I 15s + Poison I 10s cloud"
+    level 4: cost=30, effect="Explosion leaves Slowness II 20s + Weakness I 15s + Poison I 10s + Wither I 15s cloud"
+
+WITCH TREE (only for Witch):
+  potion_throw_speed:
+    level 1: cost=10, effect="Throw speed 1.15x, accuracy 8.0"
+    level 2: cost=15, effect="Throw speed 1.30x, accuracy 6.0"
+    level 3: cost=20, effect="Throw speed 1.45x, accuracy 4.0"
+    level 4: cost=25, effect="Throw speed 1.60x, accuracy 3.0"
+    level 5: cost=30, effect="Throw speed 1.75x, accuracy 2.0"
+
+  extra_potion_bag:
+    level 1: cost=12, effect="Can throw Instant Damage I potions"
+    level 2: cost=18, effect="Can throw Instant Damage II potions"
+    level 3: cost=24, effect="Can throw Instant Damage II + Wither I 10s potions"
+
+CAVE_SPIDER TREE (only for Cave_Spider):
+  poison_mastery:
+    level 1: cost=0,  effect="Poison I for 7s on bite (default)"
+    level 2: cost=8,  effect="Poison I for 14s on bite"
+    level 3: cost=12, effect="Poison II for 10s on bite"
+    level 4: cost=16, effect="Poison II for 15s on bite"
+    level 5: cost=20, effect="Poison II for 20s + Wither I for 10s on bite"
+    level 6: cost=24, effect="Poison II for 20s + Wither I for 10s + Slowness II for 15s on bite"
+
+ENDER_DRAGON TREE (only for Ender_Dragon):
+  void_bombardment:
+    level 1: cost=18, effect="Projectile damage 6, radius 3.0 blocks, cooldown 16 ticks, applies Wither I for 1s"
+    level 2: cost=26, effect="Projectile damage 9, radius 3.5 blocks, cooldown 14 ticks, applies Wither I for 3s"
+    level 3: cost=34, effect="Projectile damage 12, radius 4.0 blocks, cooldown 12 ticks, applies Wither I for 5s"
+
+ENDERMAN TREE (only for Enderman):
+  shadow_step:
+    level 1: cost=8,  effect="20% chance to teleport up to 10 blocks, blinds attacker for 2s (12s cooldown)"
+    level 2: cost=12, effect="35% chance to teleport up to 16 blocks, blinds attacker for 3s (10s cooldown)"
+    level 3: cost=16, effect="50% chance to teleport up to 22 blocks, blinds attacker for 4s (8s cooldown)"
+    level 4: cost=22, effect="65% chance to teleport up to 28 blocks, blinds attacker for 5s (6s cooldown)"
+
+  void_grasp:
+    level 1: cost=10, effect="25% chance to apply Weakness I for 6s (range 10 blocks)"
+    level 2: cost=15, effect="35% chance to apply Weakness II for 8s (range 12 blocks)"
+    level 3: cost=20, effect="45% chance to apply Weakness II for 10s + Levitation 2s (range 14 blocks)"
+    level 4: cost=26, effect="55% chance to apply Weakness III for 12s + Levitation 4s (range 16 blocks)"
+
+================================================================================
+                           SPECIAL ABILITY QUICK REFERENCE
+================================================================================
+
+horde_summon: Chance-based reinforcement call that spawns allied mobs of the same type when the caster is under pressure.
+hunger_attack: Melee strikes infect targets with escalating Hunger levels, draining saturation and slowing natural regen.
+piercing_shot: Any projectile fired keeps traveling through extra targets, with pierce level dictating how many bodies it can pass through.
+ranged_potion_mastery: Ranged attacks inherit potion payloads, layering slowness, weakness, poison, instant damage, or wither on impact.
+multishot: Every ranged attack clones itself into supplemental projectiles, widening spread and damage output.
+creeper_power: Supercharges the blast radius of Creeper detonations, scaling from mild bumps to siege-level explosions.
+creeper_potion_cloud: After exploding, Creepers leave lingering AOE clouds that escalate from slowness to full wither cocktails.
+potion_throw_speed: Witches wind up faster and throw farther with tighter accuracy cones, making potions harder to dodge.
+extra_potion_bag: Expands a Witch’s arsenal with higher-tier Instant Damage flasks capped by withering brews at max rank.
+poison_mastery: Cave Spider bites gain longer poison durations, higher potency, and eventually tack on wither plus slowness.
+void_bombardment: Ender Dragon fireballs gain damage, radius, faster recharge, and reliable wither damage over time.
+shadow_step: Endermen retaliate by short-range teleporting and briefly blinding aggressors, with odds and distance scaling per level.
+void_grasp: Periodic void pulses check nearby players, inflicting stacking weakness and levitation to set up combo hits.
+
+================================================================================
+                           TREE NAMING BY MOB
+================================================================================
+
+Use these descriptive names in the JSON "tree_name" field:
+
+Allay:           "Ethereal Guardian"
+Armadillo:       "Desert Defender"
+Axolotl:         "Aquatic Regenerator"
+Bat:             "Cave Dweller"
+Bee:             "Hive Protector"
+Blaze:           "Infernal Fury"
+Bogged:          "Swamp Stalker"
+Breeze:          "Wind Elemental"
+Camel:           "Desert Wanderer"
+Cat:             "Feline Stalker"
+Cave_Spider:     "Venomous Predator"
+Chicken:         "Feathered Survivor"
+Cod:             "Ocean Drifter"
+Cow:             "Pastoral Guardian"
+Creaking:        "Wooden Horror"
+Creeper:         "Explosive Evolution"
+Dolphin:         "Wave Rider"
+Donkey:          "Pack Bearer"
+Drowned:         "Abyssal Hunter"
+Elder_Guardian:  "Ocean Monument Lord"
+Ender_Dragon:    "End Sovereign"
+Enderman:        "Void Walker"
+Endermite:       "Void Parasite"
+Evoker:          "Dark Summoner"
+Fox:             "Cunning Predator"
+Frog:            "Swamp Leaper"
+Giant:           "Colossal Undead"
+Glow_Squid:      "Luminescent Drifter"
+Goat:            "Mountain Charger"
+Guardian:        "Ocean Sentinel"
+Hoglin:          "Nether Beast"
+Horse:           "Swift Steed"
+Husk:            "Desert Undead"
+Illusioner:      "Phantom Archer"
+Iron_Golem:      "Village Protector"
+Llama:           "Spitting Guardian"
+Magma_Cube:      "Molten Bouncer"
+Mooshroom:       "Mycelium Grazer"
+Mule:            "Hybrid Carrier"
+Ocelot:          "Jungle Stalker"
+Panda:           "Bamboo Guardian"
+Parrot:          "Tropical Mimic"
+Phantom:         "Nightmare Swooper"
+Pig:             "Farmland Forager"
+Piglin:          "Nether Trader"
+Piglin_Brute:    "Nether Enforcer"
+Pillager:        "Raider Marksman"
+Polar_Bear:      "Arctic Fury"
+Pufferfish:      "Toxic Defender"
+Rabbit:          "Swift Hopper"
+Ravager:         "Raid Destroyer"
+Salmon:          "River Runner"
+Sheep:           "Woolly Wanderer"
+Shulker:         "Levitation Artillery"
+Silverfish:      "Stone Burrower"
+Skeleton:        "Bone Archer"
+Skeleton_Horse:  "Undead Steed"
+Slime:           "Gelatinous Bouncer"
+Sniffer:         "Ancient Tracker"
+Snow_Golem:      "Frost Sentry"
+Spider:          "Web Weaver"
+Squid:           "Ink Cloud Drifter"
+Stray:           "Frozen Archer"
+Strider:         "Lava Walker"
+Tadpole:         "Tiny Swimmer"
+Trader_Llama:    "Merchant Guardian"
+Tropical_Fish:   "Coral Dancer"
+Turtle:          "Shell Guardian"
+Vex:             "Spectral Striker"
+Villager:        "Trade Master"
+Vindicator:      "Axe Berserker"
+Wandering_Trader:"Nomadic Merchant"
+Warden:          "Deep Dark Terror"
+Witch:           "Potion Brewer"
+Wither:          "Skull Storm"
+Wither_Skeleton: "Charred Swordsman"
+Wolf:            "Pack Hunter"
+Zoglin:          "Corrupted Beast"
+Zombie:          "Undead Horde"
+Zombie_Villager: "Infected Trader"
+
+================================================================================
+                           JSON FILE STRUCTURE
+================================================================================
+
+Each mob JSON must be COMPLETELY STANDALONE. Structure:
+
+{
+  "mob_name": "[MobName]",
+  "entity_class": "net.minecraft.entity.[path].[MobName]Entity",
+  "mob_type": "[passive/neutral/hostile]",
+  "tree_name": "[Descriptive Name from list above]",
+
+  "point_system": {
+    "daily_scaling": [full table from POINT SYSTEM section],
+    "kill_scaling": "1 point per player kill",
+    "spending_logic": { "buy_chance": 0.80, "save_chance": 0.20 }
+  },
+
+  "tree": {
+    "passive_potion_effects": { [if passive, include all; if hostile/neutral, empty object] },
+    "hostile_neutral_potion_effects": { [if hostile/neutral, include all; if passive, empty object] },
+    "mainhand": { [if has weapon, include base cost, tiers, all enchants, masteries] },
+    "offhand": { [if has shield, include base cost, enchants, masteries] },
+    "head": { [if has armor, include tiers, all enchants, masteries] },
+    "body": { [if has armor, include tiers, all enchants, masteries] },
+    "legs": { [if has armor, include tiers, all enchants, masteries] },
+    "feet": { [if has armor, include tiers, all enchants, masteries] },
+    "special_abilities": { [include all abilities from mob's trees] }
+  }
+}
+
+================================================================================
+                           FILE LOCATIONS
+================================================================================
+
+ScalingSystem: src/main/java/mod/universalmobwar/system/ScalingSystem.java
+Mixin hook:    src/main/java/mod/universalmobwar/mixin/MobDataMixin.java (handles every mob)
+JSON configs:  src/main/resources/mob_configs/[mobname].json (lowercase)
+Mixin config:  src/main/resources/universalmobwar.mixins.json (already registers MobDataMixin)
+
+================================================================================
+                           ARCHITECTURE
+================================================================================
+
+The scaling system uses a CENTRALIZED architecture:
+
+  1. ScalingSystem.java (ONE file controls ALL upgrade logic)
+     - Loads ALL mob JSON configs on startup
+     - Calculates points from world age using JSON daily_scaling
+     - Spends points on upgrades (80% buy / 20% save from JSON)
+     - Applies effects (potion effects, equipment, special abilities)
+
+    2. MobDataMixin (universal hook)
+      - Injects into every MobEntity, persists MobWarData, and calls ScalingSystem
+      - No per-mob mixins exist anymore; new mobs only need JSON data
+      - Mobs without a JSON file are skipped automatically
+
+  3. JSON Configs (define ALL upgrade data)
+     - Each mob has its own JSON file with upgrade costs and effects
+     - ScalingSystem reads these to know what upgrades are available
+
+================================================================================
+                           CREATION STEPS
+================================================================================
+
+To add a new mob, you need to:
+
+STEP 1: Create JSON config file
+  Location: src/main/resources/mob_configs/[mobname].json
+  Template: Copy from existing mob (allay.json, bee.json, bogged.json, blaze.json)
+  Content: All upgrade costs and effects for this mob type
+
+STEP 2: No mixin file needed
+  MobDataMixin already injects into every MobEntity, persists MobWarData, and calls ScalingSystem.
+  Do NOT add files under src/main/java/mod/universalmobwar/mixin/mob anymore.
+
+STEP 3: No mixin registration needed
+  src/main/resources/universalmobwar.mixins.json already lists MobDataMixin.
+  Leave it alone unless the universal hook itself changes.
+
+STEP 4: ScalingSystem loads mobs dynamically
+  The system scans src/main/resources/mob_configs on startup and populates IMPLEMENTED_MOBS automatically.
+  As soon as a JSON exists, the mob is recognized—no manual array edits or registrations.
+
+STEP 5: Mark as complete
+  Update this file: change [ ] to [X] for the mob
+
+REFERENCE FILES:
+  - Passive mob:  AllayMixin.java + allay.json
+  - Neutral mob:  BeeMixin.java + bee.json  
+  - Hostile mob:  BoggedMixin.java + bogged.json (has equipment + trees)
+  - Ranged mob:   BlazeMixin.java + blaze.json (has ranged tree)
+
+================================================================================

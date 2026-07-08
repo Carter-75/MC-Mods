@@ -1,0 +1,6 @@
+{
+    "parent": "item/potato",
+    "textures": {
+        "potato": "item/baked_potato"
+    }
+}

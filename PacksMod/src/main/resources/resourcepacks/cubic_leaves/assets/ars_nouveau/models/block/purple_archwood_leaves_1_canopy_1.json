@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_generic_canopy",
+	"textures": {
+		"all": "ars_nouveau:block/purple_archwood_leaves_1_canopy"
+	}
+}

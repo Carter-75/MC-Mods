@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.flat_xp_gain.title": "Flat XP Gain Settings",
+  "text.autoconfig.flat_xp_gain.option.modEnabled": "Mod Enabled",
+  "text.autoconfig.flat_xp_gain.option.flatXpEnabled": "Flat XP Enabled",
+  "text.autoconfig.flat_xp_gain.option.linearXpEnabled": "Linear XP Enabled",
+  "text.autoconfig.flat_xp_gain.option.level1XpCost": "Level 1 XP Cost",
+  "text.autoconfig.flat_xp_gain.option.nextXpAddition": "Next XP Addition",
+  "text.autoconfig.flat_xp_gain.option.modEnabled.@Tooltip": "Enable or disable the entire mod.",
+  "text.autoconfig.flat_xp_gain.option.flatXpEnabled.@Tooltip": "Make every level cost the same amount (Level 1 Cost).",
+  "text.autoconfig.flat_xp_gain.option.linearXpEnabled.@Tooltip": "Make XP costs scale linearly (Level 1 Cost + (Level - 1) * Next XP Addition)."
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/template_bucket_down",
+	"textures": {
+		"contents": "block/lava_still"
+	}
+}

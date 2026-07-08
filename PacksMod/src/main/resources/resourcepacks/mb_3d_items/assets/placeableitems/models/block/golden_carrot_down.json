@@ -1,0 +1,6 @@
+{
+    "parent": "placeableitems:block/carrot_down",
+    "textures": {
+		"carrot": "item/golden_carrot"
+    }
+}

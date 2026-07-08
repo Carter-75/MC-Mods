@@ -1,0 +1,60 @@
+# Ignore all compiled JAR and ZIP archives
+**/*.jar
+**/*.zip
+**/*.tar.gz
+**/*.rar
+**/*.7z
+
+# Python Virtual Environments
+.venv/
+**/venv/
+**/.venv/
+
+# Gradle, Loom, and Fabric cache directories
+.gradle/
+**/build/
+**/.gradle/
+**/.loom/
+**/.fabric/
+
+# Eclipse/VS Code/IDEA build outputs
+**/bin/
+**/out/
+
+# Minecraft client test run folders (e.g., playrun, playrun_fa, run, runClient)
+**/playrun*/
+**/run*/
+
+# Mod extraction/decompilation folders
+**/_extract/
+**/extracted-jar/
+**/decompiled-src/
+
+# IDE settings
+.idea/
+*.iml
+.settings/
+.project/
+.classpath/
+.factorypath
+.vscode/
+**/.idea/
+**/*.iml
+**/.vscode/
+
+# Compiled Java class files and executables
+*.class
+**/*.class
+**/*.exe
+
+# Debug logs and root text files
+*.log
+**/*.log
+debug_output.txt
+debug_reload.log
+mcmeta_errors.txt
+mcmeta_errors_2.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db

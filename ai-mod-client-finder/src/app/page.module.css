@@ -1,0 +1,188 @@
+.page {
+  min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, rgba(0, 194, 255, 0.15), rgba(255, 255, 255, 0.05));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  animation: fadeInUp 0.8s ease both;
+}
+.howTo {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: rgba(8, 13, 26, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.howTo li {
+  list-style: decimal inside;
+  color: rgba(235, 243, 255, 0.85);
+  font-size: 0.95rem;
+}
+
+.toggleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.toggleRow input[type="checkbox"] {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.downloadActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.downloadActions .button {
+  transition: transform 0.2s ease;
+}
+
+.downloadActions .button:hover {
+  transform: translateY(-1px);
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.dropZone {
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 1.5rem;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.dropZone:hover,
+.dropZone:focus-visible {
+  border-color: #00c2ff;
+  background-color: rgba(0, 194, 255, 0.06);
+}
+
+.readonly {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.jarList {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  max-height: 240px;
+  overflow-y: auto;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.jarList li {
+  background: rgba(8, 13, 26, 0.6);
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+.progressShell {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: linear-gradient(90deg, #00c2ff 0%, #23d5ab 100%);
+  box-shadow: 0 0 12px rgba(0, 194, 255, 0.45);
+}
+
+.statusTag {
+  text-transform: uppercase;
+}
+
+.logPanel {
+  max-height: 260px;
+  overflow-y: auto;
+  background: rgba(8, 13, 26, 0.55);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.logLine {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.05);
+}
+
+.logLine:last-child {
+  border-bottom: none;
+}
+
+.logMessage {
+  flex: 1;
+}
+
+.logTime {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.resultList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.resultList li {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(8, 13, 26, 0.55);
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+}
+
+.nextSteps {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.nextSteps li {
+  font-size: 0.95rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

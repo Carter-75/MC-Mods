@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/quartz/quartz1.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz2.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz3.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz4.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz5.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz6.json",
+        "assets/minecraft/items/2d_sprites/quartz/quartz7.json"
+    ]
+}

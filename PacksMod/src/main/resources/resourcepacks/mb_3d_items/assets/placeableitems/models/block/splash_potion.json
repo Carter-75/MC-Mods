@@ -1,0 +1,60 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"bottle": "item/glass_bottle",
+		"contents": "item/potion_overlay",
+		"particle": "#contents"
+	},
+	"elements": [
+		{
+			"from": [4.5, 0, 4.5],
+			"to": [11.5, 6, 11.5],
+			"faces": {
+				"north": {"uv": [10.5, 3.5, 14, 6.5], "texture": "#bottle"},
+				"east": {"uv": [7, 3.5, 10.5, 6.5], "texture": "#bottle"},
+				"south": {"uv": [3.5, 3.5, 7, 6.5], "texture": "#bottle"},
+				"west": {"uv": [0, 3.5, 3.5, 6.5], "texture": "#bottle"},
+				"up": {"uv": [7, 3.5, 3.5, 0], "rotation": 180, "texture": "#bottle"},
+				"down": {"uv": [10.5, 0, 7, 3.5], "rotation": 180, "texture": "#bottle"}
+			}
+		},
+		{
+			"from": [7, 6, 5.5],
+			"to": [11, 12, 10.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [11, 6, 8]},
+			"faces": {
+				"north": {"uv": [12, 12.5, 14, 15.5], "texture": "#bottle"},
+				"east": {"uv": [9.5, 12.5, 12, 15.5], "texture": "#bottle"},
+				"south": {"uv": [7.5, 12.5, 9.5, 15.5], "texture": "#bottle"},
+				"west": {"uv": [5, 12.5, 7.5, 15.5], "texture": "#bottle"},
+				"up": {"uv": [9.5, 12.5, 7.5, 10], "rotation": 180, "texture": "#bottle"},
+				"down": {"uv": [11.5, 10, 9.5, 12.5], "rotation": 180, "texture": "#bottle"}
+			}
+		},
+		{
+			"from": [4.5, 7, 6.5],
+			"to": [6.5, 11, 9.5],
+			"faces": {
+				"north": {"uv": [4, 13, 5, 15], "texture": "#bottle"},
+				"east": {"uv": [2.5, 13, 4, 15], "texture": "#bottle"},
+				"south": {"uv": [1.5, 13, 2.5, 15], "texture": "#bottle"},
+				"west": {"uv": [0, 13, 1.5, 15], "texture": "#bottle"},
+				"up": {"uv": [2.5, 13, 1.5, 11.5], "rotation": 180, "texture": "#bottle"},
+				"down": {"uv": [3.5, 11.5, 2.5, 13], "rotation": 180, "texture": "#bottle"}
+			}
+		},
+		{
+			"from": [5, 0.5, 5],
+			"to": [11, 5.5, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 5.5], "texture": "#contents", "tintindex": 0},
+				"east": {"uv": [0, 3, 3, 5.5], "texture": "#contents", "tintindex": 0},
+				"south": {"uv": [9, 3, 12, 5.5], "texture": "#contents", "tintindex": 0},
+				"west": {"uv": [6, 3, 9, 5.5], "texture": "#contents", "tintindex": 0},
+				"up": {"uv": [6, 3, 3, 0], "rotation": 180, "texture": "#contents", "tintindex": 0},
+				"down": {"uv": [9, 0, 6, 3], "rotation": 180, "texture": "#contents", "tintindex": 0}
+			}
+		}
+	]
+}

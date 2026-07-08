@@ -1,0 +1,25 @@
+{
+    "parent": "item/map",
+    "textures": {
+		"front": "map/map_background_checkerboard",
+		"back": "map/map_background",
+        "overlay": "item/filled_map_overlay"
+    },
+	"elements": [
+		{
+			"from": [0, 7.99, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#front"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#back"}
+			}
+		},
+		{
+			"from": [0, 7.99, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#overlay", "tintindex": 1}
+			}
+		}
+	]
+}

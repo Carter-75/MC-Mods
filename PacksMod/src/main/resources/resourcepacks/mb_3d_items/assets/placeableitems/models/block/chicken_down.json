@@ -1,0 +1,90 @@
+{
+	"loader": "placeableitems:rotation",
+	"ambientocclusion": false,
+	"textures": {
+		"chicken": "item/chicken",
+		"particle": "#chicken"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 6, 13],
+			"faces": {
+				"north": {"uv": [4, 4, 7, 7], "texture": "#chicken"},
+				"east": {"uv": [0, 4, 4, 7], "texture": "#chicken"},
+				"south": {"uv": [11, 4, 14, 7], "texture": "#chicken"},
+				"west": {"uv": [7, 4, 11, 7], "texture": "#chicken"},
+				"up": {"uv": [7, 4, 4, 0], "texture": "#chicken"},
+				"down": {"uv": [10, 0, 7, 4], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [4, 1, 9],
+			"to": [5, 3, 12],
+			"faces": {
+				"north": {"uv": [1.5, 11, 2, 12], "texture": "#chicken"},
+				"south": {"uv": [3.5, 11, 4, 12], "texture": "#chicken"},
+				"west": {"uv": [2, 11, 3.5, 12], "texture": "#chicken"},
+				"up": {"uv": [2, 11, 1.5, 9.5], "texture": "#chicken"},
+				"down": {"uv": [2.5, 9.5, 2, 11], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [11, 1, 9],
+			"to": [12, 3, 12],
+			"faces": {
+				"north": {"uv": [1.5, 8.5, 2, 9.5], "texture": "#chicken"},
+				"east": {"uv": [0, 8.5, 1.5, 9.5], "texture": "#chicken"},
+				"south": {"uv": [3.5, 8.5, 4, 9.5], "texture": "#chicken"},
+				"up": {"uv": [2, 8.5, 1.5, 7], "texture": "#chicken"},
+				"down": {"uv": [2.5, 7, 2, 8.5], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [4, 0, 4],
+			"to": [6, 3, 7],
+			"faces": {
+				"north": {"uv": [5.5, 11.5, 6.5, 13], "texture": "#chicken"},
+				"east": {"uv": [4, 11.5, 5.5, 13], "texture": "#chicken"},
+				"south": {"uv": [8, 11.5, 9, 13], "texture": "#chicken"},
+				"west": {"uv": [6.5, 11.5, 8, 13], "texture": "#chicken"},
+				"up": {"uv": [6.5, 11.5, 5.5, 10], "texture": "#chicken"},
+				"down": {"uv": [7.5, 10, 6.5, 11.5], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [5, 2, 3],
+			"to": [6, 3, 4],
+			"faces": {
+				"north": {"uv": [8, 11, 8.5, 11.5], "texture": "#chicken"},
+				"east": {"uv": [7.5, 11, 8, 11.5], "texture": "#chicken"},
+				"west": {"uv": [8.5, 11, 9, 11.5], "texture": "#chicken"},
+				"up": {"uv": [8.5, 11, 8, 10.5], "texture": "#chicken"},
+				"down": {"uv": [9, 10.5, 8.5, 11], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [10, 0, 4],
+			"to": [12, 3, 7],
+			"faces": {
+				"north": {"uv": [5.5, 8.5, 6.5, 10], "texture": "#chicken"},
+				"east": {"uv": [4, 8.5, 5.5, 10], "texture": "#chicken"},
+				"south": {"uv": [8, 8.5, 9, 10], "texture": "#chicken"},
+				"west": {"uv": [6.5, 8.5, 8, 10], "texture": "#chicken"},
+				"up": {"uv": [6.5, 8.5, 5.5, 7], "texture": "#chicken"},
+				"down": {"uv": [7.5, 7, 6.5, 8.5], "texture": "#chicken"}
+			}
+		},
+		{
+			"from": [10, 2, 3],
+			"to": [11, 3, 4],
+			"faces": {
+				"north": {"uv": [8, 8, 8.5, 8.5], "texture": "#chicken"},
+				"east": {"uv": [7.5, 8, 8, 8.5], "texture": "#chicken"},
+				"west": {"uv": [8.5, 8, 9, 8.5], "texture": "#chicken"},
+				"up": {"uv": [8.5, 8, 8, 7.5], "texture": "#chicken"},
+				"down": {"uv": [9, 7.5, 8.5, 8], "texture": "#chicken"}
+			}
+		}
+	]
+}

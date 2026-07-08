@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_notint",
+	"textures": {
+		"all": "promenade:block/snowy_palm_leaves"
+	}
+}

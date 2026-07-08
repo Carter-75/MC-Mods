@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"min_format": 15,
+		"max_format": 200,
+		"supported_formats": {"min_inclusive": 15, "max_inclusive": 200},
+		"description": [
+			{"text": " 1",	"color": "#BE5AD1"},
+			{"text": ".",	"color": "#808080"},
+			{"text": "20",	"color": "#BE5AD1"},
+			{"text": ".",	"color": "#808080"},
+			{"text": "x",	"color": "#BE5AD1"},
+			" - ",
+			{"text": "1",	"color": "#BE5AD1"},
+			{"text": ".",	"color": "#808080"},
+			{"text": "21",	"color": "#BE5AD1"},
+			{"text": ".",	"color": "#808080"},
+			{"text": "x",	"color": "#BE5AD1"},
+			"\n",
+			{"text": " §6by WeNAN Studios"}
+		]
+	}
+}

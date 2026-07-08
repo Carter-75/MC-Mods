@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_conifer_canopy",
+	"textures": {
+		"all": "regions_unexplored:block/pine_leaves_canopy"
+	}
+}

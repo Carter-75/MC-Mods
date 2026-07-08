@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget1.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget2.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget3.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget4.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget5.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget6.json",
+        "assets/minecraft/items/2d_sprites/copper_nugget/copper_nugget7.json"
+    ]
+}

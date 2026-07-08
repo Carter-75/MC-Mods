@@ -1,0 +1,3 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui"
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " R ",
+        "IGI",
+        " R "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "dronearmy:robot_core",
+        "count": 1
+    }
+}

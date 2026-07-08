@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_willow_canopy_notint",
+	"textures": {
+		"all": "minecraft:block/warped_wart_block_canopy"
+	}
+}

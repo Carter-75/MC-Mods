@@ -1,0 +1,12 @@
+{
+    condition: "!freshOresAndIngots.useModelsWhen.ground & !freshOresAndIngots.useModelsWhen.itemFrames & !freshOresAndIngots.useModelsWhen.gui",
+    fallbacks: [
+        "assets/minecraft/items/2d_sprites/flint/flint1.json",
+        "assets/minecraft/items/2d_sprites/flint/flint2.json",
+        "assets/minecraft/items/2d_sprites/flint/flint3.json",
+        "assets/minecraft/items/2d_sprites/flint/flint4.json",
+        "assets/minecraft/items/2d_sprites/flint/flint5.json",
+        "assets/minecraft/items/2d_sprites/flint/flint6.json",
+        "assets/minecraft/items/2d_sprites/flint/flint7.json"
+    ]
+}

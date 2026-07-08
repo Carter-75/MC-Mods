@@ -1,0 +1,40 @@
+{
+  "container.barrel": "",
+  "container.blast_furnace": "",
+  "container.brewing": "",
+  "container.cartography_table": "",
+  "container.chest": "",
+  "container.chestDouble": "",
+  "container.crafting": "",
+  "container.creative": "Item Selection",
+  "container.dispenser": "",
+  "container.dropper": "",
+  "container.enchant": "",
+  "container.enderchest": "",
+  "container.furnace": "",
+  "container.grindstone_title": "",
+  "container.hopper": "",
+  "container.inventory": "",
+  "container.loom": "",
+  "container.repair": "",
+  "container.shulkerBox": "",
+  "container.smoker": "",
+  "container.stonecutter": "",
+  "container.upgrade": "",
+
+  "entity.minecraft.chest_minecart": "",
+  "entity.minecraft.furnace_minecart": "",
+  "entity.minecraft.hopper_minecart": "",
+
+  "merchant.trades": "",
+
+  "block.minecraft.beacon.primary": "",
+  "block.minecraft.beacon.secondary": "",
+  
+  "menu.returnToGame": "Back to Game",
+  "gui.advancements": "Advancements",
+  "gui.stats": "Statistics",
+  "menu.sendFeedback": "Give Feedback",
+  "menu.options": "Options...",
+  "menu.returnToMenu": "Save and Quit to Title"
+}

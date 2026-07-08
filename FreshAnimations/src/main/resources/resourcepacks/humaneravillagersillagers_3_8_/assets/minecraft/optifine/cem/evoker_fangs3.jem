@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [-5, -12, 5],
+			"boxes": [
+				{"coordinates": [0, 2, -3, 0, 22, 6], "textureOffset": [0, 4], "sizeAdd": 0.01},
+				{"coordinates": [-3, 2, 0, 6, 22, 0], "textureOffset": [0, 10], "sizeAdd": 0.01}
+			],
+			"submodels": [
+				{
+					"id": "cancel",
+					"invertAxis": "xy",
+					"translate": [5, 12, -5],
+					"boxes": [
+						{"coordinates": [-12, -7, -2, 14, 0, 14], "textureOffset": [22, 18], "sizeAdd": 0.01}
+					]
+				}
+			],
+			"animations": [
+				{
+					"cancel.ty": "-base.ty"
+				}
+			]
+		},
+		{
+			"part": "upper_jaw",
+			"id": "upper_jaw",
+			"invertAxis": "xy",
+			"translate": [-0.5, -12, 4],
+			"rotate": [-180, -180, 0],
+			"animations": [
+				{
+					"this.rx": 0,
+					"this.ry": 0
+				}
+			]
+		},
+		{
+			"part": "lower_jaw",
+			"id": "lower_jaw",
+			"invertAxis": "xy",
+			"translate": [-1.5, -12, -4],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		}
+	]
+}

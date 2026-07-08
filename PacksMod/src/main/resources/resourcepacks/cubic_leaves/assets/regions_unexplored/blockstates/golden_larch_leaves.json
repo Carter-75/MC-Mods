@@ -1,0 +1,223 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves",
+					"weight": 96
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_block",
+					"weight": 24
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_block",
+					"uvlock": true,
+					"weight": 24,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves",
+					"weight": 48
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone",
+					"weight": 16
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_block",
+					"weight": 4
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_block",
+					"uvlock": true,
+					"weight": 4,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone",
+					"weight": 8
+				}
+			]
+		},
+		{
+			"apply": [
+				{
+					"model": "cubicleaves:block/empty",
+					"weight": 96
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_1",
+					"weight": 6,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_canopy_2",
+					"weight": 6,
+					"x": 180,
+					"y": 270
+				},{
+					"model": "cubicleaves:block/empty",
+					"weight": 16
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_1",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"y": 270
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"x": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 90
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 180
+				},
+				{
+					"model": "regions_unexplored:block/golden_larch_leaves_cone_canopy_2",
+					"weight": 1,
+					"x": 180,
+					"y": 270
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+After analyzing the list of mods from the 'Food_Farming_9_54_64' category, I have identified some redundant or conflicting mods.
+
+**Group 1: Farming and Crop Growth Mods**
+
+- GrowableOres
+- Fabric Seasons: Delight Refabricated Compat
+Reason: Both mods introduce crop growth variations based on factors like season (Fabric Seasons) or customized growth rates (GrowableOres). While they have different approaches, they provide similar functionality in terms of farming and crop growth.
+
+**Group 2: Hunger Mechanics Mods**
+
+- Hunger Tweaks (RPG Tweaks)
+- SNMPRD: MoreDelights
+Reason: Although these mods don't overlap perfectly, they both adjust hunger-related mechanics. Hunger Tweaks allows for fine-tuning exhaustion and regeneration rates, while SNMPRD introduces new ways to restore hunger and manage nutrition. These mods can potentially conflict or provide redundant functionality.
+
+**Group 3: Animal Temptation Mods**
+
+- No Animal Tempt Delay
+Reason: This mod removes cooldown periods when animals are attracted to their desired food, making animal relocation easier. However, it's worth noting that this mod only affects animal behavior, whereas other mods in the list might have more significant impacts on gameplay.
+
+Since there are no identical or redundant minimap or JEI addon mods listed, I will not include them here.

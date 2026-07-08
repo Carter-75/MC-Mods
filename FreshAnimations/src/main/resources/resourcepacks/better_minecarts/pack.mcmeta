@@ -1,0 +1,31 @@
+{
+	"pack": {
+	    "pack_format": 15,
+	    "min_format": 15,
+	    "max_format": 128,
+	    "supported_formats": [15, 128],
+	    "description": "§f§lBy §a§lSynth_"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 62, "max_inclusive": 64},
+				"min_format": 62,
+				"max_format": 64,
+				"directory": "v62"
+			},
+			{
+				"formats": {"min_inclusive": 69, "max_inclusive": 74},
+				"directory": "v69",
+				"min_format": 69,
+				"max_format": 74
+			},
+			{
+				"formats": {"min_inclusive": 75, "max_inclusive": 2147483647},
+				"directory": "v75",
+				"min_format": 75,
+				"max_format": 2147483647
+			}
+		]
+	}
+}

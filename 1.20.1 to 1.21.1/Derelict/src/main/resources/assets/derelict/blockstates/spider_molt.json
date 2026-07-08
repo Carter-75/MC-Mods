@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"derelict:block/spider_molt"},"facing=east":{"model":"derelict:block/spider_molt","y":90},"facing=south":{"model":"derelict:block/spider_molt","y":180},"facing=west":{"model":"derelict:block/spider_molt","y":270}}}

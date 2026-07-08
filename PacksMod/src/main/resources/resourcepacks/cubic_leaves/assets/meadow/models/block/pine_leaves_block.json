@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_notint",
+	"textures": {
+		"all": "meadow:block/pine_leaves"
+	}
+}

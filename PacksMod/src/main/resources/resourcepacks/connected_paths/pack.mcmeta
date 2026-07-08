@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "§aConnected Paths §7by §2Jacosvaldo ",
+    "pack_format": 64,
+    "supported_formats": [
+      4,
+      64
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "placeableitems:block/glass_bottle",
+	"textures": {
+		"bottle": "item/experience_bottle"
+	}
+}

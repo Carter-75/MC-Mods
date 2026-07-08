@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"derelict:burned_door","conditions":[{"block":"derelict:burned_door","condition":"minecraft:block_state_property","properties":{"half":"lower"}}]}]}]}

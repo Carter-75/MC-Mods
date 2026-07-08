@@ -1,0 +1,6 @@
+{
+	"parent": "item/template_pottery_sherd",
+	"textures": {
+		"sherd": "minecraft:item/skull_pottery_sherd"
+	}
+}

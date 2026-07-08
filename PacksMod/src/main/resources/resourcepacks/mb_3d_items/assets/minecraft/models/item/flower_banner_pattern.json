@@ -1,0 +1,6 @@
+{
+  "parent": "item/template_banner_pattern",
+  "textures": {
+    "banner": "item/flower_banner_pattern"
+  }
+}

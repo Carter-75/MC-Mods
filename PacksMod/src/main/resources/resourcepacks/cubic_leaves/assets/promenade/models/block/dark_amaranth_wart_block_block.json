@@ -1,0 +1,6 @@
+{
+	"parent": "cubicleaves:block/template_block_all_notint",
+	"textures": {
+		"all": "promenade:block/dark_amaranth_wart_block"
+	}
+}

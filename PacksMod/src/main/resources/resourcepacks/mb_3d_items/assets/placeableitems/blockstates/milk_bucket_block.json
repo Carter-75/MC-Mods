@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "up=true": { "model": "placeableitems:block/milk_bucket_up" },
+    "up=false": { "model": "placeableitems:block/milk_bucket_down" }
+  }
+}
