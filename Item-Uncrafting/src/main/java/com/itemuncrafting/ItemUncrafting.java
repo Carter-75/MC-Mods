@@ -39,9 +39,9 @@ public class ItemUncrafting implements ModInitializer {
         BuiltInRegistries.BLOCK,
         UNCRAFTED_CRATE_ID,
         new UncraftedCrateBlock(BlockBehaviour.Properties.of()
-            .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.BLOCK, UNCRAFTED_CRATE_ID))
             .sound(net.minecraft.world.level.block.SoundType.STONE)
-            .strength(1.5f, 6.0f))
+            .strength(1.5f, 6.0f)
+            .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.BLOCK, UNCRAFTED_CRATE_ID)))
     );
 
     // BlockEntity
@@ -56,8 +56,8 @@ public class ItemUncrafting implements ModInitializer {
         BuiltInRegistries.ITEM,
         UNCRAFTED_CRATE_ID,
         new UncraftedCrateItem(UNCRAFTED_CRATE_BLOCK, new Item.Properties()
-            .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ITEM, UNCRAFTED_CRATE_ID))
-            .stacksTo(64))
+            .stacksTo(64)
+            .setId(net.minecraft.resources.ResourceKey.create(net.minecraft.core.registries.Registries.ITEM, UNCRAFTED_CRATE_ID)))
     );
 
     // Recipe Serializer
