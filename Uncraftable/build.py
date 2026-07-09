@@ -49,7 +49,7 @@ def main():
     print(f"Found built jar: {target_jar}")
 
     # Prepare for moving
-    new_jar_name = "Item-Uncrafting-26.2.jar"
+    new_jar_name = "Uncraftable-26.2.jar"
     final_jar_path = os.path.join(mod_dir, new_jar_name)
 
     # Backup existing jar if it exists

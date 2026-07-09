@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"item-uncrafting" {
+		"uncraftable" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
