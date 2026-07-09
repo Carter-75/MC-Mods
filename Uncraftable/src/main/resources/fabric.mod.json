@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "item_uncrafting",
+	"id": "uncraftable",
 	"version": "${version}",
-	"name": "Item Uncrafting",
-	"description": "Uncraft any item back into its materials using an Uncrafted Crate.",
+	"name": "Uncraftable",
+	"description": "Uncraft any item back into its materials using an Uncraftable Crate.",
 	"authors": [
 		"Carter"
 	],
@@ -11,11 +11,11 @@
 		"homepage": "https://fabricmc.net/"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/item_uncrafting/icon.png",
+	"icon": "assets/uncraftable/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.itemuncrafting.ItemUncrafting"
+			"com.uncraftable.Uncraftable"
 		]
 	},
 	"depends": {

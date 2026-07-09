@@ -1,7 +1,7 @@
-package com.itemuncrafting.block;
+package com.uncraftable.block;
 
-import com.itemuncrafting.ItemUncrafting;
-import com.itemuncrafting.block.entity.UncraftedCrateBlockEntity;
+import com.uncraftable.Uncraftable;
+import com.uncraftable.block.entity.UncraftableCrateBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
@@ -19,10 +19,10 @@ import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import java.util.ArrayList;
 
-public class UncraftedCrateBlock extends BaseEntityBlock {
-    public static final com.mojang.serialization.MapCodec<UncraftedCrateBlock> CODEC = simpleCodec(UncraftedCrateBlock::new);
+public class UncraftableCrateBlock extends BaseEntityBlock {
+    public static final com.mojang.serialization.MapCodec<UncraftableCrateBlock> CODEC = simpleCodec(UncraftableCrateBlock::new);
 
-    public UncraftedCrateBlock(Properties properties) {
+    public UncraftableCrateBlock(Properties properties) {
         super(properties);
     }
 
@@ -39,14 +39,14 @@ public class UncraftedCrateBlock extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new UncraftedCrateBlockEntity(pos, state);
+        return new UncraftableCrateBlockEntity(pos, state);
     }
 
     @Override
     public void setPlacedBy(Level world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         super.setPlacedBy(world, pos, state, placer, stack);
         BlockEntity be = world.getBlockEntity(pos);
-        if (be instanceof UncraftedCrateBlockEntity) {
+        if (be instanceof UncraftableCrateBlockEntity) {
             be.applyComponentsFromItemStack(stack);
         }
     }
@@ -55,7 +55,7 @@ public class UncraftedCrateBlock extends BaseEntityBlock {
     protected InteractionResult useWithoutItem(BlockState state, Level world, BlockPos pos, Player player, BlockHitResult hitResult) {
         if (!world.isClientSide()) {
             BlockEntity be = world.getBlockEntity(pos);
-            if (be instanceof UncraftedCrateBlockEntity crateBe) {
+            if (be instanceof UncraftableCrateBlockEntity crateBe) {
                 List<ItemStack> items = crateBe.getItems();
                 for (ItemStack stack : items) {
                     popResource(world, pos, stack.copy());
@@ -72,12 +72,12 @@ public class UncraftedCrateBlock extends BaseEntityBlock {
     public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
         List<ItemStack> drops = new ArrayList<>();
         BlockEntity be = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
-        if (be instanceof UncraftedCrateBlockEntity crateBe) {
-            ItemStack crateStack = new ItemStack(ItemUncrafting.UNCRAFTED_CRATE_ITEM);
+        if (be instanceof UncraftableCrateBlockEntity crateBe) {
+            ItemStack crateStack = new ItemStack(Uncraftable.UNCRAFTABLE_CRATE_ITEM);
             crateStack.applyComponents(crateBe.collectComponents());
             drops.add(crateStack);
         } else {
-            drops.add(new ItemStack(ItemUncrafting.UNCRAFTED_CRATE_ITEM));
+            drops.add(new ItemStack(Uncraftable.UNCRAFTABLE_CRATE_ITEM));
         }
         return drops;
     }

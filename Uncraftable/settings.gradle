@@ -9,4 +9,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = 'item-uncrafting'
+rootProject.name = 'uncraftable'

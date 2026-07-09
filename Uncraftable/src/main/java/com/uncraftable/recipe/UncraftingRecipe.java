@@ -1,7 +1,7 @@
-package com.itemuncrafting.recipe;
+package com.uncraftable.recipe;
 
-import com.itemuncrafting.ItemUncrafting;
-import com.itemuncrafting.component.UncraftedItems;
+import com.uncraftable.Uncraftable;
+import com.uncraftable.component.UncraftableItems;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.NonNullList;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -115,8 +115,8 @@ public class UncraftingRecipe extends CustomRecipe {
             return ItemStack.EMPTY;
         }
 
-        ItemStack crate = new ItemStack(ItemUncrafting.UNCRAFTED_CRATE_ITEM);
-        crate.set(ItemUncrafting.UNCRAFTED_ITEMS, new UncraftedItems(info.materials));
+        ItemStack crate = new ItemStack(Uncraftable.UNCRAFTABLE_CRATE_ITEM);
+        crate.set(Uncraftable.UNCRAFTABLE_ITEMS, new UncraftableItems(info.materials));
         return crate;
     }
 
@@ -152,7 +152,7 @@ public class UncraftingRecipe extends CustomRecipe {
 
     @Override
     public RecipeSerializer<? extends CustomRecipe> getSerializer() {
-        return ItemUncrafting.UNCRAFTING_RECIPE_SERIALIZER;
+        return Uncraftable.UNCRAFTING_RECIPE_SERIALIZER;
     }
 
     private ItemStack getTargetItem(CraftingInput input) {
