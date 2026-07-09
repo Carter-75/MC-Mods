@@ -67,6 +67,11 @@ public class UncraftingRecipe extends CustomRecipe {
         }
 
         int targetCount = target.getCount();
+        if (targetCount > target.getMaxStackSize()) {
+            CURRENT_UNCRAFTING.remove();
+            return false;
+        }
+
         int returnedCount = (targetCount * ingredientsSize) / outputCount;
         
         // Apply durability degradation for damageable items (durability applies to single items only)
